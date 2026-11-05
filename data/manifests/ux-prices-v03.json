@@ -1,0 +1,29 @@
+{
+  "title": "Mediana cen mieszkań · rynek wtórny",
+  "period": "2025",
+  "unit": "zł/m²",
+  "source": "RCN Kraków WFS",
+  "source_url": "https://geodezja.eco.um.krakow.pl/cgi-bin/krakow-rcn",
+  "source_sha256": "448ee109b9a508754777a2921c13c6ea96894998d35f2cde3ea94599c0b70867",
+  "minimum_observations": 5,
+  "ownership_rule": "NIER_UDZIAL must be a full share; fractional/unknown shares excluded",
+  "method": "Explicit LOK_CENA_BRUTTO / LOK_POW_UZYT only; never distribute transaction/bundle total; full2025 free-market secondary flats; non-overlapping250-2000m grid",
+  "coverage_complete": false,
+  "audit": {
+    "source_rows": 15891,
+    "accepted": 3400,
+    "excluded": {
+      "not_secondary_market": 6430,
+      "not_residential_free_market": 2820,
+      "no_explicit_local_price_or_area": 3116,
+      "partial_or_unknown_ownership_share": 125
+    },
+    "markets": {
+      "rynekPierwotny": 7079,
+      "rynekWtorny": 8812
+    }
+  },
+  "acquired_at": "2026-10-26T23:42:24.271536+00:00",
+  "features": 178,
+  "output_sha256": "a86101b7a82df7349a8ac20bb47f74ceeba85692cce1e39262791cd132da988d"
+}

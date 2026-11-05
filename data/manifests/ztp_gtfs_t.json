@@ -1,0 +1,85 @@
+{
+  "schema_version": "1",
+  "etl_version": "acquire-v1",
+  "source_id": "ztp_gtfs_t",
+  "title": "GTFS_KRK_T",
+  "publisher": "Zarząd Transportu Publicznego w Krakowie",
+  "landing_url": "https://gtfs.ztp.krakow.pl/",
+  "download_url": "https://gtfs.ztp.krakow.pl/GTFS_KRK_T.zip",
+  "produced_at": null,
+  "produced_period": null,
+  "acquired_at": "2026-10-14T02:30:14.353665+00:00",
+  "terms_url": "https://otwartedane.um.krakow.pl/warunki-wykorzystania-danych-udostepnianych-w-portalu",
+  "terms_status": "reviewed_local_pilot_publication_unresolved",
+  "attribution": "Gmina Miejska Kraków; Zarząd Transportu Publicznego w Krakowie; https://gtfs.ztp.krakow.pl/",
+  "source_crs": "EPSG:4326",
+  "spatial_resolution": "scheduled trips and stops",
+  "coverage": {
+    "calendar_span": [
+      "2026-10-12",
+      "2027-01-09"
+    ],
+    "timezone": "Europe/Warsaw",
+    "all_dates_audit": "gtfs-coverage-v1.json"
+  },
+  "status": "downloaded",
+  "sha256": "bb4ed7a36e07d49cd72cc29a6ac5b1fff145c991ea0483b826799715b7ff801f",
+  "issues": [],
+  "http_last_modified": "Mon, 12 Oct 2026 11:09:06 GMT",
+  "resolved_download_url": "https://gtfs.ztp.krakow.pl/GTFS_KRK_T.zip",
+  "archive_entries": [
+    {
+      "name": "agency.txt",
+      "bytes": 186
+    },
+    {
+      "name": "blocks.txt",
+      "bytes": 16555
+    },
+    {
+      "name": "calendar.txt",
+      "bytes": 304
+    },
+    {
+      "name": "calendar_dates.txt",
+      "bytes": 2012
+    },
+    {
+      "name": "feed_info.txt",
+      "bytes": 138
+    },
+    {
+      "name": "routes.txt",
+      "bytes": 1044
+    },
+    {
+      "name": "shapes.txt",
+      "bytes": 5723206
+    },
+    {
+      "name": "stops.txt",
+      "bytes": 25555
+    },
+    {
+      "name": "stop_times.txt",
+      "bytes": 34658041
+    },
+    {
+      "name": "trips.txt",
+      "bytes": 1396189
+    }
+  ],
+  "bytes": 4862704,
+  "download_seconds": 0.422,
+  "metadata_reviewed_at": "2026-10-14",
+  "reuse_review": {
+    "general_conditions_url": "https://www.bip.krakow.pl/?dok_id=48482",
+    "conditions": [
+      "Identify source and production/acquisition dates; disclose processing.",
+      "Municipality is not responsible for downstream processing; preserve third-party rights."
+    ],
+    "local_scope": "Private local pilot uses downloaded vectors; no continuous MSIP map service, redistribution or publication performed.",
+    "publication_clearance": "unresolved_source_specific_conditions",
+    "note": "Reviewed public conditions; no claim of CC0 or CC-BY licensing."
+  }
+}

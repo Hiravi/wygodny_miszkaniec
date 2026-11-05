@@ -1,0 +1,114 @@
+{
+  "version": "district-statistics-v3-12-14",
+  "sources": [
+    {
+      "url": "https://api.um.krakow.pl/opendata-mieszkancy-cudzoziemcy-pobyt-czasowy/v1/cudzoziemcy-zameldowani-na-pobyt-czasowy-ob-31-12-2025",
+      "acquired_at": "2026-10-21T23:05:55.341159+00:00",
+      "source_period": "2025-12-31",
+      "catalogue_updated": "2026-01-31",
+      "sha256": "effbf65a283aed9986b667afecffce2b4ee00426c4f61887c7a7a82140b624b9"
+    },
+    {
+      "url": "https://api.um.krakow.pl/opendata-mieszkancy-cudzoziemcy-pobyt-staly/v1/cudzoziemcy-zameldowani-na-pobyt-staly-ob-31-12-2025",
+      "acquired_at": "2026-10-21T23:05:55.990918+00:00",
+      "source_period": "2025-12-31",
+      "catalogue_updated": "2026-01-30",
+      "sha256": "cc77cfcd1a9b6ef44487984e73063ee18d458afea70d5359a635e1dd7828a594"
+    },
+    {
+      "url": "https://msip.um.krakow.pl/arcgis/rest/services/ZSOZ/Rc_Lokale_m_Rp_Dz/MapServer/0",
+      "acquired_at": "2026-10-21T23:05:56.468101+00:00",
+      "source_period": "2025-01-01/2025-12-31",
+      "source_import_epoch_ms": [
+        1775263926000
+      ],
+      "sha256": "1fbe5a0c46f8b48c35c7cff53a726bab4f953a381cd63fc07d96170f18e7c9d0"
+    },
+    {
+      "url": "https://msip.um.krakow.pl/arcgis/rest/services/ZSOZ/Rc_Lokale_m_Rw_Dz/MapServer/0",
+      "acquired_at": "2026-10-21T23:06:00.393579+00:00",
+      "source_period": "2025-01-01/2025-12-31",
+      "source_import_epoch_ms": [
+        1775263929000
+      ],
+      "sha256": "9dbaf06c46b404d0a47a597206032e459fbd12dad0c8e3bfe20217281f1ab9b4"
+    }
+  ],
+  "districts": 18,
+  "output_sha256": "7e7161c2c28579456cfc33b0ad36a0baeca9ac8827f04ebfc290caf2b4023c9c",
+  "period": "2025-12-31",
+  "counts": {
+    "1": {
+      "temporary": 975,
+      "permanent": 329
+    },
+    "2": {
+      "temporary": 1260,
+      "permanent": 367
+    },
+    "3": {
+      "temporary": 1134,
+      "permanent": 349
+    },
+    "4": {
+      "temporary": 1447,
+      "permanent": 791
+    },
+    "5": {
+      "temporary": 1318,
+      "permanent": 247
+    },
+    "6": {
+      "temporary": 551,
+      "permanent": 240
+    },
+    "7": {
+      "temporary": 386,
+      "permanent": 225
+    },
+    "8": {
+      "temporary": 1683,
+      "permanent": 686
+    },
+    "9": {
+      "temporary": 305,
+      "permanent": 128
+    },
+    "10": {
+      "temporary": 358,
+      "permanent": 216
+    },
+    "11": {
+      "temporary": 748,
+      "permanent": 356
+    },
+    "12": {
+      "temporary": 783,
+      "permanent": 339
+    },
+    "13": {
+      "temporary": 1845,
+      "permanent": 640
+    },
+    "14": {
+      "temporary": 1033,
+      "permanent": 254
+    },
+    "15": {
+      "temporary": 430,
+      "permanent": 230
+    },
+    "16": {
+      "temporary": 230,
+      "permanent": 145
+    },
+    "17": {
+      "temporary": 121,
+      "permanent": 85
+    },
+    "18": {
+      "temporary": 401,
+      "permanent": 139
+    }
+  }
+}

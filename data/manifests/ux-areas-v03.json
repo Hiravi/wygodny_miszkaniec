@@ -1,0 +1,16 @@
+{
+  "source_url": "https://msip.um.krakow.pl/arcgis/rest/services/ZSOZ/Rc_Sim/MapServer/0",
+  "period": null,
+  "source_import_dates": [
+    1721289600000
+  ],
+  "meaning": "System Informacji Miejskiej units, not a verified osiedle partition",
+  "population_method": "Area-weighted split of original GUS125m squares; estimate for listed known cells only; unlisted cells unknown",
+  "services_method": "Unique OSM service identities in source inventory; partial, not proof of absence",
+  "source_rows": 123,
+  "source_sha256": "25aaab673d6d7fe9ca0b1662b09db26fa8077fcc5c10f8e14d65b736ef4588e5",
+  "output_sha256": {
+    "ux-areas.geojson": "acffd8f02a4830663033d0b11ea7163424ba0613f917104dc2fdd986fac35141",
+    "ux-areas-summary.json": "917e39cc03f78c3c9b15394f09d37be105e863211e5bed7b8f2f2109a95a9c09"
+  }
+}

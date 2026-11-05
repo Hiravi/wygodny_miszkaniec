@@ -1,0 +1,1872 @@
+{
+  "schema_version": "1",
+  "source_id": "gugik_trees_1261_lod1_2023",
+  "url": "https://opendata.geoportal.gov.pl/InneDane/Drzewa3D/LOD1/2023/12/1261.zip",
+  "path": "data/raw/gugik_trees_1261_lod1_2023.zip",
+  "bytes": 3740502509,
+  "sha256": "f174362eb996b5d03ad59bc5628f7d0071af7492485a3c4b6efacebd6cabb0bc",
+  "acquired_at": "2026-10-19T16:02:16.926154+00:00",
+  "acquisition": "Complete official county ZIP; GML streamed during import, not extracted",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "members": [
+    {
+      "member": "1261/1261_M-34-64-D-a-4-2-4.gml",
+      "bytes": 237415569,
+      "compressed_bytes": 14523951,
+      "crc32": "5de75177"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-a-4-3-3.gml",
+      "bytes": 4611394,
+      "compressed_bytes": 283393,
+      "crc32": "845a6b6b"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-a-4-3-4.gml",
+      "bytes": 99402131,
+      "compressed_bytes": 6065200,
+      "crc32": "229dc0a3"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-a-4-4-1.gml",
+      "bytes": 8080492,
+      "compressed_bytes": 498299,
+      "crc32": "e1ff4b4b"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-a-4-4-2.gml",
+      "bytes": 226706576,
+      "compressed_bytes": 13808918,
+      "crc32": "f67e1715"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-a-4-4-3.gml",
+      "bytes": 196956035,
+      "compressed_bytes": 11973281,
+      "crc32": "0baff9ab"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-a-4-4-4.gml",
+      "bytes": 328570080,
+      "compressed_bytes": 19992447,
+      "crc32": "753b9c6b"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-1-3-4.gml",
+      "bytes": 22467314,
+      "compressed_bytes": 1380359,
+      "crc32": "6493e692"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-1-1.gml",
+      "bytes": 67588234,
+      "compressed_bytes": 4107552,
+      "crc32": "7885d649"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-1-2.gml",
+      "bytes": 264277528,
+      "compressed_bytes": 16086954,
+      "crc32": "1736a902"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-1-3.gml",
+      "bytes": 371453833,
+      "compressed_bytes": 22652746,
+      "crc32": "dba67476"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-1-4.gml",
+      "bytes": 226418478,
+      "compressed_bytes": 13727688,
+      "crc32": "be4651b0"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-2-1.gml",
+      "bytes": 19131408,
+      "compressed_bytes": 1171869,
+      "crc32": "a6fbdf4e"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-2-2.gml",
+      "bytes": 1436926,
+      "compressed_bytes": 88840,
+      "crc32": "8dfb073b"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-2-3.gml",
+      "bytes": 86118963,
+      "compressed_bytes": 5242108,
+      "crc32": "17cf19c7"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-2-4.gml",
+      "bytes": 61487816,
+      "compressed_bytes": 3773748,
+      "crc32": "45889280"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-3-1.gml",
+      "bytes": 323649572,
+      "compressed_bytes": 19646451,
+      "crc32": "7e48f115"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-3-2.gml",
+      "bytes": 295361128,
+      "compressed_bytes": 17914702,
+      "crc32": "1bcea111"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-3-3.gml",
+      "bytes": 250684442,
+      "compressed_bytes": 15235223,
+      "crc32": "d98ed0c8"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-3-4.gml",
+      "bytes": 166203748,
+      "compressed_bytes": 10087513,
+      "crc32": "976c5155"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-4-1.gml",
+      "bytes": 237820412,
+      "compressed_bytes": 14433993,
+      "crc32": "87d7638c"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-4-2.gml",
+      "bytes": 178961567,
+      "compressed_bytes": 10877675,
+      "crc32": "0dce1b63"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-4-3.gml",
+      "bytes": 273731484,
+      "compressed_bytes": 16633089,
+      "crc32": "cb9f1e74"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-3-4-4.gml",
+      "bytes": 221627909,
+      "compressed_bytes": 13490297,
+      "crc32": "857716e3"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-1-1.gml",
+      "bytes": 31650744,
+      "compressed_bytes": 1923128,
+      "crc32": "8becc9e2"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-1-3.gml",
+      "bytes": 205763007,
+      "compressed_bytes": 12546432,
+      "crc32": "c3d747c7"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-1-4.gml",
+      "bytes": 165642648,
+      "compressed_bytes": 10070065,
+      "crc32": "c779db57"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-2-3.gml",
+      "bytes": 22543875,
+      "compressed_bytes": 1371840,
+      "crc32": "d1a6b8eb"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-2-4.gml",
+      "bytes": 51430860,
+      "compressed_bytes": 3140205,
+      "crc32": "f6ef1217"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-3-1.gml",
+      "bytes": 261990620,
+      "compressed_bytes": 15940684,
+      "crc32": "e7ddd772"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-3-2.gml",
+      "bytes": 214654945,
+      "compressed_bytes": 13044211,
+      "crc32": "566c9eee"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-3-3.gml",
+      "bytes": 275763832,
+      "compressed_bytes": 16785008,
+      "crc32": "193eaaf6"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-3-4.gml",
+      "bytes": 244317196,
+      "compressed_bytes": 14858282,
+      "crc32": "56da707a"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-4-1.gml",
+      "bytes": 273455722,
+      "compressed_bytes": 16666700,
+      "crc32": "eccab55c"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-4-2.gml",
+      "bytes": 307908806,
+      "compressed_bytes": 18763712,
+      "crc32": "9f9d39a4"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-4-3.gml",
+      "bytes": 230177924,
+      "compressed_bytes": 14017630,
+      "crc32": "19769035"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-b-4-4-4.gml",
+      "bytes": 211790989,
+      "compressed_bytes": 12874214,
+      "crc32": "95fa0df3"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-1-2-2.gml",
+      "bytes": 28323680,
+      "compressed_bytes": 1731025,
+      "crc32": "de02608b"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-1-2-4.gml",
+      "bytes": 69430304,
+      "compressed_bytes": 4224253,
+      "crc32": "5cec63c1"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-1-4-2.gml",
+      "bytes": 13378176,
+      "compressed_bytes": 818784,
+      "crc32": "bb9f7eda"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-1-4-4.gml",
+      "bytes": 10115837,
+      "compressed_bytes": 624665,
+      "crc32": "aef9e727"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-1-1.gml",
+      "bytes": 81079106,
+      "compressed_bytes": 4952758,
+      "crc32": "5a9ecf43"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-1-2.gml",
+      "bytes": 205250609,
+      "compressed_bytes": 12497803,
+      "crc32": "0d5947fb"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-1-3.gml",
+      "bytes": 113979200,
+      "compressed_bytes": 6960359,
+      "crc32": "420e12b8"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-1-4.gml",
+      "bytes": 282596873,
+      "compressed_bytes": 17178961,
+      "crc32": "e6e850b6"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-2-1.gml",
+      "bytes": 216251599,
+      "compressed_bytes": 13141430,
+      "crc32": "59884020"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-2-2.gml",
+      "bytes": 272927871,
+      "compressed_bytes": 16580055,
+      "crc32": "9cbe2b8e"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-2-3.gml",
+      "bytes": 314771592,
+      "compressed_bytes": 19194174,
+      "crc32": "b3df9b99"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-2-4.gml",
+      "bytes": 324180584,
+      "compressed_bytes": 19737834,
+      "crc32": "268003d5"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-3-1.gml",
+      "bytes": 154340203,
+      "compressed_bytes": 9414409,
+      "crc32": "4fa4064b"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-3-2.gml",
+      "bytes": 412407569,
+      "compressed_bytes": 25200112,
+      "crc32": "07d055e3"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-3-3.gml",
+      "bytes": 312887483,
+      "compressed_bytes": 19079539,
+      "crc32": "2228f656"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-3-4.gml",
+      "bytes": 338692728,
+      "compressed_bytes": 20743983,
+      "crc32": "0bf079fc"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-4-1.gml",
+      "bytes": 440742204,
+      "compressed_bytes": 27068396,
+      "crc32": "bd55dae6"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-4-2.gml",
+      "bytes": 374183058,
+      "compressed_bytes": 22898739,
+      "crc32": "f292e524"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-4-3.gml",
+      "bytes": 341366510,
+      "compressed_bytes": 20932119,
+      "crc32": "7358ae55"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-2-4-4.gml",
+      "bytes": 322312631,
+      "compressed_bytes": 19646160,
+      "crc32": "eaf3c8bf"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-3-2-2.gml",
+      "bytes": 6201695,
+      "compressed_bytes": 378281,
+      "crc32": "dd57377f"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-3-2-4.gml",
+      "bytes": 57854082,
+      "compressed_bytes": 3541251,
+      "crc32": "fa22e116"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-3-4-1.gml",
+      "bytes": 15265518,
+      "compressed_bytes": 932697,
+      "crc32": "65132e8f"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-3-4-2.gml",
+      "bytes": 235112716,
+      "compressed_bytes": 14294855,
+      "crc32": "1ff03caf"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-3-4-3.gml",
+      "bytes": 27379230,
+      "compressed_bytes": 1676204,
+      "crc32": "d5c64f40"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-3-4-4.gml",
+      "bytes": 288905871,
+      "compressed_bytes": 17674769,
+      "crc32": "b656c0b8"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-1-1.gml",
+      "bytes": 184707546,
+      "compressed_bytes": 11207966,
+      "crc32": "dc936308"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-1-2.gml",
+      "bytes": 253941746,
+      "compressed_bytes": 15448218,
+      "crc32": "7ce60f6f"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-1-3.gml",
+      "bytes": 15700703,
+      "compressed_bytes": 962069,
+      "crc32": "313d232b"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-1-4.gml",
+      "bytes": 190920556,
+      "compressed_bytes": 11582285,
+      "crc32": "23d39c5f"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-2-1.gml",
+      "bytes": 266682068,
+      "compressed_bytes": 16147988,
+      "crc32": "85ed3102"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-2-2.gml",
+      "bytes": 330144910,
+      "compressed_bytes": 20059865,
+      "crc32": "fcc3a664"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-2-3.gml",
+      "bytes": 352636692,
+      "compressed_bytes": 21456754,
+      "crc32": "fc632bb3"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-2-4.gml",
+      "bytes": 314496672,
+      "compressed_bytes": 19130765,
+      "crc32": "35886b70"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-3-1.gml",
+      "bytes": 402465596,
+      "compressed_bytes": 24581984,
+      "crc32": "5b00e7bc"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-3-2.gml",
+      "bytes": 434016436,
+      "compressed_bytes": 26521957,
+      "crc32": "b246b54c"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-3-3.gml",
+      "bytes": 435088814,
+      "compressed_bytes": 26611714,
+      "crc32": "9b320c25"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-3-4.gml",
+      "bytes": 582759347,
+      "compressed_bytes": 35746001,
+      "crc32": "97629b16"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-4-1.gml",
+      "bytes": 555089341,
+      "compressed_bytes": 33924672,
+      "crc32": "4f815aef"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-4-2.gml",
+      "bytes": 257074546,
+      "compressed_bytes": 15578442,
+      "crc32": "e390ece5"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-4-3.gml",
+      "bytes": 462033170,
+      "compressed_bytes": 28202237,
+      "crc32": "0ded05c9"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-c-4-4-4.gml",
+      "bytes": 305163525,
+      "compressed_bytes": 18505963,
+      "crc32": "b0d8838f"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-1-1.gml",
+      "bytes": 277081284,
+      "compressed_bytes": 16852347,
+      "crc32": "e6247327"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-1-2.gml",
+      "bytes": 278533700,
+      "compressed_bytes": 16952944,
+      "crc32": "70a7bbe7"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-1-3.gml",
+      "bytes": 318712117,
+      "compressed_bytes": 19353151,
+      "crc32": "1b407bb7"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-1-4.gml",
+      "bytes": 286413625,
+      "compressed_bytes": 17390315,
+      "crc32": "414583b1"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-2-1.gml",
+      "bytes": 246209142,
+      "compressed_bytes": 15014422,
+      "crc32": "915ab496"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-2-2.gml",
+      "bytes": 221852453,
+      "compressed_bytes": 13525018,
+      "crc32": "504bb617"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-2-3.gml",
+      "bytes": 232071504,
+      "compressed_bytes": 14150212,
+      "crc32": "94c064d2"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-2-4.gml",
+      "bytes": 217915655,
+      "compressed_bytes": 13290348,
+      "crc32": "e754de96"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-3-1.gml",
+      "bytes": 446368802,
+      "compressed_bytes": 27296250,
+      "crc32": "9badb1ad"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-3-2.gml",
+      "bytes": 337699947,
+      "compressed_bytes": 20596414,
+      "crc32": "2884c1d4"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-3-3.gml",
+      "bytes": 401424223,
+      "compressed_bytes": 24419224,
+      "crc32": "743679f8"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-3-4.gml",
+      "bytes": 381156148,
+      "compressed_bytes": 23219198,
+      "crc32": "b82b2de9"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-4-1.gml",
+      "bytes": 196035737,
+      "compressed_bytes": 11963571,
+      "crc32": "d7196309"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-4-2.gml",
+      "bytes": 162199813,
+      "compressed_bytes": 9888777,
+      "crc32": "8d3b4fa1"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-4-3.gml",
+      "bytes": 332616405,
+      "compressed_bytes": 20220203,
+      "crc32": "8abc9746"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-1-4-4.gml",
+      "bytes": 208410859,
+      "compressed_bytes": 12687073,
+      "crc32": "accddaf7"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-1-1.gml",
+      "bytes": 246653916,
+      "compressed_bytes": 15028054,
+      "crc32": "ceaaade2"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-1-2.gml",
+      "bytes": 332124369,
+      "compressed_bytes": 20222755,
+      "crc32": "975ec634"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-1-3.gml",
+      "bytes": 145805466,
+      "compressed_bytes": 8883817,
+      "crc32": "5405a48c"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-1-4.gml",
+      "bytes": 265738012,
+      "compressed_bytes": 16178506,
+      "crc32": "23351766"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-2-1.gml",
+      "bytes": 274293243,
+      "compressed_bytes": 16695000,
+      "crc32": "6f0e324d"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-2-2.gml",
+      "bytes": 261909226,
+      "compressed_bytes": 15964949,
+      "crc32": "bb7b9a4d"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-2-3.gml",
+      "bytes": 228794877,
+      "compressed_bytes": 13926151,
+      "crc32": "341f8f11"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-2-4.gml",
+      "bytes": 276975946,
+      "compressed_bytes": 16893038,
+      "crc32": "1f6f7ca4"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-3-1.gml",
+      "bytes": 181357919,
+      "compressed_bytes": 11062498,
+      "crc32": "fd01237d"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-3-2.gml",
+      "bytes": 188442015,
+      "compressed_bytes": 11493216,
+      "crc32": "eec6cc1c"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-3-3.gml",
+      "bytes": 152551237,
+      "compressed_bytes": 9303722,
+      "crc32": "8ed99902"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-3-4.gml",
+      "bytes": 162253387,
+      "compressed_bytes": 9868985,
+      "crc32": "d9fe6a92"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-4-1.gml",
+      "bytes": 215428882,
+      "compressed_bytes": 13146375,
+      "crc32": "4da85a40"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-4-2.gml",
+      "bytes": 343868585,
+      "compressed_bytes": 20861587,
+      "crc32": "025c16a4"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-4-3.gml",
+      "bytes": 231476890,
+      "compressed_bytes": 14051222,
+      "crc32": "942f5e84"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-2-4-4.gml",
+      "bytes": 245461323,
+      "compressed_bytes": 14918662,
+      "crc32": "26b940d3"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-1-1.gml",
+      "bytes": 369610226,
+      "compressed_bytes": 22494855,
+      "crc32": "a1af0618"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-1-2.gml",
+      "bytes": 347783053,
+      "compressed_bytes": 21168733,
+      "crc32": "4c33bbad"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-1-3.gml",
+      "bytes": 312121330,
+      "compressed_bytes": 18890470,
+      "crc32": "536af611"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-1-4.gml",
+      "bytes": 263350193,
+      "compressed_bytes": 15982966,
+      "crc32": "9445498d"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-2-1.gml",
+      "bytes": 368794408,
+      "compressed_bytes": 22451200,
+      "crc32": "608fa27f"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-2-2.gml",
+      "bytes": 240072341,
+      "compressed_bytes": 14592231,
+      "crc32": "de198e25"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-2-3.gml",
+      "bytes": 262839670,
+      "compressed_bytes": 15947924,
+      "crc32": "7403189e"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-2-4.gml",
+      "bytes": 288977757,
+      "compressed_bytes": 17561103,
+      "crc32": "ab16c008"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-3-1.gml",
+      "bytes": 212224752,
+      "compressed_bytes": 12853332,
+      "crc32": "aa6e2710"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-3-2.gml",
+      "bytes": 263390648,
+      "compressed_bytes": 16014138,
+      "crc32": "63902c0e"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-3-3.gml",
+      "bytes": 283407514,
+      "compressed_bytes": 17222984,
+      "crc32": "715dc631"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-3-4.gml",
+      "bytes": 252543481,
+      "compressed_bytes": 15356853,
+      "crc32": "5a15e61c"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-4-1.gml",
+      "bytes": 393379928,
+      "compressed_bytes": 24037939,
+      "crc32": "f6b03e14"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-4-2.gml",
+      "bytes": 214188937,
+      "compressed_bytes": 13052656,
+      "crc32": "072bd4f5"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-4-3.gml",
+      "bytes": 399147282,
+      "compressed_bytes": 24311783,
+      "crc32": "764bc88a"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-3-4-4.gml",
+      "bytes": 329796061,
+      "compressed_bytes": 20063516,
+      "crc32": "fb4cab98"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-1-1.gml",
+      "bytes": 270584754,
+      "compressed_bytes": 16514176,
+      "crc32": "bbda761d"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-1-2.gml",
+      "bytes": 344511587,
+      "compressed_bytes": 20974767,
+      "crc32": "1488c330"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-1-3.gml",
+      "bytes": 222585100,
+      "compressed_bytes": 13530715,
+      "crc32": "3bd24f9c"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-1-4.gml",
+      "bytes": 260928355,
+      "compressed_bytes": 15850818,
+      "crc32": "9cdc17c7"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-2-1.gml",
+      "bytes": 158239896,
+      "compressed_bytes": 9621828,
+      "crc32": "1b705fc7"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-2-2.gml",
+      "bytes": 218777883,
+      "compressed_bytes": 13261853,
+      "crc32": "9ab5e5a5"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-2-3.gml",
+      "bytes": 236648242,
+      "compressed_bytes": 14398534,
+      "crc32": "8d148c8b"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-2-4.gml",
+      "bytes": 293631772,
+      "compressed_bytes": 17840652,
+      "crc32": "3ec2c93d"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-3-1.gml",
+      "bytes": 290921092,
+      "compressed_bytes": 17687373,
+      "crc32": "8b5ba858"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-3-2.gml",
+      "bytes": 293990670,
+      "compressed_bytes": 17864206,
+      "crc32": "dbcf51ef"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-3-3.gml",
+      "bytes": 301063289,
+      "compressed_bytes": 18312961,
+      "crc32": "d80c1bbe"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-3-4.gml",
+      "bytes": 306141212,
+      "compressed_bytes": 18626102,
+      "crc32": "9a06d70d"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-4-1.gml",
+      "bytes": 307895190,
+      "compressed_bytes": 18743817,
+      "crc32": "4021cb48"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-4-2.gml",
+      "bytes": 297403051,
+      "compressed_bytes": 18130171,
+      "crc32": "450ef605"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-4-3.gml",
+      "bytes": 346871990,
+      "compressed_bytes": 21074483,
+      "crc32": "55962d17"
+    },
+    {
+      "member": "1261/1261_M-34-64-D-d-4-4-4.gml",
+      "bytes": 322177128,
+      "compressed_bytes": 19602212,
+      "crc32": "d6cc6a3c"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-1-3.gml",
+      "bytes": 31792067,
+      "compressed_bytes": 1938844,
+      "crc32": "fdd9b2b7"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-1-4.gml",
+      "bytes": 15337124,
+      "compressed_bytes": 940875,
+      "crc32": "74ab2fad"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-2-2.gml",
+      "bytes": 216913,
+      "compressed_bytes": 14209,
+      "crc32": "a6461d43"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-2-3.gml",
+      "bytes": 66591711,
+      "compressed_bytes": 4058409,
+      "crc32": "b511d4d3"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-2-4.gml",
+      "bytes": 132936929,
+      "compressed_bytes": 8080705,
+      "crc32": "cb98f3d2"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-3-1.gml",
+      "bytes": 256451318,
+      "compressed_bytes": 15613191,
+      "crc32": "4f5b3c77"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-3-2.gml",
+      "bytes": 252738479,
+      "compressed_bytes": 15354345,
+      "crc32": "759f2927"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-3-3.gml",
+      "bytes": 270348869,
+      "compressed_bytes": 16488369,
+      "crc32": "e5cb97d7"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-3-4.gml",
+      "bytes": 261532552,
+      "compressed_bytes": 15947607,
+      "crc32": "047ba239"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-4-1.gml",
+      "bytes": 239756946,
+      "compressed_bytes": 14572891,
+      "crc32": "8fb24b82"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-4-2.gml",
+      "bytes": 262730721,
+      "compressed_bytes": 15987832,
+      "crc32": "c988f0d1"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-4-3.gml",
+      "bytes": 239660538,
+      "compressed_bytes": 14576769,
+      "crc32": "f83d6cff"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-3-4-4.gml",
+      "bytes": 252904358,
+      "compressed_bytes": 15376145,
+      "crc32": "fa28bbe1"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-1-3.gml",
+      "bytes": 62098193,
+      "compressed_bytes": 3774990,
+      "crc32": "445b5931"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-1-4.gml",
+      "bytes": 87148133,
+      "compressed_bytes": 5275863,
+      "crc32": "b5764532"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-2-1.gml",
+      "bytes": 20728514,
+      "compressed_bytes": 1263509,
+      "crc32": "e1a2e8d3"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-2-2.gml",
+      "bytes": 15536318,
+      "compressed_bytes": 950953,
+      "crc32": "2e0728e0"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-2-3.gml",
+      "bytes": 113994652,
+      "compressed_bytes": 6921207,
+      "crc32": "8a9cb4a9"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-2-4.gml",
+      "bytes": 144585842,
+      "compressed_bytes": 8778277,
+      "crc32": "79e80733"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-3-1.gml",
+      "bytes": 245732783,
+      "compressed_bytes": 14915784,
+      "crc32": "e13110e5"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-3-2.gml",
+      "bytes": 135860329,
+      "compressed_bytes": 8238163,
+      "crc32": "eec61498"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-3-3.gml",
+      "bytes": 167873401,
+      "compressed_bytes": 10230338,
+      "crc32": "a11a3c79"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-3-4.gml",
+      "bytes": 237185092,
+      "compressed_bytes": 14451048,
+      "crc32": "1116ca84"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-4-1.gml",
+      "bytes": 59020392,
+      "compressed_bytes": 3593134,
+      "crc32": "e7ee2104"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-4-2.gml",
+      "bytes": 123819045,
+      "compressed_bytes": 7511718,
+      "crc32": "78e152dc"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-4-3.gml",
+      "bytes": 181311960,
+      "compressed_bytes": 11061377,
+      "crc32": "2a60c802"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-a-4-4-4.gml",
+      "bytes": 176565077,
+      "compressed_bytes": 10775221,
+      "crc32": "ba179b14"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-1-2.gml",
+      "bytes": 10192563,
+      "compressed_bytes": 624942,
+      "crc32": "bff6d108"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-1-3.gml",
+      "bytes": 6059916,
+      "compressed_bytes": 370651,
+      "crc32": "0cccda08"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-1-4.gml",
+      "bytes": 43971910,
+      "compressed_bytes": 2689469,
+      "crc32": "a108ad9a"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-2-1.gml",
+      "bytes": 9391356,
+      "compressed_bytes": 575320,
+      "crc32": "e95a1837"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-2-2.gml",
+      "bytes": 7070455,
+      "compressed_bytes": 433405,
+      "crc32": "9cb70bdf"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-2-3.gml",
+      "bytes": 61854746,
+      "compressed_bytes": 3782431,
+      "crc32": "5eec83eb"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-2-4.gml",
+      "bytes": 100930212,
+      "compressed_bytes": 6163341,
+      "crc32": "dcc5aba0"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-3-1.gml",
+      "bytes": 102826217,
+      "compressed_bytes": 6242517,
+      "crc32": "f58e71ed"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-3-2.gml",
+      "bytes": 22660048,
+      "compressed_bytes": 1380969,
+      "crc32": "b8050f80"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-3-3.gml",
+      "bytes": 160452728,
+      "compressed_bytes": 9783502,
+      "crc32": "bb69c076"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-3-4.gml",
+      "bytes": 131846514,
+      "compressed_bytes": 8026306,
+      "crc32": "2c798b5e"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-4-1.gml",
+      "bytes": 39847959,
+      "compressed_bytes": 2432506,
+      "crc32": "63367fca"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-4-2.gml",
+      "bytes": 133798287,
+      "compressed_bytes": 8153610,
+      "crc32": "41105bf8"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-4-3.gml",
+      "bytes": 85969853,
+      "compressed_bytes": 5237586,
+      "crc32": "568e79e5"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-3-4-4.gml",
+      "bytes": 125727484,
+      "compressed_bytes": 7645042,
+      "crc32": "9205db67"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-4-1-1.gml",
+      "bytes": 25408296,
+      "compressed_bytes": 1550596,
+      "crc32": "a15822fd"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-4-1-2.gml",
+      "bytes": 575866,
+      "compressed_bytes": 35854,
+      "crc32": "f6632325"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-4-1-3.gml",
+      "bytes": 47385362,
+      "compressed_bytes": 2904512,
+      "crc32": "1d0faf03"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-4-1-4.gml",
+      "bytes": 790992,
+      "compressed_bytes": 49015,
+      "crc32": "4833445d"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-4-3-1.gml",
+      "bytes": 8596343,
+      "compressed_bytes": 524044,
+      "crc32": "80eecb10"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-b-4-3-3.gml",
+      "bytes": 3386977,
+      "compressed_bytes": 208494,
+      "crc32": "16a55f64"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-1-1.gml",
+      "bytes": 228701378,
+      "compressed_bytes": 13909232,
+      "crc32": "d148e329"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-1-2.gml",
+      "bytes": 235134558,
+      "compressed_bytes": 14336104,
+      "crc32": "d5da95d4"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-1-3.gml",
+      "bytes": 206978209,
+      "compressed_bytes": 12588172,
+      "crc32": "cd288832"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-1-4.gml",
+      "bytes": 261596977,
+      "compressed_bytes": 15927165,
+      "crc32": "7e01a384"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-2-1.gml",
+      "bytes": 277282924,
+      "compressed_bytes": 16949404,
+      "crc32": "33b00f70"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-2-2.gml",
+      "bytes": 300769993,
+      "compressed_bytes": 18366150,
+      "crc32": "f100811c"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-2-3.gml",
+      "bytes": 194206903,
+      "compressed_bytes": 11844189,
+      "crc32": "ec4ebf0c"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-2-4.gml",
+      "bytes": 333471138,
+      "compressed_bytes": 20319616,
+      "crc32": "29ae4446"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-3-1.gml",
+      "bytes": 109533834,
+      "compressed_bytes": 6667268,
+      "crc32": "e0d4a569"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-3-2.gml",
+      "bytes": 213011770,
+      "compressed_bytes": 12957582,
+      "crc32": "40183fd9"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-3-3.gml",
+      "bytes": 271425663,
+      "compressed_bytes": 16479130,
+      "crc32": "6b1bcf7e"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-3-4.gml",
+      "bytes": 136735803,
+      "compressed_bytes": 8305352,
+      "crc32": "850a7b05"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-4-1.gml",
+      "bytes": 311109287,
+      "compressed_bytes": 18896784,
+      "crc32": "c841241d"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-4-2.gml",
+      "bytes": 324769272,
+      "compressed_bytes": 19757211,
+      "crc32": "b9ed9333"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-4-3.gml",
+      "bytes": 182169132,
+      "compressed_bytes": 11087393,
+      "crc32": "2319f4c6"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-1-4-4.gml",
+      "bytes": 177644112,
+      "compressed_bytes": 10767697,
+      "crc32": "433d2a9c"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-1-1.gml",
+      "bytes": 329938754,
+      "compressed_bytes": 20140974,
+      "crc32": "bf617589"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-1-2.gml",
+      "bytes": 254890602,
+      "compressed_bytes": 15537601,
+      "crc32": "11fcd390"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-1-3.gml",
+      "bytes": 268953684,
+      "compressed_bytes": 16416636,
+      "crc32": "127e72b8"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-1-4.gml",
+      "bytes": 259402006,
+      "compressed_bytes": 15829509,
+      "crc32": "8fae84e4"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-2-1.gml",
+      "bytes": 273277906,
+      "compressed_bytes": 16628300,
+      "crc32": "392f1091"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-2-2.gml",
+      "bytes": 264279758,
+      "compressed_bytes": 16144077,
+      "crc32": "80fad7a2"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-2-3.gml",
+      "bytes": 256340189,
+      "compressed_bytes": 15658175,
+      "crc32": "6ed349d7"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-2-4.gml",
+      "bytes": 233886260,
+      "compressed_bytes": 14268227,
+      "crc32": "8e868ac6"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-3-1.gml",
+      "bytes": 165779802,
+      "compressed_bytes": 10080333,
+      "crc32": "cd9990d2"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-3-2.gml",
+      "bytes": 254237390,
+      "compressed_bytes": 15499595,
+      "crc32": "e1db23e2"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-3-3.gml",
+      "bytes": 121429205,
+      "compressed_bytes": 7363775,
+      "crc32": "154f5fd1"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-3-4.gml",
+      "bytes": 100862896,
+      "compressed_bytes": 6114097,
+      "crc32": "4afa0ae4"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-4-1.gml",
+      "bytes": 267357314,
+      "compressed_bytes": 16307918,
+      "crc32": "b8b57ec4"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-4-2.gml",
+      "bytes": 173346503,
+      "compressed_bytes": 10534130,
+      "crc32": "be9c87b1"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-4-3.gml",
+      "bytes": 238189214,
+      "compressed_bytes": 14554895,
+      "crc32": "aeb2e3a0"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-2-4-4.gml",
+      "bytes": 109098831,
+      "compressed_bytes": 6651815,
+      "crc32": "443dc69e"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-1-1.gml",
+      "bytes": 158173726,
+      "compressed_bytes": 9594503,
+      "crc32": "619626d7"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-1-2.gml",
+      "bytes": 136083851,
+      "compressed_bytes": 8249621,
+      "crc32": "cafc74ce"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-1-3.gml",
+      "bytes": 232285015,
+      "compressed_bytes": 14095827,
+      "crc32": "641a4404"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-1-4.gml",
+      "bytes": 245803383,
+      "compressed_bytes": 14930719,
+      "crc32": "d957bdf3"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-2-1.gml",
+      "bytes": 139811392,
+      "compressed_bytes": 8472463,
+      "crc32": "567b4026"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-2-2.gml",
+      "bytes": 174881349,
+      "compressed_bytes": 10589437,
+      "crc32": "f5e3b97c"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-2-3.gml",
+      "bytes": 152201151,
+      "compressed_bytes": 9254306,
+      "crc32": "4bd2ef5b"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-2-4.gml",
+      "bytes": 175614233,
+      "compressed_bytes": 10671606,
+      "crc32": "02f859f1"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-3-1.gml",
+      "bytes": 321929650,
+      "compressed_bytes": 19633025,
+      "crc32": "6eb9238c"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-3-2.gml",
+      "bytes": 302902622,
+      "compressed_bytes": 18419162,
+      "crc32": "512e7e0f"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-3-3.gml",
+      "bytes": 197982877,
+      "compressed_bytes": 12050739,
+      "crc32": "b4d256f7"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-3-4.gml",
+      "bytes": 178381071,
+      "compressed_bytes": 10847187,
+      "crc32": "c1427313"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-4-1.gml",
+      "bytes": 313505266,
+      "compressed_bytes": 19030900,
+      "crc32": "93c2645b"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-4-2.gml",
+      "bytes": 269762995,
+      "compressed_bytes": 16403194,
+      "crc32": "ea3b544e"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-4-3.gml",
+      "bytes": 265617234,
+      "compressed_bytes": 16154147,
+      "crc32": "f45f8756"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-3-4-4.gml",
+      "bytes": 154891294,
+      "compressed_bytes": 9420821,
+      "crc32": "71805629"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-4-1-1.gml",
+      "bytes": 106982744,
+      "compressed_bytes": 6480271,
+      "crc32": "8f2415a0"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-4-1-2.gml",
+      "bytes": 46013814,
+      "compressed_bytes": 2804866,
+      "crc32": "d827c83c"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-4-1-3.gml",
+      "bytes": 24182674,
+      "compressed_bytes": 1466826,
+      "crc32": "5a6129df"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-4-2-1.gml",
+      "bytes": 57784062,
+      "compressed_bytes": 3536956,
+      "crc32": "e83a3dd1"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-4-2-2.gml",
+      "bytes": 1079446,
+      "compressed_bytes": 67030,
+      "crc32": "9cb79285"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-4-3-1.gml",
+      "bytes": 78106610,
+      "compressed_bytes": 4781337,
+      "crc32": "ae40d9c1"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-c-4-3-3.gml",
+      "bytes": 21287287,
+      "compressed_bytes": 1304239,
+      "crc32": "fde113d4"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-1-1.gml",
+      "bytes": 262463461,
+      "compressed_bytes": 16033764,
+      "crc32": "5c016c97"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-1-2.gml",
+      "bytes": 119077462,
+      "compressed_bytes": 7270172,
+      "crc32": "a44090d7"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-1-3.gml",
+      "bytes": 183563768,
+      "compressed_bytes": 11205259,
+      "crc32": "dc3a0b8a"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-1-4.gml",
+      "bytes": 145353311,
+      "compressed_bytes": 8820323,
+      "crc32": "2dfdb313"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-2-1.gml",
+      "bytes": 74737420,
+      "compressed_bytes": 4539847,
+      "crc32": "c2eb252d"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-2-2.gml",
+      "bytes": 72124850,
+      "compressed_bytes": 4384788,
+      "crc32": "6d650131"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-2-3.gml",
+      "bytes": 115880667,
+      "compressed_bytes": 7038510,
+      "crc32": "9028a42d"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-2-4.gml",
+      "bytes": 60911528,
+      "compressed_bytes": 3699753,
+      "crc32": "3f4a3ea4"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-3-1.gml",
+      "bytes": 199901729,
+      "compressed_bytes": 12159304,
+      "crc32": "7fa393d8"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-3-2.gml",
+      "bytes": 203985860,
+      "compressed_bytes": 12427720,
+      "crc32": "fb636d63"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-3-3.gml",
+      "bytes": 128874602,
+      "compressed_bytes": 7848082,
+      "crc32": "30224daf"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-3-4.gml",
+      "bytes": 95539306,
+      "compressed_bytes": 5837017,
+      "crc32": "e23a9034"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-4-1.gml",
+      "bytes": 77222851,
+      "compressed_bytes": 4695634,
+      "crc32": "4b77d50b"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-4-2.gml",
+      "bytes": 90138585,
+      "compressed_bytes": 5471411,
+      "crc32": "a5677d1f"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-4-3.gml",
+      "bytes": 59973135,
+      "compressed_bytes": 3652805,
+      "crc32": "2cb2f11d"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-1-4-4.gml",
+      "bytes": 36803570,
+      "compressed_bytes": 2242358,
+      "crc32": "c2156f30"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-2-1-1.gml",
+      "bytes": 29908825,
+      "compressed_bytes": 1824047,
+      "crc32": "3acc4c4e"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-2-1-3.gml",
+      "bytes": 97935130,
+      "compressed_bytes": 5941589,
+      "crc32": "e551e72a"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-2-1-4.gml",
+      "bytes": 25705884,
+      "compressed_bytes": 1581328,
+      "crc32": "7c472eec"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-2-3-1.gml",
+      "bytes": 172919690,
+      "compressed_bytes": 10478774,
+      "crc32": "45331270"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-2-3-2.gml",
+      "bytes": 48620900,
+      "compressed_bytes": 2963820,
+      "crc32": "f611f5be"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-2-3-3.gml",
+      "bytes": 43395302,
+      "compressed_bytes": 2642232,
+      "crc32": "bdde5d72"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-2-3-4.gml",
+      "bytes": 67611287,
+      "compressed_bytes": 4111113,
+      "crc32": "028931b0"
+    },
+    {
+      "member": "1261/1261_M-34-65-C-d-3-1-1.gml",
+      "bytes": 2016914,
+      "compressed_bytes": 124010,
+      "crc32": "8caf1f74"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-1-2-1.gml",
+      "bytes": 2523015,
+      "compressed_bytes": 155767,
+      "crc32": "1d3a91a7"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-1-2-2.gml",
+      "bytes": 79136688,
+      "compressed_bytes": 4803116,
+      "crc32": "d9bb006b"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-2-1-1.gml",
+      "bytes": 99807927,
+      "compressed_bytes": 6078284,
+      "crc32": "80e36aeb"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-2-1-2.gml",
+      "bytes": 188780186,
+      "compressed_bytes": 11542554,
+      "crc32": "6c75d42a"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-2-2-1.gml",
+      "bytes": 228873782,
+      "compressed_bytes": 13926486,
+      "crc32": "78e9ec01"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-2-2-2.gml",
+      "bytes": 246641006,
+      "compressed_bytes": 14927373,
+      "crc32": "93c8c47a"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-2-2-3.gml",
+      "bytes": 61707562,
+      "compressed_bytes": 3745100,
+      "crc32": "cf1cbd67"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-2-2-4.gml",
+      "bytes": 209690388,
+      "compressed_bytes": 12710884,
+      "crc32": "fff5cbc0"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-a-2-4-2.gml",
+      "bytes": 156742426,
+      "compressed_bytes": 9593354,
+      "crc32": "457a2379"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-1-1.gml",
+      "bytes": 263757657,
+      "compressed_bytes": 15968593,
+      "crc32": "2ae40d80"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-1-2.gml",
+      "bytes": 342064578,
+      "compressed_bytes": 20695187,
+      "crc32": "f3fd18e9"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-1-3.gml",
+      "bytes": 317650897,
+      "compressed_bytes": 19253223,
+      "crc32": "d191499a"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-1-4.gml",
+      "bytes": 232996204,
+      "compressed_bytes": 14133192,
+      "crc32": "5b1212ec"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-2-1.gml",
+      "bytes": 334349476,
+      "compressed_bytes": 20306212,
+      "crc32": "a07eee90"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-2-2.gml",
+      "bytes": 352817475,
+      "compressed_bytes": 21484305,
+      "crc32": "8a21b6ac"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-2-3.gml",
+      "bytes": 228182102,
+      "compressed_bytes": 13859199,
+      "crc32": "025a81bc"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-2-4.gml",
+      "bytes": 302119823,
+      "compressed_bytes": 18396466,
+      "crc32": "a2d8aa3c"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-3-1.gml",
+      "bytes": 120471634,
+      "compressed_bytes": 7344027,
+      "crc32": "f4bd13bb"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-1-4-2.gml",
+      "bytes": 29689368,
+      "compressed_bytes": 1815060,
+      "crc32": "cd5a831a"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-1-1.gml",
+      "bytes": 372230067,
+      "compressed_bytes": 22616535,
+      "crc32": "dc763439"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-1-2.gml",
+      "bytes": 390520347,
+      "compressed_bytes": 23813427,
+      "crc32": "d989e652"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-1-3.gml",
+      "bytes": 339474755,
+      "compressed_bytes": 20637532,
+      "crc32": "765dda2b"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-1-4.gml",
+      "bytes": 342539148,
+      "compressed_bytes": 20844845,
+      "crc32": "52fbcd3a"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-2-1.gml",
+      "bytes": 373345251,
+      "compressed_bytes": 22789898,
+      "crc32": "4b5af310"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-2-2.gml",
+      "bytes": 343804082,
+      "compressed_bytes": 20951866,
+      "crc32": "b1e4b2cb"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-2-3.gml",
+      "bytes": 298737569,
+      "compressed_bytes": 18197820,
+      "crc32": "cde0b84d"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-2-4.gml",
+      "bytes": 350032953,
+      "compressed_bytes": 21299410,
+      "crc32": "e5f89e04"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-3-1.gml",
+      "bytes": 206206777,
+      "compressed_bytes": 12544487,
+      "crc32": "5b6ad59b"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-3-2.gml",
+      "bytes": 254988003,
+      "compressed_bytes": 15508989,
+      "crc32": "26205312"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-3-4.gml",
+      "bytes": 6057141,
+      "compressed_bytes": 373285,
+      "crc32": "fb3ae0cf"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-4-1.gml",
+      "bytes": 25426672,
+      "compressed_bytes": 1549142,
+      "crc32": "70ec84ae"
+    },
+    {
+      "member": "1261/1261_M-34-76-B-b-2-4-2.gml",
+      "bytes": 207358351,
+      "compressed_bytes": 12622099,
+      "crc32": "d7e1ae66"
+    },
+    {
+      "member": "1261/1261_M-34-77-A-a-1-1-1.gml",
+      "bytes": 162066776,
+      "compressed_bytes": 9851149,
+      "crc32": "0cd6e6ab"
+    },
+    {
+      "member": "1261/1261_M-34-77-A-a-1-1-2.gml",
+      "bytes": 1655661,
+      "compressed_bytes": 102750,
+      "crc32": "ee5117fc"
+    },
+    {
+      "member": "1261/1261_M-34-77-A-a-1-1-3.gml",
+      "bytes": 270139663,
+      "compressed_bytes": 16500237,
+      "crc32": "81e10e29"
+    },
+    {
+      "member": "1261/1261_M-34-77-A-a-1-1-4.gml",
+      "bytes": 16240147,
+      "compressed_bytes": 994212,
+      "crc32": "d9db1954"
+    },
+    {
+      "member": "1261/1261_M-34-77-A-a-1-2-1.gml",
+      "bytes": 11100855,
+      "compressed_bytes": 677586,
+      "crc32": "209a7399"
+    },
+    {
+      "member": "1261/1261_M-34-77-A-a-1-2-2.gml",
+      "bytes": 2011899,
+      "compressed_bytes": 123627,
+      "crc32": "6dda8855"
+    },
+    {
+      "member": "1261/1261_M-34-77-A-a-1-3-1.gml",
+      "bytes": 134031300,
+      "compressed_bytes": 8228991,
+      "crc32": "a3473be4"
+    }
+  ],
+  "member_count": 309,
+  "crc_validation": "Each complete member must be consumed and checked during import",
+  "inventory_complete": false,
+  "prefix_revalidated_bytes": 3354394624
+}

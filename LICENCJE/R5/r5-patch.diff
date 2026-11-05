@@ -1,0 +1,18 @@
+--- upstream-v7.5.1-r5py/McRaptorSuboptimalPathProfileRouter.java
++++ actual-shipped-jar/McRaptorSuboptimalPathProfileRouter.java
+@@ -535,6 +535,15 @@
+     }
+ 
+     private ArrayList<Integer> generateDepartureTimesToSample (ProfileRequest request) {
++        // Exact scheduled point departure, matching one-minute FastRaptor queries.
++        // No frequency sampling or wider-window request is changed.
++        if (!network.transitLayer.hasFrequencies && request.monteCarloDraws == 1
++                && request.toTime > request.fromTime && request.toTime - request.fromTime <= 60) {
++            ArrayList<Integer> exact = new ArrayList<>();
++            exact.add(request.fromTime);
++            return exact;
++        }
++
+         // See Owen and Jiang 2016 (unfortunately no longer available online), add between f / 2 and
+         // f + f / 2, where f is the mean step.
+         int randomWalkStepMean = (request.toTime - request.fromTime) / request.monteCarloDraws;

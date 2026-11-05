@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "data_version": "family-v3-ux-26",
+  "source_date": "2026-10-11T20:21:06Z",
+  "source_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "licence": "ODbL-1.0",
+  "attribution": "OpenStreetMap contributors",
+  "crs": "EPSG:4326",
+  "boundary_sha256": "5fca108c88267cb35816d5fa68cda9ca07fa776d2fb9532bfd5ecae076bb2b37",
+  "coverage_complete": false,
+  "geometry_failures": {},
+  "counts": {
+    "playground": 1281,
+    "kindergarten": 387,
+    "childcare": 35,
+    "school": 329,
+    "dog_park": 40,
+    "nursery": 295,
+    "child_club": 20,
+    "childminder": 98
+  },
+  "duplicates_removed": 0,
+  "method": "services conservative identity/contained-name dedup; explicit ownership only; restricted sites retained",
+  "limitations": "Partial OSM inventory; no vacancies, catchment, current opening or confirmed doorway. Childcare without explicit nursery/age evidence stays childcare.",
+  "registry_snapshot": "2026-10-27T00:36:57.226207+00:00",
+  "registry_territory": {
+    "kodMpips": "1261",
+    "provider_kod": 20001261
+  },
+  "sources": [
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/teryt?rodzajSlownika=TERYT_WOJEWODZTWA",
+      "sha256": "7ef03da2d72292e425ac8af0acfdbaae07145da11a421671bf7ef9b04e2c59b4",
+      "acquired_at": "2026-10-27T00:36:52.173631+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/teryt?rodzajSlownika=TERYT_POWIATY&teryt=12",
+      "sha256": "50607112cb56901f990fc3d8b32d514ef4dc3d64d313729254d8c4c051870a93",
+      "acquired_at": "2026-10-27T00:36:52.466025+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=0&pageSize=50",
+      "sha256": "e8e99e47112447c73366c43aa5b96e62c888f0880de8ac1511ff6011d12e7c05",
+      "acquired_at": "2026-10-27T00:36:52.786535+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=1&pageSize=50",
+      "sha256": "b38089031419c3110de8a6074702a16a990442af308c98d603bc8f268a71cf7f",
+      "acquired_at": "2026-10-27T00:36:53.104108+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=2&pageSize=50",
+      "sha256": "cedd9ead9d3859f300fafcbf504d1a6009a622a4598d48bbd1f4117ea93983c2",
+      "acquired_at": "2026-10-27T00:36:53.789921+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=3&pageSize=50",
+      "sha256": "57179f2bdf6c731d0305e5e40f8d34d688d8e2777b0bec3f4243f6b344eb0dd0",
+      "acquired_at": "2026-10-27T00:36:54.543922+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=4&pageSize=50",
+      "sha256": "900e4754e441c1eb8232e1a82e8e305baa2608520dd12005d644a29426050c0c",
+      "acquired_at": "2026-10-27T00:36:55.047300+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=5&pageSize=50",
+      "sha256": "e0049ee67f8e77511d3377284d9e13cb886df912753ad730030d3725ef9ce9a7",
+      "acquired_at": "2026-10-27T00:36:55.401931+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=6&pageSize=50",
+      "sha256": "2ded2e691ddece3e20d414192edd5995efce55f83f10b362429f5e84834a4d1b",
+      "acquired_at": "2026-10-27T00:36:55.902454+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=7&pageSize=50",
+      "sha256": "44915a83ddb9259eb2d1b46ba0750bea0d31a32a30bda931bf6a4fd1d026e649",
+      "acquired_at": "2026-10-27T00:36:56.276431+00:00"
+    },
+    {
+      "url": "https://rejestrzlobkow.mrpips.gov.pl/instytucja/getListaRejestr?listaRejestrType=ZKO&powiatTeryt=20001261&pageNumber=8&pageSize=50",
+      "sha256": "25ccb1abe1b2a5b901529fb8c943c22f27b779b24814c6d200c6d9219956e8a4",
+      "acquired_at": "2026-10-27T00:36:57.226207+00:00"
+    }
+  ],
+  "audit": {
+    "registry_rows": 423,
+    "pages": 9,
+    "source_types": {
+      "ZLOBEK": 301,
+      "KLUB_DZIECIECY": 21,
+      "DZIENNY_OPIEKUN": 101
+    },
+    "rejected": {
+      "suspended": 5,
+      "missing_ambiguous_or_outside_location": 3
+    },
+    "geocoded": 48,
+    "duplicates_removed": 5
+  },
+  "output_sha256": "df1f0531141ad2dabd8f57b044c3183299c50c36b3658dd86a53afda07f95eee"
+}

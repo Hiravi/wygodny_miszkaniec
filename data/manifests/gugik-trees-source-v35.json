@@ -1,0 +1,15 @@
+{
+  "source_id": "gugik_trees_1261_lod1_2023",
+  "title": "GUGiK — modele wysokich drzew, arkusz M-34-64-D-a-4-2-4",
+  "landing_url": "https://www.geoportal.gov.pl/pl/dane/inne-dane/modele-3d-drzew/",
+  "produced_at": null,
+  "produced_period": "Materiały źródłowe 08.09.2023; jeden arkusz kolekcji LoD1 2023",
+  "acquired_at": "2026-10-19T06:51:19.162302+00:00",
+  "export_generated_at": null,
+  "terms_url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_status": "CC-BY-4.0",
+  "attribution": "GUGiK, CC BY 4.0; wybór arkusza i środków geometrii 2D — opracowanie własne",
+  "source_crs": "EPSG:2180; obserwowany porządek E,N",
+  "coverage_complete": false,
+  "acquisition_manifest": "data/manifests/gugik-tree-tile-v35.json"
+}

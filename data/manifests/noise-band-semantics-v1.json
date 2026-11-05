@@ -1,0 +1,109 @@
+{
+  "schema_version": "1",
+  "method_version": "road-ldwn-intervals-v1",
+  "source_id": "msip_noise_1361_2022",
+  "source_zip_sha256": "7443f9e07dba299d65917fee73547afb6a43470e2b0310d69d5fa35490f13fc1",
+  "catalogue_url": "https://msip.krakow.pl/dataset/1361",
+  "webmap_item": "a03ce242061148239032660cac8f77bb",
+  "records": {
+    "layer": {
+      "url": "https://msip3.um.krakow.pl/hosting/rest/services/Mapy_Halasu/Mapa_Halasu_2022/MapServer/18?f=json",
+      "sha256": "3eb3af1dd627b32973565f9741ac633b042233d69ff6e3a1aac9cb4d913d92fe",
+      "bytes": 6423,
+      "acquired_at": "2026-10-14T16:37:25.442743+00:00"
+    },
+    "count": {
+      "url": "https://msip3.um.krakow.pl/hosting/rest/services/Mapy_Halasu/Mapa_Halasu_2022/MapServer/18/query?f=json&where=1%3D1&returnCountOnly=true",
+      "sha256": "81306cb25c248ccffbe9057579838a6d1a2e8cbc79b42282c5248e55ce60203e",
+      "bytes": 14,
+      "acquired_at": "2026-10-14T16:37:25.478376+00:00"
+    },
+    "pairs": {
+      "url": "https://msip3.um.krakow.pl/hosting/rest/services/Mapy_Halasu/Mapa_Halasu_2022/MapServer/18/query?f=json&where=1%3D1&outFields=isov1%2Cisov2&returnDistinctValues=true&returnGeometry=false",
+      "sha256": "c68473ddc00ed518b92df1512f510ebcb2f13e70aa273119519f359676442db5",
+      "bytes": 508,
+      "acquired_at": "2026-10-14T16:37:25.539701+00:00"
+    }
+  },
+  "layer_name": "Hałas drogowy LDWN",
+  "count": 9240,
+  "renderer_field": "ISOV1",
+  "renderer_min": -24.139999389648438,
+  "published_classes": [
+    {
+      "max_value": 49.9,
+      "label": null
+    },
+    {
+      "max_value": 54.9,
+      "label": "50,0 - 54,9"
+    },
+    {
+      "max_value": 59.9,
+      "label": "55,0 - 59,9"
+    },
+    {
+      "max_value": 64.9,
+      "label": "60,0 - 64,9"
+    },
+    {
+      "max_value": 69.9,
+      "label": "65,0 - 69,9"
+    },
+    {
+      "max_value": 74.9,
+      "label": "70,0 - 74,9"
+    },
+    {
+      "max_value": 79.9,
+      "label": "75,0 - 79,9"
+    },
+    {
+      "max_value": 80,
+      "label": ">= 80,0"
+    }
+  ],
+  "snapshot_bands": [
+    {
+      "lower": -24.13999939,
+      "upper": 55.0,
+      "polygons": 2982
+    },
+    {
+      "lower": 55.0,
+      "upper": 60.0,
+      "polygons": 2079
+    },
+    {
+      "lower": 60.0,
+      "upper": 65.0,
+      "polygons": 1061
+    },
+    {
+      "lower": 65.0,
+      "upper": 70.0,
+      "polygons": 1030
+    },
+    {
+      "lower": 70.0,
+      "upper": 75.0,
+      "polygons": 704
+    },
+    {
+      "lower": 75.0,
+      "upper": 80.0,
+      "polygons": 726
+    },
+    {
+      "lower": 80.0,
+      "upper": 80.0,
+      "polygons": 658
+    }
+  ],
+  "interpretation": {
+    "lowest": "source min -24.13999939 to 55 denotes model interval below 55; never measured negative level or zero",
+    "bounded": "55/60 etc are lower-inclusive, upper-exclusive band limits; upper bound is conservative scoring input",
+    "highest": "80/80 is >=80 per published renderer, not exact80 or zero-width interval"
+  },
+  "validation": "Pairs/count/fields corroborated. Geometry outside/ambiguity remain unavailable. Permission and cell-level scoring integration are separate gates."
+}

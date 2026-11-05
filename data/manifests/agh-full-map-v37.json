@@ -1,0 +1,659 @@
+{
+  "date": "2026-10-19",
+  "scope": "Saved paired final-WALK correction and current strict full-map confirmation",
+  "historical_paired_comparison": {
+    "baseline": {
+      "startup": {
+        "scope": "Launcher log creation to ready write; warm filesystem, not OS-cold",
+        "start_utc": "2026-10-19T15:04:09.716470+00:00",
+        "ready_utc": "2026-10-19T15:05:23.012885+00:00",
+        "ready_seconds": 73.29641509056091,
+        "native_initializer_seconds": 66.183
+      },
+      "queries": [
+        {
+          "run": 0,
+          "status": "timeout",
+          "cache_hit": false,
+          "map_ready_ms": 3942.6566000000003,
+          "selection_to_visible_ms": 23181.2071,
+          "headers_ms": 22993.8737,
+          "native_seconds": null,
+          "stages": [
+            {
+              "name": "wm.coverage.fetch",
+              "ms": 21911.899999976158
+            },
+            {
+              "name": "wm.coverage.decode",
+              "ms": 1.800000011920929
+            },
+            {
+              "name": "wm.coverage.validate",
+              "ms": 2.100000023841858
+            },
+            {
+              "name": "wm.coverage.sources",
+              "ms": 50.30000001192093
+            }
+          ]
+        },
+        {
+          "run": 1,
+          "status": "ok",
+          "cache_hit": true,
+          "map_ready_ms": 2534.891499999998,
+          "selection_to_visible_ms": 6275.213400000001,
+          "headers_ms": 2519.2377999999953,
+          "native_seconds": 20.554,
+          "stages": [
+            {
+              "name": "wm.coverage.fetch",
+              "ms": 1197.3999999761581
+            },
+            {
+              "name": "wm.coverage.decode",
+              "ms": 1018.3000000119209
+            },
+            {
+              "name": "wm.coverage.validate",
+              "ms": 436.5
+            },
+            {
+              "name": "wm.coverage.sources",
+              "ms": 904.3000000119209
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "status": "ok",
+          "cache_hit": true,
+          "map_ready_ms": 2366.2762999999977,
+          "selection_to_visible_ms": 5879.285899999995,
+          "headers_ms": 2433.9591,
+          "native_seconds": 20.554,
+          "stages": [
+            {
+              "name": "wm.coverage.fetch",
+              "ms": 1188.199999988079
+            },
+            {
+              "name": "wm.coverage.decode",
+              "ms": 1016.3000000119209
+            },
+            {
+              "name": "wm.coverage.validate",
+              "ms": 404
+            },
+            {
+              "name": "wm.coverage.sources",
+              "ms": 878.3999999761581
+            }
+          ]
+        }
+      ],
+      "native_stages": [
+        {
+          "event": "coverage_stages",
+          "departure": "2026-10-14T08:00:00+02:00",
+          "matrix_seconds": 3.618149399990216,
+          "routes_seconds": 5.513698099995963,
+          "final_walk_seconds": 11.374726300011389,
+          "total_seconds": 20.554
+        }
+      ]
+    },
+    "after": {
+      "startup": {
+        "scope": "Launcher log creation to ready write; warm filesystem, not OS-cold",
+        "start_utc": "2026-10-19T15:08:16.693288+00:00",
+        "ready_utc": "2026-10-19T15:09:33.503065+00:00",
+        "ready_seconds": 76.80977654457092,
+        "native_initializer_seconds": 66.675
+      },
+      "queries": [
+        {
+          "run": 0,
+          "status": "ok",
+          "cache_hit": false,
+          "map_ready_ms": 3958.0061,
+          "selection_to_visible_ms": 25424.088900000002,
+          "headers_ms": 22089.876900000003,
+          "native_seconds": 18.088,
+          "stages": [
+            {
+              "name": "wm.coverage.fetch",
+              "ms": 21042.19999998808
+            },
+            {
+              "name": "wm.coverage.decode",
+              "ms": 1028.300000011921
+            },
+            {
+              "name": "wm.coverage.validate",
+              "ms": 424.30000001192093
+            },
+            {
+              "name": "wm.coverage.sources",
+              "ms": 524.6999999880791
+            }
+          ]
+        },
+        {
+          "run": 1,
+          "status": "ok",
+          "cache_hit": true,
+          "map_ready_ms": 2692.8214000000007,
+          "selection_to_visible_ms": 5916.911800000002,
+          "headers_ms": 2451.745999999999,
+          "native_seconds": 18.088,
+          "stages": [
+            {
+              "name": "wm.coverage.fetch",
+              "ms": 1193.800000011921
+            },
+            {
+              "name": "wm.coverage.decode",
+              "ms": 985.6000000238419
+            },
+            {
+              "name": "wm.coverage.validate",
+              "ms": 380.19999998807907
+            },
+            {
+              "name": "wm.coverage.sources",
+              "ms": 854.6999999880791
+            }
+          ]
+        },
+        {
+          "run": 2,
+          "status": "ok",
+          "cache_hit": true,
+          "map_ready_ms": 2454.0791000000027,
+          "selection_to_visible_ms": 6023.474900000001,
+          "headers_ms": 2729.1808999999994,
+          "native_seconds": 18.088,
+          "stages": [
+            {
+              "name": "wm.coverage.fetch",
+              "ms": 1298.0999999642372
+            },
+            {
+              "name": "wm.coverage.decode",
+              "ms": 985.6000000238419
+            },
+            {
+              "name": "wm.coverage.validate",
+              "ms": 309
+            },
+            {
+              "name": "wm.coverage.sources",
+              "ms": 853.6999999880791
+            }
+          ]
+        }
+      ],
+      "native_stages": [
+        {
+          "event": "coverage_stages",
+          "departure": "2026-10-14T08:00:00+02:00",
+          "matrix_seconds": 3.6801237000036053,
+          "routes_seconds": 5.521125900035258,
+          "final_walk_seconds": 8.839371400012169,
+          "total_seconds": 18.088
+        }
+      ]
+    }
+  },
+  "current_startup": {
+    "scope": "All-service launcher log creation to ready write; warm filesystem",
+    "started_utc": "2026-10-19T20:24:06.899Z",
+    "ready_utc": "2026-10-19T20:25:14.002Z",
+    "seconds": 67.10283935546875
+  },
+  "current_native_initializer_seconds": 60.547,
+  "current_profile": {
+    "cpu": 4,
+    "rtt_ms": 100,
+    "mbps": 10
+  },
+  "current_queries": [
+    {
+      "run": 0,
+      "status": "ok",
+      "cache_hit": false,
+      "native_seconds": 16.418,
+      "initial_full_map_ms": 3240.7158000000004,
+      "selection_to_headers_ms": 20544.0399,
+      "selection_to_body_ms": 23247.7034,
+      "selection_to_routes_or_error_ms": 23970.524699999998,
+      "selection_to_full_map_ms": 23994.045599999998,
+      "measures": [
+        {
+          "name": "wm.coverage.fetch",
+          "ms": 19471
+        },
+        {
+          "name": "wm.coverage.decode",
+          "ms": 1025.699999988079
+        },
+        {
+          "name": "wm.coverage.validate",
+          "ms": 464.5
+        },
+        {
+          "name": "wm.coverage.sources",
+          "ms": 487.69999998807907
+        }
+      ]
+    },
+    {
+      "run": 1,
+      "status": "ok",
+      "cache_hit": true,
+      "native_seconds": 16.418,
+      "initial_full_map_ms": 3165.663800000002,
+      "selection_to_headers_ms": 2450.9349999999977,
+      "selection_to_body_ms": 5010.479799999994,
+      "selection_to_routes_or_error_ms": 5815.701699999998,
+      "selection_to_full_map_ms": 5988.628399999994,
+      "measures": [
+        {
+          "name": "wm.coverage.fetch",
+          "ms": 1205.800000011921
+        },
+        {
+          "name": "wm.coverage.decode",
+          "ms": 983.5999999642372
+        },
+        {
+          "name": "wm.coverage.validate",
+          "ms": 394.69999998807907
+        },
+        {
+          "name": "wm.coverage.sources",
+          "ms": 780.8999999761581
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "status": "ok",
+      "cache_hit": true,
+      "native_seconds": 16.418,
+      "initial_full_map_ms": 2631.1163000000015,
+      "selection_to_headers_ms": 2539.4036999999953,
+      "selection_to_body_ms": 5044.645799999998,
+      "selection_to_routes_or_error_ms": 6020.309799999995,
+      "selection_to_full_map_ms": 6039.869999999995,
+      "measures": [
+        {
+          "name": "wm.coverage.fetch",
+          "ms": 1286.8999999761581
+        },
+        {
+          "name": "wm.coverage.decode",
+          "ms": 990.8000000119209
+        },
+        {
+          "name": "wm.coverage.validate",
+          "ms": 399.19999998807907
+        },
+        {
+          "name": "wm.coverage.sources",
+          "ms": 853.8999999761581
+        }
+      ]
+    }
+  ],
+  "not_a_new_before_after_pair": true,
+  "multi_day_r5_memory_js_budgets": "open and separate",
+  "sources": [
+    {
+      "path": "tools/router/final_walk.py",
+      "bytes": 6599,
+      "sha256": "72ef0bb8a6d3ea8701b0628c5c16e09757c9f46b9f353efe58fbb474423342d4"
+    },
+    {
+      "path": "tools/router/coverage_worker.py",
+      "bytes": 28130,
+      "sha256": "d43f1d223af172cefa59bf476fb0275b477a22597ac9e9be00a1ac3458a29e08"
+    },
+    {
+      "path": "services/api/coverage.py",
+      "bytes": 8833,
+      "sha256": "32df9b03ebc97a927c96e4bc7656fc7dfd3df4ff0a2dcc590d0110723f630bed"
+    },
+    {
+      "path": "apps/web/src/useTransitCoverage.ts",
+      "bytes": 2624,
+      "sha256": "c8534d7be77a261dd43c33f604e5f22b78243b169375b01d282345850edf0291"
+    },
+    {
+      "path": "apps/web/src/useCoverageLayers.ts",
+      "bytes": 11802,
+      "sha256": "816d48d1208cdfe85b1293dcb7c99bf26a02b4ed8f0a92db31de1e90ca72f228"
+    },
+    {
+      "path": "apps/web/src/ReadableMap.tsx",
+      "bytes": 26836,
+      "sha256": "0ba8ae620e3634266d8ed1fc344c9b519319a00ce058feb1ae52d0af49843a90"
+    },
+    {
+      "path": "tools/qa/v037_agh.mjs",
+      "bytes": 6766,
+      "sha256": "89f19ca1014c3d31eb44e90187d836f667e617ba95be1802db488d2b0fb21967"
+    },
+    {
+      "path": "tools/qa/v037_agh_evidence.py",
+      "bytes": 3217,
+      "sha256": "47a367a38845670bb0ce26adb59cf2e4949e91d543fad90b1fdd5a5073af5a1e"
+    }
+  ],
+  "build": [
+    {
+      "path": "apps/web/dist/.vite/license.md",
+      "bytes": 10549,
+      "sha256": "b1e848b2669630774348e8d569a418de145df8b8a4e1414f1c6a4dfeb25a7786"
+    },
+    {
+      "path": "apps/web/dist/assets/Commute-NmuWbis7.js",
+      "bytes": 7562,
+      "sha256": "6fea26a0d9c57bf1624968eaecc5b03ba42e0557ebd007bc928ef2505ed1e2b9"
+    },
+    {
+      "path": "apps/web/dist/assets/coverage-C7Mi_bb2.js",
+      "bytes": 2433,
+      "sha256": "29a23be5261d5fa60a51bf216dfdb978e5246f8f766c7056f1c17694ef7cf37b"
+    },
+    {
+      "path": "apps/web/dist/assets/CoverageExplorer-Cu7yvdzz.js",
+      "bytes": 10363,
+      "sha256": "65e63be2504b5c9ee86324a1e6f0864bc3b82d635551c99e8a71e018bec37e8f"
+    },
+    {
+      "path": "apps/web/dist/assets/index-B8VMnS-p.js",
+      "bytes": 236003,
+      "sha256": "0020442fb2615d6f4ff5dcd10ece57929d65308c1eedc910d64c29f3f73dc18c"
+    },
+    {
+      "path": "apps/web/dist/assets/index-BL9d7UeP.css",
+      "bytes": 28783,
+      "sha256": "d75d4e462431860bf85797ec7dc232dd31fe1da54a062ff3501ee77742541c64"
+    },
+    {
+      "path": "apps/web/dist/assets/maplibre-gl-worker-DxGNRm0a.mjs",
+      "bytes": 508314,
+      "sha256": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9"
+    },
+    {
+      "path": "apps/web/dist/assets/network-Do5g4Fzq.js",
+      "bytes": 318,
+      "sha256": "c3bdf80470b81d93fd5c648c0eb372fec5a8e726e06725f8aa1b6ac5fb93605c"
+    },
+    {
+      "path": "apps/web/dist/assets/networkSchema-CxsqCXp_.js",
+      "bytes": 3429,
+      "sha256": "ec158555c059bd6f43632be0fb58346707d7333c52325e6a409ad1fa9a82d2f7"
+    },
+    {
+      "path": "apps/web/dist/assets/parks-DGjA8wJs.js",
+      "bytes": 1544,
+      "sha256": "b2a43af4a721b745721f258a687aeba7597029028ad719b6a69c69be9c9f04cd"
+    },
+    {
+      "path": "apps/web/dist/assets/ReadableMap-Af0zdGPW.js",
+      "bytes": 1097901,
+      "sha256": "e9788702a055c258d1dd315615463daa171a5ddd883d4a7a4a27173a78354677"
+    },
+    {
+      "path": "apps/web/dist/assets/ReadableMap-DBE96hFo.css",
+      "bytes": 82935,
+      "sha256": "7d70296c647f8ae4b9b9cc0ed943d5bf81cedef828a348f81c5e89d3ed128856"
+    },
+    {
+      "path": "apps/web/dist/assets/routing-BnRYqi3n.js",
+      "bytes": 1120,
+      "sha256": "e96c5d43be0bf6923b0671c3ceb24b8620f502a1ace1cab3983882328c9fd63c"
+    },
+    {
+      "path": "apps/web/dist/assets/schemas-BXFzUrFc.js",
+      "bytes": 33766,
+      "sha256": "8e5997ffdaa40fcb4258b03f0f87f7d3b83318b01793a00193b3939049622c14"
+    },
+    {
+      "path": "apps/web/dist/assets/Sources-_2v7yleN.js",
+      "bytes": 4769,
+      "sha256": "9be9c11becfdd8f0f7587d3a812e8173499be3dc219f6907f1b239ce4bc3486a"
+    },
+    {
+      "path": "apps/web/dist/assets/TransitExplorer-laL0zlY5.js",
+      "bytes": 9528,
+      "sha256": "ed14bc7757f325cb7720e67ec5bdebfb4d1222a55e279c3bb5d43c8bf622a152"
+    },
+    {
+      "path": "apps/web/dist/index.html",
+      "bytes": 554,
+      "sha256": "af3ba42b4eecedd32b6c4a7638ae992cf03d159f0c31206a30e2dc3f8eca0891"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": ".cache/agh-v37/build.log",
+      "bytes": 1932,
+      "sha256": "1eac9cc16dc830b0076fa2a28b157e4bb83b5020e4858f75db6e69efeabac3c9"
+    },
+    {
+      "path": ".cache/agh-v37/current-browser.log",
+      "bytes": 6872,
+      "sha256": "980b406717a70ddd7b74cc1a64a65dad0d4c5149e21931151876ed7976be4034"
+    },
+    {
+      "path": ".cache/agh-v37/current-start.log",
+      "bytes": 96,
+      "sha256": "d38e4e975917e14e9b4637f759be6b535e10e4d549c03224589dee73e52e70cd"
+    },
+    {
+      "path": ".cache/agh-v37/current1/full-map-0.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v37/current1/full-map-1.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v37/current1/full-map-2.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v37/current1/packet-0.json",
+      "bytes": 6731108,
+      "sha256": "829db4b58fd3049f57d9618242f66fc00ac7049535cb091dd707a1189fc60c9c"
+    },
+    {
+      "path": ".cache/agh-v37/current1/packet-1.json",
+      "bytes": 6731107,
+      "sha256": "667bee9d90bbedb6bd6b47451f746868a8e74ea0af17534735ab6474ced0edb9"
+    },
+    {
+      "path": ".cache/agh-v37/current1/packet-2.json",
+      "bytes": 6731107,
+      "sha256": "667bee9d90bbedb6bd6b47451f746868a8e74ea0af17534735ab6474ced0edb9"
+    },
+    {
+      "path": ".cache/agh-v37/current1/report.json",
+      "bytes": 21052,
+      "sha256": "88980353795c23cebda6a4c9383f1bcec490d7598b1ab76841baac6bfc8cf339"
+    },
+    {
+      "path": ".cache/agh-v37/current1/server.log",
+      "bytes": 201,
+      "sha256": "338278a2c799cf1a2bfea49aa6fd3b787b4514edca44d3d57828d688d491ba2c"
+    },
+    {
+      "path": ".cache/agh-v37/current1/start.log",
+      "bytes": 96,
+      "sha256": "d38e4e975917e14e9b4637f759be6b535e10e4d549c03224589dee73e52e70cd"
+    },
+    {
+      "path": ".cache/agh-v37/current1/worker.log",
+      "bytes": 2177,
+      "sha256": "9cd5dc57ec60e497e36014a8c2db3ce6e2a98dbad3b77a15f291afa03cd1f0d5"
+    },
+    {
+      "path": ".cache/agh-v37/full-map-browser.log",
+      "bytes": 7053,
+      "sha256": "3fae623624478e61250a9565a3596e3c25c576d47d9b181718a8e0ae36330834"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/full-map-0.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/full-map-1.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/full-map-2.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/packet-0.json",
+      "bytes": 6731108,
+      "sha256": "753b046353e60106fa915ffa61d2a35f4f3be755fee1a8abcc9be54857d78239"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/packet-1.json",
+      "bytes": 6731107,
+      "sha256": "8d6376d0b0bc8bf8cafa116c7767b92992409463d22b532c5c7dc380a623f4f8"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/packet-2.json",
+      "bytes": 6731107,
+      "sha256": "8d6376d0b0bc8bf8cafa116c7767b92992409463d22b532c5c7dc380a623f4f8"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/report.json",
+      "bytes": 21293,
+      "sha256": "0a70cb598c921160e583d340a382df829438982abfd278f34fbfb6b95bebc9d1"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/server.log",
+      "bytes": 202,
+      "sha256": "6910ffb124e6552191413f71c12778a6a9d8ae9a3470a9f6c31ab8c9d8eca5dc"
+    },
+    {
+      "path": ".cache/agh-v37/fullmap/worker.log",
+      "bytes": 2178,
+      "sha256": "b3446eeafbb32a1596151d6cdf74f332cf78007bf22ee5df34de34bd51dab719"
+    },
+    {
+      "path": ".cache/agh-v37/lint.log",
+      "bytes": 203,
+      "sha256": "bcc52480d4778575a94886753f02c3a5b5eefd50118f326a3e56c4e97933a3a8"
+    },
+    {
+      "path": ".cache/agh-v37/preliminary-start.log",
+      "bytes": 96,
+      "sha256": "d38e4e975917e14e9b4637f759be6b535e10e4d549c03224589dee73e52e70cd"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-compact/coverage-contract.png",
+      "bytes": 556248,
+      "sha256": "695a2f769ebf838386873e57c9ca2fcfae7af177074dbef2885ce60e8cac3718"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-desktop/coverage-contract.png",
+      "bytes": 720693,
+      "sha256": "34e46ee81181a350f7060850ff3b964eb8195212cfc49fd109e48fac52bf872d"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-mobile/coverage-contract.png",
+      "bytes": 165404,
+      "sha256": "7e8255be941540b11024b2fce07a3a660c6f768af3f63737e2cf1f8adb5ffad9"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-narrow/coverage-contract.png",
+      "bytes": 144127,
+      "sha256": "f5c2ac87f6a6263e014608e7e31965b60bb779c38e332af1e6d773e1689b5ac9"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-tiny/coverage-contract.png",
+      "bytes": 128912,
+      "sha256": "f4c632976a9ddfb2e0f5d6803f97709718207e0166afbb0d6403bb655a4f568d"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-compact/timeout-map-usable.png",
+      "bytes": 358068,
+      "sha256": "df5fa72c8563238716d2ec7919854e54a4fe58717f6f32e0bd58d580e8d902ec"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-desktop/timeout-map-usable.png",
+      "bytes": 463970,
+      "sha256": "92f29253bbdf8d3095031183dacc43bd3b5aecfa510172aa131f59b566f4bfb5"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-mobile/timeout-map-usable.png",
+      "bytes": 99516,
+      "sha256": "0cbee513606a8f202a2834e97d9ace2e5927f4a6e35f7ff880c0220ff3871dda"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-narrow/timeout-map-usable.png",
+      "bytes": 86733,
+      "sha256": "52ef3257f812fdfc455641f3399ec4d079155c2be98bd0ff1b911fe684e03ee9"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-tiny/timeout-map-usable.png",
+      "bytes": 80149,
+      "sha256": "8a5b58832e2481eda3cfae66b24619dd28cb7ea1dd2400d02ebc223274a2701a"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-compact/sections-before-destination.png",
+      "bytes": 552598,
+      "sha256": "aaa7a1bfee0c95e6f1217499682b5c881fc4cc61f713b90751e92f089bb1e05a"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-desktop/sections-before-destination.png",
+      "bytes": 106205,
+      "sha256": "e2fe54e5a2d9e638d0a29cc999b8e86450fc3f047b3eb0da8d08b75297c82a7f"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-mobile/sections-before-destination.png",
+      "bytes": 164926,
+      "sha256": "73712220ebad20d8da844b44568f8a51bf327b7d07734f1f56a230d4a150a899"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-narrow/sections-before-destination.png",
+      "bytes": 146331,
+      "sha256": "61c2f1503fedb8bca32973d22b540d7fc4eed2b24239da2f454cb5bddd5b65e2"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-tiny/sections-before-destination.png",
+      "bytes": 133823,
+      "sha256": "26d8b47a11e8baf3e6a99b9e801f05095457585cdc2777773d213ab6222fd057"
+    },
+    {
+      "path": ".cache/agh-v37/timeout-regression.log",
+      "bytes": 5366,
+      "sha256": "893af348bc364e188cc7887a5332e1eec006cf2dd20be853d0bfcc58312953f9"
+    },
+    {
+      "path": ".cache/agh-v37/types.log",
+      "bytes": 135,
+      "sha256": "f6bcb6b7e072932c5237e90377ab42f54ba1a7169c32e99c3ebc92da4e44fe70"
+    }
+  ]
+}

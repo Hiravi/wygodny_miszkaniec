@@ -1,0 +1,357 @@
+{
+  "schema_version": "1",
+  "engine_version": "OTP 2.10.0",
+  "endpoint": "http://127.0.0.1:8800/otp/gtfs/v1",
+  "query": "query($origin:PlanLabeledLocationInput!,$destination:PlanLabeledLocationInput!,\n $dateTime:PlanDateTimeInput!){planConnection(origin:$origin,destination:$destination,\n dateTime:$dateTime,first:3,modes:{direct:[WALK],transit:{transit:[{mode:BUS},{mode:TRAM}]}}){\n edges{node{start end legs{mode from{name lat lon departure{scheduledTime}}\n to{name lat lon arrival{scheduledTime}} route{gtfsId shortName}}}}}}",
+  "records": [
+    {
+      "origin_id": 2121713901465,
+      "destination_id": 2121713928847,
+      "variables": {
+        "origin": {
+          "location": {
+            "coordinate": {
+              "latitude": 50.06448462923272,
+              "longitude": 19.923628208264066
+            }
+          }
+        },
+        "destination": {
+          "location": {
+            "coordinate": {
+              "latitude": 50.06144861770998,
+              "longitude": 19.936491286876823
+            }
+          }
+        },
+        "dateTime": {
+          "earliestDeparture": "2026-10-14T08:00:00+02:00"
+        }
+      },
+      "response": {
+        "data": {
+          "planConnection": {
+            "edges": [
+              {
+                "node": {
+                  "start": "2026-10-14T08:00:00+02:00",
+                  "end": "2026-10-14T08:16:38+02:00",
+                  "legs": [
+                    {
+                      "mode": "WALK",
+                      "from": {
+                        "name": "Origin",
+                        "lat": 50.0644846,
+                        "lon": 19.9236282,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:00:00+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "Destination",
+                        "lat": 50.0614486,
+                        "lon": 19.9364913,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:16:38+02:00"
+                        }
+                      },
+                      "route": null
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "summaries": [
+        {
+          "elapsed_seconds": 998.0,
+          "travel_seconds": 998.0,
+          "waiting_seconds": 0.0,
+          "transfers": 0
+        }
+      ],
+      "seconds": 1.181
+    },
+    {
+      "origin_id": 2121713901465,
+      "destination_id": 2121713897635,
+      "variables": {
+        "origin": {
+          "location": {
+            "coordinate": {
+              "latitude": 50.06448462923272,
+              "longitude": 19.923628208264066
+            }
+          }
+        },
+        "destination": {
+          "location": {
+            "coordinate": {
+              "latitude": 50.044735130117125,
+              "longitude": 19.9498637377106
+            }
+          }
+        },
+        "dateTime": {
+          "earliestDeparture": "2026-10-14T08:00:00+02:00"
+        }
+      },
+      "response": {
+        "data": {
+          "planConnection": {
+            "edges": [
+              {
+                "node": {
+                  "start": "2026-10-14T08:00:00+02:00",
+                  "end": "2026-10-14T08:46:56+02:00",
+                  "legs": [
+                    {
+                      "mode": "WALK",
+                      "from": {
+                        "name": "Origin",
+                        "lat": 50.0644846,
+                        "lon": 19.9236282,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:00:00+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "Destination",
+                        "lat": 50.0447351,
+                        "lon": 19.9498637,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:46:56+02:00"
+                        }
+                      },
+                      "route": null
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "start": "2026-10-14T08:00:09+02:00",
+                  "end": "2026-10-14T08:24:48+02:00",
+                  "legs": [
+                    {
+                      "mode": "WALK",
+                      "from": {
+                        "name": "Origin",
+                        "lat": 50.0644846,
+                        "lon": 19.9236282,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:00:09+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "AGH / UR",
+                        "lat": 50.06283,
+                        "lon": 19.92314,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:03:00+02:00"
+                        }
+                      },
+                      "route": null
+                    },
+                    {
+                      "mode": "BUS",
+                      "from": {
+                        "name": "AGH / UR",
+                        "lat": 50.06283,
+                        "lon": 19.92314,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:03:00+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "Rondo Matecznego",
+                        "lat": 50.03588,
+                        "lon": 19.94138,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:14:00+02:00"
+                        }
+                      },
+                      "route": {
+                        "gtfsId": "1:179",
+                        "shortName": "179"
+                      }
+                    },
+                    {
+                      "mode": "WALK",
+                      "from": {
+                        "name": "Rondo Matecznego",
+                        "lat": 50.03588,
+                        "lon": 19.94138,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:14:00+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "Rondo Matecznego",
+                        "lat": 50.035927,
+                        "lon": 19.940363,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:15:18+02:00"
+                        }
+                      },
+                      "route": null
+                    },
+                    {
+                      "mode": "TRAM",
+                      "from": {
+                        "name": "Rondo Matecznego",
+                        "lat": 50.035927,
+                        "lon": 19.940363,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:18:00+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "Korona",
+                        "lat": 50.043604,
+                        "lon": 19.946683,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:21:00+02:00"
+                        }
+                      },
+                      "route": {
+                        "gtfsId": "3:route_183",
+                        "shortName": "78"
+                      }
+                    },
+                    {
+                      "mode": "WALK",
+                      "from": {
+                        "name": "Korona",
+                        "lat": 50.043604,
+                        "lon": 19.946683,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:21:00+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "Destination",
+                        "lat": 50.0447351,
+                        "lon": 19.9498637,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:24:48+02:00"
+                        }
+                      },
+                      "route": null
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "start": "2026-10-14T08:00:09+02:00",
+                  "end": "2026-10-14T08:28:47+02:00",
+                  "legs": [
+                    {
+                      "mode": "WALK",
+                      "from": {
+                        "name": "Origin",
+                        "lat": 50.0644846,
+                        "lon": 19.9236282,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:00:09+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "AGH / UR",
+                        "lat": 50.06283,
+                        "lon": 19.92314,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:03:00+02:00"
+                        }
+                      },
+                      "route": null
+                    },
+                    {
+                      "mode": "BUS",
+                      "from": {
+                        "name": "AGH / UR",
+                        "lat": 50.06283,
+                        "lon": 19.92314,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:03:00+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "Ludwinów",
+                        "lat": 50.04324,
+                        "lon": 19.93474,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:11:00+02:00"
+                        }
+                      },
+                      "route": {
+                        "gtfsId": "1:179",
+                        "shortName": "179"
+                      }
+                    },
+                    {
+                      "mode": "WALK",
+                      "from": {
+                        "name": "Ludwinów",
+                        "lat": 50.04324,
+                        "lon": 19.93474,
+                        "departure": {
+                          "scheduledTime": "2026-10-14T08:11:00+02:00"
+                        }
+                      },
+                      "to": {
+                        "name": "Destination",
+                        "lat": 50.0447351,
+                        "lon": 19.9498637,
+                        "arrival": {
+                          "scheduledTime": "2026-10-14T08:28:47+02:00"
+                        }
+                      },
+                      "route": null
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "summaries": [
+        {
+          "elapsed_seconds": 2816.0,
+          "travel_seconds": 2816.0,
+          "waiting_seconds": 0.0,
+          "transfers": 0
+        },
+        {
+          "elapsed_seconds": 1488.0,
+          "travel_seconds": 1317.0,
+          "waiting_seconds": 171.0,
+          "transfers": 1
+        },
+        {
+          "elapsed_seconds": 1727.0,
+          "travel_seconds": 1718.0,
+          "waiting_seconds": 9.0,
+          "transfers": 0
+        }
+      ],
+      "seconds": 0.499
+    }
+  ],
+  "graph_build_seconds_from_log": 101.788,
+  "graph_file_bytes": 234294557,
+  "graph_sha256": "ab6c0c6c16480bb5af6acd05c4c51a0d4e5a55d7ff89311190f4f47aed7a6032",
+  "input_sha256": {
+    "msip_addresses_1492": "7335cd2edbe1659e5d780e07a14c27e8fcb8117201208a2ccdbc8c75f62a3828",
+    "ztp_gtfs_a": "1dda9ab3ee73d929f413cc29663107af8042b891ebd6abafee38b4d6961c4c55",
+    "ztp_gtfs_m": "505e888d7e086433d49857dad817e45203c50e15d566710c9b8b85c0acd7b602",
+    "ztp_gtfs_t": "bb4ed7a36e07d49cd72cc29a6ac5b1fff145c991ea0483b826799715b7ff801f",
+    "osm": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c"
+  },
+  "isochrone_verified": false,
+  "routing_ready": false
+}

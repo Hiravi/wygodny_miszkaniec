@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "java_version": "25.0.4.1+1-LTS",
+  "java_url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+  "java_sha256": "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283",
+  "otp_version": "2.10.0",
+  "otp_url": "https://github.com/opentripplanner/OpenTripPlanner/releases/download/v2.10.0/otp-shaded-2.10.0.jar",
+  "otp_sha256": "8acd28081f859cfbb4a18a7979789fc02d472f229ce656167f3da5971eea7990",
+  "osm_url": "https://download.geofabrik.de/europe/poland/malopolskie-261011.osm.pbf",
+  "osm_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "status": "downloaded",
+  "graph_verified": true,
+  "query_verified": true,
+  "notes": [
+    "Actual OTP graph/point evidence: otp-point-spike-v1.json.",
+    "Actual R5 contours: zone-spike-v1.json; invalid transit geometry, not product-ready.",
+    "OSM header osmosis_replication_timestamp verified; ODbL 1.0, preserve attribution."
+  ],
+  "osm_acquired_at": "2026-10-14T02:39:39.089139+00:00",
+  "osm_acquired_at_method": "completion file timestamp from acquisition run",
+  "osm_landing_url": "https://download.geofabrik.de/europe/poland/malopolskie.html",
+  "osm_terms_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "osm_attribution": "OpenStreetMap contributors, ODbL 1.0",
+  "osm_snapshot_at": "2026-10-11T20:21:06Z"
+}

@@ -1,0 +1,15 @@
+{
+  "policy": "r5-exact-scheduled-point-v1",
+  "base_sha256": "d50be106cadd7b636cfc0e209052767d7df570629f79fdf98ecd5cf5d2d89be7",
+  "source_url": "https://raw.githubusercontent.com/r5py/r5/v7.5.1-r5py/src/main/java/com/conveyal/r5/profile/McRaptorSuboptimalPathProfileRouter.java",
+  "source_sha256": "6391d9366cbc28fd568464a38ec77371f49061666205697f4b7220049d5a0834",
+  "license_url": "https://raw.githubusercontent.com/r5py/r5/v7.5.1-r5py/LICENSE",
+  "license_sha256": "50ceabea3b9979201c7e4e888ccce89e03a788fa9d6a546cf106c49d0f896bba",
+  "output_sha256": "214719bab28ca5cf2324a072060e0b0a1fd564d97b4cf40bd89aaa85d067a473",
+  "changed_classes": [
+    "com/conveyal/r5/profile/McRaptorSuboptimalPathProfileRouter$McRaptorState.class",
+    "com/conveyal/r5/profile/McRaptorSuboptimalPathProfileRouter$McRaptorStateBag.class",
+    "com/conveyal/r5/profile/McRaptorSuboptimalPathProfileRouter.class"
+  ],
+  "source_offer": "Modified source and MIT notice are embedded in META-INF/wm-r5-instant-point"
+}

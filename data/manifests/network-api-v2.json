@@ -1,0 +1,47 @@
+{
+  "schema_version": "2",
+  "proof_sha256": "8a251ae534ff4b3ed862aac7da679104f00273247c4c1c160f2b2f106c85c160",
+  "records": [
+    {
+      "address_id": "2121713874653",
+      "kind": "uncached",
+      "http_seconds": 3.8919764000020223,
+      "adapter_seconds": 3.6076355000041076,
+      "decoded_bytes": 708698,
+      "confirmed": 32,
+      "within_45": 30,
+      "path_segments": 327
+    },
+    {
+      "address_id": "2121713874653",
+      "kind": "cached",
+      "http_seconds": 0.09464010000374401,
+      "adapter_seconds": 0.0010309999997843988,
+      "decoded_bytes": 708700,
+      "confirmed": 32,
+      "within_45": 30,
+      "path_segments": 327
+    },
+    {
+      "address_id": "2121713928847",
+      "kind": "uncached",
+      "http_seconds": 3.8223320999968564,
+      "adapter_seconds": 3.7347823999953107,
+      "decoded_bytes": 649333,
+      "confirmed": 32,
+      "within_45": 29,
+      "path_segments": 300
+    },
+    {
+      "address_id": "2121713928847",
+      "kind": "cached",
+      "http_seconds": 0.09095669999805978,
+      "adapter_seconds": 0.001210399997944478,
+      "decoded_bytes": 649334,
+      "confirmed": 32,
+      "within_45": 29,
+      "path_segments": 300
+    }
+  ],
+  "limits": "Two initialized real OTP origins, HTTP TestClient serialization/cache; not30-context p95 or browser/throughput certification."
+}

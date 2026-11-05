@@ -1,0 +1,62 @@
+{
+  "method": "worldcover-2021-classes-20-30-grid10-v37",
+  "source_id": "esa_worldcover_2021_v200",
+  "source_sha256": "505f9390aa5a21ea47aa5cfa101fe0578407535355628fa8ce05c959d87191e7",
+  "city_sha256": "9fc1df66e2b9f72ef41ddf6b185fdfb84ccebbcaaedf0b181f7dd38d308edcd4",
+  "source_year": 2021,
+  "source_grid": {
+    "crs": "EPSG:4326",
+    "transform": [
+      8.333333333333333e-05,
+      0.0,
+      18.0,
+      0.0,
+      -8.333333333333333e-05,
+      51.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "width": 36000,
+    "height": 36000,
+    "nodata": 0.0
+  },
+  "crs": "EPSG:2180",
+  "pixel_size_m": 10,
+  "transform": [
+    10.0,
+    0.0,
+    556240.0,
+    0.0,
+    -10.0,
+    251880.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "width": 3138,
+  "height": 1857,
+  "nodata": 0,
+  "resampling": "nearest",
+  "radius_m": 250,
+  "prepared_territory": "City metric envelope with500m real-source halo",
+  "counts": {
+    "10": 2234385,
+    "30": 1117290,
+    "40": 1123108,
+    "50": 1235608,
+    "60": 22647,
+    "80": 91917,
+    "90": 2311
+  },
+  "display_geometries": {
+    "30": 24363
+  },
+  "raster": "data/derived/generated/low-vegetation-v37.tif",
+  "raster_sha256": "a786d1c5b02cb379a63391d552229d428f1b4a36514003eea83935e462bf09a5",
+  "display": "data/derived/generated/low-vegetation-v37.sqlite",
+  "display_sha256": "d498afc37c9a76e63e46f529d809fdf86f274c4bcd1c78db727b9eb51fe892bf",
+  "display_simplification_m": 1.5,
+  "percentage_meaning": "Area of land-cover classes20/30, not physical leaf/canopy cover",
+  "missing": "Class0/outside asset unknown; denominator always whole250m circle"
+}

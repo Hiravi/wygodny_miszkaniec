@@ -1,0 +1,40 @@
+{
+  "data_version": "osm-services-v3-07",
+  "source_date": "2026-10-11T20:21:06Z",
+  "source_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "boundary_sha256": "5fca108c88267cb35816d5fa68cda9ca07fa776d2fb9532bfd5ecae076bb2b37",
+  "crs": "EPSG:4326",
+  "geometry_failures": {},
+  "coverage_complete": false,
+  "coverage": "Known OSM records inside Krakow; absence is not evidence of absence",
+  "licence": "ODbL-1.0",
+  "attribution": "OpenStreetMap contributors",
+  "categories": {
+    "shop": {
+      "supermarket": "groceries",
+      "convenience": "groceries",
+      "grocery": "groceries",
+      "mall": "mall"
+    },
+    "amenity": {
+      "pharmacy": "pharmacy",
+      "clinic": "healthcare",
+      "doctors": "healthcare",
+      "atm": "atm",
+      "marketplace": "market"
+    }
+  },
+  "counts": {
+    "groceries": 1125,
+    "atm": 520,
+    "healthcare": 432,
+    "pharmacy": 282,
+    "mall": 31,
+    "market": 25
+  },
+  "duplicates_removed": 0,
+  "deduplication": "canonical identity/category or compatible same-name/category point inside source area; conflicting address/operator/brand/level/hours/access prevent merging; retain source_ids; never proximity-only merging",
+  "geometry": "WGS84 source points or area representative points, never verified doorways",
+  "opening_hours": "Raw OSM tags; current opening state, NFZ and appointments unknown",
+  "output_sha256": "59fe6b5c6b8bb6fa9b556369abead2c67a354567f5cf1f4716226397a49551ba"
+}

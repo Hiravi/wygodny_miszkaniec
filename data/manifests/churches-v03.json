@@ -1,0 +1,20 @@
+{
+  "method": "osm-catholic-worship-v2",
+  "source_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "output_sha256": "d35f9f23017708360191386bd029da5abd2e8edf1273b11d88a324c16ec13970",
+  "records": 191,
+  "duplicates_removed": 0,
+  "denominations": {
+    "roman_catholic": 185,
+    "catholic": 5,
+    "greek_catholic": 1
+  },
+  "source_geometry_failures": {
+    "invalid_source_area": 2
+  },
+  "invalid_source_areas": [
+    "relation/11267202",
+    "relation/11269741"
+  ],
+  "known_entrances": 77
+}

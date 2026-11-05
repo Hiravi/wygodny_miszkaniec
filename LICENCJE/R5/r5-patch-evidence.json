@@ -1,0 +1,18 @@
+{
+  "upstream_version_tag": "r5py/r5 v7.5.1-r5py",
+  "upstream_commit": "unknown; source tag and pinned source SHA recorded in recipe",
+  "recipe_origin": "candidate",
+  "modified_source_sha256": "1949b25a1db0acce6bdcae7031c3ac1ab902e9025a01bb60cab6920b5b577353",
+  "diff_status": "verified original SHA and actual embedded modified source; unified diff included",
+  "changed_jar_entries_crc_or_size": [
+    "com/conveyal/r5/profile/McRaptorSuboptimalPathProfileRouter$McRaptorState.class",
+    "com/conveyal/r5/profile/McRaptorSuboptimalPathProfileRouter$McRaptorStateBag.class",
+    "com/conveyal/r5/profile/McRaptorSuboptimalPathProfileRouter.class"
+  ],
+  "added_jar_entries": [
+    "META-INF/wm-r5-instant-point/LICENSE",
+    "META-INF/wm-r5-instant-point/McRaptorSuboptimalPathProfileRouter.java"
+  ],
+  "removed_jar_entries": [],
+  "difference_method": "ZIP CRC/size comparison; complete JAR SHA256 recorded in runtime-files.csv"
+}

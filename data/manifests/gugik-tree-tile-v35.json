@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "source_id": "gugik_trees_1261_lod1_2023",
+  "url": "https://opendata.geoportal.gov.pl/InneDane/Drzewa3D/LOD1/2023/12/1261.zip",
+  "archive_bytes_advertised": 3740502509,
+  "acquisition": "HTTP stream: first complete ZIP member only; no Range support",
+  "downloaded_at": "2026-10-19T06:51:19.162302+00:00",
+  "member": "1261/1261_M-34-64-D-a-4-2-4.gml",
+  "member_compressed_bytes": 14523951,
+  "member_crc32": "5de75177",
+  "compressed_sha256": "14237f0696daa9288dd9f361851db8814349b048f5ba6f89639198742aa57b7b",
+  "uncompressed_bytes": 237415569,
+  "sha256": "241f0e0ba08bcea289be9ceec6617bf6b12796378e4921539eff897695e028d8",
+  "path": "data/raw/gugik_trees_1261_M-34-64-D-a-4-2-4.gml",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "licence_evidence": ".cache/green-v35/identify-LoD1.html",
+  "provider": "GUGiK",
+  "advertised_county_model_count": 844181,
+  "county_complete": false
+}

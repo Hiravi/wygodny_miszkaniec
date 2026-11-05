@@ -1,0 +1,861 @@
+{
+  "schema_version": "2",
+  "checkpoint": "ux-accessibility-v2",
+  "scope": "Production Chromium UI; real imported map/noise/address data and two captured actual native responses. Live-engine verification is separate.",
+  "base_commit": "f3eb765ee02f7f632ee4280a1ccdefdcf71eb6aa",
+  "source_sha256": {
+    "apps/web/index.html": "492af09e8dd4b733af25d5c48262fe229e7f6b8f1807f1e055a2e3320cfc4587",
+    "apps/web/src/Workspace.css": "e9af35814b6a8bd247f924be8d73dd4722d95d0430c38d40a9b7ff6c653e9814",
+    "apps/web/src/MapWorkspace.tsx": "7b65c52b99aaea672829c34ebeb5a72577e2919192a074f1443af2f583520e9f",
+    "apps/web/src/RawCompare.tsx": "0ba87754d4e2ba9544a11b19450d552910dafd2a662b4aaca3af05be3968e9ed",
+    "apps/web/src/ReadableMap.tsx": "ee258041019354d99f5d2493ff68c282a0e13618673f38ef3277ed2099d1f4a8",
+    "apps/web/src/TransitExplorer.tsx": "2f3d4cdf3682199a9b6610133ae92281de350d291026bf27a5c1b9ab8654f2e2",
+    "apps/web/src/useNetworkLayers.ts": "1585a3398594f30f389c368b25165282fcd47f25af27da20f07bb81ef205fcf7",
+    "apps/web/playwright.config.ts": "53afe385a37d82ca2cfd4c93e16b960f5fbe6854a6e8752022fbea9b03bf6e03",
+    "apps/web/playwright.accessibility.config.ts": "19d980f950d40af75a3a5085930d98cd984195c085f59f9d20570f358d92dab8",
+    "apps/web/e2e/layout.accessibility.spec.ts": "19f1e08fc9c85b4e685e7f0b57259e66ee45e4be95bb1a90c23318ffc720a2c2",
+    "package.json": "df027135dcd0b6b4fea96c373aa94c503f9f43301ff541149ace154094a4b009",
+    "apps/web/e2e/support/zoom-extension/manifest.json": "7e80dfd2b7c3cc770273022eec7e610dc15ca78d5a92c5a4043d3b6d6a044e45",
+    "apps/web/e2e/support/zoom-extension/background.js": "ebcfe0593672fc3bcfd8b4c7d6e0b10666cbc8f6419735b0c25498e637ef584b"
+  },
+  "accessibility_report": {
+    "path": ".cache/qa/ux-accessibility-release-report-v2.json",
+    "sha256": "e7bfbc04784402f889a207823e54ad56542b0ea328ecf3898d7903fceac24971",
+    "stats": {
+      "startTime": "2026-10-15T16:05:32.740Z",
+      "duration": 216120.13499999998,
+      "expected": 12,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "contexts": [
+    {
+      "project": "desktop",
+      "scale-proof": {
+        "textScale": 1,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.8148135104709201,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.7331181015203029,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "compact",
+      "scale-proof": {
+        "textScale": 1,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.7712282568958109,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.6703051217536684,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "scale-proof": {
+        "textScale": 1,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.4544212920768016,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.41444643182646734,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "narrow",
+      "scale-proof": {
+        "textScale": 1,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.42375694444444445,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.38177343750000003,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "tiny",
+      "scale-proof": {
+        "textScale": 1,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.42415332031249997,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.31114062499999995,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "desktop-text",
+      "scale-proof": {
+        "textScale": 1.5,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.7382949081232518,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.6495186012173877,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "compact-text",
+      "scale-proof": {
+        "textScale": 1.5,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.6767003348887171,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.567029750771846,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "mobile-text",
+      "scale-proof": {
+        "textScale": 2,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.20023221989306117,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.09744638815469675,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "narrow-text",
+      "scale-proof": {
+        "textScale": 2,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.1840988498263889,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.10291666666666666,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "tiny-text",
+      "scale-proof": {
+        "textScale": 2,
+        "zoomProof": null
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.1903680419921875,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.11015624999999996,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "desktop-zoom200",
+      "scale-proof": {
+        "textScale": 1,
+        "zoomProof": {
+          "before": {
+            "width": 1440,
+            "height": 900,
+            "dpr": 1
+          },
+          "zoom": {
+            "factor": 2,
+            "tabs": [
+              {
+                "id": 19078924,
+                "url": "http://127.0.0.1:4173/",
+                "title": "Native page zoom QA"
+              }
+            ]
+          },
+          "after": {
+            "width": 720,
+            "height": 450,
+            "dpr": 2,
+            "visual": 1
+          }
+        }
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.29852001727068866,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.17541941776982062,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "compact-zoom200",
+      "scale-proof": {
+        "textScale": 1,
+        "zoomProof": {
+          "before": {
+            "width": 1366,
+            "height": 768,
+            "dpr": 1
+          },
+          "zoom": {
+            "factor": 2,
+            "tabs": [
+              {
+                "id": 559827484,
+                "url": "http://127.0.0.1:4173/",
+                "title": "Native page zoom QA"
+              }
+            ]
+          },
+          "after": {
+            "width": 683,
+            "height": 384,
+            "dpr": 2,
+            "visual": 1
+          }
+        }
+      },
+      "combined-layouts": [
+        {
+          "stage": "condition-card",
+          "unobstructed": 0.25738156487617103,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".selected-card-body",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        },
+        {
+          "stage": "network-overview",
+          "unobstructed": 0.15171187537190045,
+          "pageScroll": false,
+          "panels": [
+            {
+              "selector": ".network-scroll-content",
+              "horizontal": false,
+              "vertical": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop/condition-card.png",
+      "sha256": "0c0deb6029713eeb783efe741546f583d7f657ab3f17bfa3064c7bc43cd3a65f"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop/layer-legend.png",
+      "sha256": "cba7b815a1d66062bdf33ec7fb9ba556f488416031320d15d807443b7ee10f27"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop/network-overview.png",
+      "sha256": "af28a6ce6f97633f9ca5c98ccd1d0bcb2e3aa3bdd5e8006d408b922692076fd0"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop/network-scrolled.png",
+      "sha256": "f5bd906d4f3de2ddecf0ae440fdab6e35a73e2489e9b06ca268dcda4e0617cf5"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop/journey.png",
+      "sha256": "98da87af822727f18ef0c3f367df7a4951af198024b73f89ee6624934ed0f962"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop/network-collapsed.png",
+      "sha256": "f8a22b32789390057992778aa8e31e0ef9dcb5268745d35b004ca9059b1e3e33"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop/comparison.png",
+      "sha256": "0d7e2a7b276733113b07aadce1c3df7bc3e14c87a94e65206321f9b3c9aed409"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact/condition-card.png",
+      "sha256": "54e0b8debeba6762c1cd1b4a1cc983c7f353f0482b0ec18acc7712c6634e85f2"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact/layer-legend.png",
+      "sha256": "3008de0ca4cbd9b7e031fb07376654faba051ec414c4e9d878ba92bf16fada1d"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact/network-overview.png",
+      "sha256": "34f73053f0266fa92545454ee441d8845271ee7af893a34b2715dca8a52275bf"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact/network-scrolled.png",
+      "sha256": "03f02c6ae51da2e06514913bd9d296a2fc355c75f2b52d76237d1ee6db88a733"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact/journey.png",
+      "sha256": "e6e22c10d2118e2aa7fd3ab7a94996a53ed6a972bb1293ee67cd2ba7a8d8bac0"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact/network-collapsed.png",
+      "sha256": "e6246757a975b45ed278485e744b5651dff05ff23bb87665a90e808ce4d41ad0"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact/comparison.png",
+      "sha256": "63974af35dc932751022021e156c12abe43a663be835e4062de06d0bea53acc0"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile/condition-card.png",
+      "sha256": "a57bce253da01dace305a4aebf0b222ba4123337db0ecc4194c8e70d476dbb5d"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile/layer-legend.png",
+      "sha256": "cd9ddf33160a3392aaa968b1f0b164a1f2de783b950fcdab3adc7a1ec0f43202"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile/network-overview.png",
+      "sha256": "bfb065117b1373350317c334f2e6ad7cebfe6f54125dbea819522c23e25a1374"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile/network-scrolled.png",
+      "sha256": "893cdeca86a9066d460f2b5cf7fb600765f6da675d387336f00fe1748835bf27"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile/journey.png",
+      "sha256": "efda88ddc09ce108e7c81884b75e4b477189b432be1045fd5b43a84716f42863"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile/network-collapsed.png",
+      "sha256": "61b8ba59b9e417d449e5454c6955c0ba87edbfcbf5e6eb669963f64efdc1d9a9"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile/comparison.png",
+      "sha256": "5f1adb8bded9f21b423ee1ecd2b4f8d1392d7fb4f0eed671963cb52fa2cf6b77"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow/condition-card.png",
+      "sha256": "a2307042a57feb68b25b3afd8161bdbc854eb1b96b35228954a9b742ec06ba88"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow/layer-legend.png",
+      "sha256": "11a03ed7494c81d9b5edb3baffb6803b0203b68524a2f46a28ef8e6e429bfd49"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow/network-overview.png",
+      "sha256": "e7ea48e13fd30a8bfb1124052adaa3352a1bb60e16a1c0bd16d3eae7171728dc"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow/network-scrolled.png",
+      "sha256": "a0641c2ccf1babb865eaecca6e9a0da0bede3db13f11906db7a60c862cc29686"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow/journey.png",
+      "sha256": "0fae36943c9adb2932fe2d541dc4a5412723fec49030555634b2bc63d1dcee3d"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow/network-collapsed.png",
+      "sha256": "6766a7f1a53cf09120f554730449c2ba6bf026d0a28e457d9dd9d3c847704875"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow/comparison.png",
+      "sha256": "4b4f564a36c93a69d32b7e4133c1adab57a797c91b80f9dc28c57d0c4e4252f6"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny/condition-card.png",
+      "sha256": "67e96caf314726ad5a0e25071506e3d9741afb45b1f5b3983edbbe827d29399c"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny/layer-legend.png",
+      "sha256": "1335bc337573161c99ee1162619f1a832cfc9a94b4ef5e685e0f5d6aa6725047"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny/network-overview.png",
+      "sha256": "eec297ab565868637e88853766ec0721744496b20dd286d90a276e35c4d1ef0d"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny/network-scrolled.png",
+      "sha256": "88a616a868aef9fcd09d35d1d17f25d4ea60a762723b1f24d720e060f63b57ac"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny/journey.png",
+      "sha256": "66387a29b8cd4aa113631094ac07fa5b88204c97292e80cba91d866728e3097e"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny/network-collapsed.png",
+      "sha256": "48cafee14b1693275239686992c68c753644e3d21fedbbfd8af8877ac8cf9f57"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny/comparison.png",
+      "sha256": "e9eb719f785799f5014fcb8507c4e1e0571dfaa2012209979aa92ae46ff96a0d"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-text/condition-card.png",
+      "sha256": "f33f701cdcfa791891080253205dde16d41913161a4c5dbe6c10e7fa8a14b356"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-text/layer-legend.png",
+      "sha256": "478ed2fd7cac9b13d871a90c6787a49a0256ed25d2aa30e2e59da9f64f279e3f"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-text/network-overview.png",
+      "sha256": "6ac83cf51fd7e764447b51b51eebdca1772153b1c25ceee68bed44774e9eccd3"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-text/network-scrolled.png",
+      "sha256": "2d029514a7955d5d1b3e602f15d8ce8636c00c1900d16b7155ed2419a26060ee"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-text/journey.png",
+      "sha256": "17e76b605001517571c3207aa713931add65499448a4532a11e391298fa63e3d"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-text/network-collapsed.png",
+      "sha256": "7fc38983b1d4e7842d006c2c274f97be2fcb10d02ecbace8c535f41ea4cd500a"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-text/comparison.png",
+      "sha256": "3e7cbcd6b6c96358c500e33730718ff48f8088f248b0bd72d3a79fe98913e49f"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-text/condition-card.png",
+      "sha256": "bc0f0907d980944f566d6768d655f97d901f1c616e05c6f7555fbdab0b781b96"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-text/layer-legend.png",
+      "sha256": "c5e4c7bf84b5144adc7c4acb6f648b094f6f4416bb0e471974345d3b7c0bca62"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-text/network-overview.png",
+      "sha256": "02f3fe4bd98235ef98042a0b10814b09273526a4b297455b413925ada428f05b"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-text/network-scrolled.png",
+      "sha256": "a2a4549727569bb7d3f015d8d377c06441db22b5c7e8fddc09e251fadd5d02a6"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-text/journey.png",
+      "sha256": "09251772670b1ceba9bbd7c2521405ebb25d789a9bca3e9cc4d4896df1cefbea"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-text/network-collapsed.png",
+      "sha256": "50c295b5ff796b6e6b3af0de7e0e83010e54e6df1fa5e45039c7deddb3e05208"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-text/comparison.png",
+      "sha256": "8ed426ff21773e8d33c87c2fbe9754e4bf0c81e61e5b291fc3239d08ef5e3fd8"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile-text/condition-card.png",
+      "sha256": "538883869e83187c4504f49cab3fe420f3d3b3706325126d02f9b597df2a7e43"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile-text/layer-legend.png",
+      "sha256": "3640a8fa60f2cdb5fdd706c79307a2ef27f3d47bf55ba96a484cfbdb800d4fd8"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile-text/network-overview.png",
+      "sha256": "eadcba884e95eb6afa36452d68acda72d89affc74e5dea95cd61914ef238426c"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile-text/network-scrolled.png",
+      "sha256": "70ef8d26ce8a7f09fc66f20dca58371fa1fd80db21649b3a99fbcccc1a93ada4"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile-text/journey.png",
+      "sha256": "4d223f0cbb87a56020d6c0fabe84e5c82144b8a26490008094024b819d597b70"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile-text/network-collapsed.png",
+      "sha256": "3a27c3d073a61bd9a8144278d2a70e5d30679b50ae9fef00de9aa9b03e435cb1"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/mobile-text/comparison.png",
+      "sha256": "b1dd4d84cfc184aff6027234db083de75aa14cc85f3d931ae5db035ce913b053"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow-text/condition-card.png",
+      "sha256": "b4000f45ed764d0363836063d048ebfe1e3e1b212f17bae5c49a9fdfa73d3e37"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow-text/layer-legend.png",
+      "sha256": "e0742ef03d7deff8378831287844930885ec5fffa594bc96da93714cfe24d743"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow-text/network-overview.png",
+      "sha256": "1e6a3dba6105b2ff0f6334ce678f16adb2cad885fb835ebedabddde7ebf2bca9"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow-text/network-scrolled.png",
+      "sha256": "22e0486770ab28fa893d8a35e92c2b577cab659e35fc3ab6d1ae50687b50f1e5"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow-text/journey.png",
+      "sha256": "5c1d09dde3932cf9083f26363d56eb8411877a90a9a7d1fad32d10c4de337db9"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow-text/network-collapsed.png",
+      "sha256": "5e9cd5e73a1d65f1910a0121fa76efceac25dcf577b463364c34d8dcc0fd4580"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/narrow-text/comparison.png",
+      "sha256": "8cee8bae037a8930f09cd0ed1874b6bff3df8c55cae96fa68405d35980f4009f"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny-text/condition-card.png",
+      "sha256": "ded423683b483227cfdfca369635929c365b5334c040b12b19623e02c89dec19"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny-text/layer-legend.png",
+      "sha256": "cdf979a431e587aded0debe83db45cc8f533f07e9fb6655c08418f0691030fd3"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny-text/network-overview.png",
+      "sha256": "86fee52093ee259af126dc41a812d9306060e3c0eba89a0a6d0ae3c65db0b2ba"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny-text/network-scrolled.png",
+      "sha256": "2b15d29d178ed42106b8ac124c3d5e9d5493e6ff6d2a757f11c132972a72d8d1"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny-text/journey.png",
+      "sha256": "e4d310aaf74c6e446f5878bb0e18f9d3392cf145310a0150ff0c416fbae91efd"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny-text/network-collapsed.png",
+      "sha256": "58cb0cffc14daa2df1b08ea367788f1f0f5529ed97838f8b678a5739374c4e7b"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/tiny-text/comparison.png",
+      "sha256": "c837d81175165efc7470ca4cbc34ed062668f40e54fe0881beb52826184df62b"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-zoom200/condition-card.png",
+      "sha256": "4f76678ca682bf628040f57a46debfd31631e468a20e7c50df2b2e95b05f55e4"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-zoom200/layer-legend.png",
+      "sha256": "33c316ca76613079ad7f4438e4fa93f177c86c6a05091226d63e0eeea922aca7"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-zoom200/network-overview.png",
+      "sha256": "5bb7096bd7c660c6723acc3afb0371da403ab9d41c9b2d8ac90a301eafe50311"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-zoom200/network-scrolled.png",
+      "sha256": "1d520c763c623b4ebfc94e24603547f53c16b40805a8e8657740aa6d3edbb267"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-zoom200/journey.png",
+      "sha256": "00e08aeb8a4f4000dea7e2b73faad3356407f4d8c00f6ef512ea89f61e2e4d8e"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-zoom200/network-collapsed.png",
+      "sha256": "d7e7ee123cf9ed719e618ce3b8b4910f84c80af2be7c077ce54dbf901677e9be"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/desktop-zoom200/comparison.png",
+      "sha256": "02cdc5f002e27f937f1efd86c88041d6772f2279577e6f474fd4b8eafc9c5bfa"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-zoom200/condition-card.png",
+      "sha256": "e739c9d2763604ccc0881f7a92195252e8a5fb9d47d6b1f89e43a8365e35f1d3"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-zoom200/layer-legend.png",
+      "sha256": "1668af236d860a510c76112bb489903d17e335632ee95cc162183a410a200cfa"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-zoom200/network-overview.png",
+      "sha256": "2e502765140b4b9821362013606621e6d120506e5ac7af3c1101b32affd39c0f"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-zoom200/network-scrolled.png",
+      "sha256": "bce894232e53ea48896aa220dea817b0aef215d220b14fa35e1827b80d8690b7"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-zoom200/journey.png",
+      "sha256": "38b7e9755637b864f7646fdb3ab073ffa8dd83fa03f3a2a72c473441d8f4c330"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-zoom200/network-collapsed.png",
+      "sha256": "c31a9acc8ed11e5a7e672fdad19d504e09c569392b6558ec31e4c9f1793e7f93"
+    },
+    {
+      "path": ".cache/qa/ux-accessibility-v2/compact-zoom200/comparison.png",
+      "sha256": "9ff21d7edaacb68cf374e8f8619c3aa6f4102df289eb0a9671b867665db55289"
+    }
+  ],
+  "javascript": [
+    {
+      "name": "index-Bx8k8ZAc.js",
+      "bytes": 333441,
+      "gzip9_bytes": 99935
+    },
+    {
+      "name": "maplibre-gl-worker-DxGNRm0a.mjs",
+      "bytes": 508314,
+      "gzip9_bytes": 143725
+    },
+    {
+      "name": "ReadableMap-DjD3BH6q.js",
+      "bytes": 1069065,
+      "gzip9_bytes": 285168
+    }
+  ],
+  "initial_javascript_gzip9_bytes": 528828,
+  "limits": [
+    "The 65% ordinary-map/no-main-scroll target is checked at normal desktop text, not imposed on enlarged text or secondary mobile content.",
+    "Earlier11/12 found a real compact-desktop150%-text legend/native-close overlap. Corrected panel position; pointer and timeout assertions retained.",
+    "Native zoom uses an isolated Chrome extension and verifies actual factor2, DPR2 and halved CSS viewport; viewport resizing alone is not the proof.",
+    "No physical-device, other-browser, hosted-CI, WCAG-conformance or full performance/release certification is claimed."
+  ],
+  "regression_report": {
+    "path": ".cache/qa/ux-accessibility-regression-report-v2.json",
+    "sha256": "aad140ba079306b8f7aa5361f14af4a3fba4425dba42b1e2b36c92a45361f4bd",
+    "stats": {
+      "startTime": "2026-10-15T16:14:02.711Z",
+      "duration": 178803.242,
+      "expected": 75,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "live_report": {
+    "path": ".cache/qa/ux-accessibility-live-report-v2.json",
+    "sha256": "b012e209be442ce880cfa8f2ae69448cda06e74ed8597983b77861b8f769dac5",
+    "stats": {
+      "startTime": "2026-10-15T16:20:40.771Z",
+      "duration": 50652.087,
+      "expected": 8,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  }
+}

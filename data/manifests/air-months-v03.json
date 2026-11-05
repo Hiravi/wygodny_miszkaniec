@@ -1,0 +1,186 @@
+{
+  "version": "gios-pm25-station-months-cet90-v1",
+  "unit": "\u00b5g/m\u00b3",
+  "pollutant": "PM2.5",
+  "source_url": "https://powietrze.gios.gov.pl/pjp/archives/downloadFile/644",
+  "source_sha256": "221944eb8a08352c53d84239132e08570cf782d2ab21ddf61cc81871ffda04f9",
+  "time_basis": "CET fixed UTC+01; hour-ending timestamps",
+  "minimum_coverage": 0.9,
+  "member": "2025_PM25_1g.xlsx",
+  "stations": {
+    "MpKrakAlKras": [
+      {
+        "period": "2025-01",
+        "mean": 29.11,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-02",
+        "mean": 40.87,
+        "coverage": 1.0,
+        "observed_hours": 672,
+        "expected_hours": 672
+      },
+      {
+        "period": "2025-03",
+        "mean": 24.97,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-04",
+        "mean": 12.77,
+        "coverage": 0.9972222222222222,
+        "observed_hours": 718,
+        "expected_hours": 720
+      },
+      {
+        "period": "2025-05",
+        "mean": 10.52,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-06",
+        "mean": 10.63,
+        "coverage": 0.9972222222222222,
+        "observed_hours": 718,
+        "expected_hours": 720
+      },
+      {
+        "period": "2025-07",
+        "mean": 11.08,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-08",
+        "mean": 11.26,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-09",
+        "mean": 10.87,
+        "coverage": 0.9972222222222222,
+        "observed_hours": 718,
+        "expected_hours": 720
+      },
+      {
+        "period": "2025-10",
+        "mean": 12.66,
+        "coverage": 0.9946236559139785,
+        "observed_hours": 740,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-11",
+        "mean": 22.73,
+        "coverage": 0.9916666666666667,
+        "observed_hours": 714,
+        "expected_hours": 720
+      },
+      {
+        "period": "2025-12",
+        "mean": 25.3,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      }
+    ],
+    "MpKrakBulwar": [
+      {
+        "period": "2025-01",
+        "mean": 25.88,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-02",
+        "mean": 36.19,
+        "coverage": 1.0,
+        "observed_hours": 672,
+        "expected_hours": 672
+      },
+      {
+        "period": "2025-03",
+        "mean": 24.19,
+        "coverage": 0.9973118279569892,
+        "observed_hours": 742,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-04",
+        "mean": 11.24,
+        "coverage": 1.0,
+        "observed_hours": 720,
+        "expected_hours": 720
+      },
+      {
+        "period": "2025-05",
+        "mean": 8.8,
+        "coverage": 0.9986559139784946,
+        "observed_hours": 743,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-06",
+        "mean": 9.31,
+        "coverage": 0.9986111111111111,
+        "observed_hours": 719,
+        "expected_hours": 720
+      },
+      {
+        "period": "2025-07",
+        "mean": 8.0,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-08",
+        "mean": 8.91,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-09",
+        "mean": 10.37,
+        "coverage": 1.0,
+        "observed_hours": 720,
+        "expected_hours": 720
+      },
+      {
+        "period": "2025-10",
+        "mean": 11.52,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      },
+      {
+        "period": "2025-11",
+        "mean": 23.22,
+        "coverage": 1.0,
+        "observed_hours": 720,
+        "expected_hours": 720
+      },
+      {
+        "period": "2025-12",
+        "mean": 26.13,
+        "coverage": 1.0,
+        "observed_hours": 744,
+        "expected_hours": 744
+      }
+    ]
+  },
+  "source_acquired_at": "2026-10-21T23:09:58.690919+00:00",
+  "output_sha256": "5934e37b74a587222dda75fbd65d511dad26e9d559da78bc11330a1742c39e86"
+}

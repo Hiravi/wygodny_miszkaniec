@@ -1,0 +1,2232 @@
+{
+  "schema_version": "3",
+  "method": "green-walk-v36",
+  "output_sha256": "33ec1919092c0c5a02e203dce5a1c37a530e9839e53322bd4590e499ccc0cfd9",
+  "osm_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "context_sha256": "251e4373e32a578addeafe37b2af47be118574cfe9fcb355d98ad89bbc775266",
+  "coverage": {
+    "id": "green-walk-v36",
+    "name": "AGH\u2013Ruczaj \u00b7 parki i lasy",
+    "zone": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            19.892382049967065,
+            50.02134353333297
+          ],
+          [
+            19.93656306709051,
+            50.02099536270567
+          ],
+          [
+            19.937568876308614,
+            50.07265211935688
+          ],
+          [
+            19.893340427333246,
+            50.07300092408878
+          ],
+          [
+            19.892382049967065,
+            50.02134353333297
+          ]
+        ]
+      ]
+    },
+    "search_halo": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            19.858802994896656,
+            50.02159690167259
+          ],
+          [
+            19.85972532093121,
+            50.07325475388042
+          ],
+          [
+            19.85992511393222,
+            50.07537410426217
+          ],
+          [
+            19.86044676382358,
+            50.07747064359362
+          ],
+          [
+            19.86128528730593,
+            50.07952417658748
+          ],
+          [
+            19.862432645978604,
+            50.08151491970268
+          ],
+          [
+            19.863877822328178,
+            50.08342369193493
+          ],
+          [
+            19.865606924593667,
+            50.08523209988807
+          ],
+          [
+            19.867603319546436,
+            50.08692271533006
+          ],
+          [
+            19.86984779194494,
+            50.088479243508466
+          ],
+          [
+            19.872318729157136,
+            50.08988668058531
+          ],
+          [
+            19.87499232918929,
+            50.09113145865642
+          ],
+          [
+            19.877842830122404,
+            50.09220157693792
+          ],
+          [
+            19.88084275873865,
+            50.09308671783671
+          ],
+          [
+            19.88396319592337,
+            50.093778346767735
+          ],
+          [
+            19.887174056255144,
+            50.09426979473953
+          ],
+          [
+            19.89044437904962,
+            50.09455632289712
+          ],
+          [
+            19.89374262800389,
+            50.09463516838887
+          ],
+          [
+            19.937990982611552,
+            50.09428609768784
+          ],
+          [
+            19.941285190392513,
+            50.09415524559549
+          ],
+          [
+            19.944543558243765,
+            50.093817215393
+          ],
+          [
+            19.94773466582114,
+            50.09327526701768
+          ],
+          [
+            19.950827744009484,
+            50.09253462667776
+          ],
+          [
+            19.95379297267047,
+            50.09160243625337
+          ],
+          [
+            19.95660176906215,
+            50.09048768416552
+          ],
+          [
+            19.95922706410501,
+            50.089201118392005
+          ],
+          [
+            19.96164356379552,
+            50.08775514248477
+          ],
+          [
+            19.96382799322178,
+            50.086163695607816
+          ],
+          [
+            19.96575932081534,
+            50.08444211777113
+          ],
+          [
+            19.96741896067559,
+            50.08260700157835
+          ],
+          [
+            19.968790951027188,
+            50.08067603193617
+          ],
+          [
+            19.969862107112537,
+            50.07866781528792
+          ],
+          [
+            19.970622147079073,
+            50.076601700033756
+          ],
+          [
+            19.97106378969109,
+            50.07449758988122
+          ],
+          [
+            19.971182822975603,
+            50.07237575193614
+          ],
+          [
+            19.970140966795775,
+            50.020719497696625
+          ],
+          [
+            19.969936584661983,
+            50.018600345062275
+          ],
+          [
+            19.969410847095656,
+            50.01650430156959
+          ],
+          [
+            19.968568857507844,
+            50.014451548741256
+          ],
+          [
+            19.967418761519674,
+            50.01246184877279
+          ],
+          [
+            19.965971667103602,
+            50.01055435447892
+          ],
+          [
+            19.96424153638381,
+            50.008747425191146
+          ],
+          [
+            19.96224505018451,
+            50.007058450365705
+          ],
+          [
+            19.96000144666834,
+            50.005503682584624
+          ],
+          [
+            19.957532335646135,
+            50.004098081540256
+          ],
+          [
+            19.95486149036209,
+            50.002855170486065
+          ],
+          [
+            19.95201461876315,
+            50.001786906516564
+          ],
+          [
+            19.94901911644692,
+            50.00090356590561
+          ],
+          [
+            19.94590380364689,
+            50.00021364558851
+          ],
+          [
+            19.94269864875641,
+            49.99972378171992
+          ],
+          [
+            19.93943448101273,
+            49.999438686076445
+          ],
+          [
+            19.936142695058408,
+            49.99936110090512
+          ],
+          [
+            19.891981501812815,
+            49.99970900636793
+          ],
+          [
+            19.888693597397193,
+            49.99983842746958
+          ],
+          [
+            19.885441165645204,
+            50.00017486351443
+          ],
+          [
+            19.882255488987713,
+            50.00071507890736
+          ],
+          [
+            19.87916721039717,
+            50.00145387796216
+          ],
+          [
+            19.876206039692285,
+            50.00238415467486
+          ],
+          [
+            19.87340046864409,
+            50.00349696081228
+          ],
+          [
+            19.87077749758012,
+            50.00478159167267
+          ],
+          [
+            19.868362376081397,
+            50.00622568870887
+          ],
+          [
+            19.866178360241555,
+            50.007815358043494
+          ],
+          [
+            19.8642464888094,
+            50.00953530375391
+          ],
+          [
+            19.86258538036627,
+            50.01136897466358
+          ],
+          [
+            19.86121105349926,
+            50.01329872324579
+          ],
+          [
+            19.860136771721876,
+            50.015305975128356
+          ],
+          [
+            19.859372914666423,
+            50.01737140758415
+          ],
+          [
+            19.858926876829734,
+            50.01947513530365
+          ],
+          [
+            19.858802994896656,
+            50.02159690167259
+          ]
+        ]
+      ]
+    },
+    "complete": false,
+    "parks": 26,
+    "entrances": 102,
+    "candidate_parks": 265,
+    "halo_m": 2400,
+    "max_minutes": 30,
+    "outside_zone_parks": [
+      "relation/10592743",
+      "relation/19375789",
+      "relation/3456225",
+      "way/1188067622",
+      "way/1294938570",
+      "way/1456936869",
+      "way/155526625",
+      "way/159657013",
+      "way/288174252",
+      "way/423677515",
+      "way/479800387",
+      "way/49002874",
+      "way/525229887",
+      "way/764635084",
+      "way/961086225"
+    ],
+    "excluded_parks": [],
+    "examples": [
+      {
+        "id": "agh",
+        "longitude": 19.923419283612972,
+        "latitude": 50.06376869115985,
+        "provenance": "Mapped line near source AGH / official Ruczaj address"
+      },
+      {
+        "id": "ruczaj",
+        "longitude": 19.906403900000004,
+        "latitude": 50.03024659999999,
+        "provenance": "Mapped line near source AGH / official Ruczaj address"
+      }
+    ],
+    "kinds": {
+      "forest": 14,
+      "park": 12
+    }
+  },
+  "excluded_areas": {
+    "restricted_or_hours_unverified": 10,
+    "invalid_or_small_wood_patch": 1185,
+    "unreadable_source_geometry": 1
+  },
+  "rejected_crossings": {
+    "unknown_area_and_entry_permission": 974,
+    "mapped_barrier_near_crossing": 177
+  },
+  "public_gates": 654,
+  "catalogue_complete": false,
+  "access_policy": "Separate area/entry permission; fences and shared public gate nodes",
+  "catalogue": [
+    {
+      "id": "way/25064007",
+      "name": "Las OSM way/25064007",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/25064008",
+      "name": "Las OSM way/25064008",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/25117189",
+      "name": "Skwer Aleksandra Biborskiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/25123245",
+      "name": "Skwer Wolnej Ukrainy",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/25130904",
+      "name": "Skwer Praw Kobiet",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/25506183",
+      "name": "Park Krakowski",
+      "kind": "park",
+      "foot_access": "open",
+      "entrances": 3
+    },
+    {
+      "id": "way/25517366",
+      "name": "Park Planty Floriana Nowackiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/3986175",
+      "name": "Plac Genera\u0142a W\u0142adys\u0142awa Sikorskiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/3882394",
+      "name": "Park D\u0119bnicki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/26344189",
+      "name": "Park imienia Wojciecha Bednarskiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/26485272",
+      "name": "Park Decjusza",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/26532982",
+      "name": "Park Kleparski",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/26534890",
+      "name": "Park im. Tadeusza Ko\u015bciuszki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/39273032",
+      "name": "Park imienia Stanis\u0142awa Wyspia\u0144skiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/39273160",
+      "name": "Park Krowoderski",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/40877274",
+      "name": "Las OSM way/40877274",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/40877275",
+      "name": "Las OSM way/40877275",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/40877283",
+      "name": "Las OSM way/40877283",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/44518401",
+      "name": "Park \u015awi\u0119tego Wincentego \u00e1 Paulo",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/49002874",
+      "name": "Park Ma\u0107ka i Doroty",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 1
+    },
+    {
+      "id": "way/70187750",
+      "name": "Las OSM way/70187750",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/82279707",
+      "name": "Park OSM way/82279707",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/82280003",
+      "name": "Park OSM way/82280003",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/84323391",
+      "name": "\u0141\u0105ka na Weso\u0142ej",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/90702978",
+      "name": "Park Kurdwan\u00f3w",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/103592589",
+      "name": "Skwer imienia Wi\u0119\u017ani\u00f3w Oboz\u00f3w Zag\u0142ady",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/106481412",
+      "name": "Las OSM way/106481412",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/106483682",
+      "name": "Park OSM way/106483682",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/107182976",
+      "name": "Park OSM way/107182976",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/108513629",
+      "name": "Plac Lasoty",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/126380374",
+      "name": "Las OSM way/126380374",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "way/128235420",
+      "name": "Las OSM way/128235420",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/128235430",
+      "name": "Las OSM way/128235430",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/1788791",
+      "name": "Las OSM relation/1788791",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/133109842",
+      "name": "Park OSM way/133109842",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/136308546",
+      "name": "Ogrody \u0141obz\u00f3w",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/136407330",
+      "name": "Las OSM way/136407330",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/136417658",
+      "name": "Skwer genera\u0142a Franciszka Ksawerego Latinika",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/136647347",
+      "name": "Park OSM way/136647347",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/136785456",
+      "name": "Las OSM way/136785456",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/155010845",
+      "name": "Las OSM way/155010845",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/155022969",
+      "name": "Las OSM way/155022969",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/155022983",
+      "name": "Las OSM way/155022983",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/155022986",
+      "name": "Las OSM way/155022986",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/155475487",
+      "name": "Las OSM way/155475487",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/155475489",
+      "name": "Las OSM way/155475489",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/155509557",
+      "name": "Las OSM way/155509557",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/155526625",
+      "name": "Park Kieszonkowy \u2013 Ogr\u00f3d Trawiasty",
+      "kind": "park",
+      "foot_access": "open",
+      "entrances": 8
+    },
+    {
+      "id": "way/159329028",
+      "name": "Las OSM way/159329028",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/159526918",
+      "name": "Las OSM way/159526918",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/159527164",
+      "name": "Las OSM way/159527164",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/7091555",
+      "name": "Las OSM relation/7091555",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/7084784",
+      "name": "Las OSM relation/7084784",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/159657011",
+      "name": "Las OSM way/159657011",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/159657013",
+      "name": "Las OSM way/159657013",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 1
+    },
+    {
+      "id": "relation/2145870",
+      "name": "Las OSM relation/2145870",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/160424085",
+      "name": "Las OSM way/160424085",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/160959301",
+      "name": "Park OSM way/160959301",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/3456226",
+      "name": "Otulina le\u015bna Lasu Wolskiego",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/169092639",
+      "name": "Las OSM way/169092639",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/194962334",
+      "name": "Skwer Papcia Chmiela",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/196718111",
+      "name": "Skwer Marii Dul\u0119bianki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/200220496",
+      "name": "Park OSM way/200220496",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/201167123",
+      "name": "Ogr\u00f3d Profesorski",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/204049285",
+      "name": "Kieszonkowy Park S\u0105siedzki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/219765613",
+      "name": "Las OSM way/219765613",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/231003116",
+      "name": "Ogr\u00f3d Chwastowy",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/237880616",
+      "name": "Ska\u0142ki Twardowskiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "way/253860435",
+      "name": "Las OSM way/253860435",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/281953733",
+      "name": "Park OSM way/281953733",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/288174252",
+      "name": "Las OSM way/288174252",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "way/288700451",
+      "name": "Las OSM way/288700451",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/288750308",
+      "name": "Park OSM way/288750308",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/288999592",
+      "name": "Las OSM way/288999592",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/291649010",
+      "name": "Las OSM way/291649010",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/295008360",
+      "name": "Park OSM way/295008360",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/297797372",
+      "name": "Park OSM way/297797372",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/299750972",
+      "name": "Park OSM way/299750972",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/303051785",
+      "name": "Park Kieszonkowy \u2013 Ogr\u00f3d Magiczny",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/304495788",
+      "name": "Park OSM way/304495788",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/305299175",
+      "name": "Park Kieszonkowy \u2013 Ogr\u00f3d Le\u015bny",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/306151644",
+      "name": "Park OSM way/306151644",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/306373276",
+      "name": "Las OSM way/306373276",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/308943789",
+      "name": "Las OSM way/308943789",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/6315249",
+      "name": "Las OSM relation/6315249",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/309222955",
+      "name": "Las OSM way/309222955",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/320460286",
+      "name": "Skwer Stanis\u0142awa Palczewskiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/332662563",
+      "name": "Las OSM way/332662563",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/332666638",
+      "name": "Las OSM way/332666638",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/332666646",
+      "name": "Las OSM way/332666646",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/338832353",
+      "name": "Park OSM way/338832353",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/352672409",
+      "name": "Las OSM way/352672409",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/396358194",
+      "name": "Park OSM way/396358194",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/400583093",
+      "name": "Park OSM way/400583093",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/6085164",
+      "name": "Las OSM relation/6085164",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/413172405",
+      "name": "Las OSM way/413172405",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/413172407",
+      "name": "Las OSM way/413172407",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/423677514",
+      "name": "Park OSM way/423677514",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/423677515",
+      "name": "Park OSM way/423677515",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 1
+    },
+    {
+      "id": "way/423682363",
+      "name": "Park OSM way/423682363",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/428851715",
+      "name": "Las OSM way/428851715",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/430863088",
+      "name": "Park OSM way/430863088",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/434844452",
+      "name": "Park OSM way/434844452",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/456873817",
+      "name": "Otulina le\u015bna Lasu Wolskiego",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/456873827",
+      "name": "Otulina le\u015bna Lasu Wolskiego",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/464762932",
+      "name": "Ogr\u00f3d Tadeusza Ko\u015bciuszki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/469421526",
+      "name": "Mordor",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/479800387",
+      "name": "Las OSM way/479800387",
+      "kind": "forest",
+      "foot_access": "open",
+      "entrances": 3
+    },
+    {
+      "id": "relation/1838923",
+      "name": "Sikornik",
+      "kind": "forest",
+      "foot_access": "open",
+      "entrances": 23
+    },
+    {
+      "id": "way/479811788",
+      "name": "Las OSM way/479811788",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/480244252",
+      "name": "Las OSM way/480244252",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/481303681",
+      "name": "Las OSM way/481303681",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/7084782",
+      "name": "Las OSM relation/7084782",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/481303773",
+      "name": "Las OSM way/481303773",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/7091556",
+      "name": "Las OSM relation/7091556",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/481341936",
+      "name": "Park OSM way/481341936",
+      "kind": "park",
+      "foot_access": "open",
+      "entrances": 0
+    },
+    {
+      "id": "way/486670006",
+      "name": "Ogr\u00f3d Osiedlowy",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/490987980",
+      "name": "Ogr\u00f3d Motyli",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/5582320",
+      "name": "Park rzeczny Wilgi",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "way/517797425",
+      "name": "Las OSM way/517797425",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/518125625",
+      "name": "Las OSM way/518125625",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/518694178",
+      "name": "Las OSM way/518694178",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/518918815",
+      "name": "Park OSM way/518918815",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/518918819",
+      "name": "Las OSM way/518918819",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/525229887",
+      "name": "Park Stacja Wis\u0142a",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 1
+    },
+    {
+      "id": "way/534304515",
+      "name": "Las OSM way/534304515",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/534336533",
+      "name": "Las OSM way/534336533",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/534539794",
+      "name": "Las OSM way/534539794",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/534539800",
+      "name": "Las OSM way/534539800",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/9602480",
+      "name": "Park OSM relation/9602480",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/536615560",
+      "name": "Las OSM way/536615560",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/542548667",
+      "name": "Skwer imienia Mariana Eilego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/552697895",
+      "name": "Park OSM way/552697895",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/563937367",
+      "name": "Las OSM way/563937367",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/564066132",
+      "name": "Park OSM way/564066132",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/19375789",
+      "name": "Las OSM relation/19375789",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 1
+    },
+    {
+      "id": "way/623038678",
+      "name": "Park OSM way/623038678",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/636995901",
+      "name": "Ogr\u00f3d Kasztanowy",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/652102108",
+      "name": "Park Grzeg\u00f3rzecki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/661837510",
+      "name": "Las OSM way/661837510",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/667244198",
+      "name": "Skwer Genera\u0142a de Gaulle",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/9301744",
+      "name": "Skwer Konika Zwierzynieckiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/684273767",
+      "name": "Park OSM way/684273767",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/684273776",
+      "name": "Las OSM way/684273776",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/698350057",
+      "name": "Ogr\u00f3d chi\u0144ski",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/9830068",
+      "name": "Las OSM relation/9830068",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "relation/9830433",
+      "name": "Las OSM relation/9830433",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/711262550",
+      "name": "Las OSM way/711262550",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/711306833",
+      "name": "Las OSM way/711306833",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/711402696",
+      "name": "Las OSM way/711402696",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/714726042",
+      "name": "Las OSM way/714726042",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/718864354",
+      "name": "Las OSM way/718864354",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/739824580",
+      "name": "Skwer imienia Gustawa Holoubka",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/10494892",
+      "name": "Las OSM relation/10494892",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/759895484",
+      "name": "Las OSM way/759895484",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/760063308",
+      "name": "Las OSM way/760063308",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/2135561",
+      "name": "Las OSM relation/2135561",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/10534141",
+      "name": "Las OSM relation/10534141",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/760584767",
+      "name": "Las OSM way/760584767",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/760595582",
+      "name": "Las OSM way/760595582",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/760595584",
+      "name": "Las OSM way/760595584",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/10547285",
+      "name": "Las OSM relation/10547285",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/761266415",
+      "name": "Las OSM way/761266415",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/761322027",
+      "name": "Las OSM way/761322027",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/762514684",
+      "name": "Las OSM way/762514684",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "way/762514685",
+      "name": "Las OSM way/762514685",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/762514686",
+      "name": "Las OSM way/762514686",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/762543301",
+      "name": "Las OSM way/762543301",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/762543303",
+      "name": "Las OSM way/762543303",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "way/762543306",
+      "name": "Las OSM way/762543306",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 1
+    },
+    {
+      "id": "relation/10576821",
+      "name": "Las OSM relation/10576821",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/762682120",
+      "name": "Las OSM way/762682120",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/762682121",
+      "name": "Las OSM way/762682121",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/762957595",
+      "name": "Las OSM way/762957595",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/10592743",
+      "name": "Park Ruczaj",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 1
+    },
+    {
+      "id": "way/763991037",
+      "name": "Park OSM way/763991037",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/764415111",
+      "name": "Las OSM way/764415111",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/764603528",
+      "name": "Las OSM way/764603528",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/764635084",
+      "name": "Las OSM way/764635084",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 3
+    },
+    {
+      "id": "way/765938051",
+      "name": "Park w \u0141agiewnikach",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/772904771",
+      "name": "Park OSM way/772904771",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/10737596",
+      "name": "Ba\u015bniowy Ogr\u00f3d",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/819704986",
+      "name": "Skwer profesora W\u0142adys\u0142awa Bartoszewskiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/830291552",
+      "name": "Skwer K\u00f3\u0142eczko",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/881249945",
+      "name": "Park Bronowicki przy Forcie",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/912392095",
+      "name": "Park Duchacki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/3456225",
+      "name": "Las Wolski",
+      "kind": "forest",
+      "foot_access": "open",
+      "entrances": 18
+    },
+    {
+      "id": "way/961086225",
+      "name": "Ogr\u00f3d Ptasi",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 4
+    },
+    {
+      "id": "way/967576915",
+      "name": "Park Kieszonkowy \u2013 Ogr\u00f3d D\u0119bowy",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/984270069",
+      "name": "Skwer Jerzego Turaszwiliego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/992968957",
+      "name": "Las OSM way/992968957",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/992968958",
+      "name": "Las OSM way/992968958",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/992968965",
+      "name": "Las OSM way/992968965",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/992968966",
+      "name": "Las OSM way/992968966",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/992968967",
+      "name": "Las OSM way/992968967",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/992968969",
+      "name": "Las OSM way/992968969",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1006613213",
+      "name": "Skwer Olgi Jackowskiej \u201eKory\u201d",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1006613593",
+      "name": "Skwer B\u0142ogos\u0142awionej Hanny Chrzanowskiej",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/13518175",
+      "name": "Las OSM relation/13518175",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1072006529",
+      "name": "Park OSM way/1072006529",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1076841078",
+      "name": "skwer Zdrowia",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1076841082",
+      "name": "skwer Dworski",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1081210789",
+      "name": "Park Kieszonkowy \u2013 Ogr\u00f3d Literacki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1089663256",
+      "name": "M\u0142odzie\u017cowy Ogr\u00f3d Krakowian",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1094377035",
+      "name": "Las OSM way/1094377035",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1098129955",
+      "name": "Las OSM way/1098129955",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1098585642",
+      "name": "Park OSM way/1098585642",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1127489351",
+      "name": "Park Radzikowskiego",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1130928391",
+      "name": "Las OSM way/1130928391",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1132956457",
+      "name": "Park OSM way/1132956457",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/15535205",
+      "name": "Park Rzeczny im. W\u0142odzimierza Tetmajera",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1158207547",
+      "name": "Skwer Heleny i Romana Husarskich",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1158635390",
+      "name": "Zielony Tr\u00f3jk\u0105t",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1158640504",
+      "name": "Las OSM way/1158640504",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1164289679",
+      "name": "Las OSM way/1164289679",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1164488773",
+      "name": "Las OSM way/1164488773",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/16949356",
+      "name": "Park Zakrz\u00f3wek",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "way/1188067622",
+      "name": "Park OSM way/1188067622",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 1
+    },
+    {
+      "id": "way/1197577974",
+      "name": "Park OSM way/1197577974",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1197821516",
+      "name": "Las OSM way/1197821516",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1197821527",
+      "name": "Las OSM way/1197821527",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1205580798",
+      "name": "Park OSM way/1205580798",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1211832699",
+      "name": "Go\u0142\u0119bi Ogr\u00f3d Krakowian",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1214355167",
+      "name": "Park OSM way/1214355167",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1214570860",
+      "name": "Park OSM way/1214570860",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1215783947",
+      "name": "Las OSM way/1215783947",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1220122091",
+      "name": "Park OSM way/1220122091",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1221128266",
+      "name": "Planty",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1244874980",
+      "name": "Magnoliowy zak\u0105tek",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1294938570",
+      "name": "Las OSM way/1294938570",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 2
+    },
+    {
+      "id": "way/1300097091",
+      "name": "Ogr\u00f3d Spo\u0142eczny Grzeg\u00f3rzek",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1301072192",
+      "name": "Park OSM way/1301072192",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/17904477",
+      "name": "Las OSM relation/17904477",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1305394910",
+      "name": "Las OSM way/1305394910",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1312378021",
+      "name": "Park przy Rogatce",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/18050777",
+      "name": "Park Zdrojowy Mateczny",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1324204849",
+      "name": "Park OSM way/1324204849",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/18196919",
+      "name": "Las Borkowski",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1391875911",
+      "name": "Ogr\u00f3d Krakowianek",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1418169271",
+      "name": "Park OSM way/1418169271",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1426055524",
+      "name": "Park OSM way/1426055524",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1426423283",
+      "name": "Ogr\u00f3d Spo\u0142eczny Macierzanki",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1432779904",
+      "name": "Park Kolejowy",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/19762705",
+      "name": "Las OSM relation/19762705",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/19762704",
+      "name": "Las OSM relation/19762704",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1449250713",
+      "name": "Las OSM way/1449250713",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1456936869",
+      "name": "Park Solvay",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 4
+    },
+    {
+      "id": "way/1462652131",
+      "name": "Las OSM way/1462652131",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1464216864",
+      "name": "Las OSM way/1464216864",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1466297118",
+      "name": "Park OSM way/1466297118",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1471653148",
+      "name": "Park OSM way/1471653148",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1487968743",
+      "name": "Las OSM way/1487968743",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1495821305",
+      "name": "Park Rzeczny Bia\u0142ucha",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/16229057",
+      "name": "Park M\u0142yn\u00f3wka Kr\u00f3lewska",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 10
+    },
+    {
+      "id": "way/1503647315",
+      "name": "Park \u0141okietka",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/20606291",
+      "name": "Las OSM relation/20606291",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1512706333",
+      "name": "Skwer Niezale\u017cnego Zrzeszenia Student\u00f3w",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1514833664",
+      "name": "Las OSM way/1514833664",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/21045961",
+      "name": "Las OSM relation/21045961",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1537454806",
+      "name": "Las OSM way/1537454806",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1537572210",
+      "name": "Las OSM way/1537572210",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1537572211",
+      "name": "Las OSM way/1537572211",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1554273959",
+      "name": "Skwer Pami\u0119ci Polak\u00f3w Poszkodowanych przez III Rzesz\u0119",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "way/1554323864",
+      "name": "Skwer imienia Janiny Paradowskiej",
+      "kind": "park",
+      "foot_access": "unknown",
+      "entrances": 0
+    },
+    {
+      "id": "relation/21470608",
+      "name": "Las OSM relation/21470608",
+      "kind": "forest",
+      "foot_access": "unknown",
+      "entrances": 0
+    }
+  ]
+}

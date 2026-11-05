@@ -1,0 +1,117 @@
+{
+  "schema_version": "1",
+  "checkpoint": "ux-direct-filters-v2",
+  "data_version": "locations-v1-7ce32dd276347f4b",
+  "browser_stats": {
+    "startTime": "2026-10-14T21:43:02.908Z",
+    "duration": 83708.12700000001,
+    "expected": 55,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      320,
+      800
+    ]
+  ],
+  "artifacts": [
+    {
+      "path": ".cache/qa/ux-direct-full/desktop/map.png",
+      "sha256": "7ad36e4ac869d396353174a425eaa84099390a1c819324e0fceb8a3b3370f39e"
+    },
+    {
+      "path": ".cache/qa/ux-direct-full/compact/map.png",
+      "sha256": "f9845457eac9c5346f386119db28b64ef209c876251fc64fa897cd66834430c3"
+    },
+    {
+      "path": ".cache/qa/ux-direct-full/mobile/map.png",
+      "sha256": "3d8b44ac3d90f93be6c1cd45e9b1326571fea8e1c85469a9875b3818d9ff4fc6"
+    },
+    {
+      "path": ".cache/qa/ux-direct-full/narrow/map.png",
+      "sha256": "609aca278684daebf8b2f9676f42b1a31b3e02b2b21f9737971e7f377ea152b5"
+    },
+    {
+      "path": ".cache/qa/ux-direct-full/tiny/map.png",
+      "sha256": "a9b42b62b96c06ada48c95af6baa9a46128a4d9472f02cb96ad21c89515595c7"
+    }
+  ],
+  "condition_render_timing": {
+    "count": 30,
+    "p95_ms": 116.10000000149012,
+    "samples_ms": [
+      13.799999997019768,
+      91.10000000149012,
+      88.89999999850988,
+      101.79999999701977,
+      90.80000000447035,
+      116.10000000149012,
+      92.5,
+      102.19999999552965,
+      89.39999999850988,
+      84.40000000596046,
+      114.09999999403954,
+      87.70000000298023,
+      84.79999999701977,
+      100.90000000596046,
+      104.39999999850988,
+      117.10000000149012,
+      108.09999999403954,
+      98.30000000447035,
+      87.39999999850988,
+      89.39999999850988,
+      114.80000000447035,
+      88,
+      83.60000000149012,
+      115.30000000447035,
+      86.89999999850988,
+      84.29999999701977,
+      94.20000000298023,
+      89.10000000149012,
+      85.69999999552965,
+      94.5
+    ],
+    "scope": "Production Chromium desktop, loaded real layers, local input dispatch to actual MapLibre render; two concurrent browser workers, unthrottled reference laptop. Not a full performance gate."
+  },
+  "noise_display_sha256": "53a11dc17d60da3a16125675fce484f69a58fd60e1daa1c5b916eaa2498991f6",
+  "checks": [
+    "docs/type/Oxlint/Ruff/build",
+    "22 Vitest",
+    "43 Python full import",
+    "43 Python isolated real subset",
+    "55 production browser cases, full data, 2 workers",
+    "55 production browser cases, isolated real subset, 2 workers"
+  ],
+  "limits": [
+    "Earlier54/55 exposed360px settings/compare overlap; actual stacking fix, final55/55.",
+    "Unthrottled desktop timing is not a full performance gate.",
+    "Physical devices, larger text/zoom and full performance pending.",
+    "Citywide walking conditions and cumulative transit explorer pending."
+  ],
+  "isolated_real_subset_browser_stats": {
+    "startTime": "2026-10-14T21:45:34.144Z",
+    "duration": 75853.793,
+    "expected": 55,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

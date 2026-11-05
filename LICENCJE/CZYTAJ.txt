@@ -1,0 +1,10 @@
+Licencje komponentów są zachowane także w ich katalogach runtime.
+INDEKS.csv mapuje kopie na pierwotne ścieżki. OPROGRAMOWANIE.csv opisuje
+składniki i znany stan danych licencyjnych. Pełne odpowiadające źródła OTP,
+Temurin, GEOS oraz części zależności wymagają jeszcze zamknięcia zgodności
+wersji i obowiązków dostarczenia. Fragmenty dotyczące zmodyfikowanego R5
+są w R5/. Nie jest to deklaracja kompletności wszystkich obowiązków LGPL/GPL.
+OpenStreetMap: © OpenStreetMap contributors, https://www.openstreetmap.org/copyright
+ODbL1.0: https://opendatacommons.org/licenses/odbl/1-0/
+Źródłowe PBF i procedury odtworzenia są opisane w danych pochodzenia;
+potwierdzenie spełnienia obowiązku udostępnienia bazy pochodnej pozostaje otwarte.

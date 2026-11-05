@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "data_version": "locations-v1-7ce32dd276347f4b",
+  "model_year": 2022,
+  "method_version": "road-ldwn-intervals-v1",
+  "input_sha256": "9fc1df66e2b9f72ef41ddf6b185fdfb84ccebbcaaedf0b181f7dd38d308edcd4",
+  "output_sha256": "53a11dc17d60da3a16125675fce484f69a58fd60e1daa1c5b916eaa2498991f6",
+  "output_bytes": 8425135,
+  "features": 9240,
+  "unknown_bands": 0,
+  "geometry_failures": 0,
+  "precision_fallbacks": 45,
+  "display_simplification_m": 3,
+  "display_precision_degrees": 1e-06,
+  "scope": "Full official road-LDWN snapshot, separate simplified display geometries. Point filtering remains on original unsimplified analytic polygons. Bands are intervals, never precise current indoor dB or suitability scores."
+}

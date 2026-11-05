@@ -1,0 +1,809 @@
+{
+  "schema_version": "3",
+  "method": "park-zone-walk-v3",
+  "output_sha256": "11b7c0bcd09dbe4349e879346c7d053f80b4ed6457aee070920194653573b96f",
+  "input_sha256": {
+    "osm": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+    "parks": "5ba03fe4164789057568e57a7fc3bd7641606ab811121dd8c2aa6650a560fce5"
+  },
+  "official_table_sha256": "45cc50ea5c066b6b76d12b87ed1af63234aab76ebab4c69f19e37148dbfb44dd",
+  "context_index_sha256": "251e4373e32a578addeafe37b2af47be118574cfe9fcb355d98ad89bbc775266",
+  "identity_aliases": {
+    "Park Krakowski": "Park Krakowski im. M. Grechuty",
+    "Planty": "Planty Krakowskie",
+    "Park Świętego Wincentego á Paulo": "Park św. Wincentego a'Paulo"
+  },
+  "coverage": {
+    "id": "central-krakow-v3",
+    "name": "Krakowski–Krowodrza",
+    "zone": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            19.939,
+            50.061
+          ],
+          [
+            19.939,
+            50.076
+          ],
+          [
+            19.914,
+            50.076
+          ],
+          [
+            19.914,
+            50.061
+          ],
+          [
+            19.939,
+            50.061
+          ]
+        ]
+      ]
+    },
+    "search_halo": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            19.938996161471387,
+            50.039364196950025
+          ],
+          [
+            19.914003970236383,
+            50.039364133856886
+          ],
+          [
+            19.910712536827493,
+            50.039467875306144
+          ],
+          [
+            19.90745101129013,
+            50.039778989240126
+          ],
+          [
+            19.90425248455117,
+            50.04029442892818
+          ],
+          [
+            19.901147729247352,
+            50.04100923597083
+          ],
+          [
+            19.898166619446325,
+            50.04191653373874
+          ],
+          [
+            19.895337844138933,
+            50.04300759327479
+          ],
+          [
+            19.892688631919103,
+            50.044271916967524
+          ],
+          [
+            19.8902444894639,
+            50.04569733920603
+          ],
+          [
+            19.888028956303486,
+            50.04727014306387
+          ],
+          [
+            19.886063378225398,
+            50.04897519190786
+          ],
+          [
+            19.884366701489657,
+            50.05079607468353
+          ],
+          [
+            19.882955289843466,
+            50.052715263497944
+          ],
+          [
+            19.881842766116264,
+            50.05471428200093
+          ],
+          [
+            19.881039879950805,
+            50.056773882960435
+          ],
+          [
+            19.880554402984256,
+            50.05887423333671
+          ],
+          [
+            19.880391137595936,
+            50.06099400076943
+          ],
+          [
+            19.880380650923435,
+            50.07599626463485
+          ],
+          [
+            19.880540948965713,
+            50.078115669256405
+          ],
+          [
+            19.881023534424745,
+            50.08021585165713
+          ],
+          [
+            19.881823718011294,
+            50.08227548198369
+          ],
+          [
+            19.882933832701827,
+            50.0842747225112
+          ],
+          [
+            19.88434322261125,
+            50.08619431477693
+          ],
+          [
+            19.886038344328618,
+            50.08801576534834
+          ],
+          [
+            19.8880028962839,
+            50.08972152429656
+          ],
+          [
+            19.890217974940462,
+            50.0912951546416
+          ],
+          [
+            19.89266225633886,
+            50.092721491119754
+          ],
+          [
+            19.895312201262435,
+            50.09398678672484
+          ],
+          [
+            19.898142282055144,
+            50.09507884559263
+          ],
+          [
+            19.901125228901563,
+            50.095987140928464
+          ],
+          [
+            19.904232293178822,
+            50.09670291682355
+          ],
+          [
+            19.90743352531491,
+            50.09721927296187
+          ],
+          [
+            19.910698064437288,
+            50.09753123138641
+          ],
+          [
+            19.913992720584055,
+            50.09763573025404
+          ],
+          [
+            19.939007411180103,
+            50.09763566720141
+          ],
+          [
+            19.94230206087109,
+            50.097531151748086
+          ],
+          [
+            19.945566588495467,
+            50.09721917725589
+          ],
+          [
+            19.948767804312283,
+            50.0967028061997
+          ],
+          [
+            19.951874847850675,
+            50.09598701711948
+          ],
+          [
+            19.954857770107346,
+            50.09507871085199
+          ],
+          [
+            19.957687823172524,
+            50.09398664374514
+          ],
+          [
+            19.96033773806019,
+            50.09272134293482
+          ],
+          [
+            19.962781988027686,
+            50.09129500451647
+          ],
+          [
+            19.964997034820396,
+            50.08972137560923
+          ],
+          [
+            19.96696155545249,
+            50.08801562146852
+          ],
+          [
+            19.9686566473355,
+            50.08619417894578
+          ],
+          [
+            19.970066009786223,
+            50.08427459772737
+          ],
+          [
+            19.971176100185886,
+            50.08227537089977
+          ],
+          [
+            19.97197626331782,
+            50.08021575649034
+          ],
+          [
+            19.972458832678893,
+            50.0781155917172
+          ],
+          [
+            19.97261911933935,
+            50.07599620586611
+          ],
+          [
+            19.972608632717684,
+            50.06099405959479
+          ],
+          [
+            19.972445378728693,
+            50.05887431094054
+          ],
+          [
+            19.971959917875747,
+            50.056773978199466
+          ],
+          [
+            19.971157052177333,
+            50.054714393164005
+          ],
+          [
+            19.97004455274909,
+            50.05271538836671
+          ],
+          [
+            19.96863316856457,
+            50.050796210604034
+          ],
+          [
+            19.966936521660596,
+            50.04897533587991
+          ],
+          [
+            19.964970974897625,
+            50.0472702918446
+          ],
+          [
+            19.962755473587983,
+            50.04569748942404
+          ],
+          [
+            19.960311362546456,
+            50.04427206524309
+          ],
+          [
+            19.957662180342417,
+            50.04300773634128
+          ],
+          [
+            19.954833432740948,
+            50.04191666856084
+          ],
+          [
+            19.951852347508087,
+            50.04100935985465
+          ],
+          [
+            19.948747612923057,
+            50.04029453961918
+          ],
+          [
+            19.945549102486126,
+            50.03977908500478
+          ],
+          [
+            19.942287588433373,
+            50.03946795499415
+          ],
+          [
+            19.938996161471387,
+            50.039364196950025
+          ]
+        ]
+      ]
+    },
+    "max_minutes": 30,
+    "halo_m": 2400,
+    "halo_safety_m": 5,
+    "complete": false,
+    "parks": 13,
+    "entrances": 162,
+    "candidate_parks": 90,
+    "excluded_parks": [
+      {
+        "id": "relation/3986175",
+        "name": "Plac Generała Władysława Sikorskiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "relation/9301744",
+        "name": "Skwer Konika Zwierzynieckiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "relation/9602480",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1006613213",
+        "name": "Skwer Olgi Jackowskiej „Kory”",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1006613593",
+        "name": "Skwer Błogosławionej Hanny Chrzanowskiej",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/103592589",
+        "name": "Skwer imienia Więźniów Obozów Zagłady",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1072006529",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1076841078",
+        "name": "skwer Zdrowia",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1076841082",
+        "name": "skwer Dworski",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1081210789",
+        "name": "Park Kieszonkowy – Ogród Literacki",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/108513629",
+        "name": "Plac Lasoty",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1089663256",
+        "name": "Młodzieżowy Ogród Krakowian",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1098585642",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1127489351",
+        "name": "Park Radzikowskiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1132956457",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1188067622",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1197577974",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1205580798",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1211832699",
+        "name": "Gołębi Ogród Krakowian",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1300097091",
+        "name": "Ogród Społeczny Grzegórzek",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1312378021",
+        "name": "Park przy Rogatce",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1324204849",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/133109842",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/136308546",
+        "name": "Ogrody Łobzów",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/136417658",
+        "name": "Skwer generała Franciszka Ksawerego Latinika",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/136647347",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1391875911",
+        "name": "Ogród Krakowianek",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1418169271",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1466297118",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1471653148",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1484120269",
+        "name": "Park Kieszonkowy Wodociągów Miasta Krakowa",
+        "reason": "opening_hours_not_evaluated"
+      },
+      {
+        "id": "way/1503647315",
+        "name": "Park Łokietka",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1512706333",
+        "name": "Skwer Niezależnego Zrzeszenia Studentów",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1554273959",
+        "name": "Skwer Pamięci Polaków Poszkodowanych przez III Rzeszę",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/1554323864",
+        "name": "Skwer imienia Janiny Paradowskiej",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/155526625",
+        "name": "Park Kieszonkowy – Ogród Trawiasty",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/194962334",
+        "name": "Skwer Papcia Chmiela",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/196718111",
+        "name": "Skwer Marii Dulębianki",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/201167123",
+        "name": "Ogród Profesorski",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/204049285",
+        "name": "Kieszonkowy Park Sąsiedzki",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/237880616",
+        "name": "Skałki Twardowskiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/25113939",
+        "name": "Park imienia doktora Henryka Jordana",
+        "reason": "opening_hours_not_evaluated"
+      },
+      {
+        "id": "way/25117189",
+        "name": "Skwer Aleksandra Biborskiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/25123245",
+        "name": "Skwer Wolnej Ukrainy",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/25130904",
+        "name": "Skwer Praw Kobiet",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/25517366",
+        "name": "Park Planty Floriana Nowackiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/26344189",
+        "name": "Park imienia Wojciecha Bednarskiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/276312612",
+        "name": "Park Zaczarowanej Dorożki",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/281953733",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/288750308",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/299750972",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/303051785",
+        "name": "Park Kieszonkowy – Ogród Magiczny",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/304495788",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/320460286",
+        "name": "Skwer Stanisława Palczewskiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/39273032",
+        "name": "Park imienia Stanisława Wyspiańskiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/396358194",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/400583093",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/44135132",
+        "name": "Park Jalu Kurka",
+        "reason": "opening_hours_not_evaluated"
+      },
+      {
+        "id": "way/464762932",
+        "name": "Ogród Tadeusza Kościuszki",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/469421526",
+        "name": "Mordor",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/486670006",
+        "name": "Ogród Osiedlowy",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/512161274",
+        "name": "Park Strzelecki",
+        "reason": "opening_hours_not_evaluated"
+      },
+      {
+        "id": "way/518918815",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/542548667",
+        "name": "Skwer imienia Mariana Eilego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/552697895",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/636995901",
+        "name": "Ogród Kasztanowy",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/698350057",
+        "name": "Ogród chiński",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/739824580",
+        "name": "Skwer imienia Gustawa Holoubka",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/819704986",
+        "name": "Skwer profesora Władysława Bartoszewskiego",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/82279707",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/82280003",
+        "name": "",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/830291552",
+        "name": "Skwer Kółeczko",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/84323391",
+        "name": "Łąka na Wesołej",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/881249945",
+        "name": "Park Bronowicki przy Forcie",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/961086225",
+        "name": "Ogród Ptasi",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/967576915",
+        "name": "Park Kieszonkowy – Ogród Dębowy",
+        "reason": "official_identity_unmatched"
+      },
+      {
+        "id": "way/984270069",
+        "name": "Skwer Jerzego Turaszwiliego",
+        "reason": "official_identity_unmatched"
+      }
+    ],
+    "outside_zone_parks": [
+      "relation/16949356",
+      "relation/3882394",
+      "way/1432779904",
+      "way/1495821305",
+      "way/26534890",
+      "way/39273160",
+      "way/44518401",
+      "way/525229887",
+      "way/652102108"
+    ],
+    "catalogue": [
+      {
+        "id": "relation/16229057",
+        "name": "Park Młynówka Królewska",
+        "entrances": 41
+      },
+      {
+        "id": "relation/16949356",
+        "name": "Park Zakrzówek",
+        "entrances": 7
+      },
+      {
+        "id": "relation/3882394",
+        "name": "Park Dębnicki",
+        "entrances": 4
+      },
+      {
+        "id": "way/1221128266",
+        "name": "Planty",
+        "entrances": 54
+      },
+      {
+        "id": "way/1432779904",
+        "name": "Park Kolejowy",
+        "entrances": 2
+      },
+      {
+        "id": "way/1495821305",
+        "name": "Park Rzeczny Białucha",
+        "entrances": 16
+      },
+      {
+        "id": "way/25506183",
+        "name": "Park Krakowski",
+        "entrances": 3
+      },
+      {
+        "id": "way/26532982",
+        "name": "Park Kleparski",
+        "entrances": 3
+      },
+      {
+        "id": "way/26534890",
+        "name": "Park im. Tadeusza Kościuszki",
+        "entrances": 6
+      },
+      {
+        "id": "way/39273160",
+        "name": "Park Krowoderski",
+        "entrances": 14
+      },
+      {
+        "id": "way/44518401",
+        "name": "Park Świętego Wincentego á Paulo",
+        "entrances": 7
+      },
+      {
+        "id": "way/525229887",
+        "name": "Park Stacja Wisła",
+        "entrances": 4
+      },
+      {
+        "id": "way/652102108",
+        "name": "Park Grzegórzecki",
+        "entrances": 1
+      }
+    ]
+  },
+  "public_lines": 39763,
+  "barriers": 29449,
+  "buildings": 3103,
+  "rejected_crossings": {
+    "mapped_barrier_within_3m": 58
+  },
+  "access_policy": "OSM walking highway defaults with explicit restrictions rejected; inferred perimeter crossings, not surveyed entrances or complete public inventory"
+}

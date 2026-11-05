@@ -1,0 +1,20 @@
+{
+  "title": "Liczba mieszkańców",
+  "period": "2021",
+  "source": "GUS NSP2021",
+  "source_url": "https://geo.stat.gov.pl/atom-web/atom/GRID",
+  "source_sha256": "de81cf7c3150f0120dbfcb486cd993f25d5be15e53ce20a548b584dbb3f36dbb",
+  "cell_m": 125,
+  "unit": "osoby/km²",
+  "coverage_complete": false,
+  "missing_rule": "Unlisted cell is unknown, not zero; source suppression kept distinct",
+  "geometry_method": "INSPIRE EPSG3035 lower-left N/E encoded cell identifier; full125m squares, no proportional population split",
+  "acquired_at": "2026-10-26T22:43:20.664312+00:00",
+  "audit": {
+    "rows_read": 1882433,
+    "missing": 0,
+    "suppressed": 0
+  },
+  "features": 8837,
+  "output_sha256": "f1f577b5c1e85839e8dd790ed04996c036c7459b577d8ea370d3ea06ebe3950b"
+}

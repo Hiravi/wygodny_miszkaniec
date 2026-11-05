@@ -1,0 +1,31 @@
+{
+  "data_version": "osm-mobility-v3-09-10",
+  "source_date": "2026-10-11T20:21:06Z",
+  "source_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "boundary_sha256": "5fca108c88267cb35816d5fa68cda9ca07fa776d2fb9532bfd5ecae076bb2b37",
+  "licence": "ODbL-1.0",
+  "osm_licence": "ODbL-1.0",
+  "attribution": "OpenStreetMap contributors",
+  "crs": "EPSG:4326",
+  "coverage_complete": false,
+  "counts": {
+    "bicycle_parking": 5425,
+    "bicycle_repair": 148,
+    "charging": 162,
+    "parking": 12731,
+    "fuel": 115,
+    "park_ride": 21,
+    "cycle_lane": 248,
+    "cycle_mixed": 104,
+    "cycle_track": 4629,
+    "cycle_shared": 937,
+    "cycle_construction": 17
+  },
+  "geometry_failures": {},
+  "duplicates_removed": 0,
+  "limitations": "Partial OSM inventory. Official parking-sector geometry excluded: redistribution permission not confirmed. Absence is not evidence of free parking. No live occupancy, traffic or charging availability.",
+  "excluded_categories": [
+    "parking_zone"
+  ],
+  "output_sha256": "c1802664a6db786ad39009e8b6540f39f4cc8cce455385bea013cc5caf2af7fb"
+}

@@ -1,0 +1,31 @@
+{
+  "source_id": "esa_worldcover_2021_v200",
+  "title": "ESA WorldCover 2021 v200 \u00b7 trawy i krzewy",
+  "landing_url": "https://esa-worldcover.org/en/data-access",
+  "download_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N48E018_Map.tif",
+  "path": "data/raw/ESA_WorldCover_10m_2021_v200_N48E018_Map.tif",
+  "bytes": 96378981,
+  "sha256": "505f9390aa5a21ea47aa5cfa101fe0578407535355628fa8ce05c959d87191e7",
+  "catalogue_entry": {
+    "Key": "v200/2021/map/ESA_WorldCover_10m_2021_v200_N48E018_Map.tif",
+    "LastModified": "2022-10-26T12:54:10.000Z",
+    "ETag": "\"3c0ec716e81b7b5f7cb053f4444e123e-12\"",
+    "Size": "96378981",
+    "StorageClass": "STANDARD"
+  },
+  "http_last_modified": "Wed, 26 Oct 2022 12:54:10 GMT",
+  "produced_at": null,
+  "produced_period": "2021-01-01\u20132021-12-31; klasyfikacja satelitarna, nie spis 2026",
+  "acquired_at": "2026-10-19T20:31:54.184046+00:00",
+  "terms_url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_status": "CC-BY-4.0",
+  "attribution": "\u00a9 ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium",
+  "citation_url": "https://doi.org/10.5281/zenodo.7254221",
+  "source_crs": "EPSG:4326",
+  "nominal_resolution_m": 10,
+  "selected_classes": {
+    "20": "Shrubland",
+    "30": "Grassland"
+  },
+  "limitations": "Pixel land-cover classes; not exact plant cover or a height threshold. Shrub definition may include plants up to5m; no subtraction of tree models. Map layer lacks InputQuality/confidence; year2021 is explicit."
+}

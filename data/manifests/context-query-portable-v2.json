@@ -1,0 +1,727 @@
+{
+  "scope": "Read-only real index; warm OS cache, fresh SQL executions, no HTTP/throttle. Five alternating-order pairs per case; production byte equality includes clipping/limit. Not a browser startup budget measurement.",
+  "python": "3.13.9",
+  "sqlite": "3.51.0",
+  "dataset_sha256": "251e4373e32a578addeafe37b2af47be118574cfe9fcb355d98ad89bbc775266",
+  "source_sha256": "9c1fd6909490db7b5c4b38d253c5cb51b3143046b982d6a85dac561ecfb8651a",
+  "cases": {
+    "desktop_initial": {
+      "view": [
+        19.80803,
+        50.003,
+        20.09197,
+        50.11693,
+        11
+      ],
+      "strategy": "overview",
+      "plans": {
+        "baseline": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ],
+        "selected": [
+          [
+            3,
+            0,
+            0,
+            "MATERIALIZE visible"
+          ],
+          [
+            7,
+            3,
+            212,
+            "SCAN z USING COVERING INDEX kind_zoom"
+          ],
+          [
+            11,
+            3,
+            49,
+            "SCAN b VIRTUAL TABLE INDEX 1:"
+          ],
+          [
+            36,
+            0,
+            215,
+            "SCAN v"
+          ],
+          [
+            38,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            61,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ]
+      },
+      "query_ms": {
+        "baseline": [
+          520.7844999968074,
+          518.0544000031659,
+          565.3559000056703,
+          644.3479000008665,
+          657.7473999932408
+        ],
+        "selected": [
+          82.41410000482574,
+          80.3481000039028,
+          101.27769999962766,
+          102.45999999460764,
+          100.15290000592358
+        ]
+      },
+      "median_ms": {
+        "baseline": 565.3559000056703,
+        "selected": 100.15290000592358
+      },
+      "uncached_builder_ms_baseline_selected": [
+        1009.6797000005608,
+        465.7714999921154
+      ],
+      "rows": 6108,
+      "features": 6108,
+      "truncated": false,
+      "response_bytes": 1576561,
+      "response_sha256": "bfa33f4cb3991e42dccb129cd9a5dcc9471b26c31046e50857bdb26403ea45d9",
+      "ordered_rows_equal": true,
+      "response_bytes_equal": true
+    },
+    "mobile_initial": {
+      "view": [
+        19.91155,
+        50.00655,
+        19.98845,
+        50.11339,
+        11
+      ],
+      "strategy": "overview",
+      "plans": {
+        "baseline": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ],
+        "selected": [
+          [
+            3,
+            0,
+            0,
+            "MATERIALIZE visible"
+          ],
+          [
+            7,
+            3,
+            212,
+            "SCAN z USING COVERING INDEX kind_zoom"
+          ],
+          [
+            11,
+            3,
+            49,
+            "SCAN b VIRTUAL TABLE INDEX 1:"
+          ],
+          [
+            36,
+            0,
+            215,
+            "SCAN v"
+          ],
+          [
+            38,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            61,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ]
+      },
+      "query_ms": {
+        "baseline": [
+          291.4924999931827,
+          283.3851000032155,
+          281.2809000024572,
+          298.41360000136774,
+          302.52219999965746
+        ],
+        "selected": [
+          85.63560000038706,
+          85.33349999925122,
+          85.87900000566151,
+          85.64180000394117,
+          88.42099999310449
+        ]
+      },
+      "median_ms": {
+        "baseline": 291.4924999931827,
+        "selected": 85.64180000394117
+      },
+      "uncached_builder_ms_baseline_selected": [
+        524.1323999944143,
+        338.00699999846984
+      ],
+      "rows": 3018,
+      "features": 3017,
+      "truncated": false,
+      "response_bytes": 751371,
+      "response_sha256": "98e1212ac7d91a129a38bc55e50a888761d3a420a2edb988485f98758119554d",
+      "ordered_rows_equal": true,
+      "response_bytes_equal": true
+    },
+    "city_zoom9": {
+      "view": [
+        19.5,
+        49.6,
+        20.5,
+        50.4,
+        9
+      ],
+      "strategy": "overview",
+      "plans": {
+        "baseline": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ],
+        "selected": [
+          [
+            3,
+            0,
+            0,
+            "MATERIALIZE visible"
+          ],
+          [
+            7,
+            3,
+            212,
+            "SCAN z USING COVERING INDEX kind_zoom"
+          ],
+          [
+            11,
+            3,
+            49,
+            "SCAN b VIRTUAL TABLE INDEX 1:"
+          ],
+          [
+            36,
+            0,
+            215,
+            "SCAN v"
+          ],
+          [
+            38,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            61,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ]
+      },
+      "query_ms": {
+        "baseline": [
+          698.2420999993337,
+          706.8777999957092,
+          722.2456999879796,
+          694.9516000022413,
+          699.6137999958592
+        ],
+        "selected": [
+          29.6645000053104,
+          29.6507000020938,
+          30.717100002220832,
+          31.09519999998156,
+          30.43210000032559
+        ]
+      },
+      "median_ms": {
+        "baseline": 699.6137999958592,
+        "selected": 30.43210000032559
+      },
+      "uncached_builder_ms_baseline_selected": [
+        717.8775999927893,
+        53.20490000303835
+      ],
+      "rows": 419,
+      "features": 419,
+      "truncated": false,
+      "response_bytes": 121093,
+      "response_sha256": "e2d803cbd6a9497654d2594a991effb6b2d5a7287ff5b1fe0cc280b83c4bd140",
+      "ordered_rows_equal": true,
+      "response_bytes_equal": true
+    },
+    "small_zoom11": {
+      "view": [
+        19.93,
+        50.055,
+        19.95,
+        50.07,
+        11
+      ],
+      "strategy": "spatial",
+      "plans": {
+        "baseline": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ],
+        "selected": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ]
+      },
+      "query_ms": {
+        "baseline": [
+          17.05339999170974,
+          17.445899997255765,
+          18.199700003606267,
+          18.52020001388155,
+          17.672300004051067
+        ],
+        "selected": [
+          18.948500000988133,
+          19.59989999886602,
+          18.614600005093962,
+          19.79869999922812,
+          18.312300002435222
+        ]
+      },
+      "median_ms": {
+        "baseline": 17.672300004051067,
+        "selected": 18.948500000988133
+      },
+      "uncached_builder_ms_baseline_selected": [
+        29.598699999041855,
+        29.20089999679476
+      ],
+      "rows": 99,
+      "features": 97,
+      "truncated": false,
+      "response_bytes": 28846,
+      "response_sha256": "a7f2cf58927f9887b7a269f8505104ce5cba6668ade217e7b55ae1889ba3e38f",
+      "ordered_rows_equal": true,
+      "response_bytes_equal": true
+    },
+    "neighbourhood": {
+      "view": [
+        19.93,
+        50.055,
+        19.95,
+        50.07,
+        16
+      ],
+      "strategy": "spatial",
+      "plans": {
+        "baseline": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ],
+        "selected": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ]
+      },
+      "query_ms": {
+        "baseline": [
+          48.63559998921119,
+          50.47539999941364,
+          49.78220000339206,
+          50.781400001142174,
+          48.36030000296887
+        ],
+        "selected": [
+          49.249200004851446,
+          49.73949999839533,
+          52.347399992868304,
+          49.98239999986254,
+          46.3368999917293
+        ]
+      },
+      "median_ms": {
+        "baseline": 49.78220000339206,
+        "selected": 49.73949999839533
+      },
+      "uncached_builder_ms_baseline_selected": [
+        684.120999998413,
+        673.4231999871554
+      ],
+      "rows": 8574,
+      "features": 8563,
+      "truncated": false,
+      "response_bytes": 2269200,
+      "response_sha256": "7a923d6bd8c3fa0c25c00524a7ec3f517b4f57d7fb2779ad0cbb58da144fe12b",
+      "ordered_rows_equal": true,
+      "response_bytes_equal": true
+    },
+    "address": {
+      "view": [
+        19.935,
+        50.06,
+        19.938,
+        50.063,
+        18
+      ],
+      "strategy": "spatial",
+      "plans": {
+        "baseline": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ],
+        "selected": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ]
+      },
+      "query_ms": {
+        "baseline": [
+          1.9963999948231503,
+          1.0024000075645745,
+          1.170899995486252,
+          1.2561999901663512,
+          1.2475000112317502
+        ],
+        "selected": [
+          1.1585000029299408,
+          1.0310000070603564,
+          1.3404000055743381,
+          1.1324999941280112,
+          1.1108000035164878
+        ]
+      },
+      "median_ms": {
+        "baseline": 1.2475000112317502,
+        "selected": 1.1324999941280112
+      },
+      "uncached_builder_ms_baseline_selected": [
+        29.522099997848272,
+        29.714500007685274
+      ],
+      "rows": 301,
+      "features": 297,
+      "truncated": false,
+      "response_bytes": 83666,
+      "response_sha256": "dd2c52668cc0816969c0fe8601e18075cfd599ec9369766befb749d0017ffe62",
+      "ordered_rows_equal": true,
+      "response_bytes_equal": true
+    },
+    "empty": {
+      "view": [
+        19.5,
+        49.6,
+        19.56,
+        49.66,
+        11
+      ],
+      "strategy": "spatial",
+      "plans": {
+        "baseline": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ],
+        "selected": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ]
+      },
+      "query_ms": {
+        "baseline": [
+          0.08060000254772604,
+          0.028800001018680632,
+          0.027300004148855805,
+          0.02680000034160912,
+          0.02689998655114323
+        ],
+        "selected": [
+          0.05779998900834471,
+          0.05400000372901559,
+          0.050699993153102696,
+          0.052099989261478186,
+          0.050000002374872565
+        ]
+      },
+      "median_ms": {
+        "baseline": 0.027300004148855805,
+        "selected": 0.052099989261478186
+      },
+      "uncached_builder_ms_baseline_selected": [
+        1.1649999942164868,
+        1.1689999955706298
+      ],
+      "rows": 0,
+      "features": 0,
+      "truncated": false,
+      "response_bytes": 151,
+      "response_sha256": "c6ed4e438eb04124de441cd4d9ddda8c00a535665da60c48383fddc1421d9b1e",
+      "ordered_rows_equal": true,
+      "response_bytes_equal": true
+    },
+    "truncated": {
+      "view": [
+        19.8,
+        49.98,
+        20.1,
+        50.15,
+        18
+      ],
+      "strategy": "spatial",
+      "plans": {
+        "baseline": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ],
+        "selected": [
+          [
+            5,
+            0,
+            186,
+            "SCAN b VIRTUAL TABLE INDEX 2:B0D1B2D3"
+          ],
+          [
+            13,
+            0,
+            45,
+            "SEARCH f USING INTEGER PRIMARY KEY (rowid=?)"
+          ],
+          [
+            38,
+            0,
+            0,
+            "USE TEMP B-TREE FOR ORDER BY"
+          ]
+        ]
+      },
+      "query_ms": {
+        "baseline": [
+          981.324600012158,
+          971.2061000027461,
+          967.0793999976013,
+          1001.2189999979455,
+          1090.1320999983
+        ],
+        "selected": [
+          958.0437999975402,
+          978.7549000029685,
+          953.3319000038318,
+          970.1754999987315,
+          958.7163999967743
+        ]
+      },
+      "median_ms": {
+        "baseline": 981.324600012158,
+        "selected": 958.7163999967743
+      },
+      "uncached_builder_ms_baseline_selected": [
+        1575.7739000109723,
+        1540.3287999943132
+      ],
+      "rows": 12001,
+      "features": 12000,
+      "truncated": true,
+      "response_bytes": 2903038,
+      "response_sha256": "5c772e9f37d9422d33cc491a5e9298cdc8903aedae6147dddd8cef9e02e75295",
+      "ordered_rows_equal": true,
+      "response_bytes_equal": true
+    }
+  }
+}

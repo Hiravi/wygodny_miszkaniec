@@ -1,0 +1,152 @@
+{
+  "schema_version": "1",
+  "etl_version": "acquire-v1",
+  "source_id": "msip_noise_1361_2022",
+  "title": "Mapy hałasu 2022",
+  "publisher": "Urząd Miasta Krakowa",
+  "landing_url": "https://msip.krakow.pl/dataset/1361",
+  "download_url": "https://msip.um.krakow.pl/Dane/Mapa_Halasu_2022_JSON.zip",
+  "produced_at": null,
+  "produced_period": "2022",
+  "acquired_at": "2026-10-14T02:30:12.725128+00:00",
+  "terms_url": "https://msip.krakow.pl/getHtml?dok_id=228972",
+  "terms_status": "reviewed_local_pilot_publication_unresolved",
+  "attribution": "Gmina Miejska Kraków; Urząd Miasta Krakowa; https://msip.krakow.pl/dataset/1361",
+  "source_crs": "EPSG:2178",
+  "spatial_resolution": "road LDWN interval polygon, model year 2022",
+  "coverage": {
+    "bbox_wgs84": [
+      19.789389615019367,
+      49.96609050741549,
+      20.218704538197276,
+      50.12875258762563
+    ],
+    "feature_count": 9240,
+    "not_a_completeness_guarantee": true
+  },
+  "status": "downloaded",
+  "sha256": "7443f9e07dba299d65917fee73547afb6a43470e2b0310d69d5fa35490f13fc1",
+  "issues": [],
+  "http_last_modified": "Thu, 23 Apr 2026 07:39:26 GMT",
+  "resolved_download_url": "https://msip.um.krakow.pl/Dane/Mapa_Halasu_2022_JSON.zip",
+  "archive_entries": [
+    {
+      "name": "Mapy_terenow_zagrozonych_halasem_2022_JSON/",
+      "bytes": 0
+    },
+    {
+      "name": "Mapy_terenow_zagrozonych_halasem_2022_JSON/halas_2022_tereny_zagrozone_dr_LDWN.geojson",
+      "bytes": 153984359
+    },
+    {
+      "name": "Mapy_terenow_zagrozonych_halasem_2022_JSON/halas_2022_tereny_zagrozone_dr_LN.geojson",
+      "bytes": 508514197
+    },
+    {
+      "name": "Mapy_terenow_zagrozonych_halasem_2022_JSON/halas_2022_tereny_zagrozone_przem_LDWN.geojson",
+      "bytes": 14205057
+    },
+    {
+      "name": "Mapy_terenow_zagrozonych_halasem_2022_JSON/halas_2022_tereny_zagrozone_przem_LN.geojson",
+      "bytes": 13633869
+    },
+    {
+      "name": "Mapy_terenow_zagrozonych_halasem_2022_JSON/halas_2022_tereny_zagrozone_szyn_LDWN.geojson",
+      "bytes": 59033083
+    },
+    {
+      "name": "Mapy_terenow_zagrozonych_halasem_2022_JSON/halas_2022_tereny_zagrozone_szyn_LN.geojson",
+      "bytes": 36909025
+    },
+    {
+      "name": "Mapy_terenow_zagrozonych_halasem_2022_JSON/__Aktualnosc__.txt",
+      "bytes": 47
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/",
+      "bytes": 0
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_dr_LDWN.geojson",
+      "bytes": 375747109
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_dr_LDWN_izofony.geojson",
+      "bytes": 147614487
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_dr_LN.geojson",
+      "bytes": 308525812
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_dr_LN_izofony.geojson",
+      "bytes": 51359452
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_przem_LDWN.geojson",
+      "bytes": 79703
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_przem_LN.geojson",
+      "bytes": 72592
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_szyn_LDWN.geojson",
+      "bytes": 299793928
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_szyn_LDWN_izofony.geojson",
+      "bytes": 12971435
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_szyn_LN.geojson",
+      "bytes": 209676945
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_szyn_LN_izofony.geojson",
+      "bytes": 5858349
+    },
+    {
+      "name": "Mapa_imisyjna_2022_JSON/__Aktualnosc__.txt",
+      "bytes": 47
+    },
+    {
+      "name": "Mapy_terenow_objetych_ochrona_2022_JSON/",
+      "bytes": 0
+    },
+    {
+      "name": "Mapy_terenow_objetych_ochrona_2022_JSON/halas_2022_tereny_chronione_dr_szyn_LDWN.geojson",
+      "bytes": 13690785
+    },
+    {
+      "name": "Mapy_terenow_objetych_ochrona_2022_JSON/halas_2022_tereny_chronione_dr_szyn_LN.geojson",
+      "bytes": 13690785
+    },
+    {
+      "name": "Mapy_terenow_objetych_ochrona_2022_JSON/halas_2022_tereny_chronione_przem_LDWN.geojson",
+      "bytes": 13690785
+    },
+    {
+      "name": "Mapy_terenow_objetych_ochrona_2022_JSON/halas_2022_tereny_chronione_przem_LN.geojson",
+      "bytes": 13690785
+    },
+    {
+      "name": "Mapy_terenow_objetych_ochrona_2022_JSON/__Aktualnosc__.txt",
+      "bytes": 47
+    }
+  ],
+  "bytes": 614068249,
+  "download_seconds": 25.246,
+  "metadata_reviewed_at": "2026-10-14",
+  "reuse_review": {
+    "general_conditions_url": "https://www.bip.krakow.pl/?dok_id=48482",
+    "conditions": [
+      "Identify source and production/acquisition dates; disclose processing.",
+      "Municipality is not responsible for downstream processing; preserve third-party rights."
+    ],
+    "local_scope": "Private local pilot uses downloaded vectors; no continuous MSIP map service, redistribution or publication performed.",
+    "publication_clearance": "unresolved_source_specific_conditions",
+    "note": "Reviewed public conditions; no claim of CC0 or CC-BY licensing."
+  },
+  "export_generated_at": "2026-03-23T14:41:00"
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "1",
+  "scoring_version": "pilot-v01-frozen-rules",
+  "grid": {
+    "crs": "EPSG:2180",
+    "size_m": 250,
+    "origin": [
+      0,
+      0
+    ],
+    "id": "2180:floor(x/250):floor(y/250)",
+    "representative_point": "verified public walking access within cell; pending validation"
+  },
+  "transport": {
+    "formula": "100*clamp(unique_departures/12,0,1)",
+    "access_minutes": 10,
+    "window_minutes": 60,
+    "reference": "2026-10-14T08:00:00+02:00",
+    "dedup": "feed-qualified trip ID once across accessible stops; audit cross-feed equivalent trips"
+  },
+  "quiet": {
+    "formula": "100*clamp((75-upper_db)/30,0,1)",
+    "model": "road LDWN 2022",
+    "band_rule": "Published road-LDWN renderer corroborated: below55 uses conservative55; bounded intervals upper-exclusive; 80/80 is censored>=80 and scores0.",
+    "method_version": "road-ldwn-intervals-v1"
+  },
+  "green": {
+    "formula": "100*clamp((15-walk_minutes_to_verified_public_park_entrance)/15,0,1)",
+    "threshold_minutes": 15
+  },
+  "services": {
+    "formula": "mean of 100*clamp((15-walk_minutes_to_category)/15,0,1)",
+    "categories": [
+      "groceries",
+      "pharmacy",
+      "healthcare"
+    ],
+    "osm_mapping_manifest": "osm-coverage-v1.json",
+    "missing_category": "unavailable unless dataset and access completeness validated"
+  },
+  "walking_speed_kmh": 4.8,
+  "thresholds_note": "Product defaults from supplied specification. Distribution study has not been completed; no claimed scientific validation.",
+  "application_gate": "No scores until underlying input, access and coverage validated. Missing never becomes zero.",
+  "routing_gate": "Exact chosen-minute accounting and barrier-safe polygonization unresolved; native R5 contours remain feasibility artifacts.",
+  "full_p0_path": "blocked",
+  "blockers": [
+    "Transit native contour invalid geometry and unverified interior/barriers",
+    "R5 minute-window and minute quantization need reconciliation with OTP exact clock",
+    "Park entrances public access/network connection",
+    "POI doorway/category completeness",
+    "Source-specific publication/redistribution clearance"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "method": "green-land-and-source-tree-models-v35",
+  "tree_source_id": "gugik_trees_1261_lod1_2023",
+  "tree_source_sha256": "241f0e0ba08bcea289be9ceec6617bf6b12796378e4921539eff897695e028d8",
+  "osm_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "trees": {
+    "source_models": 6536,
+    "city_models": 6524,
+    "outside_city": 12
+  },
+  "source_dates": {
+    "2023-09-08": 6524
+  },
+  "areas": {
+    "wood": 4638,
+    "grass": 43281,
+    "park": 223,
+    "scrub": 3941,
+    "unreadable_geometry": 2
+  },
+  "tree_bounds": [
+    19.861897505071582,
+    50.104166484080935,
+    19.874999672901932,
+    50.11076101992118
+  ],
+  "height_range_m": [
+    4.02,
+    29.14
+  ],
+  "tree_county_complete": false,
+  "tree_member": "1261/1261_M-34-64-D-a-4-2-4.gml",
+  "tree_licence": "CC BY 4.0",
+  "tree_licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "tree_provider": "GUGiK",
+  "coordinate_order": "source E,N; EPSG2180 -> EPSG4326 lon,lat",
+  "geometry": "model footprint centre, not surveyed trunk",
+  "walking_access_inferred": false,
+  "output": "data/derived/generated/greenery-v35.sqlite",
+  "output_sha256": "42d40d4bf9e07a0860b42e7d36304cda8e3c1a1b83142109b8352518b9501125"
+}

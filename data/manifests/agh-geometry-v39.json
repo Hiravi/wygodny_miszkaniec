@@ -1,0 +1,1121 @@
+{
+  "scope": "Same-build matched native geometry correction; startup/uncached/repeats/full map",
+  "before": {
+    "profile": {
+      "cpu": 4,
+      "rtt_ms": 100,
+      "mbps": 10
+    },
+    "startup": {
+      "scope": "Fresh owned services; warm filesystem; no query warmup",
+      "started_utc": "2026-10-20T01:44:14.0798818Z",
+      "ready_utc": "2026-10-20T01:45:26.8678941Z",
+      "seconds": 72.7823733
+    },
+    "records": [
+      {
+        "run": 0,
+        "action": "select A and open coverage",
+        "status": "ok",
+        "cache_hit": false,
+        "native_seconds": 17.827,
+        "initial_full_map_ms": 3916.0276999999996,
+        "selection_to_headers_ms": 21914.780700000003,
+        "selection_to_body_ms": 24495.436,
+        "selection_to_routes_or_error_ms": 25267.613400000002,
+        "selection_to_full_map_ms": 25285.7034,
+        "diagnostics": {
+          "selectionLongitude": "19.923628208264066",
+          "selectionLatitude": "50.06448462923272",
+          "zoom": "15.6",
+          "centerLongitude": "19.923628208264066",
+          "centerLatitude": "50.06448462923272",
+          "contextRequestedGeneration": "2",
+          "greenWalkRevision": "1",
+          "greenWalkCoverage": "unavailable",
+          "parkRevision": "2",
+          "parkCoverage": "unavailable",
+          "themeRevision": "1",
+          "noiseVisible": "false",
+          "noiseCondition": "",
+          "parksVisible": "false",
+          "groceriesVisible": "false",
+          "pharmacyVisible": "false",
+          "greeneryVisible": "false",
+          "treeModelsVisible": "false",
+          "networkRevision": "0",
+          "networkHorizon": "30",
+          "networkVisible": "false",
+          "coverageRouteFeatures": "1662",
+          "coverageRouteRevision": "1",
+          "coverageSelectedGroup": "",
+          "coverageSamplesVisible": "false",
+          "coverageStatus": "ok",
+          "coverageDeparture": "2026-10-14T08:00:00+02:00",
+          "coverageHorizon": "30",
+          "coverageFeatures": "7594",
+          "coverageConfirmedPoints": "1763",
+          "coverageSamplePolygons": "0",
+          "pointRouteLegs": "0",
+          "themePaintedRevision": "1",
+          "greenWalkResult": "unfiltered",
+          "greenWalkAccessFeatures": "0",
+          "parkResult": "unfiltered",
+          "parkAccessFeatures": "0",
+          "greenWalkPaintedRevision": "1",
+          "parkPaintedRevision": "2",
+          "streetLabels": "29",
+          "buildings": "1173",
+          "houseLabels": "0",
+          "placeLabels": "2",
+          "coverageRoutesRendered": "81",
+          "coverageRoutesMaxSeconds": "1380",
+          "coverageWalksRendered": "95",
+          "coverageRoutesRenderedRevision": "1",
+          "coverageRendered": "15",
+          "pointRouteRendered": "0",
+          "coverageLabelsAbove": "true",
+          "greenWalkRenderedPaths": "0",
+          "parkAccessRenderedPaths": "0",
+          "networkStops": "0",
+          "networkPaths": "0",
+          "networkMaxSeconds": "0",
+          "networkRenderedStops": "[]",
+          "noiseFeatures": "0",
+          "poiFeatures": "0",
+          "parkFeatures": "0",
+          "labelsAboveNoise": "true",
+          "labelsAboveTransit": "true",
+          "treeModelsRendered": "0",
+          "lowVegetationRendered": "0",
+          "contextFeatures": "3110",
+          "contextZoom": "15",
+          "contextRenderedZoom": "15",
+          "contextRenderedGeneration": "2",
+          "coverageFullMapRevision": "1",
+          "coverageFullMapContextGeneration": "2"
+        },
+        "measures": [
+          {
+            "name": "wm.coverage.fetch",
+            "ms": 20795.900000035763
+          },
+          {
+            "name": "wm.coverage.decode",
+            "ms": 987.3999999761581
+          },
+          {
+            "name": "wm.coverage.validate",
+            "ms": 443.80000001192093
+          },
+          {
+            "name": "wm.coverage.sources",
+            "ms": 493.80000001192093
+          }
+        ]
+      },
+      {
+        "run": 1,
+        "action": "select A and open coverage",
+        "status": "ok",
+        "cache_hit": true,
+        "native_seconds": 17.827,
+        "initial_full_map_ms": 2963.702400000002,
+        "selection_to_headers_ms": 2564.1362999999983,
+        "selection_to_body_ms": 5050.702899999997,
+        "selection_to_routes_or_error_ms": 5953.519399999997,
+        "selection_to_full_map_ms": 6008.407099999997,
+        "diagnostics": {
+          "selectionLongitude": "19.923628208264066",
+          "selectionLatitude": "50.06448462923272",
+          "zoom": "15.6",
+          "centerLongitude": "19.923628208264066",
+          "centerLatitude": "50.06448462923272",
+          "contextRequestedGeneration": "2",
+          "greenWalkRevision": "1",
+          "greenWalkCoverage": "unavailable",
+          "parkRevision": "2",
+          "parkCoverage": "unavailable",
+          "themeRevision": "1",
+          "noiseVisible": "false",
+          "noiseCondition": "",
+          "parksVisible": "false",
+          "groceriesVisible": "false",
+          "pharmacyVisible": "false",
+          "greeneryVisible": "false",
+          "treeModelsVisible": "false",
+          "networkRevision": "0",
+          "networkHorizon": "30",
+          "networkVisible": "false",
+          "coverageRouteFeatures": "1662",
+          "coverageRouteRevision": "1",
+          "coverageSelectedGroup": "",
+          "coverageSamplesVisible": "false",
+          "coverageStatus": "ok",
+          "coverageDeparture": "2026-10-14T08:00:00+02:00",
+          "coverageHorizon": "30",
+          "coverageFeatures": "7594",
+          "coverageConfirmedPoints": "1763",
+          "coverageSamplePolygons": "0",
+          "pointRouteLegs": "0",
+          "themePaintedRevision": "1",
+          "greenWalkResult": "unfiltered",
+          "greenWalkAccessFeatures": "0",
+          "parkResult": "unfiltered",
+          "parkAccessFeatures": "0",
+          "greenWalkPaintedRevision": "1",
+          "parkPaintedRevision": "2",
+          "streetLabels": "29",
+          "buildings": "1173",
+          "houseLabels": "0",
+          "placeLabels": "2",
+          "coverageRoutesRendered": "81",
+          "coverageRoutesMaxSeconds": "1380",
+          "coverageWalksRendered": "95",
+          "coverageRoutesRenderedRevision": "1",
+          "coverageRendered": "15",
+          "pointRouteRendered": "0",
+          "coverageLabelsAbove": "true",
+          "greenWalkRenderedPaths": "0",
+          "parkAccessRenderedPaths": "0",
+          "networkStops": "0",
+          "networkPaths": "0",
+          "networkMaxSeconds": "0",
+          "networkRenderedStops": "[]",
+          "noiseFeatures": "0",
+          "poiFeatures": "0",
+          "parkFeatures": "0",
+          "labelsAboveNoise": "true",
+          "labelsAboveTransit": "true",
+          "treeModelsRendered": "0",
+          "lowVegetationRendered": "0",
+          "contextFeatures": "3110",
+          "contextZoom": "15",
+          "contextRenderedZoom": "15",
+          "contextRenderedGeneration": "2",
+          "coverageFullMapRevision": "1",
+          "coverageFullMapContextGeneration": "2"
+        },
+        "measures": [
+          {
+            "name": "wm.coverage.fetch",
+            "ms": 1216.800000011921
+          },
+          {
+            "name": "wm.coverage.decode",
+            "ms": 972.7999999523163
+          },
+          {
+            "name": "wm.coverage.validate",
+            "ms": 418.30000001192093
+          },
+          {
+            "name": "wm.coverage.sources",
+            "ms": 847.6999999880791
+          }
+        ]
+      },
+      {
+        "run": 2,
+        "action": "select A and open coverage",
+        "status": "ok",
+        "cache_hit": true,
+        "native_seconds": 17.827,
+        "initial_full_map_ms": 2430.765999999996,
+        "selection_to_headers_ms": 2655.948700000001,
+        "selection_to_body_ms": 5172.0144999999975,
+        "selection_to_routes_or_error_ms": 6078.566599999998,
+        "selection_to_full_map_ms": 6109.490099999995,
+        "diagnostics": {
+          "selectionLongitude": "19.923628208264066",
+          "selectionLatitude": "50.06448462923272",
+          "zoom": "15.6",
+          "centerLongitude": "19.923628208264066",
+          "centerLatitude": "50.06448462923272",
+          "contextRequestedGeneration": "2",
+          "greenWalkRevision": "1",
+          "greenWalkCoverage": "unavailable",
+          "parkRevision": "2",
+          "parkCoverage": "unavailable",
+          "themeRevision": "1",
+          "noiseVisible": "false",
+          "noiseCondition": "",
+          "parksVisible": "false",
+          "groceriesVisible": "false",
+          "pharmacyVisible": "false",
+          "greeneryVisible": "false",
+          "treeModelsVisible": "false",
+          "networkRevision": "0",
+          "networkHorizon": "30",
+          "networkVisible": "false",
+          "coverageRouteFeatures": "1662",
+          "coverageRouteRevision": "1",
+          "coverageSelectedGroup": "",
+          "coverageSamplesVisible": "false",
+          "coverageStatus": "ok",
+          "coverageDeparture": "2026-10-14T08:00:00+02:00",
+          "coverageHorizon": "30",
+          "coverageFeatures": "7594",
+          "coverageConfirmedPoints": "1763",
+          "coverageSamplePolygons": "0",
+          "pointRouteLegs": "0",
+          "themePaintedRevision": "1",
+          "greenWalkResult": "unfiltered",
+          "greenWalkAccessFeatures": "0",
+          "parkResult": "unfiltered",
+          "parkAccessFeatures": "0",
+          "greenWalkPaintedRevision": "1",
+          "parkPaintedRevision": "2",
+          "contextFeatures": "3110",
+          "contextZoom": "15",
+          "contextRenderedZoom": "15",
+          "contextRenderedGeneration": "2",
+          "streetLabels": "29",
+          "buildings": "1173",
+          "houseLabels": "0",
+          "placeLabels": "2",
+          "coverageRoutesRendered": "81",
+          "coverageRoutesMaxSeconds": "1380",
+          "coverageWalksRendered": "95",
+          "coverageRoutesRenderedRevision": "1",
+          "coverageFullMapRevision": "1",
+          "coverageFullMapContextGeneration": "2",
+          "coverageRendered": "15",
+          "pointRouteRendered": "0",
+          "coverageLabelsAbove": "true",
+          "greenWalkRenderedPaths": "0",
+          "parkAccessRenderedPaths": "0",
+          "networkStops": "0",
+          "networkPaths": "0",
+          "networkMaxSeconds": "0",
+          "networkRenderedStops": "[]",
+          "noiseFeatures": "0",
+          "poiFeatures": "0",
+          "parkFeatures": "0",
+          "labelsAboveNoise": "true",
+          "labelsAboveTransit": "true",
+          "treeModelsRendered": "0",
+          "lowVegetationRendered": "0"
+        },
+        "measures": [
+          {
+            "name": "wm.coverage.fetch",
+            "ms": 1306.5999999642372
+          },
+          {
+            "name": "wm.coverage.decode",
+            "ms": 1008.1000000238419
+          },
+          {
+            "name": "wm.coverage.validate",
+            "ms": 385.69999998807907
+          },
+          {
+            "name": "wm.coverage.sources",
+            "ms": 848
+          }
+        ]
+      }
+    ]
+  },
+  "after": {
+    "profile": {
+      "cpu": 4,
+      "rtt_ms": 100,
+      "mbps": 10
+    },
+    "startup": {
+      "scope": "Fresh owned services; warm filesystem; no query warmup",
+      "started_utc": "2026-10-20T01:47:25.3214317Z",
+      "ready_utc": "2026-10-20T01:48:36.2199680Z",
+      "seconds": 70.89313229999999
+    },
+    "records": [
+      {
+        "run": 0,
+        "action": "select A and open coverage",
+        "status": "ok",
+        "cache_hit": false,
+        "native_seconds": 14.69,
+        "initial_full_map_ms": 3711.1159,
+        "selection_to_headers_ms": 18802.4704,
+        "selection_to_body_ms": 21312.138100000004,
+        "selection_to_routes_or_error_ms": 22098.5204,
+        "selection_to_full_map_ms": 22124.643000000004,
+        "diagnostics": {
+          "selectionLongitude": "19.923628208264066",
+          "selectionLatitude": "50.06448462923272",
+          "zoom": "15.6",
+          "centerLongitude": "19.923628208264066",
+          "centerLatitude": "50.06448462923272",
+          "contextRequestedGeneration": "2",
+          "greenWalkRevision": "1",
+          "greenWalkCoverage": "unavailable",
+          "parkRevision": "2",
+          "parkCoverage": "unavailable",
+          "themeRevision": "1",
+          "noiseVisible": "false",
+          "noiseCondition": "",
+          "parksVisible": "false",
+          "groceriesVisible": "false",
+          "pharmacyVisible": "false",
+          "greeneryVisible": "false",
+          "treeModelsVisible": "false",
+          "networkRevision": "0",
+          "networkHorizon": "30",
+          "networkVisible": "false",
+          "coverageRouteFeatures": "1662",
+          "coverageRouteRevision": "1",
+          "coverageSelectedGroup": "",
+          "coverageSamplesVisible": "false",
+          "coverageStatus": "ok",
+          "coverageDeparture": "2026-10-14T08:00:00+02:00",
+          "coverageHorizon": "30",
+          "coverageFeatures": "7594",
+          "coverageConfirmedPoints": "1763",
+          "coverageSamplePolygons": "0",
+          "pointRouteLegs": "0",
+          "themePaintedRevision": "1",
+          "greenWalkResult": "unfiltered",
+          "greenWalkAccessFeatures": "0",
+          "parkResult": "unfiltered",
+          "parkAccessFeatures": "0",
+          "greenWalkPaintedRevision": "1",
+          "parkPaintedRevision": "2",
+          "streetLabels": "29",
+          "buildings": "1173",
+          "houseLabels": "0",
+          "placeLabels": "2",
+          "coverageRoutesRendered": "81",
+          "coverageRoutesMaxSeconds": "1380",
+          "coverageWalksRendered": "95",
+          "coverageRoutesRenderedRevision": "1",
+          "coverageRendered": "15",
+          "pointRouteRendered": "0",
+          "coverageLabelsAbove": "true",
+          "greenWalkRenderedPaths": "0",
+          "parkAccessRenderedPaths": "0",
+          "networkStops": "0",
+          "networkPaths": "0",
+          "networkMaxSeconds": "0",
+          "networkRenderedStops": "[]",
+          "noiseFeatures": "0",
+          "poiFeatures": "0",
+          "parkFeatures": "0",
+          "labelsAboveNoise": "true",
+          "labelsAboveTransit": "true",
+          "treeModelsRendered": "0",
+          "lowVegetationRendered": "0",
+          "contextFeatures": "3110",
+          "contextZoom": "15",
+          "contextRenderedZoom": "15",
+          "contextRenderedGeneration": "2",
+          "coverageFullMapRevision": "1",
+          "coverageFullMapContextGeneration": "2"
+        },
+        "measures": [
+          {
+            "name": "wm.coverage.fetch",
+            "ms": 17680.30000001192
+          },
+          {
+            "name": "wm.coverage.decode",
+            "ms": 983.8000000119209
+          },
+          {
+            "name": "wm.coverage.validate",
+            "ms": 413.60000002384186
+          },
+          {
+            "name": "wm.coverage.sources",
+            "ms": 519.1999999880791
+          }
+        ]
+      },
+      {
+        "run": 1,
+        "action": "select A and open coverage",
+        "status": "ok",
+        "cache_hit": true,
+        "native_seconds": 14.69,
+        "initial_full_map_ms": 2646.6165,
+        "selection_to_headers_ms": 2441.5538000000015,
+        "selection_to_body_ms": 4971.982400000001,
+        "selection_to_routes_or_error_ms": 5890.1999,
+        "selection_to_full_map_ms": 5934.634100000003,
+        "diagnostics": {
+          "selectionLongitude": "19.923628208264066",
+          "selectionLatitude": "50.06448462923272",
+          "zoom": "15.6",
+          "centerLongitude": "19.923628208264066",
+          "centerLatitude": "50.06448462923272",
+          "contextRequestedGeneration": "2",
+          "greenWalkRevision": "1",
+          "greenWalkCoverage": "unavailable",
+          "parkRevision": "2",
+          "parkCoverage": "unavailable",
+          "themeRevision": "1",
+          "noiseVisible": "false",
+          "noiseCondition": "",
+          "parksVisible": "false",
+          "groceriesVisible": "false",
+          "pharmacyVisible": "false",
+          "greeneryVisible": "false",
+          "treeModelsVisible": "false",
+          "networkRevision": "0",
+          "networkHorizon": "30",
+          "networkVisible": "false",
+          "coverageRouteFeatures": "1662",
+          "coverageRouteRevision": "1",
+          "coverageSelectedGroup": "",
+          "coverageSamplesVisible": "false",
+          "coverageStatus": "ok",
+          "coverageDeparture": "2026-10-14T08:00:00+02:00",
+          "coverageHorizon": "30",
+          "coverageFeatures": "7594",
+          "coverageConfirmedPoints": "1763",
+          "coverageSamplePolygons": "0",
+          "pointRouteLegs": "0",
+          "themePaintedRevision": "1",
+          "greenWalkResult": "unfiltered",
+          "greenWalkAccessFeatures": "0",
+          "parkResult": "unfiltered",
+          "parkAccessFeatures": "0",
+          "greenWalkPaintedRevision": "1",
+          "parkPaintedRevision": "2",
+          "streetLabels": "29",
+          "buildings": "1173",
+          "houseLabels": "0",
+          "placeLabels": "2",
+          "coverageRoutesRendered": "81",
+          "coverageRoutesMaxSeconds": "1380",
+          "coverageWalksRendered": "95",
+          "coverageRoutesRenderedRevision": "1",
+          "coverageRendered": "15",
+          "pointRouteRendered": "0",
+          "coverageLabelsAbove": "true",
+          "greenWalkRenderedPaths": "0",
+          "parkAccessRenderedPaths": "0",
+          "networkStops": "0",
+          "networkPaths": "0",
+          "networkMaxSeconds": "0",
+          "networkRenderedStops": "[]",
+          "noiseFeatures": "0",
+          "poiFeatures": "0",
+          "parkFeatures": "0",
+          "labelsAboveNoise": "true",
+          "labelsAboveTransit": "true",
+          "treeModelsRendered": "0",
+          "lowVegetationRendered": "0",
+          "contextFeatures": "3110",
+          "contextZoom": "15",
+          "contextRenderedZoom": "15",
+          "contextRenderedGeneration": "2",
+          "coverageFullMapRevision": "1",
+          "coverageFullMapContextGeneration": "2"
+        },
+        "measures": [
+          {
+            "name": "wm.coverage.fetch",
+            "ms": 1161.199999988079
+          },
+          {
+            "name": "wm.coverage.decode",
+            "ms": 1009.1000000238419
+          },
+          {
+            "name": "wm.coverage.validate",
+            "ms": 377.5
+          },
+          {
+            "name": "wm.coverage.sources",
+            "ms": 850.6999999880791
+          }
+        ]
+      },
+      {
+        "run": 2,
+        "action": "select A and open coverage",
+        "status": "ok",
+        "cache_hit": true,
+        "native_seconds": 14.69,
+        "initial_full_map_ms": 3007.438900000001,
+        "selection_to_headers_ms": 2572.5676999999996,
+        "selection_to_body_ms": 5106.8619000000035,
+        "selection_to_routes_or_error_ms": 6036.611100000002,
+        "selection_to_full_map_ms": 6057.3946,
+        "diagnostics": {
+          "selectionLongitude": "19.923628208264066",
+          "selectionLatitude": "50.06448462923272",
+          "zoom": "15.6",
+          "centerLongitude": "19.923628208264066",
+          "centerLatitude": "50.06448462923272",
+          "contextRequestedGeneration": "2",
+          "greenWalkRevision": "1",
+          "greenWalkCoverage": "unavailable",
+          "parkRevision": "2",
+          "parkCoverage": "unavailable",
+          "themeRevision": "1",
+          "noiseVisible": "false",
+          "noiseCondition": "",
+          "parksVisible": "false",
+          "groceriesVisible": "false",
+          "pharmacyVisible": "false",
+          "greeneryVisible": "false",
+          "treeModelsVisible": "false",
+          "networkRevision": "0",
+          "networkHorizon": "30",
+          "networkVisible": "false",
+          "coverageRouteFeatures": "1662",
+          "coverageRouteRevision": "1",
+          "coverageSelectedGroup": "",
+          "coverageSamplesVisible": "false",
+          "coverageStatus": "ok",
+          "coverageDeparture": "2026-10-14T08:00:00+02:00",
+          "coverageHorizon": "30",
+          "coverageFeatures": "7594",
+          "coverageConfirmedPoints": "1763",
+          "coverageSamplePolygons": "0",
+          "pointRouteLegs": "0",
+          "themePaintedRevision": "1",
+          "greenWalkResult": "unfiltered",
+          "greenWalkAccessFeatures": "0",
+          "parkResult": "unfiltered",
+          "parkAccessFeatures": "0",
+          "greenWalkPaintedRevision": "1",
+          "parkPaintedRevision": "2",
+          "streetLabels": "29",
+          "buildings": "1173",
+          "houseLabels": "0",
+          "placeLabels": "2",
+          "coverageRoutesRendered": "81",
+          "coverageRoutesMaxSeconds": "1380",
+          "coverageWalksRendered": "95",
+          "coverageRoutesRenderedRevision": "1",
+          "coverageRendered": "15",
+          "pointRouteRendered": "0",
+          "coverageLabelsAbove": "true",
+          "greenWalkRenderedPaths": "0",
+          "parkAccessRenderedPaths": "0",
+          "networkStops": "0",
+          "networkPaths": "0",
+          "networkMaxSeconds": "0",
+          "networkRenderedStops": "[]",
+          "noiseFeatures": "0",
+          "poiFeatures": "0",
+          "parkFeatures": "0",
+          "labelsAboveNoise": "true",
+          "labelsAboveTransit": "true",
+          "treeModelsRendered": "0",
+          "lowVegetationRendered": "0",
+          "contextFeatures": "3110",
+          "contextZoom": "15",
+          "contextRenderedZoom": "15",
+          "contextRenderedGeneration": "2",
+          "coverageFullMapRevision": "1",
+          "coverageFullMapContextGeneration": "2"
+        },
+        "measures": [
+          {
+            "name": "wm.coverage.fetch",
+            "ms": 1315.9000000357628
+          },
+          {
+            "name": "wm.coverage.decode",
+            "ms": 1019.5999999642372
+          },
+          {
+            "name": "wm.coverage.validate",
+            "ms": 384
+          },
+          {
+            "name": "wm.coverage.sources",
+            "ms": 862.2000000476837
+          }
+        ]
+      }
+    ]
+  },
+  "bridge": {
+    "scope": "Captured actual JTS WALK lines, not a planner or full-query performance gate",
+    "packet_sha256": "1450f894aab4869eae0f26c771e9cce2e64f26e491f5b706983193c4aeaf9833",
+    "lines": 373,
+    "coordinates_preserved_exactly": true,
+    "source_access_decisions_identical": true,
+    "seconds": {
+      "original": [
+        0.04005070001585409,
+        0.03822220000438392,
+        0.038267600000835955
+      ],
+      "binary": [
+        0.01646070001879707,
+        0.013204999966546893,
+        0.016329900012351573
+      ]
+    }
+  },
+  "sources": [
+    {
+      "path": "tools/router/final_walk.py",
+      "bytes": 6864,
+      "sha256": "8e14dc3dcb5f2a36c7e95b27fc2f7793fbf35b333155d151c15d0cb0a62886b7"
+    },
+    {
+      "path": "tools/router/walk_access.py",
+      "bytes": 2141,
+      "sha256": "8fdd853f675ae4e9767096be4853cace4ec90596c0bca86fca57336728ab135d"
+    },
+    {
+      "path": "tests/test_walk_access.py",
+      "bytes": 2596,
+      "sha256": "30b7403504ee5aea5ae64e2d1e96a87f007f4e65c8286447aedc3b467cbdb56a"
+    },
+    {
+      "path": "tools/qa/v039_agh.mjs",
+      "bytes": 7841,
+      "sha256": "0b7c1a4c453be457e1ad0d02bc735dafb4ed566acf8a23f17e7c26e16b3df744"
+    },
+    {
+      "path": "tools/qa/v039_timeout.mjs",
+      "bytes": 5482,
+      "sha256": "50fcd079b0d3fd619076e4d820d49fe9c2857a59bcfdcdeaf726c62a34c3cc8e"
+    },
+    {
+      "path": "tools/qa/v039_geometry.py",
+      "bytes": 2663,
+      "sha256": "a54b9a03438bcba77f65da123e49d142d441df1d5a8089c36ea66c955cc29300"
+    },
+    {
+      "path": "tools/qa/v039_evidence.py",
+      "bytes": 3782,
+      "sha256": "acf710b7609e04fb3ad0734255a598a60aaaf4f2b19bc575d8c23011c4187935"
+    }
+  ],
+  "build": [
+    {
+      "path": "apps/web/dist/.vite/license.md",
+      "bytes": 10549,
+      "sha256": "b1e848b2669630774348e8d569a418de145df8b8a4e1414f1c6a4dfeb25a7786"
+    },
+    {
+      "path": "apps/web/dist/assets/Commute-CMW8dhrj.js",
+      "bytes": 7562,
+      "sha256": "a4f1ea3549658dd633539372b1cc156052a0ccd6b2afe76b65b52ce53dbc8699"
+    },
+    {
+      "path": "apps/web/dist/assets/coverage-Bs9uFrev.js",
+      "bytes": 2433,
+      "sha256": "2dd6d51ba96ff9b313d78ce1c1ca4494d026c01234e0edb558fea773e8bc4895"
+    },
+    {
+      "path": "apps/web/dist/assets/CoverageExplorer-DCmkFCA9.js",
+      "bytes": 10363,
+      "sha256": "7c776b995692907fae696046df2a72a293100939a4bc0eb5913cb72f0dad7387"
+    },
+    {
+      "path": "apps/web/dist/assets/index-9-U7qCLe.css",
+      "bytes": 29726,
+      "sha256": "00581edc2a965cc50a38eff3028c7fc6deee115c6f1527d11d6d3e71c8c18657"
+    },
+    {
+      "path": "apps/web/dist/assets/index-B_-S91CH.js",
+      "bytes": 238276,
+      "sha256": "02510a97292541567a60ca603652635f374e574c7f1b11b7fb25a135f749d001"
+    },
+    {
+      "path": "apps/web/dist/assets/maplibre-gl-worker-DxGNRm0a.mjs",
+      "bytes": 508314,
+      "sha256": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9"
+    },
+    {
+      "path": "apps/web/dist/assets/network-Do5g4Fzq.js",
+      "bytes": 318,
+      "sha256": "c3bdf80470b81d93fd5c648c0eb372fec5a8e726e06725f8aa1b6ac5fb93605c"
+    },
+    {
+      "path": "apps/web/dist/assets/networkSchema-CxsqCXp_.js",
+      "bytes": 3429,
+      "sha256": "ec158555c059bd6f43632be0fb58346707d7333c52325e6a409ad1fa9a82d2f7"
+    },
+    {
+      "path": "apps/web/dist/assets/parks-Dt05gT8q.js",
+      "bytes": 1579,
+      "sha256": "23e265861d9f53a4fccbe4a802690b7252c288379368794fcb9e802504bdb4e8"
+    },
+    {
+      "path": "apps/web/dist/assets/ReadableMap-0iBX5GZi.js",
+      "bytes": 1097931,
+      "sha256": "d2e338ea7f0ff40667950c15e127d0dd5e4ab6fa3bc6eecf8f86c7786b95f1e6"
+    },
+    {
+      "path": "apps/web/dist/assets/ReadableMap-DBE96hFo.css",
+      "bytes": 82935,
+      "sha256": "7d70296c647f8ae4b9b9cc0ed943d5bf81cedef828a348f81c5e89d3ed128856"
+    },
+    {
+      "path": "apps/web/dist/assets/routing-BnRYqi3n.js",
+      "bytes": 1120,
+      "sha256": "e96c5d43be0bf6923b0671c3ceb24b8620f502a1ace1cab3983882328c9fd63c"
+    },
+    {
+      "path": "apps/web/dist/assets/schemas-BXFzUrFc.js",
+      "bytes": 33766,
+      "sha256": "8e5997ffdaa40fcb4258b03f0f87f7d3b83318b01793a00193b3939049622c14"
+    },
+    {
+      "path": "apps/web/dist/assets/Sources-KV_-3Vcz.js",
+      "bytes": 5287,
+      "sha256": "d0499a316e71e8ccd14cc95de3538ae7e9eddc60f4896a8241f8c7977060b95a"
+    },
+    {
+      "path": "apps/web/dist/assets/TransitExplorer-O6xCE5RW.js",
+      "bytes": 9528,
+      "sha256": "da195bb9a03bd8ec1a05ab06d227d0231b0aa53fabc3f5317d4fa4b3d5e365d0"
+    },
+    {
+      "path": "apps/web/dist/index.html",
+      "bytes": 554,
+      "sha256": "c0a5f18fe22e64eef9af672777dded902ebb543b1ca131e2bd8fbbf9f1aa0e82"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": ".cache/agh-v39/after1/full-map-0.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v39/after1/full-map-1.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v39/after1/full-map-2.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v39/after1/packet-0.json",
+      "bytes": 6731107,
+      "sha256": "72af3dbde8fd0a3fd04fc1bbe8442c6d6f6c0133f2d9f64c922a5dd65e58f483"
+    },
+    {
+      "path": ".cache/agh-v39/after1/packet-1.json",
+      "bytes": 6731106,
+      "sha256": "b5562261e9bc82ddf2b1fd7a22f9297bf8042c4c353643129fb05e9595766c33"
+    },
+    {
+      "path": ".cache/agh-v39/after1/packet-2.json",
+      "bytes": 6731106,
+      "sha256": "b5562261e9bc82ddf2b1fd7a22f9297bf8042c4c353643129fb05e9595766c33"
+    },
+    {
+      "path": ".cache/agh-v39/after1/report.json",
+      "bytes": 21517,
+      "sha256": "4e087aa9618bd562e27670ea5d5adcc55753388015a4e03665071d19b243d3f5"
+    },
+    {
+      "path": ".cache/agh-v39/after1/server.log",
+      "bytes": 202,
+      "sha256": "192177d6b263be9be0fc1f7a0fa2a86bbab82a2a73bb4050deaab09b9b0aad95"
+    },
+    {
+      "path": ".cache/agh-v39/after1-run.log",
+      "bytes": 14434,
+      "sha256": "9945be60d2c12d2849ec886219efb13e63c81db779a803ddbdfc0d6eee82367f"
+    },
+    {
+      "path": ".cache/agh-v39/after1-start.log",
+      "bytes": 58,
+      "sha256": "618fb91a60d378e043b3805a6efd03ab04f4cbf0d264ec8dda69506de9951cd2"
+    },
+    {
+      "path": ".cache/agh-v39/after1-startup.json",
+      "bytes": 222,
+      "sha256": "b6a2c5829f06e8699eac680c5fb127e3473c42ec0bf3eaf5dfb41c4b8668e17c"
+    },
+    {
+      "path": ".cache/agh-v39/after1-worker.log",
+      "bytes": 2179,
+      "sha256": "df1bd52a74cae047931a637e5f22cb4ff8e97db7084806c0275ff19bef788b9b"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1-run.log",
+      "bytes": 1616,
+      "sha256": "d7aa6403e5ee0d6f781a2e750facd54214b5837d85e0fca483176d332ef26eeb"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1-start.log",
+      "bytes": 58,
+      "sha256": "618fb91a60d378e043b3805a6efd03ab04f4cbf0d264ec8dda69506de9951cd2"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1-startup.json",
+      "bytes": 213,
+      "sha256": "5de62e08d51f17f4f045e272e3863954ac695613d246cbdbdd2d0009613a5bff"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1-worker.log",
+      "bytes": 1282,
+      "sha256": "62bf8c661f2c53000b93cc4f2e25238cb8d46e7f1bc8c8ce3a9604272ad98f4e"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1a/report.json",
+      "bytes": 11605,
+      "sha256": "0c6f1181a9c12a09dbdb386e64903713797bb42e09b682832271ce850e63446f"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1a/server.log",
+      "bytes": 202,
+      "sha256": "fe4e4627a300228c97d504ddaa6cd74142f51e910d8875ae522fb39ace1ed434"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1a-run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1a-startup.json",
+      "bytes": 213,
+      "sha256": "5de62e08d51f17f4f045e272e3863954ac695613d246cbdbdd2d0009613a5bff"
+    },
+    {
+      "path": ".cache/agh-v39/baseline1a-worker.log",
+      "bytes": 2408,
+      "sha256": "39562be413955eaa38719c472c267ed8e363f079c1bdf51a07d328216541a7e1"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2/full-map-0.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2/full-map-1.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2/full-map-2.png",
+      "bytes": 763300,
+      "sha256": "1dd4924b6ee3784eeecfc85f86ebc635ebfed67ef951e7bacb0c16b6d70822b5"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2/packet-0.json",
+      "bytes": 6731107,
+      "sha256": "6a8e4a8da1d979d8832fe2494a79e8ecb5244533d737d0effdd12a68fc93636c"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2/packet-1.json",
+      "bytes": 6731106,
+      "sha256": "1450f894aab4869eae0f26c771e9cce2e64f26e491f5b706983193c4aeaf9833"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2/packet-2.json",
+      "bytes": 6731106,
+      "sha256": "1450f894aab4869eae0f26c771e9cce2e64f26e491f5b706983193c4aeaf9833"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2/report.json",
+      "bytes": 21562,
+      "sha256": "b2e21f150e875074abb5f1d5d2529410b416c6ec799a034313f4b3d75474592c"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2/server.log",
+      "bytes": 202,
+      "sha256": "db237fb9d3db8502b9293161c031736b71aa83c2c09423ffe66ff42d11497104"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2-run.log",
+      "bytes": 14532,
+      "sha256": "3217680fe242353b77d9e5cca149ccf84f563fc3856c3f2ddd2a06e702f81623"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2-start.log",
+      "bytes": 58,
+      "sha256": "618fb91a60d378e043b3805a6efd03ab04f4cbf0d264ec8dda69506de9951cd2"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2-startup.json",
+      "bytes": 214,
+      "sha256": "3881151adb9679bc92ead9d47e5f78ae90e2acf302cbf381b1f39065c9c43b93"
+    },
+    {
+      "path": ".cache/agh-v39/baseline2-worker.log",
+      "bytes": 2179,
+      "sha256": "27aaf3f95e86eb28f596fefd51f5e5aaa6775b1b9fa5386997da09a3904f6af6"
+    },
+    {
+      "path": ".cache/agh-v39/geometry-bridge.json",
+      "bytes": 530,
+      "sha256": "23a0959a776e28611af47319ec7283e9ba210afaf91c8cfa41d34cf62b286a64"
+    },
+    {
+      "path": ".cache/agh-v39/geometry-bridge.log",
+      "bytes": 2452,
+      "sha256": "b9ee84c961a989d21ae108fd790a31b1ebe83e942e29b41b928c55742512ff79"
+    },
+    {
+      "path": ".cache/agh-v39/python.log",
+      "bytes": 1336,
+      "sha256": "39e34d30631aefe098f9f6699ef101089e8440dd66432bdb719e71ee0c9448b1"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry1/report.json",
+      "bytes": 9025,
+      "sha256": "011cb02be84ed982794d5966fd02fedcdb138b163c2c8ede57652ea6038161bf"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry1/server.log",
+      "bytes": 202,
+      "sha256": "8c5ef17e07ede4a368795bf749b60b81d72692d1fe9597c32fb2cf2065335b76"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry1-run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry2/report.json",
+      "bytes": 9024,
+      "sha256": "f45ff109b416709fe907a9976ad6386818747f97ef4ffd6ad8370503e7d187e3"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry2/server.log",
+      "bytes": 202,
+      "sha256": "28ca4cf2a6f1a2ea7bb12b729c496d0919720c9e753bb8b2dccf81ea6d09571a"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry2-run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry3/real-client-timeout.png",
+      "bytes": 714658,
+      "sha256": "62acff0790021cd5585f724a487a29fc4b3c2f5bf2a5dc30de317359bc276c83"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry3/real-retry-and-map-navigation.png",
+      "bytes": 514637,
+      "sha256": "1ea5fcdb6952b28ad5c0af265f18ac9a8284975593176addeae2e5bb946a4f76"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry3/report.json",
+      "bytes": 9085,
+      "sha256": "f3099dab24c1fb48aeedc4ab306bbb3210395a1f3a275a4d852806880b548e4a"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry3/retry-packet.json",
+      "bytes": 6731105,
+      "sha256": "0e8483b48fde19b7087c9d2122b5525fda380da66b4601e76293a4fea32c2c64"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry3/server.log",
+      "bytes": 201,
+      "sha256": "38d2e4b58a4931ef26adf625eff9983d93ff4cab8937ee90f3ec2b7016c49c9d"
+    },
+    {
+      "path": ".cache/agh-v39/slowretry3-run.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-one-full-computat-3a142--selects-B-without-moving-A-compact/coverage-contract.png",
+      "bytes": 556248,
+      "sha256": "695a2f769ebf838386873e57c9ca2fcfae7af177074dbef2885ce60e8cac3718"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-one-full-computat-3a142--selects-B-without-moving-A-desktop/coverage-contract.png",
+      "bytes": 720693,
+      "sha256": "34e46ee81181a350f7060850ff3b964eb8195212cfc49fd109e48fac52bf872d"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-one-full-computat-3a142--selects-B-without-moving-A-mobile/coverage-contract.png",
+      "bytes": 165404,
+      "sha256": "7e8255be941540b11024b2fce07a3a660c6f768af3f63737e2cf1f8adb5ffad9"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-one-full-computat-3a142--selects-B-without-moving-A-narrow/coverage-contract.png",
+      "bytes": 144127,
+      "sha256": "f5c2ac87f6a6263e014608e7e31965b60bb779c38e332af1e6d773e1689b5ac9"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-one-full-computat-3a142--selects-B-without-moving-A-tiny/coverage-contract.png",
+      "bytes": 128912,
+      "sha256": "f4c632976a9ddfb2e0f5d6803f97709718207e0166afbb0d6403bb655a4f568d"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-compact/timeout-map-usable.png",
+      "bytes": 358068,
+      "sha256": "df5fa72c8563238716d2ec7919854e54a4fe58717f6f32e0bd58d580e8d902ec"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-desktop/timeout-map-usable.png",
+      "bytes": 468126,
+      "sha256": "0e7a9a34ef7dff5bc849f55ce444e31bd854d0301158f7dc8cc6d88c0bb8e5ab"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-mobile/timeout-map-usable.png",
+      "bytes": 98271,
+      "sha256": "f6ee16109a21fe2264d5f5f4187caa972e2141c41a9d1e1ae08d950bba05d36f"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-narrow/timeout-map-usable.png",
+      "bytes": 87180,
+      "sha256": "bdee5973c08f4a5b3c171647ddba1aef0a8aaa1106ed4511ab144a2dbbc3daa5"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-timeout-keeps-A-a-24cb5-the-explicit-retry-recovers-tiny/timeout-map-usable.png",
+      "bytes": 80056,
+      "sha256": "684f6063fe33aa2d4dc90684533dba6e73f1f399cf798d166635b4b5a068c245"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-compact/sections-before-destination.png",
+      "bytes": 552598,
+      "sha256": "aaa7a1bfee0c95e6f1217499682b5c881fc4cc61f713b90751e92f089bb1e05a"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-desktop/sections-before-destination.png",
+      "bytes": 106205,
+      "sha256": "e2fe54e5a2d9e638d0a29cc999b8e86450fc3f047b3eb0da8d08b75297c82a7f"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-mobile/sections-before-destination.png",
+      "bytes": 164926,
+      "sha256": "73712220ebad20d8da844b44568f8a51bf327b7d07734f1f56a230d4a150a899"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-narrow/sections-before-destination.png",
+      "bytes": 146331,
+      "sha256": "61c2f1503fedb8bca32973d22b540d7fc4eed2b24239da2f454cb5bddd5b65e2"
+    },
+    {
+      "path": ".cache/agh-v39/timeout/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-tiny/sections-before-destination.png",
+      "bytes": 133823,
+      "sha256": "26d8b47a11e8baf3e6a99b9e801f05095457585cdc2777773d213ab6222fd057"
+    },
+    {
+      "path": ".cache/agh-v39/timeout.log",
+      "bytes": 5365,
+      "sha256": "3aacdbcac908cef31753fd3393e697a9635a1e1eed6fc80bf8ed27406899f2ec"
+    },
+    {
+      "path": ".cache/followup-v39/park-cold.prof",
+      "bytes": 13738,
+      "sha256": "e5798a2ef45d729101553f1f309ad610dfbfd012b50ba078618d26494e5fbe29"
+    }
+  ],
+  "open": [
+    "first full update still22.125s",
+    "8s budget",
+    "multi-day R5",
+    "memory",
+    "JS"
+  ]
+}

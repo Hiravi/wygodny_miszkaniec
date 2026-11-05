@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "input_sha256": {
+    "osm": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+    "official_zzm_table": "45cc50ea5c066b6b76d12b87ed1af63234aab76ebab4c69f19e37148dbfb44dd",
+    "osm_parks": "5ba03fe4164789057568e57a7fc3bd7641606ab811121dd8c2aa6650a560fce5"
+  },
+  "aliases": {
+    "Park Krakowski": "Park Krakowski im. M. Grechuty"
+  },
+  "public_matched_parks": [
+    {
+      "id": "relation/61707",
+      "name": "Park Lotników Polskich",
+      "official_row": 35.0
+    },
+    {
+      "id": "way/25506183",
+      "name": "Park Krakowski",
+      "official_row": 28.0
+    }
+  ],
+  "crossing_count": 28,
+  "states": {
+    "public_network_crossing_candidate": 22,
+    "barrier_review_required": 6
+  },
+  "failures": {},
+  "output_sha256": "86031a172f0be072c6c8571a616c1d3fb7c6be0347ee8ddfcc8238ee407ec40b",
+  "coverage": "Only explicitly public-tagged, official-name-matched park subset; not complete city entrance coverage.",
+  "verification": "Native walking and barrier/endpoint QA pending. No green score enabled."
+}

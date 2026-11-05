@@ -1,0 +1,103 @@
+{
+  "schema_version": "1",
+  "data_version": "road-ln-v1-264f85716ab13c3f",
+  "source_id": "msip_noise_1361_2022",
+  "model_year": 2022,
+  "indicator": "LN",
+  "method_version": "road-ln-intervals-v1",
+  "source_sha256": "7443f9e07dba299d65917fee73547afb6a43470e2b0310d69d5fa35490f13fc1",
+  "archive_member": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_dr_LN.geojson",
+  "metadata_records": {
+    "layer": {
+      "url": "https://msip3.um.krakow.pl/hosting/rest/services/Mapy_Halasu/Mapa_Halasu_2022/MapServer/20?f=json",
+      "sha256": "97114015ca29ac76289a5dfbaecb690b3bcb556dbfaaab3d085b312a717d134b"
+    },
+    "count": {
+      "url": "https://msip3.um.krakow.pl/hosting/rest/services/Mapy_Halasu/Mapa_Halasu_2022/MapServer/20/query?f=json&where=1%3D1&returnCountOnly=true",
+      "sha256": "b35f083ceec795af8cb57e903f9fe32250e0267941204eb18201e480fda2e29c"
+    },
+    "pairs": {
+      "url": "https://msip3.um.krakow.pl/hosting/rest/services/Mapy_Halasu/Mapa_Halasu_2022/MapServer/20/query?f=json&where=1%3D1&outFields=isov1%2Cisov2&returnDistinctValues=true&returnGeometry=false",
+      "sha256": "791137ead7889b4334cc4b96611d24f71a9b526c62eb185d44ac602ffc1a98aa"
+    }
+  },
+  "metadata_verified_at": "2026-10-20T21:58:01.017519+00:00",
+  "source_crs": "EPSG:2178",
+  "api_crs": "EPSG:4326",
+  "features": 6786,
+  "display_gap_features": 1,
+  "city_boundary_sha256": "9fc1df66e2b9f72ef41ddf6b185fdfb84ccebbcaaedf0b181f7dd38d308edcd4",
+  "unknown_bands": 0,
+  "geometry_failures": 0,
+  "precision_fallbacks": 33,
+  "display_simplification_m": 3,
+  "display_precision_degrees": 1e-06,
+  "analytical_geometry": "Full source transformed coordinates; no simplification",
+  "source_pairs": [
+    [
+      -33.569999689999996,
+      50
+    ],
+    [
+      50,
+      55
+    ],
+    [
+      55,
+      60
+    ],
+    [
+      60,
+      65
+    ],
+    [
+      65,
+      70
+    ],
+    [
+      70,
+      75
+    ],
+    [
+      75,
+      75
+    ]
+  ],
+  "renderer_classes": [
+    {
+      "max": 49.9,
+      "label": null
+    },
+    {
+      "max": 54.9,
+      "label": "50,0 - 54,9"
+    },
+    {
+      "max": 59.9,
+      "label": "55,0 - 59,9"
+    },
+    {
+      "max": 64.9,
+      "label": "60,0 - 64,9"
+    },
+    {
+      "max": 69.9,
+      "label": "65,0 - 69,9"
+    },
+    {
+      "max": 74.9,
+      "label": "70,0 - 74,9"
+    },
+    {
+      "max": 80,
+      "label": ">=75"
+    }
+  ],
+  "interpretation": "LN road immission only. Negative sentinel means below50; 75/75 is censored >=75. No precise or indoor measurement.",
+  "terms_url": "https://msip.krakow.pl/getHtml?dok_id=228972",
+  "terms_status": "reviewed_local_pilot_publication_unresolved",
+  "output_sha256": {
+    "noise-night-display.geojson": "459abff08b6dde500c671c8a005380fe5ff9d5c138b2c30dd742d3226439b191",
+    "noise-night.sqlite": "389ed27a85a0a0273470b8681d2b3041f3cc2444d76982dec02940bcd1b324a8"
+  }
+}

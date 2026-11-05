@@ -1,0 +1,1 @@
+function e(e){if(!Number.isFinite(e)||e<0)throw Error(`Invalid origin-relative clock`);return e<=900?900:e<=1800?1800:e<=2700?2700:null}var t={900:`#459b9b`,1800:`#337ca6`,2700:`#454d80`};function n(e,t){return e.status===`confirmed`&&e.itinerary!==null&&e.itinerary.elapsed_seconds<=t*60}export{e as n,t as r,n as t};

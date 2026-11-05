@@ -1,0 +1,18 @@
+{
+  "method": "green-walk-runtime-wkb-v40",
+  "source": "data/derived/generated/green-walk-city-v37.json",
+  "source_sha256": "1c6f4d402644b1bb0c12bad78ab81b082898b41c8353bb2fa485c13fe73ca6c3",
+  "source_manifest": "data/manifests/green-walk-city-v37.json",
+  "osm_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "geometry_crs": "EPSG:2180",
+  "geometry": "Exact source x/y and parts in original array order; no simplification",
+  "counts": {
+    "public": 158259,
+    "barriers": 86312,
+    "buildings": 126459
+  },
+  "output": "data/derived/generated/green-walk-runtime-v40.sqlite",
+  "output_sha256": "ec0658de0761571a7f4ecd38c149ec65b1d62c85ea215082918cfe10fc33f1fe",
+  "output_bytes": 52031488,
+  "licence": "OSM ODbL; same source attribution and rights as upstream"
+}

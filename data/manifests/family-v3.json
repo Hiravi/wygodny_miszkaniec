@@ -1,0 +1,23 @@
+{
+  "data_version": "osm-family-v3-08",
+  "source_date": "2026-10-11T20:21:06Z",
+  "source_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "licence": "ODbL-1.0",
+  "attribution": "OpenStreetMap contributors",
+  "crs": "EPSG:4326",
+  "boundary_sha256": "5fca108c88267cb35816d5fa68cda9ca07fa776d2fb9532bfd5ecae076bb2b37",
+  "coverage_complete": false,
+  "geometry_failures": {},
+  "counts": {
+    "playground": 1281,
+    "kindergarten": 387,
+    "childcare": 37,
+    "school": 329,
+    "dog_park": 40,
+    "nursery": 1
+  },
+  "duplicates_removed": 0,
+  "method": "services conservative identity/contained-name dedup; explicit ownership only; restricted sites retained",
+  "limitations": "Partial OSM inventory; no vacancies, catchment, current opening or confirmed doorway. Childcare without explicit nursery/age evidence stays childcare.",
+  "output_sha256": "e6af2bfb98ffaaa5d6c106c7d7caec27e63c735898e8e3413bbb2e5c32edbb62"
+}

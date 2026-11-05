@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "etl_version": "acquire-v1",
+  "source_id": "ztp_gtfs_a",
+  "title": "GTFS_KRK_A",
+  "publisher": "Zarząd Transportu Publicznego w Krakowie",
+  "landing_url": "https://gtfs.ztp.krakow.pl/",
+  "download_url": "https://gtfs.ztp.krakow.pl/GTFS_KRK_A.zip",
+  "produced_at": null,
+  "produced_period": null,
+  "acquired_at": "2026-10-14T02:30:13.407614+00:00",
+  "terms_url": "https://otwartedane.um.krakow.pl/warunki-wykorzystania-danych-udostepnianych-w-portalu",
+  "terms_status": "reviewed_local_pilot_publication_unresolved",
+  "attribution": "Gmina Miejska Kraków; Zarząd Transportu Publicznego w Krakowie; https://gtfs.ztp.krakow.pl/",
+  "source_crs": "EPSG:4326",
+  "spatial_resolution": "scheduled trips and stops",
+  "coverage": {
+    "calendar_span": [
+      "2026-10-10",
+      "2027-01-31"
+    ],
+    "timezone": "Europe/Warsaw",
+    "all_dates_audit": "gtfs-coverage-v1.json"
+  },
+  "status": "downloaded",
+  "sha256": "1dda9ab3ee73d929f413cc29663107af8042b891ebd6abafee38b4d6961c4c55",
+  "issues": [],
+  "http_last_modified": "Mon, 12 Oct 2026 09:49:01 GMT",
+  "resolved_download_url": "https://gtfs.ztp.krakow.pl/GTFS_KRK_A.zip",
+  "archive_entries": [
+    {
+      "name": "agency.txt",
+      "bytes": 218
+    },
+    {
+      "name": "stops.txt",
+      "bytes": 203762
+    },
+    {
+      "name": "routes.txt",
+      "bytes": 7675
+    },
+    {
+      "name": "trips.txt",
+      "bytes": 7051790
+    },
+    {
+      "name": "stop_times.txt",
+      "bytes": 140315033
+    },
+    {
+      "name": "calendar.txt",
+      "bytes": 529
+    },
+    {
+      "name": "calendar_dates.txt",
+      "bytes": 2654
+    },
+    {
+      "name": "shapes.txt",
+      "bytes": 30314329
+    },
+    {
+      "name": "feed_info.txt",
+      "bytes": 286
+    }
+  ],
+  "bytes": 20302426,
+  "download_seconds": 0.682,
+  "metadata_reviewed_at": "2026-10-14",
+  "reuse_review": {
+    "general_conditions_url": "https://www.bip.krakow.pl/?dok_id=48482",
+    "conditions": [
+      "Identify source and production/acquisition dates; disclose processing.",
+      "Municipality is not responsible for downstream processing; preserve third-party rights."
+    ],
+    "local_scope": "Private local pilot uses downloaded vectors; no continuous MSIP map service, redistribution or publication performed.",
+    "publication_clearance": "unresolved_source_specific_conditions",
+    "note": "Reviewed public conditions; no claim of CC0 or CC-BY licensing."
+  }
+}

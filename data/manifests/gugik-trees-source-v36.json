@@ -1,0 +1,16 @@
+{
+  "source_id": "gugik_trees_1261_lod1_2023",
+  "title": "GUGiK \u2014 modele drzew, 309 plik\u00f3w Krakowa1261",
+  "landing_url": "https://www.geoportal.gov.pl/pl/dane/inne-dane/modele-3d-drzew/",
+  "produced_at": null,
+  "produced_period": "Materia\u0142y 2023-04-21\u20132023-09-09; LoD1 2023, nie pe\u0142ny spis drzew.",
+  "acquired_at": "2026-10-19T16:02:16.926154+00:00",
+  "export_generated_at": null,
+  "terms_url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_status": "CC-BY-4.0",
+  "attribution": "GUGiK, CC BY 4.0; punkty2D, cz\u0119\u015bci modeli i grupy \u2014 opracowanie w\u0142asne",
+  "source_crs": "EPSG:2180; obserwowany porz\u0105dek E,N",
+  "coverage_complete": false,
+  "archive_complete": true,
+  "acquisition_manifest": "data/manifests/gugik-tree-county-v36.json"
+}

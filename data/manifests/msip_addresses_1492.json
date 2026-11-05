@@ -1,0 +1,56 @@
+{
+  "schema_version": "1",
+  "etl_version": "acquire-v1",
+  "source_id": "msip_addresses_1492",
+  "title": "Punkty adresowe (EMUiA)",
+  "publisher": "Urząd Miasta Krakowa",
+  "landing_url": "https://msip.krakow.pl/dataset/1492",
+  "download_url": "https://msip.um.krakow.pl/Dane/Adresy_JSON.zip",
+  "produced_at": null,
+  "produced_period": null,
+  "acquired_at": "2026-10-14T02:29:47.353818+00:00",
+  "terms_url": "https://msip.krakow.pl/getHtml?dok_id=228972",
+  "terms_status": "reviewed_local_pilot_publication_unresolved",
+  "attribution": "Gmina Miejska Kraków; Urząd Miasta Krakowa; https://msip.krakow.pl/dataset/1492",
+  "source_crs": "EPSG:2178",
+  "spatial_resolution": "official address point",
+  "coverage": {
+    "bbox_wgs84": [
+      19.79422791440829,
+      49.96942645419136,
+      20.21021057941298,
+      50.12746976143248
+    ],
+    "feature_count": 70282,
+    "not_a_completeness_guarantee": true
+  },
+  "status": "downloaded",
+  "sha256": "7335cd2edbe1659e5d780e07a14c27e8fcb8117201208a2ccdbc8c75f62a3828",
+  "issues": [],
+  "http_last_modified": "Wed, 14 Oct 2026 00:00:05 GMT",
+  "resolved_download_url": "https://msip.um.krakow.pl/Dane/Adresy_JSON.zip",
+  "archive_entries": [
+    {
+      "name": "Adresy.geojson",
+      "bytes": 26215013
+    },
+    {
+      "name": "__Aktualnosc__.txt",
+      "bytes": 47
+    }
+  ],
+  "bytes": 2356780,
+  "download_seconds": 0.216,
+  "metadata_reviewed_at": "2026-10-14",
+  "reuse_review": {
+    "general_conditions_url": "https://www.bip.krakow.pl/?dok_id=48482",
+    "conditions": [
+      "Identify source and production/acquisition dates; disclose processing.",
+      "Municipality is not responsible for downstream processing; preserve third-party rights."
+    ],
+    "local_scope": "Private local pilot uses downloaded vectors; no continuous MSIP map service, redistribution or publication performed.",
+    "publication_clearance": "unresolved_source_specific_conditions",
+    "note": "Reviewed public conditions; no claim of CC0 or CC-BY licensing."
+  },
+  "export_generated_at": "2026-10-14T00:45:05"
+}

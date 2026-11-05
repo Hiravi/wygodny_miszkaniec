@@ -1,0 +1,1686 @@
+{
+  "schema_version": "1",
+  "date": "2026-10-19",
+  "worker": {
+    "method": "r5-7.5.1-minute-grid150-v3",
+    "route_method": "r5-native-scheduled-hops-v31",
+    "schema_version": "4",
+    "graph_version": "b0314bc250796dcf0b167de4726c46914ef697f69239f7467f136114dbfada50",
+    "data_version": "locations-v1-7ce32dd276347f4b",
+    "sources": {
+      "malopolskie-261011.osm.pbf": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+      "ztp_gtfs_a.zip": "1dda9ab3ee73d929f413cc29663107af8042b891ebd6abafee38b4d6961c4c55",
+      "ztp_gtfs_m.zip": "505e888d7e086433d49857dad817e45203c50e15d566710c9b8b85c0acd7b602",
+      "ztp_gtfs_t.zip": "bb4ed7a36e07d49cd72cc29a6ac5b1fff145c991ea0483b826799715b7ff801f"
+    },
+    "transfer_calibration": {
+      "policy": "native-directed-walk-seconds-v33",
+      "signature": "ec7ed52bcb610caa023127384ae383893d9b8714ac285d7dbfaf8bbdfb0daf99",
+      "candidate_pairs": 36141,
+      "changed_seconds": 36080,
+      "unconfirmed_pairs_removed": 61,
+      "gtfs_transfer_origins": 0,
+      "preparation_seconds": 11.111,
+      "cache_hit": true,
+      "apply_seconds": 0.558,
+      "artifact": ".cache/router/walk-transfers-ec7ed52bcb610caa023127384ae383893d9b8714ac285d7dbfaf8bbdfb0daf99.json"
+    },
+    "barrier_permissions": {
+      "policy": "explicit-barrier-walk-permissions-v33",
+      "signature": "03849df2c439d25ebe7b5a3870ece9bf7974ea5e578ab81d7da820192f424b31",
+      "restricted_source_nodes": 9569,
+      "native_vertex_nodes": 8309,
+      "changed_directed_edges": 18808,
+      "match_method": "native-coordinate-quantum",
+      "artifact": ".cache/router/barrier-permissions-03849df2c439d25ebe7b5a3870ece9bf7974ea5e578ab81d7da820192f424b31.json",
+      "applied_artifact": ".cache/router/barrier-applied-03849df2c439d25ebe7b5a3870ece9bf7974ea5e578ab81d7da820192f424b31.json"
+    },
+    "settings": {
+      "departure_window_seconds": 60,
+      "speed_walking_kmh": 4.8,
+      "maximum_minutes": 45,
+      "maximum_rides": 8,
+      "sample_snap_radius_m": 30,
+      "boarding_minimum_seconds": 60,
+      "time_resolution": "floor minutes; never precise reconstructed seconds",
+      "timezone": "Europe/Warsaw",
+      "egress": "WALK network",
+      "transfer_cost_policy": "native-directed-walk-seconds-v33",
+      "service_day_policy": "unsupported-overlapping-service-days-v33",
+      "barrier_policy": "explicit-barrier-walk-permissions-v33",
+      "walk_access_validation": "restricted-node-walk-geometry-v34",
+      "final_walk_policy": "native-grouped-final-walk-v34"
+    },
+    "grid_m": 150,
+    "grid_samples": 8166,
+    "rejected_grid_samples": 6326,
+    "platforms": 2672,
+    "regional_platforms": 4113,
+    "routes": 220,
+    "load_seconds": 64.752,
+    "rss_bytes": 3391336448
+  },
+  "scope": "Network-model points only; no continuous area or physical-access guarantee",
+  "controls": [
+    {
+      "name": "AGH",
+      "request": {
+        "origin": {
+          "longitude": 19.923628208264066,
+          "latitude": 50.06448462923272
+        },
+        "departure": "2026-10-14T08:00:00+02:00",
+        "data_version": "locations-v1-7ce32dd276347f4b"
+      },
+      "http_seconds": 18.27,
+      "coverage": {
+        "grid_m": 150,
+        "grid_samples": 8166,
+        "rejected_grid_samples": 6326,
+        "platforms": 2672,
+        "regional_platforms": 4113,
+        "routes": 220,
+        "verified_transfer_pairs": 36080,
+        "omitted_transfer_pairs": 61,
+        "egress_searches": 354,
+        "direct_searches": 1,
+        "confirmed_points": 4283
+      },
+      "validated_controls": 3,
+      "boundary": null
+    },
+    {
+      "name": "Lipska",
+      "request": {
+        "origin": {
+          "longitude": 19.989840657449083,
+          "latitude": 50.04015121351742
+        },
+        "departure": "2026-10-18T08:00:00+02:00",
+        "data_version": "locations-v1-7ce32dd276347f4b"
+      },
+      "http_seconds": 5.922,
+      "coverage": {
+        "grid_m": 150,
+        "grid_samples": 8166,
+        "rejected_grid_samples": 6326,
+        "platforms": 2672,
+        "regional_platforms": 4113,
+        "routes": 220,
+        "verified_transfer_pairs": 36080,
+        "omitted_transfer_pairs": 61,
+        "egress_searches": 147,
+        "direct_searches": 1,
+        "confirmed_points": 1903
+      },
+      "validated_controls": 3,
+      "boundary": {
+        "id": "1:10095",
+        "kind": "stop",
+        "name": "Malborska",
+        "longitude": 19.97335,
+        "latitude": 50.0265,
+        "minutes_floor": 29,
+        "band": null,
+        "estimated_band": 30,
+        "confirmation": "approximate",
+        "confirmed_seconds": null,
+        "final_walk_seconds": null,
+        "egress_stop": null,
+        "witness_id": null,
+        "section_id": null,
+        "candidate_seconds": 1805,
+        "endpoint_link_m": 0.92
+      }
+    },
+    {
+      "name": "Krowoderskich",
+      "request": {
+        "origin": {
+          "longitude": 19.928374490653994,
+          "latitude": 50.08787972955825
+        },
+        "departure": "2026-10-14T08:00:00+02:00",
+        "data_version": "locations-v1-7ce32dd276347f4b"
+      },
+      "http_seconds": 10.928,
+      "coverage": {
+        "grid_m": 150,
+        "grid_samples": 8166,
+        "rejected_grid_samples": 6326,
+        "platforms": 2672,
+        "regional_platforms": 4113,
+        "routes": 220,
+        "verified_transfer_pairs": 36080,
+        "omitted_transfer_pairs": 61,
+        "egress_searches": 274,
+        "direct_searches": 1,
+        "confirmed_points": 2961
+      },
+      "validated_controls": 3,
+      "boundary": null
+    },
+    {
+      "name": "Che\u0142mska 2, Krak\u00f3w",
+      "request": {
+        "origin": {
+          "longitude": 19.850909885401784,
+          "latitude": 50.067612458520756
+        },
+        "departure": "2026-10-14T08:00:00+02:00",
+        "data_version": "locations-v1-7ce32dd276347f4b"
+      },
+      "http_seconds": 5.798,
+      "coverage": {
+        "grid_m": 150,
+        "grid_samples": 8166,
+        "rejected_grid_samples": 6326,
+        "platforms": 2672,
+        "regional_platforms": 4113,
+        "routes": 220,
+        "verified_transfer_pairs": 36080,
+        "omitted_transfer_pairs": 61,
+        "egress_searches": 158,
+        "direct_searches": 1,
+        "confirmed_points": 1762
+      },
+      "validated_controls": 3,
+      "boundary": null
+    },
+    {
+      "name": "Jeziorko 28, Krak\u00f3w",
+      "request": {
+        "origin": {
+          "longitude": 20.1484043072559,
+          "latitude": 50.08560707914771
+        },
+        "departure": "2026-10-14T08:00:00+02:00",
+        "data_version": "locations-v1-7ce32dd276347f4b"
+      },
+      "http_seconds": 2.802,
+      "coverage": {
+        "grid_m": 150,
+        "grid_samples": 8166,
+        "rejected_grid_samples": 6326,
+        "platforms": 2672,
+        "regional_platforms": 4113,
+        "routes": 220,
+        "verified_transfer_pairs": 36080,
+        "omitted_transfer_pairs": 61,
+        "egress_searches": 0,
+        "direct_searches": 1,
+        "confirmed_points": 223
+      },
+      "validated_controls": 3,
+      "boundary": null
+    },
+    {
+      "name": "Zakopia\u0144ska 4, Krak\u00f3w",
+      "request": {
+        "origin": {
+          "longitude": 19.93630622651159,
+          "latitude": 50.02828877997336
+        },
+        "departure": "2026-10-14T08:00:00+02:00",
+        "data_version": "locations-v1-7ce32dd276347f4b"
+      },
+      "http_seconds": 11.693,
+      "coverage": {
+        "grid_m": 150,
+        "grid_samples": 8166,
+        "rejected_grid_samples": 6326,
+        "platforms": 2672,
+        "regional_platforms": 4113,
+        "routes": 220,
+        "verified_transfer_pairs": 36080,
+        "omitted_transfer_pairs": 61,
+        "egress_searches": 352,
+        "direct_searches": 1,
+        "confirmed_points": 4178
+      },
+      "validated_controls": 3,
+      "boundary": null
+    }
+  ],
+  "profile": {
+    "same_query": true,
+    "before_seconds": 18.099,
+    "after_seconds": 15.003,
+    "identical_features": true,
+    "identical_route_proofs": true,
+    "qualification": "One initialized profiled cache-miss context, not p95/cold/GPU/memory acceptance; JVM restarted, preceding warm-up differs."
+  },
+  "gates": {
+    "multi_service_day": "open",
+    "performance": "open",
+    "memory": "open",
+    "continuous_territory": "open",
+    "release": "open"
+  },
+  "artifacts": [
+    {
+      "path": ".cache/qa/v032-native-v034after.prof",
+      "bytes": 151502,
+      "sha256": "aa36181c1ef4d6fee4ca328ba2e600abfa77ee41c3c627fc7aa8857f5c366cae"
+    },
+    {
+      "path": ".cache/qa/v032-native-v034before.prof",
+      "bytes": 151379,
+      "sha256": "d760f717b25a60e407a93f1737e89607c9d35845b67ba3301cd84ec3f16ca4bc"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-compact/coverage-contract.png",
+      "bytes": 556248,
+      "sha256": "695a2f769ebf838386873e57c9ca2fcfae7af177074dbef2885ce60e8cac3718"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-desktop/coverage-contract.png",
+      "bytes": 720693,
+      "sha256": "34e46ee81181a350f7060850ff3b964eb8195212cfc49fd109e48fac52bf872d"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-mobile/coverage-contract.png",
+      "bytes": 165404,
+      "sha256": "7e8255be941540b11024b2fce07a3a660c6f768af3f63737e2cf1f8adb5ffad9"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-narrow/coverage-contract.png",
+      "bytes": 144127,
+      "sha256": "f5c2ac87f6a6263e014608e7e31965b60bb779c38e332af1e6d773e1689b5ac9"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-one-full-computat-3a142--selects-B-without-moving-A-tiny/coverage-contract.png",
+      "bytes": 128912,
+      "sha256": "f4c632976a9ddfb2e0f5d6803f97709718207e0166afbb0d6403bb655a4f568d"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-compact/sections-before-destination.png",
+      "bytes": 552018,
+      "sha256": "43950ba5b3e60ef7485123f76dba6d1aaa3b2244252088ecaaf530427ba71d6e"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-desktop/sections-before-destination.png",
+      "bytes": 105657,
+      "sha256": "4eaa26b673688c5c16919792b9f7a5d0f5ee6f3664695f03a41ca9c9f4b9c76b"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-mobile/sections-before-destination.png",
+      "bytes": 164542,
+      "sha256": "e8e87e2c8d528352eddcf662170f028537e55b40ed7d36d4049b06daf9616b18"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-narrow/sections-before-destination.png",
+      "bytes": 145938,
+      "sha256": "3fec35d56a8fc99d84b36b4b7a862a743b5e06ffb4f8ac7ca6abf55f35bfb5d7"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression/coverage-Zasi\u0119g-shows-conf-1b185-ples-and-horizons-are-local-tiny/sections-before-destination.png",
+      "bytes": 134282,
+      "sha256": "0ccb68212a7f4b9bfcc6c241f04e5cb6cd946fb1972718e27d1ae3e50308e921"
+    },
+    {
+      "path": ".cache/qa/v034-coverage-regression.log",
+      "bytes": 4700,
+      "sha256": "97acde8ff519ed592e9cbbe846cdfca6d9d5fce9bbc88cd63eedd66e65c80340"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/coverage-confirmation.live-66d1e-ed-trip-inside-its-map-band-desktop/confirmed-band-trip.png",
+      "bytes": 559707,
+      "sha256": "5238c4658c819c6eac8f96da3199716df1f902dd16e867a237cfb5ae69e33ba1"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/coverage-confirmation.live-66d1e-ed-trip-inside-its-map-band-desktop/confirmed-network-points.png",
+      "bytes": 746081,
+      "sha256": "198b63ae9d7e1403539ba0cb0b6cd8e4acafc75a07bd6745452e79ce65b83d49"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/coverage-confirmation.live-66d1e-ed-trip-inside-its-map-band-mobile/confirmed-band-trip.png",
+      "bytes": 77190,
+      "sha256": "06c252614e483bcb46cf744f078cdcefa1dd058adf2b7f4b9062ece20b823b56"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/coverage-confirmation.live-66d1e-ed-trip-inside-its-map-band-mobile/confirmed-network-points.png",
+      "bytes": 169084,
+      "sha256": "61049c8c39ab7cb8961c1051510292b67a1f8d9aeb5a269272bc4373fb5eb92b"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/coverage-confirmation.live-f078b-not-become-a-false-positive-desktop/uncertain-boundary-map.png",
+      "bytes": 235165,
+      "sha256": "f2aee1feb93a67d3bb40b38e322edf5d35f23abeb5b9ecdf8be0944e07885e36"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/coverage-confirmation.live-f078b-not-become-a-false-positive-desktop/unconfirmed-estimate.png",
+      "bytes": 121639,
+      "sha256": "731e3e94a97eeaf6e911e00573c83971a7e075212c4c5d886ff1f515736add29"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/coverage-confirmation.live-f078b-not-become-a-false-positive-mobile/uncertain-boundary-map.png",
+      "bytes": 110346,
+      "sha256": "4e223c3cc37197fab9820e39fcf2dfc5bb7a314069840b2e618331b45aef4184"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures/coverage-confirmation.live-f078b-not-become-a-false-positive-mobile/unconfirmed-estimate.png",
+      "bytes": 72502,
+      "sha256": "57b05d001f96daf825bb7464f4dfb92bf50b0863b1734a92d2a6f5cb81d89cbd"
+    },
+    {
+      "path": ".cache/qa/v034-final-captures.log",
+      "bytes": 1395,
+      "sha256": "31d184cf9f51f3d575993fccc0be04f501b36764a4584e84ac71dbb9f8028e30"
+    },
+    {
+      "path": ".cache/qa/v034-final-legend-build.log",
+      "bytes": 1932,
+      "sha256": "4b40c93c8fac081db0f09affea668b959ab4dd3d8b1af378c5a6496a10ec1b81"
+    },
+    {
+      "path": ".cache/qa/v034-final-source-check.log",
+      "bytes": 5307,
+      "sha256": "a0185d53fcbab976677c036f2b20441dbaa4cb6bca977b19b1ce1dfc4521e927"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/coverage-confirmation.live-66d1e-ed-trip-inside-its-map-band-desktop/confirmed-band-trip.png",
+      "bytes": 559707,
+      "sha256": "5238c4658c819c6eac8f96da3199716df1f902dd16e867a237cfb5ae69e33ba1"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/coverage-confirmation.live-66d1e-ed-trip-inside-its-map-band-desktop/confirmed-network-points.png",
+      "bytes": 745540,
+      "sha256": "2098b423e8c8aab138c3276cd19530bc19f0c49370fb15ff68064a4d674df0e5"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/coverage-confirmation.live-66d1e-ed-trip-inside-its-map-band-mobile/confirmed-band-trip.png",
+      "bytes": 77190,
+      "sha256": "06c252614e483bcb46cf744f078cdcefa1dd058adf2b7f4b9062ece20b823b56"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/coverage-confirmation.live-66d1e-ed-trip-inside-its-map-band-mobile/confirmed-network-points.png",
+      "bytes": 168703,
+      "sha256": "343a838bf3651cc1e19b2e474ec0f3dbe836b17e5cdfcf365e5f822eefe32da5"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/coverage-confirmation.live-f078b-not-become-a-false-positive-desktop/uncertain-boundary-map.png",
+      "bytes": 234594,
+      "sha256": "13ec84026de0c167d83f2c48a3a7ced8d4b358eb4983a094024462b98f745c4b"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/coverage-confirmation.live-f078b-not-become-a-false-positive-desktop/unconfirmed-estimate.png",
+      "bytes": 121639,
+      "sha256": "731e3e94a97eeaf6e911e00573c83971a7e075212c4c5d886ff1f515736add29"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/coverage-confirmation.live-f078b-not-become-a-false-positive-mobile/uncertain-boundary-map.png",
+      "bytes": 109978,
+      "sha256": "43d43b5f8d5689806adc5e7a0884e0f5fd676dd4f467e5c8e262126423ee93dc"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/coverage-confirmation.live-f078b-not-become-a-false-positive-mobile/unconfirmed-estimate.png",
+      "bytes": 72112,
+      "sha256": "ecf55505209a7275e372c76842e6e7f01d370a4ca2fbc792fce36c60a5294481"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/map-selection.live-late-it-f95e7-nd-camera-until-Show-on-map-desktop/explicit-route-navigation.png",
+      "bytes": 122921,
+      "sha256": "065692f78d6d366061850101abb5d4d944c622fa3199c4aa88813a1243aa0a46"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/map-selection.live-late-it-f95e7-nd-camera-until-Show-on-map-mobile/explicit-route-navigation.png",
+      "bytes": 60294,
+      "sha256": "8c16a053b427e1ad469904bfd721a67880d198c3822ff53d02e7faa1558b4d42"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/map-ui.live-UI-backgrounds-16a60-after-real-coverage-arrives-desktop/ui-backgrounds-after-native-coverage.png",
+      "bytes": 743176,
+      "sha256": "c056a22995dc6309539aa38c3ba140732d30bb24d5bfe5036111b05447ca8fd4"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/map-ui.live-UI-backgrounds-16a60-after-real-coverage-arrives-mobile/ui-backgrounds-after-native-coverage.png",
+      "bytes": 154727,
+      "sha256": "b8423e86416250c8cfb80e3d64dacb781347ed35ccf0b53f58cbe4511e1b3a90"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/routing.live-actual-schedu-88314--and-separate-walking-route-desktop/actual-transit.png",
+      "bytes": 560446,
+      "sha256": "d5a261406c7423bac440f3b556cbe4ee0f7ae43ab901cdc7eb663e0776b8dd42"
+    },
+    {
+      "path": ".cache/qa/v034-native-accepted/routing.live-actual-schedu-88314--and-separate-walking-route-mobile/actual-transit.png",
+      "bytes": 77465,
+      "sha256": "a3e0db2227e772f06f63aa6182e8f361658cc368836c71cb8d18549498498f83"
+    },
+    {
+      "path": ".cache/qa/v034-native-browser.log",
+      "bytes": 2807,
+      "sha256": "c443a4c38fc11d613e22b641caaec63b07774a043b3614c9a990fb162c2b1052"
+    },
+    {
+      "path": ".cache/qa/v034-native-path-limit.log",
+      "bytes": 3999,
+      "sha256": "f970b13e149efb866cdb0c0b09cd7dae27c000a408e3e98dd1a4b437cd68a8d9"
+    },
+    {
+      "path": ".cache/qa/v034-native-walk-cost-bytecode.txt",
+      "bytes": 20824,
+      "sha256": "7b165032ed5b4f83bab71749507b5de01c283e620788d8ac47505d6b4b80dd1c"
+    },
+    {
+      "path": ".cache/qa/v034-profile-comparison.json",
+      "bytes": 295,
+      "sha256": "12c77c1c97e27a81755c535a73140fa7816ae5d415e4cbe3a942d517db3dd549"
+    },
+    {
+      "path": ".cache/qa/v034-scale/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": ".cache/qa/v034-scale/layout.accessibility-v0-3--59fbe--with-text-and-browser-zoom-compact-zoom200/coverage-route-scaled.png",
+      "bytes": 119865,
+      "sha256": "b48a87854f515eb9a9b1661cadb4faf3bb8652606b6712dca7a3760c2e9e339b"
+    },
+    {
+      "path": ".cache/qa/v034-scale/layout.accessibility-v0-3--59fbe--with-text-and-browser-zoom-compact-zoom200/outside-boundary-scaled.png",
+      "bytes": 105268,
+      "sha256": "9c9ab030c7505801881ef187ac4d93c541341477f999f3b215bc7da85780baa0"
+    },
+    {
+      "path": ".cache/qa/v034-scale/layout.accessibility-v0-3--59fbe--with-text-and-browser-zoom-desktop-zoom200/coverage-route-scaled.png",
+      "bytes": 139160,
+      "sha256": "248914c84fefc8ae10d8eb75d20e03a79dee1689f979798289b74266583351aa"
+    },
+    {
+      "path": ".cache/qa/v034-scale/layout.accessibility-v0-3--59fbe--with-text-and-browser-zoom-desktop-zoom200/outside-boundary-scaled.png",
+      "bytes": 120358,
+      "sha256": "4c32e46daf7c5fa8423ab7f32153202e94ce08b54396081f29dc92719d362b82"
+    },
+    {
+      "path": ".cache/qa/v034-scale/layout.accessibility-v0-3--59fbe--with-text-and-browser-zoom-mobile-text/coverage-route-scaled.png",
+      "bytes": 81976,
+      "sha256": "0fb95b0d211f727c6d9fd3702a487feabd306a2f8e51815fe18fb062129e974d"
+    },
+    {
+      "path": ".cache/qa/v034-scale/layout.accessibility-v0-3--59fbe--with-text-and-browser-zoom-mobile-text/outside-boundary-scaled.png",
+      "bytes": 71678,
+      "sha256": "f88a48a7cbf2e8d6c0691b64f1a0e15dd57aa513772b89104d3b35b7dcc0c3a4"
+    },
+    {
+      "path": ".cache/qa/v034-scale/layout.accessibility-v0-3--59fbe--with-text-and-browser-zoom-tiny-text/coverage-route-scaled.png",
+      "bytes": 73977,
+      "sha256": "1999a5bef2797d746e7b739b662e18067812479592345eefbb8908a342fe3b5f"
+    },
+    {
+      "path": ".cache/qa/v034-scale/layout.accessibility-v0-3--59fbe--with-text-and-browser-zoom-tiny-text/outside-boundary-scaled.png",
+      "bytes": 60485,
+      "sha256": "150ab3da057290934281bca22eaac30653d210df9171c5a411e0af41732c6499"
+    },
+    {
+      "path": ".cache/qa/v034-scale-command-error.log",
+      "bytes": 603,
+      "sha256": "4fa006e8354a08d3515d40ea4ec19069ac04e64ca46d750f5457b3e1fd93ec1b"
+    },
+    {
+      "path": ".cache/qa/v034-scale.log",
+      "bytes": 1780,
+      "sha256": "5a4c777498ec3726db6505434db3e04d3588d65c943b195d7ef341ccc8697ea8"
+    },
+    {
+      "path": ".cache/qa/v034-source-check.log",
+      "bytes": 5307,
+      "sha256": "c648cb812096ff72ef4f432145ee1c6243ebb8b714a988ad4980bac205272cdc"
+    },
+    {
+      "path": ".cache/qa/v034-territory-final.log",
+      "bytes": 3692,
+      "sha256": "ed85619afef26e70727aee114aa8ed6c3db8f8c1ba1ba8c88a5b37c363c559a6"
+    },
+    {
+      "path": ".cache/qa/v034-territory-timeout.log",
+      "bytes": 1079,
+      "sha256": "7c0ab2457ed24c04093ae70067795c3a3e8f74814d2fd19d46597343b7d82cad"
+    },
+    {
+      "path": ".cache/qa/v034-territory.log",
+      "bytes": 1079,
+      "sha256": "7c0ab2457ed24c04093ae70067795c3a3e8f74814d2fd19d46597343b7d82cad"
+    },
+    {
+      "path": ".cache/router/v034-agh-after-timeout.json",
+      "bytes": 6670784,
+      "sha256": "4142a7d206e9222dfee7f5565fa50e4bc780d90ad844c52290b4d8949c0f6604"
+    },
+    {
+      "path": ".cache/router/v034-agh-api-timeout.json",
+      "bytes": 618,
+      "sha256": "cb85905b1ba7d6dd74aff97e2941d32dcc53e279a3acb8dd31079c1aa1882bb7"
+    },
+    {
+      "path": ".cache/router/v034-first-native.json",
+      "bytes": 2729067,
+      "sha256": "5649decd83e3f7ed79a183836733bcfff89f99b047a110cad56d27c0c007b1d5"
+    },
+    {
+      "path": ".cache/router/v034-health.json",
+      "bytes": 732940,
+      "sha256": "4736dbf4248318188de4469a77f226ef774b2832b1f8ef76b2517bc0b509af28"
+    },
+    {
+      "path": ".cache/router/v034-profile-after.json",
+      "bytes": 6777399,
+      "sha256": "dcc9586685880c8006d65b0356a8e857047e20f95e07f7577ad4230179369528"
+    },
+    {
+      "path": ".cache/router/v034-profile-before.json",
+      "bytes": 6777399,
+      "sha256": "f068fbd344e072aab2da0329a9f5b36c0dc94b764c4e4645a32b10330255957f"
+    },
+    {
+      "path": ".cache/router/v034-source-walk-controls.json",
+      "bytes": 4812,
+      "sha256": "cb22b245c66b85a0f281750517ff91fd7023239d212a958456cd5d63e90c3838"
+    },
+    {
+      "path": ".cache/router/v034-temporal.json",
+      "bytes": 80028,
+      "sha256": "03115479ae67c2e3e4f27a97b8cbf2d487d1da291c0a7466a98034fe9e1506a0"
+    },
+    {
+      "path": ".cache/router/v034-territory/0-walks.json",
+      "bytes": 12140,
+      "sha256": "a05fa21964d2e37e56ed33157276b32f2644471ac8b6e0c30612338fa2c22195"
+    },
+    {
+      "path": ".cache/router/v034-territory/0.json",
+      "bytes": 7358749,
+      "sha256": "e80c30046e71c9996605b380712456f2f3811296c9f0eb803767667aa99e28ad"
+    },
+    {
+      "path": ".cache/router/v034-territory/1-walks.json",
+      "bytes": 36833,
+      "sha256": "3266ecac7f82eb9e8a725e999faa65bada96652a900eb4bab53df6f9068ec021"
+    },
+    {
+      "path": ".cache/router/v034-territory/1.json",
+      "bytes": 3314109,
+      "sha256": "4be2ca44960abd7c68f43f4cc14e1c9e6017c0b4862e3db5f73c434db20bb582"
+    },
+    {
+      "path": ".cache/router/v034-territory/2-walks.json",
+      "bytes": 24717,
+      "sha256": "14a9f230572909000b032154ca012eba9e06a5b3cc5a00d699f878b9d9e21cb6"
+    },
+    {
+      "path": ".cache/router/v034-territory/2.json",
+      "bytes": 5685907,
+      "sha256": "f52b7d0a4d0fab6e4bdaad52fb353f60a82d1ce92b225b7a48df90bb05311441"
+    },
+    {
+      "path": ".cache/router/v034-territory/3-walks.json",
+      "bytes": 17921,
+      "sha256": "ff1f582f6ea0601354faf2bcb5a054e07263ac12df8f4be3be1a3e50c424e874"
+    },
+    {
+      "path": ".cache/router/v034-territory/3.json",
+      "bytes": 3371762,
+      "sha256": "eb271add7611edbefc0392a42deccca3006e322c5f5a49a55c2e8bac57b63275"
+    },
+    {
+      "path": ".cache/router/v034-territory/4-walks.json",
+      "bytes": 41557,
+      "sha256": "ac3a80758af23e31fc689825929cc39d0583b9c25da021b5db3d807195bfc255"
+    },
+    {
+      "path": ".cache/router/v034-territory/4.json",
+      "bytes": 1463882,
+      "sha256": "a84b0bc8a7f584c718d9d94d5e0f42e625c24e22fe57ee137174d67ccdfd3047"
+    },
+    {
+      "path": ".cache/router/v034-territory/5-walks.json",
+      "bytes": 17640,
+      "sha256": "4d85edc7d11295e574ddb5d7f23421bde9324df524f9dc5b28dc857592e6d2b1"
+    },
+    {
+      "path": ".cache/router/v034-territory/5.json",
+      "bytes": 6772308,
+      "sha256": "cd4dd8884e671158a43658fa024f0212e369166c2529785f703d5435ec72611a"
+    },
+    {
+      "path": ".cache/router/v034-territory/report.json",
+      "bytes": 4876,
+      "sha256": "6b765c3b23f650f4ca3ff6b3a95c68e2dc1802b0db69d6c8b78d140c502d4f92"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "apps/web/.gitignore",
+      "bytes": 253,
+      "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+    },
+    {
+      "path": "apps/web/.oxlintrc.json",
+      "bytes": 245,
+      "sha256": "b4d344818a1e1bf43997e4744a9153c8eef770c98b58229cd86363dabb85ded4"
+    },
+    {
+      "path": "apps/web/e2e/coverage-confirmation.live.spec.ts",
+      "bytes": 5943,
+      "sha256": "655069b4e94c61d2e8ca603bce4f086d3da2f473b30380e62dfe348cbbff4790"
+    },
+    {
+      "path": "apps/web/e2e/coverage.spec.ts",
+      "bytes": 6876,
+      "sha256": "a76d97b0cb89ede56d5d3a034319171b1be4c31c2fac49370436427100db84cb"
+    },
+    {
+      "path": "apps/web/e2e/layout.accessibility.spec.ts",
+      "bytes": 23878,
+      "sha256": "486028368a6e8e0d162bbb80ec2f5eda8a3ac3e1546037ee9f237400aa0c3574"
+    },
+    {
+      "path": "apps/web/e2e/location.spec.ts",
+      "bytes": 4121,
+      "sha256": "2647d1b80bd2aeaded858450ca90f77d79c0b63824b3dfd4099dea066d631db4"
+    },
+    {
+      "path": "apps/web/e2e/map-selection.live.spec.ts",
+      "bytes": 5208,
+      "sha256": "0f6ddc8322880a4a8b22764b79dd64d5d7644c0e4bbf5da55753023cf17473c9"
+    },
+    {
+      "path": "apps/web/e2e/map-selection.spec.ts",
+      "bytes": 12106,
+      "sha256": "a46ff11b19d1936ae345a7a21ff8a819d87548513f86e240632d519fc8f818c1"
+    },
+    {
+      "path": "apps/web/e2e/map-ui.live.spec.ts",
+      "bytes": 5482,
+      "sha256": "c428349fb634750cccd5ac55dee74fc9baed157e3181775b90ff74c5c34199b0"
+    },
+    {
+      "path": "apps/web/e2e/network.live.spec.ts",
+      "bytes": 3928,
+      "sha256": "de3502332691b2c35b08e23a5bb8b92c7515523346cc0288768bbbb2fc0cbbc9"
+    },
+    {
+      "path": "apps/web/e2e/network.spec.ts",
+      "bytes": 14805,
+      "sha256": "37ec1dd676e05ca7c5e83176872bdddedf0c46e03d66cf7b977ff70a53d292e5"
+    },
+    {
+      "path": "apps/web/e2e/park-zone.spec.ts",
+      "bytes": 3258,
+      "sha256": "1bfbbf1aeabe18d3927094a41f20d32f5633a17df965d7dea9a503dc945ffdb1"
+    },
+    {
+      "path": "apps/web/e2e/parks.spec.ts",
+      "bytes": 7948,
+      "sha256": "e34bdf0977316246363ad7a3c6aec80b7d0c2b5a82253e85d6a8a4e01a16c548"
+    },
+    {
+      "path": "apps/web/e2e/redesign.spec.ts",
+      "bytes": 5325,
+      "sha256": "166e3211e9c7ad8f5bc9c25caff5a2f27d670dcf86123afe82648fe496360b43"
+    },
+    {
+      "path": "apps/web/e2e/routing-errors.spec.ts",
+      "bytes": 1418,
+      "sha256": "a330d87b69d5f965d03417ca5e5cbc65842fd02cc00cb880b0f0c31b8546b2ef"
+    },
+    {
+      "path": "apps/web/e2e/routing.live.spec.ts",
+      "bytes": 4498,
+      "sha256": "f5871da3a153ee36ee7b225bfdedfc02e098634ed0826fcd572ef13fa1727423"
+    },
+    {
+      "path": "apps/web/e2e/scoring.spec.ts",
+      "bytes": 1635,
+      "sha256": "c6d7f3ebd10a6bda9c497dd85c49ab8ea37d66aa995aa5c1875148dc037f2a38"
+    },
+    {
+      "path": "apps/web/e2e/support/zoom-extension/background.js",
+      "bytes": 133,
+      "sha256": "ebcfe0593672fc3bcfd8b4c7d6e0b10666cbc8f6419735b0c25498e637ef584b"
+    },
+    {
+      "path": "apps/web/e2e/support/zoom-extension/manifest.json",
+      "bytes": 139,
+      "sha256": "7e80dfd2b7c3cc770273022eec7e610dc15ca78d5a92c5a4043d3b6d6a044e45"
+    },
+    {
+      "path": "apps/web/e2e/themes.spec.ts",
+      "bytes": 8889,
+      "sha256": "68bceb78cdd5d7062ee58a4b583291f4cae226e982325b2da020cbbe633a9eb4"
+    },
+    {
+      "path": "apps/web/index.html",
+      "bytes": 378,
+      "sha256": "492af09e8dd4b733af25d5c48262fe229e7f6b8f1807f1e055a2e3320cfc4587"
+    },
+    {
+      "path": "apps/web/package.json",
+      "bytes": 778,
+      "sha256": "5f02ff754c45cb665c7e81c84fcfbbcaf2068da89073f65a944ce0aa06b522ed"
+    },
+    {
+      "path": "apps/web/playwright.accessibility.config.ts",
+      "bytes": 1104,
+      "sha256": "19d980f950d40af75a3a5085930d98cd984195c085f59f9d20570f358d92dab8"
+    },
+    {
+      "path": "apps/web/playwright.config.ts",
+      "bytes": 1429,
+      "sha256": "53afe385a37d82ca2cfd4c93e16b960f5fbe6854a6e8752022fbea9b03bf6e03"
+    },
+    {
+      "path": "apps/web/playwright.routing.config.ts",
+      "bytes": 179,
+      "sha256": "ac7e3cada8c9f1e8dbcc2ab59676c109e0b6ba4e94ebfff0e12ff37aba6c7211"
+    },
+    {
+      "path": "apps/web/src/App.css",
+      "bytes": 9662,
+      "sha256": "15a26ee3b855162e7483892d6617beb46352fd15fa31ac509e33b07a72fbd0c1"
+    },
+    {
+      "path": "apps/web/src/App.tsx",
+      "bytes": 15961,
+      "sha256": "930e41b7b49bec062bc7adabc4af4d18cf1623112d795f1041bef37fc915a258"
+    },
+    {
+      "path": "apps/web/src/CellScores.tsx",
+      "bytes": 1715,
+      "sha256": "a2e3f41a20ca73457173ad71be7a99bdeb199acb41e52ad7485c298b052ba74a"
+    },
+    {
+      "path": "apps/web/src/Commute.tsx",
+      "bytes": 10088,
+      "sha256": "8774056fe292e2ae87e59cae3b6bdefa5a23342ab06784307a3e2f5c11e9401e"
+    },
+    {
+      "path": "apps/web/src/Compare.tsx",
+      "bytes": 3781,
+      "sha256": "a269f49ae5d3025b5571c2b0761f8b11b50996dade88a4926c709f7da83457b8"
+    },
+    {
+      "path": "apps/web/src/CoverageExplorer.tsx",
+      "bytes": 10713,
+      "sha256": "2d2a3066881e7ea231f79b5992e43aba7192ebbd24b178e407c32470919901ab"
+    },
+    {
+      "path": "apps/web/src/domain/conditions.test.ts",
+      "bytes": 2672,
+      "sha256": "247ce5175ec55e28724877b5753d3da6fa9ac0414df4197909c2821da6a5acb3"
+    },
+    {
+      "path": "apps/web/src/domain/conditions.ts",
+      "bytes": 2350,
+      "sha256": "e98ee2c4e38057e7babb605e0887a3fe2401d9da9834b36ac1f690edef1da2d1"
+    },
+    {
+      "path": "apps/web/src/domain/coverage.test.ts",
+      "bytes": 740,
+      "sha256": "84acec57c5eff8b3d479f52180f5e830b60a54c18656a77f5ca3fbd6e4d85c20"
+    },
+    {
+      "path": "apps/web/src/domain/coverage.ts",
+      "bytes": 4122,
+      "sha256": "fc59ff74da76f05be6caaf1be13f46ccf73b9e4d764f61f89ff81bad445eec9f"
+    },
+    {
+      "path": "apps/web/src/domain/coverageConfirmation.test.ts",
+      "bytes": 662,
+      "sha256": "4efc86190e2f1a792748e6f9073c3fc070c8da615690dd273c7a7bbc2981df97"
+    },
+    {
+      "path": "apps/web/src/domain/coverageConfirmation.ts",
+      "bytes": 443,
+      "sha256": "faf7382da5e570e1ddf445adc2448163fc1f2496573e8675895a2527552cb332"
+    },
+    {
+      "path": "apps/web/src/domain/health.test.ts",
+      "bytes": 685,
+      "sha256": "a7821f59254c171468d49ecaab7635271e33f414e244a8ed44508d00a058f820"
+    },
+    {
+      "path": "apps/web/src/domain/health.ts",
+      "bytes": 298,
+      "sha256": "d0ec36ffe31bfcd5c871fd05ae8dd86564aeec9af455d8d9007ef4eb46a5b390"
+    },
+    {
+      "path": "apps/web/src/domain/indicators.test.ts",
+      "bytes": 1435,
+      "sha256": "2d5e6630287c680c561f2de2ddc60b8e4ff11fedb926f5b8be803a553b839e12"
+    },
+    {
+      "path": "apps/web/src/domain/indicators.ts",
+      "bytes": 1443,
+      "sha256": "7d52c1caa4bc2fb65b3132e2ea9b26af9a20aae392abd16c3897d6d16ce99681"
+    },
+    {
+      "path": "apps/web/src/domain/location.ts",
+      "bytes": 2917,
+      "sha256": "95f5a135070a89a14e22ff4009227853740de7f3a2ce732805896107afeb3252"
+    },
+    {
+      "path": "apps/web/src/domain/network.test.ts",
+      "bytes": 2959,
+      "sha256": "737aa17f7e46021cc213228d76a940a7e08c1655613058d6cd6063dfa79fb7b4"
+    },
+    {
+      "path": "apps/web/src/domain/network.ts",
+      "bytes": 740,
+      "sha256": "6ce20afecc746a7a93eedf92316625b70bd46256427f76c320f259aaf6752bea"
+    },
+    {
+      "path": "apps/web/src/domain/networkSchema.ts",
+      "bytes": 5115,
+      "sha256": "02d8b7475a99e824c35605e4e55b82ffd4212d81c1c15470738cf94b57171309"
+    },
+    {
+      "path": "apps/web/src/domain/parks.test.ts",
+      "bytes": 1279,
+      "sha256": "d4145cf6b3d360d05102eafc3e77ed38d840f24e74419096551bfb890952d4fe"
+    },
+    {
+      "path": "apps/web/src/domain/parks.ts",
+      "bytes": 2187,
+      "sha256": "2996dc6755d059a6cc49a89cdcc838a5c736d07f32dcb2a801e77bd080e9d162"
+    },
+    {
+      "path": "apps/web/src/domain/routing.test.ts",
+      "bytes": 772,
+      "sha256": "fe0880dd277c1456b3bccf6fefc33c4aefa35d9dab833f6d4a4894b410243404"
+    },
+    {
+      "path": "apps/web/src/domain/routing.ts",
+      "bytes": 1856,
+      "sha256": "316212b3a114e315f07a955488aaa847f7941d74883008250be64d5f7731b067"
+    },
+    {
+      "path": "apps/web/src/domain/routingClock.ts",
+      "bytes": 984,
+      "sha256": "079236ea5322556efb98e2b4c23eaf620d8a3c3b109960740eefd7d2fe0badbe"
+    },
+    {
+      "path": "apps/web/src/domain/scoring.test.ts",
+      "bytes": 3736,
+      "sha256": "08c3217a6de7b1ac2c9cc140ace0afbcc504b07ed0639ca0e8edcb192df9affc"
+    },
+    {
+      "path": "apps/web/src/domain/scoring.ts",
+      "bytes": 5772,
+      "sha256": "0b12878840520633e3ee39dec64922fc36af3c9e7a4d328f18ec5b591b23aa89"
+    },
+    {
+      "path": "apps/web/src/domain/themes.ts",
+      "bytes": 1146,
+      "sha256": "34b4f346b017eca2ef33ac8d28b839af1d114ac56a72dad4170ce77e0dae3e68"
+    },
+    {
+      "path": "apps/web/src/index.css",
+      "bytes": 231,
+      "sha256": "42a21e435ae63999e28efa1e3da64fa52af9b9e80c50534802e9fc00c3fb4fba"
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "bytes": 239,
+      "sha256": "50c27935cc5d93e15702c025f69a6acd3783cb67e25b628ae4c5a9cbe6d748fa"
+    },
+    {
+      "path": "apps/web/src/Map.tsx",
+      "bytes": 8019,
+      "sha256": "431796f7b6ef5ac4bcf2d93a25ee516c6494e20e2d8634020342c259133085e9"
+    },
+    {
+      "path": "apps/web/src/MapWorkspace.tsx",
+      "bytes": 26344,
+      "sha256": "c464ac8ff5bfa88095b7349e71166cd0c659d58b627a39ce26fc2b815ceb7a26"
+    },
+    {
+      "path": "apps/web/src/ParkDetails.tsx",
+      "bytes": 3998,
+      "sha256": "b17310829cf84e337fb3b82aa6054d73c621ce2cb76ff96c823cc7d885d17b97"
+    },
+    {
+      "path": "apps/web/src/Preferences.tsx",
+      "bytes": 2703,
+      "sha256": "17cdd17b3855a0813b9e24de4120502c876efac6c35d4b8f3568e0787de8555d"
+    },
+    {
+      "path": "apps/web/src/RawCompare.tsx",
+      "bytes": 3366,
+      "sha256": "96278323237cd4f947cb45646f847f676a007b61ab78589c5618e6d96ac3a366"
+    },
+    {
+      "path": "apps/web/src/ReadableMap.tsx",
+      "bytes": 24384,
+      "sha256": "65e9911becbc86396539403fc4a338879e419c047bc18c8f4f72703d14f3eb25"
+    },
+    {
+      "path": "apps/web/src/Sources.tsx",
+      "bytes": 4516,
+      "sha256": "8fb21736a4faf4b7fdd085ef90f5cb071d9a5e7c6777776590b48d186c751ede"
+    },
+    {
+      "path": "apps/web/src/ThemeControls.tsx",
+      "bytes": 3396,
+      "sha256": "5e74b3aff19e42165783a9ad689b76f6ef632e84216fafcb34d24dc1239d8690"
+    },
+    {
+      "path": "apps/web/src/TransitExplorer.tsx",
+      "bytes": 11286,
+      "sha256": "454a4c64fdd9f2e04a2cdb5d1e48cd590b65c4dd407822ac2944550d9a995bee"
+    },
+    {
+      "path": "apps/web/src/useCoverageLayers.ts",
+      "bytes": 11802,
+      "sha256": "816d48d1208cdfe85b1293dcb7c99bf26a02b4ed8f0a92db31de1e90ca72f228"
+    },
+    {
+      "path": "apps/web/src/useNetworkLayers.ts",
+      "bytes": 8928,
+      "sha256": "1585a3398594f30f389c368b25165282fcd47f25af27da20f07bb81ef205fcf7"
+    },
+    {
+      "path": "apps/web/src/useParkAccess.ts",
+      "bytes": 2489,
+      "sha256": "f5d5975ee14eddd1ac60a1a57d612fe86ea6a909ade6f7564d6958ef6b3bfbb0"
+    },
+    {
+      "path": "apps/web/src/useParkLayers.ts",
+      "bytes": 6527,
+      "sha256": "4ba53a4a9777d6c3eff37e97a55045d490099602985f6c461770afe8331c57dc"
+    },
+    {
+      "path": "apps/web/src/useThemeLayers.ts",
+      "bytes": 6729,
+      "sha256": "0fc41ab150970526bccdd02aed45a1931131626c3701a0c53fd78fcc537fecc1"
+    },
+    {
+      "path": "apps/web/src/useTransitCoverage.ts",
+      "bytes": 2624,
+      "sha256": "c8534d7be77a261dd43c33f604e5f22b78243b169375b01d282345850edf0291"
+    },
+    {
+      "path": "apps/web/src/useTransitNetwork.ts",
+      "bytes": 2438,
+      "sha256": "be7ed81242f55dc39dbeb1cc53442df65e1a68128b09a7c0eff6d5fed8a388cc"
+    },
+    {
+      "path": "apps/web/src/Workspace.css",
+      "bytes": 29033,
+      "sha256": "f081c55f561581d506e2e8f70ecb21b9c383272f45e173e3e204312d59a4887e"
+    },
+    {
+      "path": "apps/web/tsconfig.app.json",
+      "bytes": 655,
+      "sha256": "8e5d12ba330e7d86409edec74b95451e0db22ee09b9426c94b5bf817571eddb0"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "bytes": 119,
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+    },
+    {
+      "path": "apps/web/tsconfig.node.json",
+      "bytes": 600,
+      "sha256": "d7dc6b9a68494fb5e0357add03dfc705e1007c9169f0bfcfb4a186d677a3a0fd"
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "bytes": 285,
+      "sha256": "2a4b275e6f1fee04cbcb784f5de4e644f91a1396858b99c94a763ce2f37e21d5"
+    },
+    {
+      "path": "apps/web/vitest.config.ts",
+      "bytes": 119,
+      "sha256": "ac04393f55d8fc13727ae90c6e253812904678a35d14e2c460360dbde68fed8f"
+    },
+    {
+      "path": "services/api/app.py",
+      "bytes": 1534,
+      "sha256": "8a11f603dbb80c727f57645393942aaa253e4ab5e0403a52d9888f1abdbaed49"
+    },
+    {
+      "path": "services/api/cell_data.py",
+      "bytes": 4092,
+      "sha256": "df440c5cbc16c163947e1a0dd5b56b0947b0ad5a2f4e2e99e46c38ac28fade3f"
+    },
+    {
+      "path": "services/api/cells.py",
+      "bytes": 744,
+      "sha256": "6e3083e5154f02e453e32b73661bb657c244119396dc77fced547a70819a600e"
+    },
+    {
+      "path": "services/api/coverage.py",
+      "bytes": 8727,
+      "sha256": "f1680ec6c668cd494533c6cc982ca1ddc9565b9f118eb4f9364acbe72f947bf1"
+    },
+    {
+      "path": "services/api/coverage_routes.py",
+      "bytes": 4708,
+      "sha256": "2fc4c55529af2718072dcebd74c79ca2b40934582313c4de2482e000310355b7"
+    },
+    {
+      "path": "services/api/locations.py",
+      "bytes": 11142,
+      "sha256": "7a9ee99327f667fb577237d5c91f6da7dfe9d1f91a4a8ede6d03b225b9d5e1f3"
+    },
+    {
+      "path": "services/api/map_context.py",
+      "bytes": 4272,
+      "sha256": "9c1fd6909490db7b5c4b38d253c5cb51b3143046b982d6a85dac561ecfb8651a"
+    },
+    {
+      "path": "services/api/network.py",
+      "bytes": 17267,
+      "sha256": "43a81e0089f6a9583b965b4c6100f5eb74347f5b53b516b039d01e0540730993"
+    },
+    {
+      "path": "services/api/network_geometry.py",
+      "bytes": 6221,
+      "sha256": "f3dc74c206c76736a8b98f25708abdf07f4014618f7569fe09577599016e8bcf"
+    },
+    {
+      "path": "services/api/network_native.py",
+      "bytes": 3556,
+      "sha256": "90fa9055442f01fcebf744fbf8dcc5d502b28273f005d482c37c659ce57ab171"
+    },
+    {
+      "path": "services/api/noise.py",
+      "bytes": 1048,
+      "sha256": "db43d34b69e6afa44d509897f0857c32f1ec80ff29c758c6af8a3205001b12cb"
+    },
+    {
+      "path": "services/api/park_zone.py",
+      "bytes": 5647,
+      "sha256": "1f7fe0408e4ff281ef56549704a192a96a15e8c08e105160d6c6666312c7c6fa"
+    },
+    {
+      "path": "services/api/parks.py",
+      "bytes": 8885,
+      "sha256": "70c576dd63b9a1edd67dc9245d4d568408ba72f2dde7953d01344c1ce5ef4ff0"
+    },
+    {
+      "path": "services/api/routing.py",
+      "bytes": 13913,
+      "sha256": "15c4643f5f9b487dd14e68f234384fffa28728c025567bb4cf40940912aaea3e"
+    },
+    {
+      "path": "tests/test_api.py",
+      "bytes": 495,
+      "sha256": "3c4e4a84a9ca4318e87755ed5dfb7ca97f30418c0e488af6a25f49c081121eba"
+    },
+    {
+      "path": "tests/test_cells.py",
+      "bytes": 3878,
+      "sha256": "da3b16f44f3f22c9c3c58537fd60676eea7d7f3226b85e8980776676b6c77bf4"
+    },
+    {
+      "path": "tests/test_coverage.py",
+      "bytes": 3039,
+      "sha256": "ab53512739961bc1f1d1b00b54b78389e6cd566a3018711c0d7d8121409d6869"
+    },
+    {
+      "path": "tests/test_coverage_routes.py",
+      "bytes": 2174,
+      "sha256": "0e5a61f03deff7ca6aae53cc07fd63cf906c72fadc4d38d2b845a180b4e6a855"
+    },
+    {
+      "path": "tests/test_data_calendar.py",
+      "bytes": 1394,
+      "sha256": "0cfc2f8636e1fcbb9dbc6c7fe7755dfdbd31fba0afebc9502ccca4ac3eeba41c"
+    },
+    {
+      "path": "tests/test_final_walk.py",
+      "bytes": 1547,
+      "sha256": "67fc83543eb4af5177a774d767c61117304c2cb58a9583a91bb2930dcc3e469b"
+    },
+    {
+      "path": "tests/test_locations.py",
+      "bytes": 4431,
+      "sha256": "885f776db6284b29dd841b59a5a093111f3df607d392318b57dc920dbcb02155"
+    },
+    {
+      "path": "tests/test_map_context.py",
+      "bytes": 2827,
+      "sha256": "aee386e07919406d6aebdd93f8c62f6337b763332d10ecac9205201758fed6f7"
+    },
+    {
+      "path": "tests/test_network_adapter.py",
+      "bytes": 7300,
+      "sha256": "8fac354bf363c4d10bddffe358452bd910942cb0d7d9322c09ad25d2f4885485"
+    },
+    {
+      "path": "tests/test_network_native.py",
+      "bytes": 4025,
+      "sha256": "283d67de87641c90c3b9eb3a27b6141579c4645134842ccfc25cfd3490d26eae"
+    },
+    {
+      "path": "tests/test_noise_bands.py",
+      "bytes": 1059,
+      "sha256": "cf03003b67ca453b8c23079462583d280255418ccb6e5e6074aab5d9fd056113"
+    },
+    {
+      "path": "tests/test_park_crossings.py",
+      "bytes": 800,
+      "sha256": "814a854b924310a3ad1eeb7c4b4eaeab6b65ddd81de8ab2d61f42325b0a7fe17"
+    },
+    {
+      "path": "tests/test_park_zone.py",
+      "bytes": 5637,
+      "sha256": "6046af25ca04e5ee307aae31ca39bb89efe1d25ad345235eaf118dd70136e428"
+    },
+    {
+      "path": "tests/test_parks.py",
+      "bytes": 2973,
+      "sha256": "61f7d9baec13b42dfa9c61d7961a4cac46093a69f2d579784617b68fa1864508"
+    },
+    {
+      "path": "tests/test_route_accounting.py",
+      "bytes": 1883,
+      "sha256": "4691be3ea918f519c64621984079f9ede68f85b3a6dcdfa861c9b6f9f28567ea"
+    },
+    {
+      "path": "tests/test_routing_adapter.py",
+      "bytes": 4252,
+      "sha256": "a205b1a26dc345f925782d9cedd71f1c8540ce8b26bd8ad1a8282b280169da33"
+    },
+    {
+      "path": "tests/test_transfer_correction.py",
+      "bytes": 1855,
+      "sha256": "b8bfa38b27f3f0baff9cca5a15d686cf963452d5cb1f4b38aa82bdf011178fe0"
+    },
+    {
+      "path": "tests/test_transport_window.py",
+      "bytes": 1426,
+      "sha256": "85dcab162478d8bb4c8963a2068cc97f056112aa3061d3b8999490c2bca6803f"
+    },
+    {
+      "path": "tests/test_walk_access.py",
+      "bytes": 1550,
+      "sha256": "9f60bb0cfaac4073826e34d6da6f9ceb67b47b2c96eca7f36387155ca836d4c8"
+    },
+    {
+      "path": "tools/check-project-docs.mjs",
+      "bytes": 1422,
+      "sha256": "5b83d94b9cc7c149dafcb9a0090d403e0b60186edd2352f12447d6228225d4c1"
+    },
+    {
+      "path": "tools/data/acquire.py",
+      "bytes": 5551,
+      "sha256": "5ffca09f2eef74859f6eb91ce2bf6341a76818dc9ae14eaeda9a6c35bba53653"
+    },
+    {
+      "path": "tools/data/acquire_parks.py",
+      "bytes": 3823,
+      "sha256": "3f98334ee5a7a6efa789f2cc5a7eb196bfb8d570a7e1080e7e8bc3b9d8b62fe8"
+    },
+    {
+      "path": "tools/data/audit_entrances.py",
+      "bytes": 3858,
+      "sha256": "cf4b87a919bc1115ba2ab30ac6484bd70f344e4079e665456a79f37e21a2c414"
+    },
+    {
+      "path": "tools/data/build_cells.py",
+      "bytes": 15134,
+      "sha256": "04a12f0815a860ae356dbc5301c75fa841b4941e3ddd2c324990fd02a5b14c8e"
+    },
+    {
+      "path": "tools/data/calendar.py",
+      "bytes": 1465,
+      "sha256": "850a0db917b5796cf2b499f33fa05fef7b2b8bcfe9af0845a452e09513c0d19e"
+    },
+    {
+      "path": "tools/data/cells.py",
+      "bytes": 2371,
+      "sha256": "097caa0fb5ae08f01a21a60a86466eaf612afdbfa99374deeaccda8bb2280ea7"
+    },
+    {
+      "path": "tools/data/coverage.py",
+      "bytes": 5063,
+      "sha256": "6dbb5f5a7ea6ca1d223af3803fd35e73060640c6ccf093e75296eed3fa90469a"
+    },
+    {
+      "path": "tools/data/import_locations.py",
+      "bytes": 6731,
+      "sha256": "ab7a1f8708dfbf929726679c17834a40dce3c6513b7adf1ffa452efd1d8fec98"
+    },
+    {
+      "path": "tools/data/inspect_sources.py",
+      "bytes": 9541,
+      "sha256": "22b8c7ee0b69d8eb053dca15bf5f140a04a18ebdd3fdf6802058e075893689a3"
+    },
+    {
+      "path": "tools/data/map_context.py",
+      "bytes": 8998,
+      "sha256": "845e3b2aead191a28240d3cf81406edab1d876d5f57a4c296524ffbccc07d01e"
+    },
+    {
+      "path": "tools/data/noise_display.py",
+      "bytes": 4387,
+      "sha256": "9465188d8c3daf9f9d3919acd59aed2c6e4d16dcbc2b609dfabb1c89e7fe8c51"
+    },
+    {
+      "path": "tools/data/noise_night_audit.py",
+      "bytes": 2117,
+      "sha256": "c1fc6661553dde3c50d0d819aaa480ff86163c96c5c353ae3659d301b0879664"
+    },
+    {
+      "path": "tools/data/osm_slice.py",
+      "bytes": 11184,
+      "sha256": "b6fa831d83db293f17fab00dbce0963077c5a64bc2a72532628ae7c11c62b084"
+    },
+    {
+      "path": "tools/data/park_access.py",
+      "bytes": 5264,
+      "sha256": "106e3a425db62506a560a31d9fefd4f580823882d88dee053f18839ad9c13f2e"
+    },
+    {
+      "path": "tools/data/park_crossings.py",
+      "bytes": 8547,
+      "sha256": "10a762fb3f5b0746f918fbf31986b179b90b4948ae6ad2defa71bef3c713f228"
+    },
+    {
+      "path": "tools/data/park_zone.py",
+      "bytes": 10342,
+      "sha256": "05372730a9ca904be0cb166a79644852a6bf0ff5d77eaa60e3d91e9995a1633e"
+    },
+    {
+      "path": "tools/data/review_metadata.py",
+      "bytes": 3138,
+      "sha256": "741e40f438c06ef3e95a07075a21a9d5239234c8e60dc59d26efbc37b39739d8"
+    },
+    {
+      "path": "tools/data/test_fixture.py",
+      "bytes": 10888,
+      "sha256": "66b178d49fbdb82f05e8181955ba8e830c0696bf81ab4414ff469a662877241b"
+    },
+    {
+      "path": "tools/data/transport_window.py",
+      "bytes": 6905,
+      "sha256": "d8028d06613d725d0291c64db5e14a51cbc57a71b4ba2df5db18b2ada3f4e060"
+    },
+    {
+      "path": "tools/data/verify_noise_bands.py",
+      "bytes": 4436,
+      "sha256": "0c74b5be8fe9d91605cd676307fea47c72e2a3e8b3ca5fc69bb312ddca59549e"
+    },
+    {
+      "path": "tools/qa/accessibility_evidence.py",
+      "bytes": 6364,
+      "sha256": "b6aa787187a1316173ccc5ce44bc12ebf388425756e2eca45120605b50dd3156"
+    },
+    {
+      "path": "tools/qa/bundle_budget.mjs",
+      "bytes": 2844,
+      "sha256": "1708143b9d6db4bb0b3bdacb6abe201d8493b11693c59ae2364ac8cf8630792a"
+    },
+    {
+      "path": "tools/qa/condition_profile.mjs",
+      "bytes": 13295,
+      "sha256": "744f9d2194845c434137f6a9b2df948ffa0f4c15e2da02a2861745e4b01b4460"
+    },
+    {
+      "path": "tools/qa/context_profile.py",
+      "bytes": 2429,
+      "sha256": "fd16e6ee37ebdc132410c051e3263a096966eb72a62879bed78e0bd14a0e28af"
+    },
+    {
+      "path": "tools/qa/context_query_audit.py",
+      "bytes": 4203,
+      "sha256": "e45e1790b46dc568bc1a73ba676e9a5360b50d9da4b4a622a9eaa48acf732629"
+    },
+    {
+      "path": "tools/qa/map_index_audit.py",
+      "bytes": 7790,
+      "sha256": "34b3f9bd2d944c46a6f31b04163fe9e679fa72163b755c882d1072a2b1527236"
+    },
+    {
+      "path": "tools/qa/park_evidence.py",
+      "bytes": 9062,
+      "sha256": "9165456745915871c6f3494800565d147a8965c4ba65cbb7ad5166525c9f8f1d"
+    },
+    {
+      "path": "tools/qa/park_zone_capture.mjs",
+      "bytes": 4543,
+      "sha256": "9798f43cb3fcf032971087c805326b862ad2113e8084c11be18522b090a646bb"
+    },
+    {
+      "path": "tools/qa/performance.mjs",
+      "bytes": 16833,
+      "sha256": "31fe66652ed844de3fd294ba42fe5b55c71b8abd3e88d008182e3e56804f688f"
+    },
+    {
+      "path": "tools/qa/performance_evidence.py",
+      "bytes": 9983,
+      "sha256": "67ba26c8aa8999d35eefd948bbe4cf43f5932daf7d623465efb34285bacace92"
+    },
+    {
+      "path": "tools/qa/performance_server.py",
+      "bytes": 3695,
+      "sha256": "e0b0123b74f3e04b7beb075b8981f82e3aadbefdd522dad4eb3704578b91f3c5"
+    },
+    {
+      "path": "tools/qa/reuse_rights.py",
+      "bytes": 8965,
+      "sha256": "7ebc7c17f250502cc19f7cc03a04c274495c24ed8ddd5528e0619e896a2b658f"
+    },
+    {
+      "path": "tools/qa/v031_capture.mjs",
+      "bytes": 8829,
+      "sha256": "b791d3a1d3d78c0e8892ea5830c67dd3721723a767d3bcd067d30b83f931da12"
+    },
+    {
+      "path": "tools/qa/v031_evidence.py",
+      "bytes": 13036,
+      "sha256": "c7ee76762f06113599985f05e2dec39ee9da3b1d2c972a8f201d5f9003a05563"
+    },
+    {
+      "path": "tools/qa/v032_evidence.py",
+      "bytes": 5719,
+      "sha256": "02aad83256749ec3d0220609c76f95fd83603c5bcb9fb721428906c59595a04f"
+    },
+    {
+      "path": "tools/qa/v032_journey.mjs",
+      "bytes": 6753,
+      "sha256": "3e06f87b105917c625a1ee9b020fdf77020c73b8328ad4c1567df83a888c7b8a"
+    },
+    {
+      "path": "tools/qa/v033_evidence.py",
+      "bytes": 4188,
+      "sha256": "be0f41b5657d97aefa03fe9b9f4d827fb6acba2d4cb2f2bb5737ca24e8236865"
+    },
+    {
+      "path": "tools/qa/v034_evidence.py",
+      "bytes": 3925,
+      "sha256": "63f3e8791ba3e94884da7d16505bd5f0067f1e446e94351452e63e22fa1fe52d"
+    },
+    {
+      "path": "tools/qa/v03_capture.mjs",
+      "bytes": 5963,
+      "sha256": "8f5b65e0e9652a952c9e658d319b8a24572b0a502b271e6515b97121d1e049dc"
+    },
+    {
+      "path": "tools/qa/v03_coverage_measure.py",
+      "bytes": 6554,
+      "sha256": "30d709094faad11695d8a95a49d2b0a03133b3bb66beec5e055715eec95c6333"
+    },
+    {
+      "path": "tools/router/adapter_probe.py",
+      "bytes": 3568,
+      "sha256": "fa6150c9007ce95325a67fb5e47f78d29c2efeb80a27345bac28c13f194b3ffc"
+    },
+    {
+      "path": "tools/router/barrier_permissions.py",
+      "bytes": 5308,
+      "sha256": "7520bcf9e105a5b65a4e5980047f98bf48422ad58806fd75c153b91c9dd7e8c2"
+    },
+    {
+      "path": "tools/router/bootstrap.py",
+      "bytes": 2849,
+      "sha256": "7b9de234f23e722759d57913a9f2e28d336cb2568c8cb54d1410568b44c15cc1"
+    },
+    {
+      "path": "tools/router/coverage_policy.py",
+      "bytes": 511,
+      "sha256": "4e38c0e2ccf8c435a3e39cf299cec7782d34fbe1e07595698f619c3553498fd0"
+    },
+    {
+      "path": "tools/router/coverage_worker.py",
+      "bytes": 27446,
+      "sha256": "79bbf7fe8c616b3fbc416115a64ba2598890164470246dd61493b8b2fbc30a13"
+    },
+    {
+      "path": "tools/router/final_walk.py",
+      "bytes": 5912,
+      "sha256": "36226e78cd2946fec0ae230abd48785fa823a23f72ca8aa073e059f2a0960719"
+    },
+    {
+      "path": "tools/router/network_api_probe.py",
+      "bytes": 3964,
+      "sha256": "9e41011c93845e5703fe69778473a8a7b7841624bce93fa25f72fc0123823868"
+    },
+    {
+      "path": "tools/router/network_probe.py",
+      "bytes": 13877,
+      "sha256": "5fdd22ebba3a951193c6781bbfde1f9433cd36723f0f09338aebc9d11f683c1c"
+    },
+    {
+      "path": "tools/router/normalize.py",
+      "bytes": 1509,
+      "sha256": "f08d66104dc912b89eb36c3d7841d8d729b3b6c0169ebbca22803c1294f9e489"
+    },
+    {
+      "path": "tools/router/otp_spike.py",
+      "bytes": 4068,
+      "sha256": "8bfdfee17310cc22673021c07fe6affdb31ec16cf3facb0ff92438e57f3808fd"
+    },
+    {
+      "path": "tools/router/park_access_probe.py",
+      "bytes": 2599,
+      "sha256": "8d59761f6a47ea75955c4f4a0c262a7fbe51a6946bd6a3a2c7af9a0d2dc5d3b3"
+    },
+    {
+      "path": "tools/router/park_filter_probe.py",
+      "bytes": 3039,
+      "sha256": "9152fe266b122f72986d18b3baad80a641aa6c1da4f414836f0a5edcb1515008"
+    },
+    {
+      "path": "tools/router/park_zone_probe.py",
+      "bytes": 4276,
+      "sha256": "bdced702b0152b1d34af8c214c2f5f4f3dde6183b2d3d8f06e1f4e35703dc720"
+    },
+    {
+      "path": "tools/router/reachable_routes.py",
+      "bytes": 24006,
+      "sha256": "ff45ff4dec017c5fd8538bca627e1bfa2f4b4073040fefc3526a24f1b0dd9d80"
+    },
+    {
+      "path": "tools/router/service_overlap.py",
+      "bytes": 2018,
+      "sha256": "68921a5775c18a890dc5a337718a03f4799de4a8178777b0cca9b2d413eefd10"
+    },
+    {
+      "path": "tools/router/spike.py",
+      "bytes": 6922,
+      "sha256": "f520790752a052d48c176c020100584978387e906d5435826307e95280e6bee4"
+    },
+    {
+      "path": "tools/router/transfer_costs.py",
+      "bytes": 4317,
+      "sha256": "756bb7cbe7d3c0cf287bcaefba3a16aa6a97a79df19533a95fe17712810e2ef2"
+    },
+    {
+      "path": "tools/router/transport_access_probe.py",
+      "bytes": 5408,
+      "sha256": "db057bcc970db92f2a02969155bd543936c0affaaa8e0b42bad71c7bd1630236"
+    },
+    {
+      "path": "tools/router/v031_route_audit.py",
+      "bytes": 7784,
+      "sha256": "12404ad04bede8b3f4d58674e9ba249d7dc25ef9af32f0db346aa09076fcfc52"
+    },
+    {
+      "path": "tools/router/v032_accuracy_audit.py",
+      "bytes": 12353,
+      "sha256": "9dcb0d58a03ba87662dfce9ebd178c12cbe83ff0cb03e66ed14fd7338084e96e"
+    },
+    {
+      "path": "tools/router/v032_equivalence.py",
+      "bytes": 1794,
+      "sha256": "773a587d91b50ccb872c8b0c5f157fdde52cdab6e5922401790bc24fb4227a0c"
+    },
+    {
+      "path": "tools/router/v032_point_audit.py",
+      "bytes": 3176,
+      "sha256": "8e3f38e047be0529fd38132e3305c2aaadc0fe78c78ada2c487f32d5cd81c73f"
+    },
+    {
+      "path": "tools/router/v033_access_audit.py",
+      "bytes": 1612,
+      "sha256": "bcbfb37342c56d8f9f88f77ff865ae29c9507c6f67ec2756a430c4fea319e58b"
+    },
+    {
+      "path": "tools/router/v033_barrier_audit.py",
+      "bytes": 3722,
+      "sha256": "a7bf0d5701c61c020cfd97c5dd1c71048f6b9874c6c9a10b12dcf60ba6ac8056"
+    },
+    {
+      "path": "tools/router/v033_point_proofs.py",
+      "bytes": 6610,
+      "sha256": "8f691bdff9b754e808b62d18029cd8ccb116b1e38f5a8d8f00c2362dd353f2a3"
+    },
+    {
+      "path": "tools/router/v033_range_audit.py",
+      "bytes": 3092,
+      "sha256": "4c73ea0534b606ff89128649a7db981936a1b6bf4266fd7ad5ef7b81658a253f"
+    },
+    {
+      "path": "tools/router/v033_temporal_audit.py",
+      "bytes": 3782,
+      "sha256": "4b236b091dd4e9cd3f0360fa40ed84b8eb9ed237ce8265e81415426f375e9954"
+    },
+    {
+      "path": "tools/router/v034_territory_audit.py",
+      "bytes": 5039,
+      "sha256": "7f902055f2fc46b92f125d357635a93f434519015e72cc64501d54194bb7c7dd"
+    },
+    {
+      "path": "tools/router/v03_r5_probe.py",
+      "bytes": 2983,
+      "sha256": "98a0eab6797c2407c3e50e0ae7713f64213c6c9cd2444659c276b4d3b5e4b153"
+    },
+    {
+      "path": "tools/router/v03_transport_audit.py",
+      "bytes": 6727,
+      "sha256": "00d53801d98669f4a488c862c17851e941d02d3bf9318ffa0db07f73d9111fc6"
+    },
+    {
+      "path": "tools/router/walk_access.py",
+      "bytes": 1700,
+      "sha256": "6be579ddf6ac5beb5d0c118fdabcee1e29ca28d2256490f592cfee801fc1731b"
+    },
+    {
+      "path": "tools/router/walk_diagnostics.py",
+      "bytes": 3280,
+      "sha256": "95f6570159788a3c6171ab31c4e394ebb52ea779f6ee32a8bb481fff94b630ac"
+    },
+    {
+      "path": "tools/router/zone_spike.py",
+      "bytes": 7020,
+      "sha256": "71967556e351d8876d8c94986ae98a610c88a860ceda6e5fe14c7c75fe985a70"
+    },
+    {
+      "path": "tools/run-python.mjs",
+      "bytes": 555,
+      "sha256": "15caf73c58e4ad6fd54be7873f6930bc77ded19c8231c9e2de0ca64a8489eb6f"
+    },
+    {
+      "path": "tools/Start-Pilot.ps1",
+      "bytes": 7242,
+      "sha256": "c4fab015fa66de64c4702d637d0898b92eb67a86bbd26f467a169f979bfd8294"
+    }
+  ],
+  "build": [
+    {
+      "path": "apps/web/dist/.vite/license.md",
+      "bytes": 10549,
+      "sha256": "b1e848b2669630774348e8d569a418de145df8b8a4e1414f1c6a4dfeb25a7786"
+    },
+    {
+      "path": "apps/web/dist/assets/Commute-bZKcO87A.js",
+      "bytes": 7562,
+      "sha256": "590307a9241e567487294099068d236304fbf0c845dfbaf72631bbcad757ee09"
+    },
+    {
+      "path": "apps/web/dist/assets/coverage-lt_IF7I0.js",
+      "bytes": 2433,
+      "sha256": "81e24e4ee481df04eadda207ed2150abc4f019443b79ea4658ccea2c2eff6c40"
+    },
+    {
+      "path": "apps/web/dist/assets/CoverageExplorer-P9e_D4qP.js",
+      "bytes": 10261,
+      "sha256": "329d87844f7b406faa378ea5cfde1a80774461c2f4758be8458395252ce18aa3"
+    },
+    {
+      "path": "apps/web/dist/assets/index-CuPJ9PZC.js",
+      "bytes": 228324,
+      "sha256": "0c80d28ec39052b3ae390c57d28c420f56f690500a999a0498e4c5be713baaea"
+    },
+    {
+      "path": "apps/web/dist/assets/index-DRS5dmfk.css",
+      "bytes": 28239,
+      "sha256": "878050e8a8fd943a4b4bf28df4f2200249acbb470aabbc8a3e22a349736d1feb"
+    },
+    {
+      "path": "apps/web/dist/assets/maplibre-gl-worker-DxGNRm0a.mjs",
+      "bytes": 508314,
+      "sha256": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9"
+    },
+    {
+      "path": "apps/web/dist/assets/network-Do5g4Fzq.js",
+      "bytes": 318,
+      "sha256": "c3bdf80470b81d93fd5c648c0eb372fec5a8e726e06725f8aa1b6ac5fb93605c"
+    },
+    {
+      "path": "apps/web/dist/assets/networkSchema-CxsqCXp_.js",
+      "bytes": 3429,
+      "sha256": "ec158555c059bd6f43632be0fb58346707d7333c52325e6a409ad1fa9a82d2f7"
+    },
+    {
+      "path": "apps/web/dist/assets/parks-7eOKC-lo.js",
+      "bytes": 1252,
+      "sha256": "08d66664abb6b45c7eb24e89da2e44a52a0a892d146e6b265e9d34d854118a7e"
+    },
+    {
+      "path": "apps/web/dist/assets/ReadableMap-BHUUWR9N.js",
+      "bytes": 1085052,
+      "sha256": "1fd7313653c6d99461a867499bf04e96e2d83f9031803da308e95d5b25c30dba"
+    },
+    {
+      "path": "apps/web/dist/assets/ReadableMap-DBE96hFo.css",
+      "bytes": 82935,
+      "sha256": "7d70296c647f8ae4b9b9cc0ed943d5bf81cedef828a348f81c5e89d3ed128856"
+    },
+    {
+      "path": "apps/web/dist/assets/routing-BnRYqi3n.js",
+      "bytes": 1120,
+      "sha256": "e96c5d43be0bf6923b0671c3ceb24b8620f502a1ace1cab3983882328c9fd63c"
+    },
+    {
+      "path": "apps/web/dist/assets/schemas-BXFzUrFc.js",
+      "bytes": 33766,
+      "sha256": "8e5997ffdaa40fcb4258b03f0f87f7d3b83318b01793a00193b3939049622c14"
+    },
+    {
+      "path": "apps/web/dist/assets/Sources-jyF-yrCM.js",
+      "bytes": 4265,
+      "sha256": "5b433650a1058fb535f553ab6d20bef78deefa6c6d8e73d209d14bd6ef20df59"
+    },
+    {
+      "path": "apps/web/dist/assets/TransitExplorer-DXoVIVnZ.js",
+      "bytes": 9523,
+      "sha256": "62038c80108b36efac153bea16da6eecb6ad6f71b430451defc1c25668d8f724"
+    },
+    {
+      "path": "apps/web/dist/index.html",
+      "bytes": 554,
+      "sha256": "b39745fbabf05a8484829a115d5c079ce3278eb71fdaa2a4f25f35767c649b48"
+    }
+  ]
+}

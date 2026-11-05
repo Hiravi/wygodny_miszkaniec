@@ -1,0 +1,670 @@
+[
+  {
+    "schema_version": "1",
+    "source_id": "msip_addresses_1492",
+    "input_sha256": "7335cd2edbe1659e5d780e07a14c27e8fcb8117201208a2ccdbc8c75f62a3828",
+    "source_crs": "EPSG:2178",
+    "counts": {
+      "features": 70282,
+      "invalid_geometry": 0,
+      "empty_geometry": 0,
+      "duplicate_ids": 0
+    },
+    "details": {
+      "entry": "Adresy.geojson",
+      "geometry_types": {
+        "Point": 70282
+      },
+      "property_names": [
+        "data_importu",
+        "id",
+        "kod_pocztowy",
+        "kod_teryt",
+        "miejscowosc",
+        "nazwa_dzielnicy",
+        "nazwa_ulicy",
+        "numer_adresowy",
+        "numer_dzielnicy"
+      ],
+      "property_samples": {
+        "id": [
+          "2121713844229",
+          "2121713844231",
+          "2121713844236",
+          "2121713844240",
+          "2121713844241",
+          "2121713844243",
+          "2121713844247",
+          "2121713844258",
+          "2121713844259",
+          "2121713844263",
+          "2121713844273",
+          "2121713844274",
+          "2121713844278",
+          "2121713844284",
+          "2121713844287",
+          "2121713844308",
+          "2121713844317",
+          "2121713844319",
+          "2121713844339",
+          "2121713844341",
+          "2121713844343",
+          "2121713844346",
+          "2121713844347",
+          "2121713844348",
+          "2121713844349"
+        ],
+        "nazwa_ulicy": [
+          "28 Lipca 1943",
+          "Adama Chmiela",
+          "Armii Krajowej",
+          "Balicka",
+          "Bronisława Czecha",
+          "Bronowicka",
+          "Chełmska",
+          "Emaus",
+          "Feliksa Szlachtowskiego",
+          "Henryka Sienkiewicza",
+          "Jontkowa Górka",
+          "Juliusza Lea",
+          "Kawiory",
+          "Królowej Jadwigi",
+          "Księcia Józefa",
+          "Lenartowicza",
+          "Leśna",
+          "Lucjana Rydla",
+          "Oleandry",
+          "Stanisława Przybyszewskiego",
+          "Starowolska",
+          "Walerego Goetla",
+          "Zarzecze",
+          "Zbrojów",
+          "Łobzowska"
+        ],
+        "numer_adresowy": [
+          "1",
+          "104",
+          "11",
+          "14",
+          "159b",
+          "16",
+          "17",
+          "2",
+          "20",
+          "208",
+          "21",
+          "25c",
+          "27",
+          "2a",
+          "3",
+          "40",
+          "41",
+          "43",
+          "5",
+          "57",
+          "6",
+          "67",
+          "73",
+          "8",
+          "9"
+        ],
+        "kod_pocztowy": [
+          "30-033",
+          "30-042",
+          "30-055",
+          "30-060",
+          "30-065",
+          "30-069",
+          "30-087",
+          "30-127",
+          "30-128",
+          "30-132",
+          "30-133",
+          "30-134",
+          "30-149",
+          "30-150",
+          "30-206",
+          "30-209",
+          "30-213",
+          "30-224",
+          "30-231",
+          "30-232",
+          "30-233",
+          "30-236",
+          "30-238",
+          "31-045",
+          "31-138"
+        ],
+        "miejscowosc": [
+          "Kraków"
+        ],
+        "numer_dzielnicy": [
+          "1",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "nazwa_dzielnicy": [
+          "Dzielnica I Stare Miasto",
+          "Dzielnica II Grzegórzki",
+          "Dzielnica III Prądnik Czerwony",
+          "Dzielnica IV Prądnik Biały",
+          "Dzielnica IX Łagiewniki-Borek Fałęcki",
+          "Dzielnica V Krowodrza",
+          "Dzielnica VI Bronowice",
+          "Dzielnica VII Zwierzyniec",
+          "Dzielnica VIII Dębniki",
+          "Dzielnica X Swoszowice",
+          "Dzielnica XI Podgórze Duchackie",
+          "Dzielnica XII Bieżanów-Prokocim",
+          "Dzielnica XIII Podgórze",
+          "Dzielnica XIV Czyżyny",
+          "Dzielnica XV Mistrzejowice",
+          "Dzielnica XVI Bieńczyce",
+          "Dzielnica XVII Wzgórza Krzesławickie",
+          "Dzielnica XVIII Nowa Huta"
+        ],
+        "kod_teryt": [
+          "00432",
+          "00629",
+          "02139",
+          "02709",
+          "02752",
+          "03333",
+          "04797",
+          "05705",
+          "07598",
+          "07624",
+          "08235",
+          "10003",
+          "10731",
+          "10810",
+          "10898",
+          "11632",
+          "14952",
+          "17892",
+          "19208",
+          "19834",
+          "21002",
+          "21989",
+          "25687",
+          "25918",
+          "46442"
+        ],
+        "data_importu": [
+          "1791907201000"
+        ]
+      },
+      "source_bbox": [
+        7413781.4232,
+        5537712.4814,
+        7443348.3751,
+        5554898.4394000005
+      ],
+      "wgs84_bbox": [
+        19.79422791440829,
+        49.96942645419136,
+        20.21021057941298,
+        50.12746976143248
+      ],
+      "export_generation_text": {
+        "__Aktualnosc__.txt": "Data wygenerowania plików: 2026-10-14_00:45:05"
+      }
+    },
+    "issues": [],
+    "release_validated": false
+  },
+  {
+    "schema_version": "1",
+    "source_id": "msip_districts_1483",
+    "input_sha256": "5fca108c88267cb35816d5fa68cda9ca07fa776d2fb9532bfd5ecae076bb2b37",
+    "source_crs": "EPSG:2178",
+    "counts": {
+      "features": 18,
+      "invalid_geometry": 0,
+      "empty_geometry": 0,
+      "duplicate_ids": 0
+    },
+    "details": {
+      "entry": "Dzielnice.geojson",
+      "geometry_types": {
+        "Polygon": 18
+      },
+      "property_names": [
+        "data_aktua",
+        "id_dzielni",
+        "nazwa",
+        "nazwa_peln",
+        "nr_dzielni",
+        "objectid",
+        "opis",
+        "powierzchn"
+      ],
+      "property_samples": {
+        "objectid": [
+          "1",
+          "2267742732290",
+          "2267742732291",
+          "2267742732292",
+          "2267742732293",
+          "2267742732294",
+          "2267742732295",
+          "2267742732296",
+          "2267742732297",
+          "2267742732298",
+          "2267742732299",
+          "2267742732300",
+          "2267742732301",
+          "2267742732302",
+          "2267742732303",
+          "2267742732304",
+          "2267742732305",
+          "2267742732306"
+        ],
+        "id_dzielni": [
+          "1",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "nr_dzielni": [
+          "I",
+          "II",
+          "III",
+          "IV",
+          "IX",
+          "V",
+          "VI",
+          "VII",
+          "VIII",
+          "X",
+          "XI",
+          "XII",
+          "XIII",
+          "XIV",
+          "XV",
+          "XVI",
+          "XVII",
+          "XVIII"
+        ],
+        "nazwa": [
+          "Bieńczyce",
+          "Bieżanów-Prokocim",
+          "Bronowice",
+          "Czyżyny",
+          "Dębniki",
+          "Grzegórzki",
+          "Krowodrza",
+          "Mistrzejowice",
+          "Nowa Huta",
+          "Podgórze",
+          "Podgórze Duchackie",
+          "Prądnik Biały",
+          "Prądnik Czerwony",
+          "Stare Miasto",
+          "Swoszowice",
+          "Wzgórza Krzesławickie",
+          "Zwierzyniec",
+          "Łagiewniki-Borek Fałęcki"
+        ],
+        "nazwa_peln": [
+          "Dzielnica I Stare Miasto",
+          "Dzielnica II Grzegórzki",
+          "Dzielnica III Prądnik Czerwony",
+          "Dzielnica IV Prądnik Biały",
+          "Dzielnica IX Łagiewniki-Borek Fałęcki",
+          "Dzielnica V Krowodrza",
+          "Dzielnica VI Bronowice",
+          "Dzielnica VII Zwierzyniec",
+          "Dzielnica VIII Dębniki",
+          "Dzielnica X Swoszowice",
+          "Dzielnica XI Podgórze Duchackie",
+          "Dzielnica XII Bieżanów-Prokocim",
+          "Dzielnica XIII Podgórze",
+          "Dzielnica XIV Czyżyny",
+          "Dzielnica XV Mistrzejowice",
+          "Dzielnica XVI Bieńczyce",
+          "Dzielnica XVII Wzgórza Krzesławickie",
+          "Dzielnica XVIII Nowa Huta"
+        ],
+        "opis": [
+          "UCHWALA NR XCIX/1495/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1496/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1497/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1498/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1499/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1500/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1501/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1502/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1503/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1504/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1505/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1506/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1507/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1508/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1509/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1510/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1511/14 RADY MIASTA KRAKOWA",
+          "UCHWAŁA NR XCIX/1512/14 RADY MIASTA KRAKOWA"
+        ],
+        "powierzchn": [
+          "12256767",
+          "18473911",
+          "23418679",
+          "23815455",
+          "25604010",
+          "25667082",
+          "28730964",
+          "3699023",
+          "46188703",
+          "5415081",
+          "5567646",
+          "5590035",
+          "5619039",
+          "5845232",
+          "6437857",
+          "65409916",
+          "9540011",
+          "9559587"
+        ],
+        "data_aktua": [
+          "1396303200000"
+        ]
+      },
+      "source_bbox": [
+        7413437.59,
+        5537346.91,
+        7443953.89,
+        5555034.74
+      ],
+      "wgs84_bbox": [
+        19.789389615019367,
+        49.96609050741549,
+        20.218704538197276,
+        50.12875258762563
+      ],
+      "export_generation_text": {
+        "__Aktualnosc__.txt": "Data wygenerowania plików: 2025-12-05_10:00:39"
+      }
+    },
+    "issues": [],
+    "release_validated": false
+  },
+  {
+    "schema_version": "1",
+    "source_id": "msip_noise_1361_2022",
+    "input_sha256": "7443f9e07dba299d65917fee73547afb6a43470e2b0310d69d5fa35490f13fc1",
+    "source_crs": "EPSG:2178",
+    "counts": {
+      "features": 9240,
+      "invalid_geometry": 0,
+      "empty_geometry": 0,
+      "duplicate_ids": 0
+    },
+    "details": {
+      "entry": "Mapa_imisyjna_2022_JSON/halas_2022_imisja_dr_LDWN.geojson",
+      "geometry_types": {
+        "Polygon": 9054,
+        "MultiPolygon": 186
+      },
+      "property_names": [
+        "isov1",
+        "isov2",
+        "nazwa",
+        "objectid"
+      ],
+      "property_samples": {
+        "objectid": [
+          "1",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "2",
+          "3",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "4",
+          "40",
+          "41",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "isov1": [
+          "-24.13999939",
+          "55",
+          "60",
+          "65",
+          "70",
+          "75",
+          "80"
+        ],
+        "isov2": [
+          "55",
+          "60",
+          "65",
+          "70",
+          "75",
+          "80"
+        ],
+        "nazwa": [
+          "Bieńczyce",
+          "Bieżanów-Prokocim",
+          "Bronowice",
+          "Czyżyny",
+          "Dębniki",
+          "Grzegórzki",
+          "Krowodrza",
+          "Mistrzejowice",
+          "Nowa Huta",
+          "Podgórze",
+          "Podgórze Duchackie",
+          "Prądnik Biały",
+          "Prądnik Czerwony",
+          "Stare Miasto",
+          "Swoszowice",
+          "Wzgórza Krzesławickie",
+          "Zwierzyniec",
+          "Łagiewniki-Borek Fałęcki"
+        ]
+      },
+      "source_bbox": [
+        7413437.59,
+        5537346.91,
+        7443953.89,
+        5555034.74
+      ],
+      "wgs84_bbox": [
+        19.789389615019367,
+        49.96609050741549,
+        20.218704538197276,
+        50.12875258762563
+      ],
+      "export_generation_text": {
+        "Mapy_terenow_zagrozonych_halasem_2022_JSON/__Aktualnosc__.txt": "Data wygenerowania plików: 2026-03-23_14:47:00",
+        "Mapa_imisyjna_2022_JSON/__Aktualnosc__.txt": "Data wygenerowania plików: 2026-03-23_14:41:00",
+        "Mapy_terenow_objetych_ochrona_2022_JSON/__Aktualnosc__.txt": "Data wygenerowania plików: 2026-03-23_14:50:00"
+      }
+    },
+    "issues": [],
+    "release_validated": false
+  },
+  {
+    "schema_version": "1",
+    "source_id": "ztp_gtfs_a",
+    "input_sha256": "1dda9ab3ee73d929f413cc29663107af8042b891ebd6abafee38b4d6961c4c55",
+    "source_crs": "EPSG:4326",
+    "counts": {
+      "stops": 2991,
+      "routes": 162,
+      "trips": 86306,
+      "stop_times": 1828502,
+      "after_midnight_time_values": 81108,
+      "calendar_exceptions": 114,
+      "active_trips": 10279
+    },
+    "details": {
+      "feed_info": [
+        {
+          "feed_publisher_name": "Miejskie Przedsiębiorstwo Komunikacyjne S.A. w Krakowie",
+          "feed_publisher_url": "https://gtfs.ztp.krakow.pl",
+          "feed_lang": "pl",
+          "feed_start_date": "20261010",
+          "feed_end_date": "20270131",
+          "feed_version": "20261010_20261013",
+          "feed_contact_email": "webmaster@mpk.krakow.pl",
+          "feed_contact_url": ""
+        }
+      ],
+      "agency_names": [
+        "Miejskie Przedsiębiorstwo Komunikacyjne S.A. w Krakowie"
+      ],
+      "timezone": "Europe/Warsaw",
+      "reference_date": "2026-10-14",
+      "active_service_ids": [
+        "20261013_1"
+      ],
+      "calendar_span": [
+        "2026-10-10",
+        "2027-01-31"
+      ],
+      "route_types": {
+        "3": 162
+      },
+      "identifier_namespace": "ztp_gtfs_a"
+    },
+    "issues": [],
+    "release_validated": false
+  },
+  {
+    "schema_version": "1",
+    "source_id": "ztp_gtfs_m",
+    "input_sha256": "505e888d7e086433d49857dad817e45203c50e15d566710c9b8b85c0acd7b602",
+    "source_crs": "EPSG:4326",
+    "counts": {
+      "stops": 767,
+      "routes": 33,
+      "trips": 21103,
+      "stop_times": 418265,
+      "after_midnight_time_values": 1932,
+      "calendar_exceptions": 112,
+      "active_trips": 2590
+    },
+    "details": {
+      "feed_info": [
+        {
+          "feed_publisher_name": "R&G PLUS Sp. z o.o.",
+          "feed_publisher_url": "http://www.rg.com.pl",
+          "feed_lang": "pl",
+          "feed_start_date": "20261012",
+          "feed_end_date": "20270131",
+          "feed_version": "1689_1690",
+          "feed_contact_email": "municom@rg.com.pl",
+          "feed_contact_url": ""
+        }
+      ],
+      "agency_names": [
+        "Mobilis Sp. z o.o."
+      ],
+      "timezone": "Europe/Warsaw",
+      "reference_date": "2026-10-14",
+      "active_service_ids": [
+        "1690_PO"
+      ],
+      "calendar_span": [
+        "2026-10-12",
+        "2027-01-31"
+      ],
+      "route_types": {
+        "3": 33
+      },
+      "identifier_namespace": "ztp_gtfs_m"
+    },
+    "issues": [],
+    "release_validated": false
+  },
+  {
+    "schema_version": "1",
+    "source_id": "ztp_gtfs_t",
+    "input_sha256": "bb4ed7a36e07d49cd72cc29a6ac5b1fff145c991ea0483b826799715b7ff801f",
+    "source_crs": "EPSG:4326",
+    "counts": {
+      "stops": 355,
+      "routes": 25,
+      "trips": 15321,
+      "stop_times": 439336,
+      "after_midnight_time_values": 6708,
+      "calendar_exceptions": 90,
+      "active_trips": 3710
+    },
+    "details": {
+      "feed_info": [
+        {
+          "feed_publisher_name": "ZTP",
+          "feed_publisher_url": "http://ztp.krakow.pl/",
+          "feed_lang": "pl",
+          "feed_start_date": "",
+          "feed_end_date": "",
+          "feed_version": "20261012"
+        }
+      ],
+      "agency_names": [
+        "ZTP  Kraków"
+      ],
+      "timezone": "Europe/Warsaw",
+      "reference_date": "2026-10-14",
+      "active_service_ids": [
+        "service_1"
+      ],
+      "calendar_span": [
+        "2026-10-12",
+        "2027-01-09"
+      ],
+      "route_types": {
+        "900": 25
+      },
+      "identifier_namespace": "ztp_gtfs_t"
+    },
+    "issues": [],
+    "release_validated": false
+  }
+]

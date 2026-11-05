@@ -1,0 +1,15 @@
+{
+  "title": "PM2,5 · średnia roczna",
+  "period": "2025",
+  "source": "GIOŚ · rozkład stężeń",
+  "source_url": "https://wody.gios.gov.pl/arcgis/rest/services/PJP2_MapServices/ModelowanieNaPotrzebyOcen/MapServer/2",
+  "source_sha256": "f494f3fd6112ea6a969721e11d4a59c81ff141c3a8a4780b4350f3f6bb74afea",
+  "unit": "µg/m³",
+  "coverage_complete": false,
+  "time_detail": "Annual source only; no monthly/seasonal copies",
+  "resolution": "Geometria modelu GIOŚ, nie pomiar pod adresem",
+  "acquired_at": "2026-10-26T22:43:13.878547+00:00",
+  "source_rows": 2591,
+  "features": 2104,
+  "output_sha256": "ce92e4a234ad0d44cd3c123fa7715588677751862601cb205101c437bc74d93e"
+}

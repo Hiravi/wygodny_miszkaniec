@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "display_version": "osm-official-context-v2",
+  "osm_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "official_addresses_sha256": "7335cd2edbe1659e5d780e07a14c27e8fcb8117201208a2ccdbc8c75f62a3828",
+  "locations_version": "locations-v1-7ce32dd276347f4b",
+  "counts": {
+    "place": 301,
+    "road": 150721,
+    "water-line": 146,
+    "water": 556,
+    "building": 126459,
+    "park": 223,
+    "district-label": 18,
+    "address": 70282
+  },
+  "geometry_failures": {},
+  "output_sha256": "251e4373e32a578addeafe37b2af47be118574cfe9fcb355d98ad89bbc775266",
+  "output_bytes": 96686080,
+  "scope": "Display-only index inside/intersecting official city boundary. OSM1m streets/0.3m buildings/1.5m parks-water simplification; never used for walking/noise analysis. Official house numbers from source properties, not street-name inference. Viewport/zoom query, no external tiles or glyph service."
+}

@@ -1,0 +1,27 @@
+{
+  "data_version": "osm-services-v3-07",
+  "output_sha256": "59fe6b5c6b8bb6fa9b556369abead2c67a354567f5cf1f4716226397a49551ba",
+  "repeated_output_identical": true,
+  "records": 2415,
+  "counts": {
+    "groceries": 1125,
+    "atm": 520,
+    "healthcare": 432,
+    "pharmacy": 282,
+    "mall": 31,
+    "market": 25
+  },
+  "geometry_roles": {
+    "source_point": 2068,
+    "area_representative_point": 347
+  },
+  "source_elements": {
+    "node": 2068,
+    "relation": 3,
+    "way": 344
+  },
+  "invalid_or_outside_or_duplicate_identities": 0,
+  "geometry_failures": {},
+  "coverage_complete": false,
+  "interpretation": "Known records, not an exhaustive inventory"
+}

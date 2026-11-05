@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "data_version": "osm-mobility-v3-09-10",
+  "source_date": "2026-10-11T20:21:06Z",
+  "source_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "coverage_complete": false,
+  "excluded_categories": [
+    "parking_zone"
+  ],
+  "audit": {
+    "fuel_stations": 115,
+    "fuel_fields": {
+      "fuel:GTL_diesel": {
+        "unknown": 105,
+        "no": 2,
+        "yes": 8
+      },
+      "fuel:HGV_diesel": {
+        "unknown": 94,
+        "yes": 16,
+        "no": 5
+      },
+      "fuel:adblue": {
+        "unknown": 114,
+        "yes": 1
+      },
+      "fuel:biodiesel": {
+        "unknown": 114,
+        "no": 1
+      },
+      "fuel:cng": {
+        "unknown": 114,
+        "yes": 1
+      },
+      "fuel:diesel": {
+        "yes": 63,
+        "unknown": 52
+      },
+      "fuel:diesel_B": {
+        "unknown": 114,
+        "yes": 1
+      },
+      "fuel:lpg": {
+        "yes": 50,
+        "unknown": 59,
+        "no": 6
+      },
+      "fuel:octane_100": {
+        "unknown": 114,
+        "yes": 1
+      },
+      "fuel:octane_91": {
+        "unknown": 114,
+        "no": 1
+      },
+      "fuel:octane_92": {
+        "unknown": 114,
+        "no": 1
+      },
+      "fuel:octane_95": {
+        "yes": 60,
+        "unknown": 55
+      },
+      "fuel:octane_98": {
+        "yes": 53,
+        "unknown": 61,
+        "no": 1
+      }
+    },
+    "parking_polygons": 12479,
+    "duplicates_removed": 0
+  },
+  "output_sha256": "c1db8695bda78d7ec130375995c1f066b6950765db00e39f52ffacaf5f5976de"
+}

@@ -1,0 +1,305 @@
+{
+  "schema_version": "1",
+  "reviewed_at": "2026-10-15T16:50:48.313155+00:00",
+  "sources": [
+    {
+      "source_id": "msip_addresses_1492",
+      "title": "Punkty adresowe (EMUiA)",
+      "landing_url": "https://msip.krakow.pl/dataset/1492",
+      "download_url": "https://msip.um.krakow.pl/Dane/Adresy_JSON.zip",
+      "sha256": "7335cd2edbe1659e5d780e07a14c27e8fcb8117201208a2ccdbc8c75f62a3828",
+      "acquired_at": "2026-10-14T02:29:47.353818+00:00",
+      "produced_period": null,
+      "export_generated_at": "2026-10-14T00:45:05",
+      "acquisition": "Anonymous direct ZIP download, pinned local snapshot; no live map-service reuse",
+      "archive_terms_filenames": [],
+      "terms": [
+        {
+          "url": "https://msip.krakow.pl/getHtml?dok_id=228972",
+          "clauses": "General 7-10; download 20-22; reuse 1-3"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=56559",
+          "clauses": "PZGiK/MSIP paragraph and map-service definition"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=48482",
+          "clauses": "II.1, III; conditional on no special rules"
+        }
+      ],
+      "intended_publication": "Rendered map/screenshots; own static derived vectors, address lookup and downloadable pilot artifacts",
+      "review_status": "clarification_pending_downloaded_dataset_scope"
+    },
+    {
+      "source_id": "msip_districts_1483",
+      "title": "Podział administracyjny - dzielnice",
+      "landing_url": "https://msip.krakow.pl/dataset/1483",
+      "download_url": "https://msip.um.krakow.pl/Dane/Dzielnice_JSON.zip",
+      "sha256": "5fca108c88267cb35816d5fa68cda9ca07fa776d2fb9532bfd5ecae076bb2b37",
+      "acquired_at": "2026-10-14T02:29:47.478752+00:00",
+      "produced_period": null,
+      "export_generated_at": "2025-12-05T10:00:39",
+      "acquisition": "Anonymous direct ZIP download, pinned local snapshot; no live map-service reuse",
+      "archive_terms_filenames": [],
+      "terms": [
+        {
+          "url": "https://msip.krakow.pl/getHtml?dok_id=228972",
+          "clauses": "General 7-10; download 20-22; reuse 1-3"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=56559",
+          "clauses": "PZGiK/MSIP paragraph and map-service definition"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=48482",
+          "clauses": "II.1, III; conditional on no special rules"
+        }
+      ],
+      "intended_publication": "Rendered map/screenshots; own static derived vectors, address lookup and downloadable pilot artifacts",
+      "review_status": "clarification_pending_downloaded_dataset_scope"
+    },
+    {
+      "source_id": "msip_noise_1361_2022",
+      "title": "Mapy hałasu 2022",
+      "landing_url": "https://msip.krakow.pl/dataset/1361",
+      "download_url": "https://msip.um.krakow.pl/Dane/Mapa_Halasu_2022_JSON.zip",
+      "sha256": "7443f9e07dba299d65917fee73547afb6a43470e2b0310d69d5fa35490f13fc1",
+      "acquired_at": "2026-10-14T02:30:12.725128+00:00",
+      "produced_period": "2022",
+      "export_generated_at": "2026-03-23T14:41:00",
+      "acquisition": "Anonymous direct ZIP download, pinned local snapshot; no live map-service reuse",
+      "archive_terms_filenames": [],
+      "terms": [
+        {
+          "url": "https://msip.krakow.pl/getHtml?dok_id=228972",
+          "clauses": "General 7-10; download 20-22; reuse 1-3"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=56559",
+          "clauses": "PZGiK/MSIP paragraph and map-service definition"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=48482",
+          "clauses": "II.1, III; conditional on no special rules"
+        }
+      ],
+      "intended_publication": "Rendered map/screenshots; own static derived vectors, address lookup and downloadable pilot artifacts",
+      "review_status": "clarification_pending_downloaded_dataset_scope"
+    },
+    {
+      "source_id": "ztp_gtfs_a",
+      "title": "GTFS_KRK_A",
+      "landing_url": "https://gtfs.ztp.krakow.pl/",
+      "download_url": "https://gtfs.ztp.krakow.pl/GTFS_KRK_A.zip",
+      "sha256": "1dda9ab3ee73d929f413cc29663107af8042b891ebd6abafee38b4d6961c4c55",
+      "acquired_at": "2026-10-14T02:30:13.407614+00:00",
+      "produced_period": null,
+      "export_generated_at": null,
+      "acquisition": "Anonymous direct ZIP download, pinned local snapshot; no live map-service reuse",
+      "archive_terms_filenames": [],
+      "terms": [
+        {
+          "url": "https://gtfs.ztp.krakow.pl/",
+          "clauses": "Public A/M/T ZIP listing; no explicit reuse grant displayed"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=48482",
+          "clauses": "II.1, III; applicability to these exact files needs confirmation"
+        }
+      ],
+      "intended_publication": "Local OTP import; scheduled itinerary/stop/path responses, screenshots; optional redistributed graph/feed snapshot",
+      "review_status": "clarification_pending_exact_feed_terms"
+    },
+    {
+      "source_id": "ztp_gtfs_m",
+      "title": "GTFS_KRK_M",
+      "landing_url": "https://gtfs.ztp.krakow.pl/",
+      "download_url": "https://gtfs.ztp.krakow.pl/GTFS_KRK_M.zip",
+      "sha256": "505e888d7e086433d49857dad817e45203c50e15d566710c9b8b85c0acd7b602",
+      "acquired_at": "2026-10-14T02:30:13.930552+00:00",
+      "produced_period": null,
+      "export_generated_at": null,
+      "acquisition": "Anonymous direct ZIP download, pinned local snapshot; no live map-service reuse",
+      "archive_terms_filenames": [],
+      "terms": [
+        {
+          "url": "https://gtfs.ztp.krakow.pl/",
+          "clauses": "Public A/M/T ZIP listing; no explicit reuse grant displayed"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=48482",
+          "clauses": "II.1, III; applicability to these exact files needs confirmation"
+        }
+      ],
+      "intended_publication": "Local OTP import; scheduled itinerary/stop/path responses, screenshots; optional redistributed graph/feed snapshot",
+      "review_status": "clarification_pending_exact_feed_terms"
+    },
+    {
+      "source_id": "ztp_gtfs_t",
+      "title": "GTFS_KRK_T",
+      "landing_url": "https://gtfs.ztp.krakow.pl/",
+      "download_url": "https://gtfs.ztp.krakow.pl/GTFS_KRK_T.zip",
+      "sha256": "bb4ed7a36e07d49cd72cc29a6ac5b1fff145c991ea0483b826799715b7ff801f",
+      "acquired_at": "2026-10-14T02:30:14.353665+00:00",
+      "produced_period": null,
+      "export_generated_at": null,
+      "acquisition": "Anonymous direct ZIP download, pinned local snapshot; no live map-service reuse",
+      "archive_terms_filenames": [],
+      "terms": [
+        {
+          "url": "https://gtfs.ztp.krakow.pl/",
+          "clauses": "Public A/M/T ZIP listing; no explicit reuse grant displayed"
+        },
+        {
+          "url": "https://www.bip.krakow.pl/?dok_id=48482",
+          "clauses": "II.1, III; applicability to these exact files needs confirmation"
+        }
+      ],
+      "intended_publication": "Local OTP import; scheduled itinerary/stop/path responses, screenshots; optional redistributed graph/feed snapshot",
+      "review_status": "clarification_pending_exact_feed_terms"
+    },
+    {
+      "source_id": "osm",
+      "title": "Geofabrik Malopolskie 261011 OSM PBF",
+      "download_url": "https://download.geofabrik.de/europe/poland/malopolskie-261011.osm.pbf",
+      "sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+      "acquired_at": "2026-10-14T02:39:39.089139+00:00",
+      "produced_at": "2026-10-11T20:21:06Z",
+      "acquisition": "Pinned regional PBF download; no OSM tiles, geocoder or continuous map service",
+      "terms": [
+        {
+          "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "clauses": "3.1; 4.2 notices; 4.3 Produced Work; 4.4 derivative share-alike; 4.5 collective/internal use; 4.6 machine-readable offer"
+        }
+      ],
+      "intended_publication": "OSM-derived streets/buildings/POI/parks and walking graph; rendered maps/screenshots plus source-separated machine-readable derivatives or complete alteration recipe",
+      "review_status": "license_identified_release_notices_source_offer_and_mixed_database_review_required"
+    },
+    {
+      "source_id": "official_zzm_parks_table",
+      "title": "ZZM park names and areas, 78 rows",
+      "landing_url": "https://otwartedane.um.krakow.pl/zbiory-danych/parki-miejskie-w-krakowie",
+      "acquisition": "One-off advertised anonymous table/metadata API GET; not a map service",
+      "records": {
+        "data": {
+          "url": "https://api.um.krakow.pl/opendata-srodowisko-parki-miejskie/v1/parki-miejskie-powierzchnia",
+          "status": 200,
+          "sha256": "45cc50ea5c066b6b76d12b87ed1af63234aab76ebab4c69f19e37148dbfb44dd",
+          "bytes": 11775,
+          "acquired_at": "2026-10-14T16:08:27.217812+00:00"
+        },
+        "metadata": {
+          "url": "https://api.um.krakow.pl/opendata-srodowisko-parki-miejskie/v1/metadata",
+          "status": 200,
+          "sha256": "8f93ba5c220e79b11a031231ddc60f7eb8a83d8e3a74fff9c3def2dd1e7cdd76",
+          "bytes": 287,
+          "acquired_at": "2026-10-14T16:08:27.371809+00:00"
+        }
+      },
+      "catalogue_update": "2026-04-27",
+      "terms": [
+        {
+          "url": "https://otwartedane.um.krakow.pl/warunki-wykorzystania-danych-udostepnianych-w-portalu",
+          "clauses": "1,3 free reuse unless dataset exceptions; 4 source/production/acquisition; 5 processing; 6 responsibility"
+        }
+      ],
+      "intended_publication": "Optional name/area evidence only; active displayed park geometry is OSM, not this table",
+      "review_status": "portal_reuse_basis_identified_not_a_current_product_geometry_input"
+    }
+  ],
+  "terms_snapshots": [
+    {
+      "url": "https://msip.krakow.pl/getHtml?dok_id=228972",
+      "resolved_url": "https://msip.krakow.pl/getHtml?dok_id=228972",
+      "status": 200,
+      "sha256": "65952f7b4809609006d3c346e425a30d51746c9f92fd935e5fd6c07a6e7eb61e",
+      "path": ".cache/qa/reuse-terms/00.html"
+    },
+    {
+      "url": "https://www.bip.krakow.pl/?dok_id=48482",
+      "resolved_url": "https://www.bip.krakow.pl/?dok_id=48482",
+      "status": 200,
+      "sha256": "308868937df025c331932896e57b05091d4dc87e7cb6fd96d4fdd3cb9939de25",
+      "path": ".cache/qa/reuse-terms/01.html"
+    },
+    {
+      "url": "https://www.bip.krakow.pl/?dok_id=56559",
+      "resolved_url": "https://www.bip.krakow.pl/?dok_id=56559",
+      "status": 200,
+      "sha256": "4f7da484797591b8fd732c13a61014dc8855ec3698ee4d36d04b45d5266e5261",
+      "path": ".cache/qa/reuse-terms/02.html"
+    },
+    {
+      "url": "https://otwartedane.um.krakow.pl/warunki-wykorzystania-danych-udostepnianych-w-portalu",
+      "resolved_url": "https://otwartedane.um.krakow.pl/warunki-wykorzystania-danych-udostepnianych-w-portalu",
+      "status": 200,
+      "sha256": "a292d5246907899a6dc79ee1b2a0880fde72034400624135d8610b7886351cd6",
+      "path": ".cache/qa/reuse-terms/03.html"
+    },
+    {
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "resolved_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "status": 200,
+      "sha256": "b8d8aebb21bf405f93f6e21bbf0d8f0a749844f9812ec58692f189add6402b47",
+      "path": ".cache/qa/reuse-terms/04.html"
+    },
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "resolved_url": "https://www.openstreetmap.org/copyright",
+      "status": 200,
+      "sha256": "841ccf932b6d8c613b408eb5f971b26395514d6ab22fbab54f127080d4a80e3e",
+      "path": ".cache/qa/reuse-terms/05.html"
+    },
+    {
+      "url": "https://download.geofabrik.de/europe/poland/malopolskie.html",
+      "resolved_url": "https://download.geofabrik.de/europe/poland/malopolskie.html",
+      "status": 200,
+      "sha256": "a1b3633b2b9a2a6803a6064c66f46033d22c20398670fe946d5b87b338016482",
+      "path": ".cache/qa/reuse-terms/06.html"
+    },
+    {
+      "url": "https://gtfs.ztp.krakow.pl/",
+      "resolved_url": "https://gtfs.ztp.krakow.pl/",
+      "status": 200,
+      "sha256": "a28328c08ae0a2d44ee2c32d7ae892d8374a7a7e33517305af3b11662a40acb1",
+      "path": ".cache/qa/reuse-terms/07.html"
+    },
+    {
+      "url": "https://otwartedane.um.krakow.pl/zbiory-danych/parki-miejskie-w-krakowie",
+      "resolved_url": "https://otwartedane.um.krakow.pl/zbiory-danych/parki-miejskie-w-krakowie",
+      "status": 200,
+      "sha256": "ce20676b20f393a1629ad5fd6ffae3d6960c917d03b64e97c475204af00a516b",
+      "path": ".cache/qa/reuse-terms/08.html"
+    },
+    {
+      "url": "https://otwartedane.um.krakow.pl/zbiory-danych/komunikacja-miejska-w-krakowie-kmk",
+      "resolved_url": "https://otwartedane.um.krakow.pl/zbiory-danych/komunikacja-miejska-w-krakowie-kmk",
+      "status": 200,
+      "sha256": "bff478c58cc17cf80b0859b43d42eaecf7149b76fcd6f2e0d7967e05bf337602",
+      "path": ".cache/qa/reuse-terms/09.html"
+    },
+    {
+      "url": "https://msip.krakow.pl/dataset/1492",
+      "resolved_url": "https://msip.krakow.pl/dataset/1492",
+      "status": 200,
+      "sha256": "85f0ecec5180c4af3c91057ab2ace53795dae651c29757f4d00d9a0b713934b0",
+      "path": ".cache/qa/reuse-terms/10.html"
+    },
+    {
+      "url": "https://msip.krakow.pl/dataset/1483",
+      "resolved_url": "https://msip.krakow.pl/dataset/1483",
+      "status": 200,
+      "sha256": "b309d9c0f4b86835a4cf773199934a3f617be6738eadb042eb4c594226b9afba",
+      "path": ".cache/qa/reuse-terms/11.html"
+    },
+    {
+      "url": "https://msip.krakow.pl/dataset/1361",
+      "resolved_url": "https://msip.krakow.pl/dataset/1361",
+      "status": 200,
+      "sha256": "c4652869b9d42484589cd8d3321379277dbdf068073c4b9d351bc933bed5d0f4",
+      "path": ".cache/qa/reuse-terms/12.html"
+    }
+  ],
+  "not_used": "No continuously reused MSIP REST/WMS/WFS/WMTS, ArcGIS KMK layers, OSM tile/geocoder service, realtime GTFS, population or housing dataset in active product. Noise legend REST was a bounded metadata-validation read, not runtime service reuse.",
+  "limitation": "Source-specific audit, not a legal clearance certificate. No draft request sent; no publication."
+}

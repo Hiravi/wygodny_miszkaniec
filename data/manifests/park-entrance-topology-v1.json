@@ -1,0 +1,1031 @@
+{
+  "schema_version": "1",
+  "input_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "records": [
+    {
+      "entrance_id": "node/2414147320",
+      "park_id": "way/65738893",
+      "boundary_distance_m": 8.07,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "yes",
+          "barrier": "entrance"
+        },
+        "longitude": 20.0077269,
+        "latitude": 50.094718
+      },
+      "membership": [
+        {
+          "id": 233073118,
+          "tags": {
+            "access": "yes",
+            "barrier": "fence",
+            "fence_type": "metal",
+            "leisure": "playground"
+          },
+          "node_refs": [
+            2414147350,
+            2414147342,
+            2414147340,
+            2414147312,
+            2414147303,
+            2414147292,
+            2414147268,
+            2414147241,
+            2414147223,
+            2414147204,
+            2414147191,
+            2414147176,
+            2414147171,
+            2414147149,
+            2414147140,
+            2414147132,
+            2414147123,
+            2414147120,
+            2414147114,
+            2414147111,
+            2414147117,
+            2414147126,
+            2414147143,
+            2414147146,
+            2414147159,
+            2414147173,
+            2414147182,
+            2414147320,
+            2414147395,
+            2414147431,
+            2414147428,
+            2414147392,
+            2414147373,
+            2414147365,
+            2414147362,
+            2414147350
+          ],
+          "candidate_ids": [
+            2414147320
+          ]
+        },
+        {
+          "id": 587326152,
+          "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt"
+          },
+          "node_refs": [
+            2271689069,
+            2414147149,
+            2414147320,
+            2271689091
+          ],
+          "candidate_ids": [
+            2414147320
+          ]
+        }
+      ],
+      "decision": "facility_gate_rejected_as_whole_park_entrance",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/2867333920",
+      "park_id": "way/25506183",
+      "boundary_distance_m": 15.48,
+      "access_tag": "permissive",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "permissive",
+          "barrier": "gate"
+        },
+        "longitude": 19.9237925,
+        "latitude": 50.0694863
+      },
+      "membership": [
+        {
+          "id": 231815794,
+          "tags": {
+            "addr:city": "Kraków",
+            "addr:country": "PL",
+            "addr:housenumber": "5",
+            "addr:postcode": "30-046",
+            "addr:street": "Juliusza Lea",
+            "building": "apartments",
+            "building:levels": "6",
+            "roof:levels": "0"
+          },
+          "node_refs": [
+            2401461507,
+            2401461509,
+            2401461514,
+            2401461512,
+            2401461508,
+            2867333921,
+            2401461496,
+            2401461201,
+            2867333920,
+            2401461203,
+            2401461193,
+            13701085395,
+            13701085394,
+            2401461199,
+            2401461507
+          ],
+          "candidate_ids": [
+            2867333920
+          ]
+        },
+        {
+          "id": 282792019,
+          "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "smoothness": "excellent",
+            "surface": "paving_stones"
+          },
+          "node_refs": [
+            2867333919,
+            2867333920
+          ],
+          "candidate_ids": [
+            2867333920
+          ]
+        },
+        {
+          "id": 282792020,
+          "tags": {
+            "access": "permissive",
+            "highway": "footway",
+            "lit": "yes",
+            "smoothness": "excellent",
+            "surface": "paving_stones",
+            "tunnel": "building_passage"
+          },
+          "node_refs": [
+            2867333920,
+            2867333921
+          ],
+          "candidate_ids": [
+            2867333920
+          ]
+        }
+      ],
+      "decision": "building_member_rejected_as_park_entrance",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/4935311774",
+      "park_id": "way/464762932",
+      "boundary_distance_m": 2.27,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "yes",
+          "entrance": "yes",
+          "wheelchair": "yes"
+        },
+        "longitude": 19.9439257,
+        "latitude": 50.0720758
+      },
+      "membership": [
+        {
+          "id": 464762931,
+          "tags": {
+            "highway": "footway"
+          },
+          "node_refs": [
+            4598379823,
+            13328114880,
+            4935311774
+          ],
+          "candidate_ids": [
+            4935311774
+          ]
+        },
+        {
+          "id": 465629268,
+          "tags": {
+            "addr:city": "Kraków",
+            "addr:country": "PL",
+            "addr:housenumber": "24",
+            "addr:postcode": "31-155",
+            "addr:street": "Warszawska",
+            "building": "university",
+            "building:levels": "6",
+            "building:part": "shell",
+            "name": "Wydział Inżynierii Środowiska i Energetyki",
+            "operator": "Politechnika Krakowska"
+          },
+          "node_refs": [
+            4605668617,
+            4606214753,
+            4606214495,
+            4606214780,
+            4606214493,
+            4605668616,
+            4605668615,
+            4606214554,
+            4606215271,
+            4606214550,
+            4606215099,
+            4606212883,
+            4606214890,
+            4606215205,
+            4605668614,
+            4605668613,
+            4563640086,
+            4606214577,
+            4605668612,
+            4605668611,
+            4606214526,
+            4606215134,
+            4606214712,
+            4606214524,
+            4606215130,
+            4606214710,
+            4606214567,
+            4605668610,
+            4605668609,
+            4606214576,
+            4606215161,
+            4606214568,
+            4605668608,
+            4606214541,
+            4605668607,
+            4606214548,
+            4606214547,
+            4935311767,
+            4291849681,
+            4291849672,
+            4606214534,
+            4606215300,
+            4606214519,
+            4606214782,
+            4606214515,
+            4606215298,
+            4606214699,
+            4606214932,
+            4606214513,
+            4606214736,
+            4606214511,
+            4606214737,
+            4605668604,
+            4935311774,
+            4605668602,
+            4606214556,
+            4606214950,
+            4606214506,
+            4606214695,
+            4606214907,
+            4605668601,
+            4606214505,
+            4606215156,
+            4606214501,
+            4606214903,
+            4606214693,
+            4606215157,
+            4606214901,
+            4606214499,
+            4605668617
+          ],
+          "candidate_ids": [
+            4935311774
+          ]
+        },
+        {
+          "id": 465692849,
+          "tags": {
+            "area": "yes",
+            "foot": "yes",
+            "highway": "elevator",
+            "indoor": "yes",
+            "wheelchair": "yes"
+          },
+          "node_refs": [
+            4606214510,
+            4606214508,
+            4606643684,
+            4605668602,
+            4935311774,
+            4605668604,
+            4606214509,
+            4606214510
+          ],
+          "candidate_ids": [
+            4935311774
+          ]
+        },
+        {
+          "id": 465692886,
+          "tags": {
+            "area": "yes",
+            "foot": "yes",
+            "highway": "elevator",
+            "indoor": "yes",
+            "layer": "2",
+            "level": "2",
+            "wheelchair": "yes"
+          },
+          "node_refs": [
+            4606214738,
+            4606643688,
+            4605668602,
+            4935311774,
+            4605668604,
+            4606214737,
+            4606214738
+          ],
+          "candidate_ids": [
+            4935311774
+          ]
+        },
+        {
+          "id": 465692910,
+          "tags": {
+            "area": "yes",
+            "foot": "yes",
+            "highway": "elevator",
+            "indoor": "yes",
+            "layer": "-1",
+            "level": "-1",
+            "wheelchair": "yes"
+          },
+          "node_refs": [
+            4606214738,
+            4606644191,
+            4605668602,
+            4935311774,
+            4605668604,
+            4606214737,
+            4606214738
+          ],
+          "candidate_ids": [
+            4935311774
+          ]
+        },
+        {
+          "id": 465692969,
+          "tags": {
+            "foot": "yes",
+            "highway": "elevator",
+            "indoor": "yes",
+            "layer": "2",
+            "level": "2",
+            "wheelchair": "yes"
+          },
+          "node_refs": [
+            4606214738,
+            4606644195,
+            4605668602,
+            4935311774,
+            4605668604,
+            4606214737,
+            4606214738
+          ],
+          "candidate_ids": [
+            4935311774
+          ]
+        },
+        {
+          "id": 465692982,
+          "tags": {
+            "access": "yes",
+            "highway": "elevator",
+            "indoor": "yes",
+            "wheelchair": "yes"
+          },
+          "node_refs": [
+            4606214738,
+            4606644199,
+            4605668602,
+            4935311774,
+            4605668604,
+            4606214737,
+            4606214738
+          ],
+          "candidate_ids": [
+            4935311774
+          ]
+        },
+        {
+          "id": 465904482,
+          "tags": {
+            "area": "yes",
+            "highway": "elevator",
+            "indoor": "yes",
+            "layer": "-1",
+            "level": "-1",
+            "wheelchair": "yes"
+          },
+          "node_refs": [
+            4605668602,
+            4935311774,
+            4605668604,
+            4606214737,
+            4606214738,
+            4608078183,
+            4605668602
+          ],
+          "candidate_ids": [
+            4935311774
+          ]
+        }
+      ],
+      "decision": "building_member_rejected_as_park_entrance",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/6860839490",
+      "park_id": "way/344755859",
+      "boundary_distance_m": 2.21,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "yes",
+          "entrance": "main"
+        },
+        "longitude": 19.9800815,
+        "latitude": 50.0172167
+      },
+      "membership": [
+        {
+          "id": 187287045,
+          "tags": {
+            "addr:city": "Kraków",
+            "addr:country": "PL",
+            "addr:housenumber": "9",
+            "addr:postcode": "30-682",
+            "addr:street": "Spółdzielców",
+            "building": "retail",
+            "building:levels": "1"
+          },
+          "node_refs": [
+            6736382803,
+            6736385081,
+            6736382802,
+            6860839490,
+            6736382801,
+            6736382800,
+            6736385079,
+            6736382803
+          ],
+          "candidate_ids": [
+            6860839490
+          ]
+        }
+      ],
+      "decision": "building_member_rejected_as_park_entrance",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/8267603828",
+      "park_id": "way/1473988053",
+      "boundary_distance_m": 14.66,
+      "access_tag": "permissive",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "permissive",
+          "barrier": "gate"
+        },
+        "longitude": 19.9868166,
+        "latitude": 50.0356293
+      },
+      "membership": [
+        {
+          "id": 777154221,
+          "tags": {
+            "access": "private",
+            "highway": "service",
+            "surface": "paving_stones"
+          },
+          "node_refs": [
+            8267603828,
+            8267603829,
+            7086916849
+          ],
+          "candidate_ids": [
+            8267603828
+          ]
+        },
+        {
+          "id": 889317122,
+          "tags": {
+            "barrier": "wall",
+            "wall": "brick"
+          },
+          "node_refs": [
+            2133786333,
+            9168294422,
+            7086916849,
+            2133786328,
+            1461947825,
+            2133786337,
+            8267603828,
+            2133786338,
+            2133786339,
+            2133786333
+          ],
+          "candidate_ids": [
+            8267603828
+          ]
+        },
+        {
+          "id": 1531395630,
+          "tags": {
+            "highway": "service",
+            "surface": "paving_stones"
+          },
+          "node_refs": [
+            936796666,
+            7251553922,
+            8267603828
+          ],
+          "candidate_ids": [
+            8267603828
+          ]
+        }
+      ],
+      "decision": "no_mapped_walking_connection",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/9968052557",
+      "park_id": "way/65738893",
+      "boundary_distance_m": 15.39,
+      "access_tag": "permissive",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "permissive",
+          "barrier": "gate",
+          "opening_hours": "24/7"
+        },
+        "longitude": 20.0071517,
+        "latitude": 50.0978818
+      },
+      "membership": [
+        {
+          "id": 1087938532,
+          "tags": {
+            "barrier": "fence"
+          },
+          "node_refs": [
+            11678913462,
+            11678918972,
+            9968052555,
+            1948025549,
+            9968052557,
+            1948025403,
+            1948025402,
+            9968052548
+          ],
+          "candidate_ids": [
+            9968052557
+          ]
+        },
+        {
+          "id": 1087938535,
+          "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "node_refs": [
+            9968052556,
+            9968052557
+          ],
+          "candidate_ids": [
+            9968052557
+          ]
+        }
+      ],
+      "decision": "connected_park_access_candidate",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/11098022575",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 1.5,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "yes",
+          "entrance": "main",
+          "wheelchair": "no"
+        },
+        "longitude": 19.9334844,
+        "latitude": 50.0584887
+      },
+      "membership": [
+        {
+          "id": 1039863609,
+          "tags": {
+            "access": "yes",
+            "amenity": "toilets",
+            "building": "toilets",
+            "building:levels:underground": "1",
+            "fee": "yes",
+            "female": "yes",
+            "male": "yes",
+            "opening_hours": "Apr-Oct 08:00-20:00; Nov-Mar 09:00-18:00",
+            "wheelchair": "yes"
+          },
+          "node_refs": [
+            9574967376,
+            11098022576,
+            11098022575,
+            9574967375,
+            9574967374,
+            9574967373,
+            9574967376
+          ],
+          "candidate_ids": [
+            11098022575,
+            11098022576
+          ]
+        },
+        {
+          "id": 1195880823,
+          "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "node_refs": [
+            11098022575,
+            11098022577
+          ],
+          "candidate_ids": [
+            11098022575
+          ]
+        }
+      ],
+      "decision": "building_member_rejected_as_park_entrance",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/11098022576",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 1.75,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "yes",
+          "entrance": "main",
+          "wheelchair": "yes"
+        },
+        "longitude": 19.9335296,
+        "latitude": 50.0583936
+      },
+      "membership": [
+        {
+          "id": 1039863609,
+          "tags": {
+            "access": "yes",
+            "amenity": "toilets",
+            "building": "toilets",
+            "building:levels:underground": "1",
+            "fee": "yes",
+            "female": "yes",
+            "male": "yes",
+            "opening_hours": "Apr-Oct 08:00-20:00; Nov-Mar 09:00-18:00",
+            "wheelchair": "yes"
+          },
+          "node_refs": [
+            9574967376,
+            11098022576,
+            11098022575,
+            9574967375,
+            9574967374,
+            9574967373,
+            9574967376
+          ],
+          "candidate_ids": [
+            11098022575,
+            11098022576
+          ]
+        },
+        {
+          "id": 1195880824,
+          "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "node_refs": [
+            11098022576,
+            11098022578
+          ],
+          "candidate_ids": [
+            11098022576
+          ]
+        }
+      ],
+      "decision": "building_member_rejected_as_park_entrance",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/13040367168",
+      "park_id": "way/26257460",
+      "boundary_distance_m": 0.0,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "yes",
+          "barrier": "gate",
+          "foot": "yes",
+          "locked": "no",
+          "maxwidth:physical": "0.8"
+        },
+        "longitude": 20.0052048,
+        "latitude": 50.0120516
+      },
+      "membership": [
+        {
+          "id": 26257460,
+          "tags": {
+            "leisure": "park",
+            "name": "Park Dolina Kurczaba",
+            "wikimedia_commons": "Category:Dolina Kurczaba Park in Kraków"
+          },
+          "node_refs": [
+            287571249,
+            12055475304,
+            12055487535,
+            12055475333,
+            287571250,
+            12055487534,
+            12055125386,
+            13727193362,
+            13727193356,
+            13727193360,
+            13727193355,
+            13195328476,
+            13195328479,
+            12055487522,
+            13040367168,
+            6738150022,
+            287571256,
+            287571257,
+            12055487542,
+            441607744,
+            287571259,
+            12055475316,
+            12055475303,
+            287571249
+          ],
+          "candidate_ids": [
+            13040367168
+          ]
+        },
+        {
+          "id": 1301550704,
+          "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "node_refs": [
+            12055487508,
+            12055487514,
+            12055487517,
+            13040367168,
+            12055487509
+          ],
+          "candidate_ids": [
+            13040367168
+          ]
+        },
+        {
+          "id": 1301550709,
+          "tags": {
+            "access": "yes",
+            "addr:city": "Kraków",
+            "addr:housenumber": "9",
+            "addr:postcode": "30-868",
+            "addr:street": "Jana Kurczaba",
+            "barrier": "fence",
+            "dog": "yes",
+            "fixme": "Niestety nie wiem dokładnego obszaru obiektu Unfortunately i don't know exact area of object",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipMxg9Xbd1N0Lo-AI8WaMIv3IkiCLC7ZqhEVY4cU=w408-h544-k-no",
+            "leisure": "dog_park",
+            "operator": "Zarząd Infrastruktury Komunalnej i Transportu w Krakowie",
+            "operator:type": "public",
+            "source": "https://psipark.pl/wybiegi-dla-psow/wybieg-dla-psow-krakow-kurczaba-prokocim-biezanow/",
+            "start_date": "2004"
+          },
+          "node_refs": [
+            12055125386,
+            13727193329,
+            13727193367,
+            12055487539,
+            12055487540,
+            13195328460,
+            13195328461,
+            13195328462,
+            12055487541,
+            12055487542,
+            287571257,
+            287571256,
+            6738150022,
+            13040367168,
+            12055487522,
+            13195328479,
+            13195328476,
+            13727193355,
+            13727193360,
+            13727193356,
+            13727193362,
+            12055125386
+          ],
+          "candidate_ids": [
+            13040367168
+          ]
+        }
+      ],
+      "decision": "facility_gate_rejected_as_whole_park_entrance",
+      "verified_public_park_entrance": false
+    },
+    {
+      "entrance_id": "node/13307025292",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 12.81,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access",
+      "node": {
+        "tags": {
+          "access": "yes",
+          "entrance": "yes",
+          "wheelchair": "yes"
+        },
+        "longitude": 19.9099894,
+        "latitude": 50.0754919
+      },
+      "membership": [
+        {
+          "id": 233354999,
+          "tags": {
+            "addr:city": "Kraków",
+            "addr:country": "PL",
+            "addr:housenumber": "1",
+            "addr:postcode": "30-084",
+            "addr:street": "Podchorążych",
+            "building": "university",
+            "building:levels": "4",
+            "faculty": "Wydział Architektury",
+            "name": "Wydział Architektury",
+            "operator": "Politechnika Krakowska",
+            "wheelchair": "yes",
+            "wikidata": "Q9379316",
+            "wikipedia": "pl:Wydział Architektury Politechniki Krakowskiej"
+          },
+          "node_refs": [
+            2417501153,
+            2417501312,
+            2417501306,
+            13307094918,
+            13307094915,
+            2417501692,
+            2417501678,
+            2417501736,
+            2417501732,
+            2417501746,
+            2417501753,
+            13307025270,
+            13307025271,
+            13307025272,
+            2417501760,
+            2417501754,
+            13307025273,
+            13307025274,
+            2417501742,
+            2417501729,
+            13307025275,
+            2417501716,
+            2417501710,
+            2417501641,
+            2417501621,
+            2417501262,
+            2417501185,
+            2417501255,
+            13307025276,
+            13307025277,
+            13307025279,
+            13307025278,
+            2417501207,
+            2417501131,
+            2417501020,
+            2417501318,
+            2417501299,
+            2417501374,
+            2417501370,
+            2417501389,
+            13307025280,
+            13307025281,
+            13307025282,
+            2417501399,
+            13307025283,
+            13307025284,
+            13307025285,
+            2417501400,
+            13307025286,
+            13307025287,
+            13307025288,
+            2417501385,
+            13307025289,
+            13307025290,
+            2417501353,
+            13307025291,
+            2417501329,
+            2417501327,
+            2417501276,
+            2417501267,
+            13307025337,
+            13307025292,
+            2417500936,
+            2417500928,
+            4565584632,
+            2417500684,
+            2417500772,
+            2417500789,
+            2417500827,
+            2417500810,
+            2417500820,
+            13307025256,
+            13307025257,
+            2417500811,
+            2417500816,
+            13307025255,
+            13307025254,
+            2417500823,
+            2417500833,
+            13307025260,
+            13307025261,
+            2417500829,
+            2417500832,
+            13307025259,
+            13307025258,
+            2417500839,
+            2417500848,
+            2417500864,
+            2417500904,
+            13307025264,
+            13307025263,
+            13307025262,
+            4565584633,
+            2417500981,
+            2417500967,
+            2417500980,
+            2417500986,
+            2417501025,
+            2417501008,
+            2417501016,
+            13307025265,
+            13307025266,
+            2417501010,
+            2417501017,
+            13307025267,
+            2417501022,
+            2417501032,
+            13307025268,
+            2417501027,
+            2417501035,
+            13307025269,
+            2417501043,
+            2417501051,
+            2417501069,
+            2417501098,
+            2417501085,
+            2417501153
+          ],
+          "candidate_ids": [
+            13307025292
+          ]
+        },
+        {
+          "id": 464390233,
+          "tags": {
+            "highway": "footway",
+            "surface": "paved"
+          },
+          "node_refs": [
+            4595134941,
+            4595134940,
+            13307025294,
+            13307025293,
+            13307025292
+          ],
+          "candidate_ids": [
+            13307025292
+          ]
+        }
+      ],
+      "decision": "building_member_rejected_as_park_entrance",
+      "verified_public_park_entrance": false
+    }
+  ],
+  "note": "Actual topology audit. Connection candidate needs public park identity and route/barrier validation; no score enabled."
+}

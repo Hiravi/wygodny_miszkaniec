@@ -1,0 +1,6352 @@
+{
+  "schema_version": "1",
+  "input_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "categories": {
+    "shop": {
+      "supermarket": "groceries",
+      "convenience": "groceries",
+      "grocery": "groceries"
+    },
+    "amenity": {
+      "pharmacy": "pharmacy",
+      "clinic": "healthcare",
+      "doctors": "healthcare"
+    }
+  },
+  "scope": "Objects intersecting official Krakow district union; graph retains full Malopolskie.",
+  "counts": {
+    "parks": 216,
+    "pois": {
+      "groceries": 1125,
+      "healthcare": 432,
+      "pharmacy": 281
+    },
+    "entrance_candidates": 24066,
+    "park_boundary_matches": 901,
+    "basemap_features": 6703
+  },
+  "failures": {},
+  "park_entrance_matches": [
+    {
+      "entrance_id": "node/277927155",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/280335315",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 4.53,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/280335335",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 2.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/288615534",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/288621507",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 3.27,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/317034344",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 5.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/356930489",
+      "park_id": "way/26485272",
+      "boundary_distance_m": 2.62,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/604003741",
+      "park_id": "way/725876884",
+      "boundary_distance_m": 9.55,
+      "access_tag": "destination",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/695375926",
+      "park_id": "way/93894355",
+      "boundary_distance_m": 0.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/851150924",
+      "park_id": "way/294392409",
+      "boundary_distance_m": 6.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/941784168",
+      "park_id": "way/1473988053",
+      "boundary_distance_m": 1.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/948038161",
+      "park_id": "relation/14518076",
+      "boundary_distance_m": 8.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/965423940",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 16.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1079689149",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 11.52,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1231771229",
+      "park_id": "way/45819128",
+      "boundary_distance_m": 7.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574148",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 15.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574150",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 14.63,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574152",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 17.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574154",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 16.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574156",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 19.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574159",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 18.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574201",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 11.55,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574204",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 12.39,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1406574209",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 17.44,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1456112937",
+      "park_id": "way/1356137812",
+      "boundary_distance_m": 18.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1464599298",
+      "park_id": "way/133109842",
+      "boundary_distance_m": 7.49,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1467596614",
+      "park_id": "way/133321008",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1469988804",
+      "park_id": "way/1391875911",
+      "boundary_distance_m": 3.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1469988809",
+      "park_id": "way/1391875911",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1506976566",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1506976589",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1664234160",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1671453263",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 2.94,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1677401798",
+      "park_id": "way/155526625",
+      "boundary_distance_m": 16.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1677401800",
+      "park_id": "way/155526625",
+      "boundary_distance_m": 12.43,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1677401801",
+      "park_id": "way/155526625",
+      "boundary_distance_m": 12.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1677401802",
+      "park_id": "way/155526625",
+      "boundary_distance_m": 12.04,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1677401803",
+      "park_id": "way/155526625",
+      "boundary_distance_m": 11.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1677401804",
+      "park_id": "way/155526625",
+      "boundary_distance_m": 11.66,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1692479723",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 7.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1692479837",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 3.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1717736535",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 12.97,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1717736582",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1736650517",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 19.38,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1737371551",
+      "park_id": "way/1495841060",
+      "boundary_distance_m": 2.4,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1834850168",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 17.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1840698897",
+      "park_id": "way/101975692",
+      "boundary_distance_m": 9.93,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1878229786",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 2.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1917766925",
+      "park_id": "way/25123245",
+      "boundary_distance_m": 17.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1919234945",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1919235008",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1919235286",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1919235556",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1919235558",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1929853664",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 1.66,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/1979177953",
+      "park_id": "way/26249071",
+      "boundary_distance_m": 16.85,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2000518238",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 19.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2000518242",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 14.32,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2002389763",
+      "park_id": "way/652102108",
+      "boundary_distance_m": 10.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2111187760",
+      "park_id": "way/201167123",
+      "boundary_distance_m": 0.46,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2132342197",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 15.29,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2133786341",
+      "park_id": "way/341212934",
+      "boundary_distance_m": 15.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2139455592",
+      "park_id": "way/988049163",
+      "boundary_distance_m": 18.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2139455595",
+      "park_id": "way/988049163",
+      "boundary_distance_m": 18.59,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2271689644",
+      "park_id": "way/65738893",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2271766091",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 9.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2290487943",
+      "park_id": "way/512161274",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2290487953",
+      "park_id": "way/512161274",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2290487960",
+      "park_id": "way/512161274",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2290488033",
+      "park_id": "way/512161274",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2332360664",
+      "park_id": "way/25123245",
+      "boundary_distance_m": 8.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2360243229",
+      "park_id": "way/83334081",
+      "boundary_distance_m": 0.92,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2360485610",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 14.27,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2360485656",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2409354635",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 11.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2411158645",
+      "park_id": "way/1197577974",
+      "boundary_distance_m": 9.84,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2411158645",
+      "park_id": "way/281953733",
+      "boundary_distance_m": 11.75,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2414146228",
+      "park_id": "way/54118410",
+      "boundary_distance_m": 3.25,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2414147117",
+      "park_id": "way/65738893",
+      "boundary_distance_m": 6.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2414147320",
+      "park_id": "way/65738893",
+      "boundary_distance_m": 8.07,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2414512612",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 4.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2416649709",
+      "park_id": "way/878396746",
+      "boundary_distance_m": 0.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2416649755",
+      "park_id": "way/605253933",
+      "boundary_distance_m": 19.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2417021405",
+      "park_id": "way/1127446902",
+      "boundary_distance_m": 19.41,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2428617508",
+      "park_id": "way/1205580798",
+      "boundary_distance_m": 15.96,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2429203401",
+      "park_id": "way/1132956457",
+      "boundary_distance_m": 17.72,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2437407992",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2461280069",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 13.66,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2509405126",
+      "park_id": "way/204049285",
+      "boundary_distance_m": 15.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2509405132",
+      "park_id": "way/204049285",
+      "boundary_distance_m": 12.41,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2627041111",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 3.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2627041130",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 0.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2627041163",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 16.3,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2627041188",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 16.52,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2734198648",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 9.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2809333246",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2809333271",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 13.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2813306712",
+      "park_id": "way/595077343",
+      "boundary_distance_m": 18.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2813828577",
+      "park_id": "way/107575325",
+      "boundary_distance_m": 17.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2844557355",
+      "park_id": "way/912392095",
+      "boundary_distance_m": 14.54,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2867333920",
+      "park_id": "way/25506183",
+      "boundary_distance_m": 15.48,
+      "access_tag": "permissive",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2923072781",
+      "park_id": "way/133109842",
+      "boundary_distance_m": 17.31,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2925372239",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 15.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2975387893",
+      "park_id": "way/204049285",
+      "boundary_distance_m": 13.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2985247232",
+      "park_id": "way/830291552",
+      "boundary_distance_m": 13.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2985250633",
+      "park_id": "way/830291552",
+      "boundary_distance_m": 13.14,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2986595105",
+      "park_id": "way/295008360",
+      "boundary_distance_m": 11.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2986595107",
+      "park_id": "way/295008360",
+      "boundary_distance_m": 12.66,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2987813786",
+      "park_id": "way/204049285",
+      "boundary_distance_m": 11.54,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2987816338",
+      "park_id": "way/204049285",
+      "boundary_distance_m": 13.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2987861520",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 16.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2987877020",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 15.72,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2988004194",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 16.33,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2989733380",
+      "park_id": "way/1432779904",
+      "boundary_distance_m": 0.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2989733705",
+      "park_id": "way/1432779904",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2989891817",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 14.27,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2990755795",
+      "park_id": "way/1214570860",
+      "boundary_distance_m": 16.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2991348192",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 16.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2991349962",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 15.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/2992440371",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 9.44,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3001405112",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3001405117",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3001406841",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3001406925",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 18.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3001407177",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3001407279",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 18.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3002396013",
+      "park_id": "way/1432779904",
+      "boundary_distance_m": 1.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3007476736",
+      "park_id": "way/1426423283",
+      "boundary_distance_m": 11.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3009314063",
+      "park_id": "way/1426055524",
+      "boundary_distance_m": 4.6,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3009314071",
+      "park_id": "way/1426055524",
+      "boundary_distance_m": 3.04,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3009318034",
+      "park_id": "way/1426055524",
+      "boundary_distance_m": 6.64,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3009364495",
+      "park_id": "way/107182976",
+      "boundary_distance_m": 11.27,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3009364502",
+      "park_id": "way/107182976",
+      "boundary_distance_m": 18.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3009365262",
+      "park_id": "way/107182976",
+      "boundary_distance_m": 8.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3009388841",
+      "park_id": "way/107182976",
+      "boundary_distance_m": 8.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3010256194",
+      "park_id": "way/44135132",
+      "boundary_distance_m": 0.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3010259236",
+      "park_id": "way/44135132",
+      "boundary_distance_m": 10.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3015492808",
+      "park_id": "way/1214570860",
+      "boundary_distance_m": 6.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3015494713",
+      "park_id": "way/1220122091",
+      "boundary_distance_m": 8.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3015496380",
+      "park_id": "way/1214355167",
+      "boundary_distance_m": 18.28,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3017243471",
+      "park_id": "way/297797372",
+      "boundary_distance_m": 14.8,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3017243479",
+      "park_id": "way/297797372",
+      "boundary_distance_m": 10.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3017246595",
+      "park_id": "way/297797372",
+      "boundary_distance_m": 16.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3017246598",
+      "park_id": "way/297797372",
+      "boundary_distance_m": 16.19,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3017246854",
+      "park_id": "way/297797372",
+      "boundary_distance_m": 12.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3017246857",
+      "park_id": "way/297797372",
+      "boundary_distance_m": 16.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3017246874",
+      "park_id": "way/297797372",
+      "boundary_distance_m": 13.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3017246908",
+      "park_id": "way/297797372",
+      "boundary_distance_m": 15.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3024651299",
+      "park_id": "way/1220122091",
+      "boundary_distance_m": 19.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3024668875",
+      "park_id": "way/1220122091",
+      "boundary_distance_m": 8.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3024668876",
+      "park_id": "way/1220122091",
+      "boundary_distance_m": 19.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3024668887",
+      "park_id": "way/1220122091",
+      "boundary_distance_m": 19.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3024672387",
+      "park_id": "way/1220122091",
+      "boundary_distance_m": 19.38,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3030404209",
+      "park_id": "way/306151644",
+      "boundary_distance_m": 6.49,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3030939081",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 15.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3035646141",
+      "park_id": "way/295008360",
+      "boundary_distance_m": 11.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3035840558",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 2.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3039235526",
+      "park_id": "way/160343689",
+      "boundary_distance_m": 19.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3042278887",
+      "park_id": "way/306151644",
+      "boundary_distance_m": 3.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3042278891",
+      "park_id": "way/306151644",
+      "boundary_distance_m": 19.85,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3048188474",
+      "park_id": "way/39273160",
+      "boundary_distance_m": 16.84,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3055774537",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 2.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3056961444",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 12.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3057043415",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 8.06,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3057043854",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 0.07,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3067064065",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 12.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3067064087",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 11.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3067065021",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 11.79,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3067065765",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 11.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3067065838",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 14.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3067065863",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 12.4,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3067672691",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 18.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3067703080",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 3.59,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3068666006",
+      "park_id": "way/84323391",
+      "boundary_distance_m": 8.53,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3068666011",
+      "park_id": "way/84323391",
+      "boundary_distance_m": 5.19,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3068666012",
+      "park_id": "way/84323391",
+      "boundary_distance_m": 5.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3068909463",
+      "park_id": "way/1554273959",
+      "boundary_distance_m": 13.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3070852853",
+      "park_id": "way/84323391",
+      "boundary_distance_m": 18.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3073027477",
+      "park_id": "way/303051785",
+      "boundary_distance_m": 10.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3073027487",
+      "park_id": "way/303051785",
+      "boundary_distance_m": 10.92,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3073030334",
+      "park_id": "way/303051785",
+      "boundary_distance_m": 10.94,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3073474318",
+      "park_id": "way/303051785",
+      "boundary_distance_m": 18.72,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3075119258",
+      "park_id": "way/1076841078",
+      "boundary_distance_m": 13.32,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076649371",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 19.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076649850",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 14.84,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076806519",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 2.53,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076806523",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 16.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076806663",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 10.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076806845",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 5.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076806858",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 14.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076807210",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 8.84,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076807246",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 11.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3076807738",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 2.25,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3078186254",
+      "park_id": "way/26532982",
+      "boundary_distance_m": 1.41,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3078552640",
+      "park_id": "way/237880616",
+      "boundary_distance_m": 10.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3083017069",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 14.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3083018096",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 1.54,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3084758992",
+      "park_id": "relation/3986175",
+      "boundary_distance_m": 15.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3084759746",
+      "park_id": "relation/3986175",
+      "boundary_distance_m": 15.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3085818865",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 0.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3085824050",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 1.6,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3085825741",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 15.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3086295593",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 2.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3086295606",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 0.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3086299366",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 0.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3086300255",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 13.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3086300433",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 2.93,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3090424910",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 7.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3090424960",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 5.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3091092470",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 9.54,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096438984",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 8.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096439069",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 5.66,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096439315",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 8.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096440068",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 8.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096440120",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 6.8,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096440205",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 6.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096440355",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 5.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096440517",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 5.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096440640",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 10.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096440795",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 5.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096441051",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 14.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096441237",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 5.7,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3096441531",
+      "park_id": "relation/5582320",
+      "boundary_distance_m": 11.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3098990406",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 15.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3098994507",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 8.84,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3098997964",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 16.38,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3098998405",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 8.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3098998407",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 8.36,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3101118001",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3101118198",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 10.84,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3101118201",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.35,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3101118242",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 8.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3101118263",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3101119434",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3102560103",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 18.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3102560109",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3102561969",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.04,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3102562098",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3102562099",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3102562100",
+      "park_id": "way/305299175",
+      "boundary_distance_m": 7.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3110301483",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 11.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3110301537",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 17.19,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3110646486",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3110646495",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 5.66,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3110647506",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 16.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3110647621",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 4.85,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3110647637",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 3.67,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3112604409",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3126522848",
+      "park_id": "way/128504976",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3126522856",
+      "park_id": "way/128504976",
+      "boundary_distance_m": 4.59,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3126522883",
+      "park_id": "way/128504976",
+      "boundary_distance_m": 19.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3137207339",
+      "park_id": "way/136647347",
+      "boundary_distance_m": 7.52,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3138136564",
+      "park_id": "way/25517366",
+      "boundary_distance_m": 18.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3138136649",
+      "park_id": "way/25517366",
+      "boundary_distance_m": 19.19,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3148310120",
+      "park_id": "way/231003116",
+      "boundary_distance_m": 1.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3148315289",
+      "park_id": "way/231003116",
+      "boundary_distance_m": 9.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3151409769",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 9.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3151409807",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 6.32,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3151409825",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 8.22,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3151631132",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 7.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3151726055",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 13.63,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3153549394",
+      "park_id": "way/108513629",
+      "boundary_distance_m": 9.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3153549628",
+      "park_id": "way/108513629",
+      "boundary_distance_m": 18.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3153550050",
+      "park_id": "way/108513629",
+      "boundary_distance_m": 15.4,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3153550051",
+      "park_id": "way/108513629",
+      "boundary_distance_m": 9.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3153550163",
+      "park_id": "way/108513629",
+      "boundary_distance_m": 10.38,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3153550165",
+      "park_id": "way/108513629",
+      "boundary_distance_m": 11.46,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3153863004",
+      "park_id": "way/108513629",
+      "boundary_distance_m": 0.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3157625815",
+      "park_id": "way/83334081",
+      "boundary_distance_m": 0.53,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3157657290",
+      "park_id": "way/83334081",
+      "boundary_distance_m": 0.04,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3218592203",
+      "park_id": "way/1418169271",
+      "boundary_distance_m": 5.44,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3223438360",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 16.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3269786098",
+      "park_id": "way/320460286",
+      "boundary_distance_m": 17.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3320709158",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 13.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3362922450",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 0.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3375917118",
+      "park_id": "way/1503647315",
+      "boundary_distance_m": 1.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3385228418",
+      "park_id": "way/26249071",
+      "boundary_distance_m": 14.2,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3398135133",
+      "park_id": "way/1097939419",
+      "boundary_distance_m": 0.05,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3402301600",
+      "park_id": "way/54531043",
+      "boundary_distance_m": 0.07,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3425069135",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3425071930",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3452028527",
+      "park_id": "way/160343689",
+      "boundary_distance_m": 17.49,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3452080446",
+      "park_id": "way/988049163",
+      "boundary_distance_m": 13.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3459774926",
+      "park_id": "way/26485272",
+      "boundary_distance_m": 1.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3459775003",
+      "park_id": "way/26485272",
+      "boundary_distance_m": 9.63,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3459775193",
+      "park_id": "way/26485272",
+      "boundary_distance_m": 13.6,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3459775467",
+      "park_id": "way/26485272",
+      "boundary_distance_m": 5.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3459775810",
+      "park_id": "way/26485272",
+      "boundary_distance_m": 10.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461274671",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 4.94,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461274688",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 17.31,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461469458",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 7.19,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461647907",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 15.11,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461647913",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 12.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461648649",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 11.11,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461808341",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 1.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461808538",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 16.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3461868756",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.2,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3464222052",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.49,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3464226299",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3464226454",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 15.05,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3466187731",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 13.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3467943473",
+      "park_id": "way/39273160",
+      "boundary_distance_m": 13.3,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3467944509",
+      "park_id": "way/39273160",
+      "boundary_distance_m": 13.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3471479571",
+      "park_id": "way/1205410998",
+      "boundary_distance_m": 10.13,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3471479580",
+      "park_id": "way/1205410998",
+      "boundary_distance_m": 19.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3472279380",
+      "park_id": "way/54118410",
+      "boundary_distance_m": 17.92,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3473807996",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 11.82,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3474214707",
+      "park_id": "way/45819128",
+      "boundary_distance_m": 11.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3474962335",
+      "park_id": "way/54678462",
+      "boundary_distance_m": 12.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3479822848",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 5.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3479823373",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 15.25,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3479824005",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 1.94,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3479825084",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 12.14,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3479825178",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3479825262",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 15.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3479825576",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3479826772",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 0.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3481322717",
+      "park_id": "way/912392095",
+      "boundary_distance_m": 12.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3482957820",
+      "park_id": "way/605253933",
+      "boundary_distance_m": 6.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3482958752",
+      "park_id": "way/605253933",
+      "boundary_distance_m": 12.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3482958759",
+      "park_id": "way/605253933",
+      "boundary_distance_m": 4.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3483714974",
+      "park_id": "way/341212934",
+      "boundary_distance_m": 19.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3485368754",
+      "park_id": "way/961086225",
+      "boundary_distance_m": 2.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3485380332",
+      "park_id": "way/961086225",
+      "boundary_distance_m": 1.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3499801132",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 6.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3499801136",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 9.96,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3513159847",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 11.45,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3513159848",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 11.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3514975242",
+      "park_id": "way/344755859",
+      "boundary_distance_m": 7.25,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3545259953",
+      "park_id": "way/1554273959",
+      "boundary_distance_m": 14.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3623200050",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3623921092",
+      "park_id": "way/101975692",
+      "boundary_distance_m": 11.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3719851567",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 19.35,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3757425151",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 0.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3791895660",
+      "park_id": "way/1495841060",
+      "boundary_distance_m": 13.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3791895661",
+      "park_id": "way/1495841060",
+      "boundary_distance_m": 13.44,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3801198115",
+      "park_id": "way/1097939419",
+      "boundary_distance_m": 17.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3835650244",
+      "park_id": "way/739824580",
+      "boundary_distance_m": 12.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3859603782",
+      "park_id": "relation/3986175",
+      "boundary_distance_m": 15.22,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3995596194",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 3.72,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3995596194",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 3.72,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3995596199",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 3.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3995596199",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 3.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3995596219",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 6.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3995596224",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 6.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/3995760101",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 3.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4031302080",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 12.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4109275538",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.19,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4109275544",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 2.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4109417415",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 3.05,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4109417420",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 4.37,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4128432932",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 12.41,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4161686530",
+      "park_id": "way/765938051",
+      "boundary_distance_m": 15.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4163306121",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 3.35,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4192240899",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 12.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4205476212",
+      "park_id": "way/512161274",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4295582226",
+      "park_id": "way/636995901",
+      "boundary_distance_m": 12.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4350170004",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 5.25,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4473447816",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 18.4,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4501631807",
+      "park_id": "way/1495841060",
+      "boundary_distance_m": 12.82,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4538707450",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 14.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4728546849",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 2.15,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4728546850",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 2.63,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4728546851",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 12.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/4935311774",
+      "park_id": "way/464762932",
+      "boundary_distance_m": 2.27,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5052370470",
+      "park_id": "way/1503647315",
+      "boundary_distance_m": 5.64,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5052370472",
+      "park_id": "way/1503647315",
+      "boundary_distance_m": 18.37,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5059209471",
+      "park_id": "way/1503647315",
+      "boundary_distance_m": 7.94,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5083115912",
+      "park_id": "way/1300097091",
+      "boundary_distance_m": 2.49,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5083115913",
+      "park_id": "way/1300097091",
+      "boundary_distance_m": 10.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5099235636",
+      "park_id": "way/1214355167",
+      "boundary_distance_m": 13.7,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5172921614",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 1.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5174216838",
+      "park_id": "way/1188067622",
+      "boundary_distance_m": 12.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5255929409",
+      "park_id": "way/237880616",
+      "boundary_distance_m": 3.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5262839478",
+      "park_id": "way/1179788062",
+      "boundary_distance_m": 15.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5313631653",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5335849955",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5345791863",
+      "park_id": "way/93894355",
+      "boundary_distance_m": 14.45,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5379560094",
+      "park_id": "way/512161274",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5495869791",
+      "park_id": "relation/18050777",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5509616635",
+      "park_id": "way/82279707",
+      "boundary_distance_m": 11.93,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5680734492",
+      "park_id": "way/294392409",
+      "boundary_distance_m": 18.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5772774000",
+      "park_id": "way/725876884",
+      "boundary_distance_m": 13.89,
+      "access_tag": "destination",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5772774001",
+      "park_id": "way/725876884",
+      "boundary_distance_m": 10.06,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5772774002",
+      "park_id": "way/725876884",
+      "boundary_distance_m": 9.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5772774003",
+      "park_id": "way/725876884",
+      "boundary_distance_m": 9.04,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5772774004",
+      "park_id": "way/725876884",
+      "boundary_distance_m": 8.31,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5924684163",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5924684163",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/5924686716",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.52,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6048384794",
+      "park_id": "way/1188067622",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6048384804",
+      "park_id": "way/1188067622",
+      "boundary_distance_m": 19.29,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6110622195",
+      "park_id": "way/1134531430",
+      "boundary_distance_m": 16.2,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6132943099",
+      "park_id": "way/1006613593",
+      "boundary_distance_m": 7.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6132943100",
+      "park_id": "way/1006613593",
+      "boundary_distance_m": 9.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6132943113",
+      "park_id": "way/1006613593",
+      "boundary_distance_m": 7.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6132953880",
+      "park_id": "way/1006613593",
+      "boundary_distance_m": 8.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6143314243",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 12.13,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6324340759",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6340769126",
+      "park_id": "way/83334081",
+      "boundary_distance_m": 12.15,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6358211857",
+      "park_id": "way/25517366",
+      "boundary_distance_m": 19.31,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6385229381",
+      "park_id": "way/434844452",
+      "boundary_distance_m": 8.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6400003248",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 8.67,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6468738677",
+      "park_id": "way/64868810",
+      "boundary_distance_m": 14.8,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6516184619",
+      "park_id": "way/725876884",
+      "boundary_distance_m": 15.73,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6553147766",
+      "park_id": "way/512161274",
+      "boundary_distance_m": 11.64,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6558480773",
+      "park_id": "way/698350057",
+      "boundary_distance_m": 14.55,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6690890587",
+      "park_id": "way/160343689",
+      "boundary_distance_m": 1.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6690890591",
+      "park_id": "way/160343689",
+      "boundary_distance_m": 13.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6749712956",
+      "park_id": "way/400583093",
+      "boundary_distance_m": 4.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6761364965",
+      "park_id": "way/133321008",
+      "boundary_distance_m": 11.49,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6761365586",
+      "park_id": "way/133321008",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6801457241",
+      "park_id": "way/54531043",
+      "boundary_distance_m": 18.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6860839490",
+      "park_id": "way/344755859",
+      "boundary_distance_m": 2.21,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/6888657145",
+      "park_id": "way/844713460",
+      "boundary_distance_m": 16.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7089525604",
+      "park_id": "way/1180982049",
+      "boundary_distance_m": 15.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7149346624",
+      "park_id": "way/25506183",
+      "boundary_distance_m": 0.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7149346625",
+      "park_id": "way/25506183",
+      "boundary_distance_m": 1.14,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7149346626",
+      "park_id": "way/25506183",
+      "boundary_distance_m": 0.45,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7150236945",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 1.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7188012213",
+      "park_id": "way/106483682",
+      "boundary_distance_m": 19.39,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7216366719",
+      "park_id": "way/772904771",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7217356603",
+      "park_id": "way/490987980",
+      "boundary_distance_m": 5.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7518668646",
+      "park_id": "relation/3986175",
+      "boundary_distance_m": 11.43,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7630282744",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 3.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7636830137",
+      "park_id": "way/25506183",
+      "boundary_distance_m": 18.73,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7731195796",
+      "park_id": "way/1503647315",
+      "boundary_distance_m": 13.38,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7785632852",
+      "park_id": "way/26259194",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7844657124",
+      "park_id": "way/83334081",
+      "boundary_distance_m": 9.69,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7844657130",
+      "park_id": "way/83334081",
+      "boundary_distance_m": 13.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7844657281",
+      "park_id": "way/83334081",
+      "boundary_distance_m": 8.97,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7914421462",
+      "park_id": "way/464762932",
+      "boundary_distance_m": 2.52,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7914421472",
+      "park_id": "way/464762932",
+      "boundary_distance_m": 19.27,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7961120431",
+      "park_id": "way/44135132",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7961313064",
+      "park_id": "way/44135132",
+      "boundary_distance_m": 15.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7983050538",
+      "park_id": "way/742607984",
+      "boundary_distance_m": 5.33,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/7997369441",
+      "park_id": "way/564066132",
+      "boundary_distance_m": 3.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8011101519",
+      "park_id": "way/1214570860",
+      "boundary_distance_m": 2.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8059376266",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.63,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8059376267",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8059376270",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8172202036",
+      "park_id": "way/128505095",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8221957482",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8267603828",
+      "park_id": "way/1473988053",
+      "boundary_distance_m": 14.66,
+      "access_tag": "permissive",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8354639842",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8534499736",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 19.13,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8566172298",
+      "park_id": "way/544772790",
+      "boundary_distance_m": 19.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8581769314",
+      "park_id": "way/595077343",
+      "boundary_distance_m": 14.73,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8603575824",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8603575824",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8656597605",
+      "park_id": "way/525229887",
+      "boundary_distance_m": 14.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8674356846",
+      "park_id": "way/101975692",
+      "boundary_distance_m": 13.67,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8674356847",
+      "park_id": "way/101975692",
+      "boundary_distance_m": 15.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8779557435",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 12.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8851002430",
+      "park_id": "way/1211832699",
+      "boundary_distance_m": 2.49,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8856351925",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 0.04,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8981260426",
+      "park_id": "way/878396746",
+      "boundary_distance_m": 9.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8988948168",
+      "park_id": "way/54678462",
+      "boundary_distance_m": 13.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8988961934",
+      "park_id": "way/54678462",
+      "boundary_distance_m": 10.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8996793238",
+      "park_id": "way/878396746",
+      "boundary_distance_m": 14.44,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8999693647",
+      "park_id": "way/54118410",
+      "boundary_distance_m": 5.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8999693652",
+      "park_id": "way/54118410",
+      "boundary_distance_m": 18.37,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/8999693677",
+      "park_id": "way/54118410",
+      "boundary_distance_m": 3.79,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9063169273",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9063169281",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9063169282",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9063225445",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 18.14,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9088030595",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 3.69,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9120437686",
+      "park_id": "way/605253933",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9120437686",
+      "park_id": "way/1335206673",
+      "boundary_distance_m": 6.39,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9120437688",
+      "park_id": "way/605253933",
+      "boundary_distance_m": 0.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9120437688",
+      "park_id": "way/1335206673",
+      "boundary_distance_m": 0.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9120505536",
+      "park_id": "relation/14518076",
+      "boundary_distance_m": 5.3,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9120505538",
+      "park_id": "relation/14518076",
+      "boundary_distance_m": 4.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9171118539",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 16.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9196571642",
+      "park_id": "way/83156465",
+      "boundary_distance_m": 1.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9339098640",
+      "park_id": "relation/18050777",
+      "boundary_distance_m": 0.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9365363011",
+      "park_id": "relation/13555358",
+      "boundary_distance_m": 4.36,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9453810945",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9453810947",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 1.99,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9453810948",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 1.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9670953410",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 16.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9856383404",
+      "park_id": "way/1473988053",
+      "boundary_distance_m": 9.11,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9856445801",
+      "park_id": "way/1473988053",
+      "boundary_distance_m": 8.92,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9874577178",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 1.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9898106509",
+      "park_id": "way/160959301",
+      "boundary_distance_m": 18.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9898106511",
+      "park_id": "way/160959301",
+      "boundary_distance_m": 17.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9935303702",
+      "park_id": "way/128505095",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9935303705",
+      "park_id": "way/128505095",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9954095375",
+      "park_id": "way/128505095",
+      "boundary_distance_m": 13.59,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9954095377",
+      "park_id": "way/128505095",
+      "boundary_distance_m": 10.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9956385053",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 10.31,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9956385054",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9956385061",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 9.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9956385093",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9960100339",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 11.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9968052557",
+      "park_id": "way/65738893",
+      "boundary_distance_m": 15.39,
+      "access_tag": "permissive",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9981760806",
+      "park_id": "way/1214570860",
+      "boundary_distance_m": 18.11,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/9994997697",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 8.82,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10015708608",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 16.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10015708615",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 14.6,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10021341579",
+      "park_id": "way/1173268641",
+      "boundary_distance_m": 16.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252237",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 16.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252243",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252244",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.13,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252245",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 4.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252246",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 4.93,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252247",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 17.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252258",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 13.35,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252259",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 4.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043252260",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 4.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10043663678",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 3.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10046050080",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 14.52,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10053850147",
+      "park_id": "way/1098585642",
+      "boundary_distance_m": 5.07,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10062423196",
+      "park_id": "way/1098585642",
+      "boundary_distance_m": 19.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10062423209",
+      "park_id": "way/1495821305",
+      "boundary_distance_m": 17.33,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10062423213",
+      "park_id": "way/1495821305",
+      "boundary_distance_m": 13.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10075072905",
+      "park_id": "way/1205410998",
+      "boundary_distance_m": 2.45,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10129123081",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 16.54,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10232015306",
+      "park_id": "way/133109842",
+      "boundary_distance_m": 1.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10232015307",
+      "park_id": "way/133109842",
+      "boundary_distance_m": 0.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10232092148",
+      "park_id": "way/133109842",
+      "boundary_distance_m": 10.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10605127970",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 11.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10605875817",
+      "park_id": "way/83334081",
+      "boundary_distance_m": 12.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10671731610",
+      "park_id": "way/652102108",
+      "boundary_distance_m": 7.14,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10738806845",
+      "park_id": "way/196718111",
+      "boundary_distance_m": 18.64,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10784523500",
+      "park_id": "way/434844452",
+      "boundary_distance_m": 14.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10784524572",
+      "park_id": "way/434844452",
+      "boundary_distance_m": 4.44,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10799467997",
+      "park_id": "way/1495821305",
+      "boundary_distance_m": 8.38,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10799468000",
+      "park_id": "way/1495821305",
+      "boundary_distance_m": 10.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10799468003",
+      "park_id": "way/1495821305",
+      "boundary_distance_m": 9.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10807481687",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 16.8,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10901666984",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 14.73,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10914014107",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 15.92,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10914014109",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 9.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10937910576",
+      "park_id": "way/1105148238",
+      "boundary_distance_m": 17.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10957734401",
+      "park_id": "way/1179788062",
+      "boundary_distance_m": 18.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10959646902",
+      "park_id": "way/1473988053",
+      "boundary_distance_m": 11.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10964986128",
+      "park_id": "way/1115305982",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/10966186573",
+      "park_id": "way/1179788062",
+      "boundary_distance_m": 19.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11023665937",
+      "park_id": "way/1486163224",
+      "boundary_distance_m": 19.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11032183623",
+      "park_id": "way/1503647315",
+      "boundary_distance_m": 11.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11032183646",
+      "park_id": "way/1188067622",
+      "boundary_distance_m": 19.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11061304722",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 13.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11061304725",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 13.82,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11061304727",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 13.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11061304730",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 13.75,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11090452810",
+      "park_id": "way/84323391",
+      "boundary_distance_m": 4.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11090452814",
+      "park_id": "way/84323391",
+      "boundary_distance_m": 5.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11091587461",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 15.62,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11094151032",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 1.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11098022575",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 1.5,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11098022576",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 1.75,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11102388330",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 19.75,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11139505720",
+      "park_id": "way/1205580798",
+      "boundary_distance_m": 4.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11139671923",
+      "park_id": "way/1205580798",
+      "boundary_distance_m": 3.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11164948594",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 15.32,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11165804325",
+      "park_id": "way/39273160",
+      "boundary_distance_m": 5.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11169493249",
+      "park_id": "way/84759822",
+      "boundary_distance_m": 19.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11186567691",
+      "park_id": "way/525229887",
+      "boundary_distance_m": 15.33,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11186567692",
+      "park_id": "way/525229887",
+      "boundary_distance_m": 13.06,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11227950033",
+      "park_id": "way/128505095",
+      "boundary_distance_m": 15.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11227950033",
+      "park_id": "way/128504976",
+      "boundary_distance_m": 4.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11227950034",
+      "park_id": "way/128504976",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11251267915",
+      "park_id": "way/1214355167",
+      "boundary_distance_m": 13.67,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11251267917",
+      "park_id": "way/1214355167",
+      "boundary_distance_m": 9.37,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11253989444",
+      "park_id": "way/629018034",
+      "boundary_distance_m": 11.63,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11253989445",
+      "park_id": "way/629018034",
+      "boundary_distance_m": 13.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11264355567",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11264393369",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 4.07,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11264393374",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 4.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11264393375",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 2.97,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11268368022",
+      "park_id": "way/481341936",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11268368062",
+      "park_id": "way/481341936",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11328070537",
+      "park_id": "relation/14518076",
+      "boundary_distance_m": 14.99,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11328070539",
+      "park_id": "relation/14518076",
+      "boundary_distance_m": 12.29,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11329338599",
+      "park_id": "way/1214355167",
+      "boundary_distance_m": 6.91,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11332100753",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 12.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11429957693",
+      "park_id": "way/1177688931",
+      "boundary_distance_m": 14.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11476779964",
+      "park_id": "way/430863088",
+      "boundary_distance_m": 0.33,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11534230664",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 19.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11534857681",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 17.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11539937532",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11539937532",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 18.59,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11556992168",
+      "park_id": "way/830291552",
+      "boundary_distance_m": 19.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11557692536",
+      "park_id": "way/595077343",
+      "boundary_distance_m": 7.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11557692537",
+      "park_id": "way/595077343",
+      "boundary_distance_m": 6.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11561271306",
+      "park_id": "way/830291552",
+      "boundary_distance_m": 19.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11573458034",
+      "park_id": "way/830291552",
+      "boundary_distance_m": 17.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11573458035",
+      "park_id": "way/830291552",
+      "boundary_distance_m": 17.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11608809531",
+      "park_id": "way/26344189",
+      "boundary_distance_m": 11.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11618094578",
+      "park_id": "way/1248085752",
+      "boundary_distance_m": 14.84,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11618129483",
+      "park_id": "way/1248085752",
+      "boundary_distance_m": 10.94,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11618129485",
+      "park_id": "way/1248085752",
+      "boundary_distance_m": 10.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11618129487",
+      "park_id": "way/1248085752",
+      "boundary_distance_m": 10.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11623554578",
+      "park_id": "way/83156465",
+      "boundary_distance_m": 1.33,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11635769640",
+      "park_id": "way/204049285",
+      "boundary_distance_m": 0.41,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11635769644",
+      "park_id": "way/204049285",
+      "boundary_distance_m": 11.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11637431317",
+      "park_id": "way/1248085752",
+      "boundary_distance_m": 17.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11637431329",
+      "park_id": "way/1248085752",
+      "boundary_distance_m": 17.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11637431341",
+      "park_id": "way/1248085752",
+      "boundary_distance_m": 17.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11652288875",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.45,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11669552660",
+      "park_id": "way/912392095",
+      "boundary_distance_m": 6.85,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11717230295",
+      "park_id": "way/1272030404",
+      "boundary_distance_m": 16.93,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11717230296",
+      "park_id": "way/1272030404",
+      "boundary_distance_m": 17.59,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11717230297",
+      "park_id": "way/1272030404",
+      "boundary_distance_m": 17.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11728749626",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.95,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11728749627",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11728749629",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11728749630",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11731005762",
+      "park_id": "way/26259194",
+      "boundary_distance_m": 18.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11731005763",
+      "park_id": "way/26259194",
+      "boundary_distance_m": 19.07,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11749444509",
+      "park_id": "way/25995071",
+      "boundary_distance_m": 13.93,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11749444510",
+      "park_id": "way/25995071",
+      "boundary_distance_m": 13.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11767167704",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 19.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11767167706",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11767167707",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11767214257",
+      "park_id": "way/1432779904",
+      "boundary_distance_m": 11.92,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11767220282",
+      "park_id": "way/1432779904",
+      "boundary_distance_m": 11.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11767443243",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 18.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11768696563",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 17.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11795404334",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 15.28,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11867214537",
+      "park_id": "way/197218001",
+      "boundary_distance_m": 10.55,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11867214543",
+      "park_id": "way/197218001",
+      "boundary_distance_m": 5.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11870172479",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 1.64,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11931652642",
+      "park_id": "way/54678462",
+      "boundary_distance_m": 12.97,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11985374688",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 2.82,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/11991439446",
+      "park_id": "way/54118410",
+      "boundary_distance_m": 1.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12002587058",
+      "park_id": "way/84759822",
+      "boundary_distance_m": 7.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12013203412",
+      "park_id": "way/93894355",
+      "boundary_distance_m": 17.39,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12020108112",
+      "park_id": "way/1082121669",
+      "boundary_distance_m": 13.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12036570395",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 5.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12036570397",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12036570399",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 5.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12036570400",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12036570401",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12036570404",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 6.22,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12042408267",
+      "park_id": "way/1300097091",
+      "boundary_distance_m": 1.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12057881406",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 19.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12068815113",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 6.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12068815114",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12068877816",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 19.15,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12072297697",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 17.62,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12072297698",
+      "park_id": "way/1221128266",
+      "boundary_distance_m": 16.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12089138400",
+      "park_id": "way/160343689",
+      "boundary_distance_m": 17.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12090722697",
+      "park_id": "way/26534890",
+      "boundary_distance_m": 17.15,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12090722770",
+      "park_id": "way/26534890",
+      "boundary_distance_m": 3.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12090722778",
+      "park_id": "way/26534890",
+      "boundary_distance_m": 2.67,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12090723238",
+      "park_id": "way/26534890",
+      "boundary_distance_m": 16.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12090723246",
+      "park_id": "way/26534890",
+      "boundary_distance_m": 13.93,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12090723313",
+      "park_id": "way/26534890",
+      "boundary_distance_m": 7.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12109086321",
+      "park_id": "way/1301072192",
+      "boundary_distance_m": 3.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12156398020",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 18.46,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12156398022",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 18.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12156398028",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 11.75,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12156398030",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 11.36,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12156398032",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 11.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12156398034",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 19.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12156398047",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 18.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12164058886",
+      "park_id": "way/344755859",
+      "boundary_distance_m": 18.15,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12165780570",
+      "park_id": "way/344755859",
+      "boundary_distance_m": 8.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12165809511",
+      "park_id": "way/344755859",
+      "boundary_distance_m": 10.28,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12165916268",
+      "park_id": "way/344755859",
+      "boundary_distance_m": 15.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12174726657",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 13.44,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12174726749",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 13.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12178159084",
+      "park_id": "way/1076841078",
+      "boundary_distance_m": 12.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12180846144",
+      "park_id": "relation/14518076",
+      "boundary_distance_m": 15.54,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12186197579",
+      "park_id": "way/26259194",
+      "boundary_distance_m": 19.6,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12186197580",
+      "park_id": "way/26259194",
+      "boundary_distance_m": 18.82,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12186197583",
+      "park_id": "way/26259194",
+      "boundary_distance_m": 19.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12186197584",
+      "park_id": "way/26259194",
+      "boundary_distance_m": 19.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12205026772",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12224160229",
+      "park_id": "way/684273767",
+      "boundary_distance_m": 6.14,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12229379596",
+      "park_id": "way/26536280",
+      "boundary_distance_m": 0.72,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12230252212",
+      "park_id": "way/26536280",
+      "boundary_distance_m": 4.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12253691221",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 18.43,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12253691222",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 17.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12260593074",
+      "park_id": "way/1272030404",
+      "boundary_distance_m": 16.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12269357069",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 18.59,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12269377657",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 4.99,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12269505255",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 16.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12269505260",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12280088821",
+      "park_id": "way/1324204849",
+      "boundary_distance_m": 4.44,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12326826890",
+      "park_id": "way/133321008",
+      "boundary_distance_m": 11.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12338276823",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 15.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12338276832",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 15.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12338276838",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 16.16,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12338276839",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 16.6,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12342323634",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 9.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12342323635",
+      "park_id": "way/439402170",
+      "boundary_distance_m": 18.79,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12361466335",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 5.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12387252896",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 5.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12402859865",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 1.78,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12402859866",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 13.07,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12402859867",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 16.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12402859869",
+      "park_id": "way/552697895",
+      "boundary_distance_m": 19.92,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12414169623",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 11.42,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12426316752",
+      "park_id": "way/629018034",
+      "boundary_distance_m": 11.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12426316753",
+      "park_id": "way/629018034",
+      "boundary_distance_m": 10.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12458653469",
+      "park_id": "way/201167123",
+      "boundary_distance_m": 0.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12563941404",
+      "park_id": "way/1127489351",
+      "boundary_distance_m": 11.04,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12572815521",
+      "park_id": "way/49777291",
+      "boundary_distance_m": 17.55,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12590724649",
+      "park_id": "way/988049163",
+      "boundary_distance_m": 13.11,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12590724695",
+      "park_id": "way/988049163",
+      "boundary_distance_m": 10.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12590724699",
+      "park_id": "way/988049163",
+      "boundary_distance_m": 7.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12592992081",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 7.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12595714249",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12645998312",
+      "park_id": "way/1300097091",
+      "boundary_distance_m": 19.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12645998314",
+      "park_id": "way/1300097091",
+      "boundary_distance_m": 19.07,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12645998397",
+      "park_id": "way/1300097091",
+      "boundary_distance_m": 19.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12645998400",
+      "park_id": "way/1300097091",
+      "boundary_distance_m": 19.28,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12703480538",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 19.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12703480540",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 19.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12708072288",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 13.58,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12712668011",
+      "park_id": "relation/61707",
+      "boundary_distance_m": 6.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12716817875",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.4,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12763538272",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 5.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12767760794",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 19.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12803019646",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 0.68,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12803019647",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12803019649",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12804679039",
+      "park_id": "way/200220496",
+      "boundary_distance_m": 18.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12804679041",
+      "park_id": "way/200220496",
+      "boundary_distance_m": 13.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12804679043",
+      "park_id": "way/200220496",
+      "boundary_distance_m": 13.28,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12810559190",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 17.29,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12810559191",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 17.94,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12824730282",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 3.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12824730283",
+      "park_id": "way/276312612",
+      "boundary_distance_m": 10.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12825579848",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 0.15,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12825579853",
+      "park_id": "way/308566581",
+      "boundary_distance_m": 2.39,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12825995545",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 11.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12825995561",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 12.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12826027128",
+      "park_id": "way/266904511",
+      "boundary_distance_m": 14.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12869154680",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12869154684",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12869154686",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 3.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12869154687",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 10.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12869154689",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12884581219",
+      "park_id": "way/1180982049",
+      "boundary_distance_m": 14.9,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/12897961078",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 5.97,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13011380316",
+      "park_id": "relation/3986175",
+      "boundary_distance_m": 0.55,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13032332475",
+      "park_id": "way/1418169271",
+      "boundary_distance_m": 1.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13040367168",
+      "park_id": "way/26257460",
+      "boundary_distance_m": 0.0,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13043331193",
+      "park_id": "way/844713460",
+      "boundary_distance_m": 16.73,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13043347906",
+      "park_id": "way/844713460",
+      "boundary_distance_m": 12.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13062331173",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13165418813",
+      "park_id": "way/1214355167",
+      "boundary_distance_m": 18.79,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13175652146",
+      "park_id": "way/1220122091",
+      "boundary_distance_m": 15.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13186590422",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 16.73,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13191319990",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 7.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13195855875",
+      "park_id": "way/1516075182",
+      "boundary_distance_m": 19.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13201488176",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13201490114",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13201490225",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 15.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13202967129",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 4.64,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13202967641",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 12.36,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13205321280",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13205321295",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13205321317",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 9.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13205321319",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.91,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13208463067",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.79,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13226717730",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.66,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13226717736",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.05,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13226717739",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.11,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13226717741",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.34,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13226717774",
+      "park_id": "way/103592589",
+      "boundary_distance_m": 16.85,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13226717778",
+      "park_id": "way/103592589",
+      "boundary_distance_m": 16.88,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13227717072",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13227717073",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 9.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13227717078",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 18.29,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13227717323",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13231788800",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 17.03,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13231851301",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 3.64,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13232567110",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 2.48,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13232851149",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.98,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13235193722",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.37,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13256594556",
+      "park_id": "relation/9301744",
+      "boundary_distance_m": 16.27,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13256594557",
+      "park_id": "relation/9301744",
+      "boundary_distance_m": 16.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13272496937",
+      "park_id": "way/1127489351",
+      "boundary_distance_m": 4.79,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13278528442",
+      "park_id": "way/44135132",
+      "boundary_distance_m": 10.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13286823954",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 12.85,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13286823955",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 13.31,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13307025292",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 12.81,
+      "access_tag": "yes",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839722",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 9.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839758",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 4.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839759",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 4.75,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839760",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 7.54,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839779",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 4.67,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839800",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 4.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839820",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 4.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839876",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 4.55,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13324839888",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 4.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13337095896",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13343224884",
+      "park_id": "way/881249945",
+      "boundary_distance_m": 16.71,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13344142575",
+      "park_id": "way/1127489351",
+      "boundary_distance_m": 19.2,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13356512694",
+      "park_id": "way/82279707",
+      "boundary_distance_m": 16.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13373910562",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 5.62,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13373910897",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 14.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13373910921",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 8.82,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13373910950",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 15.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13375852672",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 18.82,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13375961596",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 5.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13375998910",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 6.24,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13397403518",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 15.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13410473770",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 9.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13410728969",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.01,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13411390892",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.13,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13411390896",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 15.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416177229",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.18,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416177250",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.31,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416177269",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 12.69,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416177277",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416196623",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416196649",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 9.93,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416196653",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 9.97,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416196657",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 9.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416196680",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 11.3,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13416196713",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.89,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13424413989",
+      "park_id": "way/1495821305",
+      "boundary_distance_m": 12.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13437793755",
+      "park_id": "way/1248085752",
+      "boundary_distance_m": 5.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13447052822",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 3.47,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13447052825",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 7.37,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13447086212",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 7.51,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448445437",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 2.06,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448448407",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 6.87,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448448498",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 16.52,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448448507",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 10.75,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448448510",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 13.04,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448765547",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 6.67,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448765581",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 17.63,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448784756",
+      "park_id": "way/1466297118",
+      "boundary_distance_m": 12.55,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13448784761",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 17.38,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13470767204",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 16.14,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13476689699",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13482370723",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 18.85,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13514206692",
+      "park_id": "way/1356137812",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13533653481",
+      "park_id": "way/128505095",
+      "boundary_distance_m": 2.86,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13544220262",
+      "park_id": "way/39273032",
+      "boundary_distance_m": 9.59,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13570788205",
+      "park_id": "way/26249071",
+      "boundary_distance_m": 4.61,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13570980518",
+      "park_id": "way/136417658",
+      "boundary_distance_m": 6.57,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13580204293",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 10.75,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597358045",
+      "park_id": "way/564066132",
+      "boundary_distance_m": 2.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597358045",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 6.91,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359239",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 10.5,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359241",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 15.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359243",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 15.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359247",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 15.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359249",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 15.41,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359251",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 15.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359253",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 15.06,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359255",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 14.8,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13597359256",
+      "park_id": "way/90702978",
+      "boundary_distance_m": 10.1,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13614373771",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 17.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13653374514",
+      "park_id": "way/44518401",
+      "boundary_distance_m": 9.17,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13671672042",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 14.21,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13673063107",
+      "park_id": "way/765938051",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13701666081",
+      "park_id": "way/1495821305",
+      "boundary_distance_m": 9.96,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13706149695",
+      "park_id": "way/1211832699",
+      "boundary_distance_m": 13.56,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13706149724",
+      "park_id": "way/1211832699",
+      "boundary_distance_m": 7.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13727193329",
+      "park_id": "way/26257460",
+      "boundary_distance_m": 11.31,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13727193359",
+      "park_id": "way/26257460",
+      "boundary_distance_m": 2.66,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13727193360",
+      "park_id": "way/26257460",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13734596471",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 4.08,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13734596472",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 15.09,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13739103247",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 12.22,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13755417846",
+      "park_id": "way/1188067622",
+      "boundary_distance_m": 9.46,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13760428973",
+      "park_id": "way/1503647315",
+      "boundary_distance_m": 16.41,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13783176088",
+      "park_id": "relation/16229057",
+      "boundary_distance_m": 4.74,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13811506629",
+      "park_id": "way/25113939",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231766",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 9.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231935",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 8.4,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231938",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 10.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231943",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 6.91,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231980",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 8.72,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231983",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 8.77,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231986",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 6.99,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231989",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 7.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13822231992",
+      "park_id": "way/1512706333",
+      "boundary_distance_m": 6.92,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13895429721",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13895429722",
+      "park_id": "way/1456936869",
+      "boundary_distance_m": 16.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13900986344",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 7.12,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13901062730",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 9.76,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13937146479",
+      "park_id": "way/636995901",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13943336423",
+      "park_id": "way/725876884",
+      "boundary_distance_m": 13.26,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13957636412",
+      "park_id": "way/197218001",
+      "boundary_distance_m": 10.23,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13961790665",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 9.65,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13961790668",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13978843126",
+      "park_id": "way/54531043",
+      "boundary_distance_m": 15.83,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/13985098379",
+      "park_id": "relation/174174",
+      "boundary_distance_m": 11.45,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14008335406",
+      "park_id": "relation/18050777",
+      "boundary_distance_m": 2.4,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14008335450",
+      "park_id": "relation/18050777",
+      "boundary_distance_m": 7.53,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14008335481",
+      "park_id": "relation/18050777",
+      "boundary_distance_m": 2.8,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14016899642",
+      "park_id": "way/760837162",
+      "boundary_distance_m": 4.02,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14022361515",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 8.27,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14022361517",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 15.05,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14038883346",
+      "park_id": "relation/2885919",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14107200661",
+      "park_id": "way/136308546",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14124376729",
+      "park_id": "way/1426055524",
+      "boundary_distance_m": 0.0,
+      "access_tag": "destination",
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14129410663",
+      "park_id": "relation/3882394",
+      "boundary_distance_m": 15.27,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14136642898",
+      "park_id": "way/1473988053",
+      "boundary_distance_m": 0.0,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    },
+    {
+      "entrance_id": "node/14138527244",
+      "park_id": "way/1516075182",
+      "boundary_distance_m": 2.81,
+      "access_tag": null,
+      "status": "candidate_not_verified_network_access"
+    }
+  ],
+  "attribution": "OpenStreetMap contributors, ODbL 1.0",
+  "terms_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "basemap_method": "Own local vector context, simplified 5m EPSG:2180; no external tiles or geocoding.",
+  "blockers": [
+    "OSM access completeness is not guaranteed; missing access tags are unknown, not proof of public access.",
+    "Entrance candidates require connection and barrier checks before green score.",
+    "Area POI representative points do not establish accessible doorways; no services score yet."
+  ],
+  "output_sha256": {
+    "basemap.geojson": "cf7ce9da7259b5544ad5ab71aaec024c449093c4c87bbb24a46ab581c3e2f303",
+    "osm-parks.geojson": "5ba03fe4164789057568e57a7fc3bd7641606ab811121dd8c2aa6650a560fce5",
+    "osm-pois.geojson": "71421ccc8847c4c073eba688a48a275d663af0e82f89c06c1a78e2a6ef46646e",
+    "osm-entrances.geojson": "e32081e77fe72cc5273846bdf1ccb4239ccd6307505a114fdef4b35955cca0d0"
+  }
+}

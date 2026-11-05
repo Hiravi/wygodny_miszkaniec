@@ -1,0 +1,20 @@
+DANE I ZAŁOŻENIA
+
+Źródła i metoda
+×
+Mapy hałasu 2022
+
+Drogowy LDWN z modelu 2022, nie bieżący pomiar wewnątrz mieszkania. Pasma potwierdzono oficjalną legendą. Poniżej 55 dB nie oznacza zera; pasmo 80+ nie podaje górnej granicy. Nie zastępujemy pasm pojedynczą liczbą.
+
+Model / okres danych
+2022
+Pozyskanie
+2026-10-14T02:30:12.725128+00:00
+Generacja eksportu
+2026-03-23T14:41:00 — odrębnie od wieku danych
+Warunki
+Warunki pracy lokalnej sprawdzone; publikacja wymaga doprecyzowania · Gmina Miejska Kraków; Urząd Miasta Krakowa; https://msip.krakow.pl/dataset/1361
+
+Katalog źródłowy ↗ · Warunki wykorzystania ↗
+
+Dane przetworzone w pilotażu; Gmina Miejska Kraków nie odpowiada za wynik przetwarzania.

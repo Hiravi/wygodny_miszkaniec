@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "source_id": "official_zzm_parks_table",
+  "landing_url": "https://otwartedane.um.krakow.pl/zbiory-danych/parki-miejskie-w-krakowie",
+  "records": {
+    "data": {
+      "url": "https://api.um.krakow.pl/opendata-srodowisko-parki-miejskie/v1/parki-miejskie-powierzchnia",
+      "status": 200,
+      "sha256": "45cc50ea5c066b6b76d12b87ed1af63234aab76ebab4c69f19e37148dbfb44dd",
+      "bytes": 11775,
+      "acquired_at": "2026-10-14T16:08:27.217812+00:00"
+    },
+    "metadata": {
+      "url": "https://api.um.krakow.pl/opendata-srodowisko-parki-miejskie/v1/metadata",
+      "status": 200,
+      "sha256": "8f93ba5c220e79b11a031231ddc60f7eb8a83d8e3a74fff9c3def2dd1e7cdd76",
+      "bytes": 287,
+      "acquired_at": "2026-10-14T16:08:27.371809+00:00"
+    }
+  },
+  "counts": {
+    "parks": 78
+  },
+  "catalogue_dataset_update": "2026-04-27",
+  "metadata": [
+    {
+      "object_id": 457768688,
+      "object_name": "Parki_miejskie_powierzchnia",
+      "object_full_name": "[prod_Otwarte_Dane_API].[Srodowisko_Parki_Miejskie].[Parki_miejskie_powierzchnia]",
+      "object_type": "V",
+      "object_type_desc": "VIEW",
+      "last_refresh": "2026-10-14T18:08:28.700",
+      "number_of_rows": 78
+    }
+  ],
+  "produced_at": null,
+  "source_crs": null,
+  "terms_url": "https://otwartedane.um.krakow.pl/warunki-wykorzystania-danych-udostepnianych-w-portalu",
+  "attribution": "Gmina Miejska Kraków / Zarząd Zieleni Miejskiej; source/acquisition/processing disclosed",
+  "note": "Official names/areas, no coordinates/entrances. DB last_refresh is not underlying park production vintage."
+}

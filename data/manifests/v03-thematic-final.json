@@ -1,0 +1,1103 @@
+{
+  "date": "2026-10-22T02:09:08.193238+02:00",
+  "verified_application_commit": "8faa1b239555f7f10f350b7a3abc1f655919ba3c",
+  "completed_thematic_ids": [
+    "V3-08",
+    "V3-09",
+    "V3-10",
+    "V3-11",
+    "V3-12",
+    "V3-13",
+    "V3-14"
+  ],
+  "conditional": "V3-15 DATA_BLOCKED; see CONDITIONAL_V03_20.md",
+  "release_ready": false,
+  "checks": {
+    "python": 140,
+    "vitest": 39,
+    "type_lint_build_docs": "passed",
+    "production_ui_unique_cases": 30,
+    "production_ui_initial": {
+      "passed": 26,
+      "failed": 4
+    },
+    "focused_rechecks": {
+      "passed": 4,
+      "failed": 0
+    },
+    "native_walking_cases": 6,
+    "normal_preview_cases": 4,
+    "pdf_pages": 2
+  },
+  "qa_paths": [
+    "v03-final-ui",
+    "v03-final-ui-recheck-desktop",
+    "v03-final-ui-recheck-enlarged",
+    "v03-native-final",
+    "v03-normal-preview",
+    "v03-brief"
+  ],
+  "check_log": {
+    "path": ".cache/v03-final-check.log",
+    "sha256": "266a1b29476365eb28b27c8f0fc0fa782b0c7426219d8a65a704d651f394dc71",
+    "bytes": 13662
+  },
+  "source_manifests": [
+    {
+      "path": "data/manifests/family-v3.json",
+      "sha256": "1d6a0bc7adf9b8c64064bfe0d7464e3302fdb60a5628064a9ea0eed17e975cbe",
+      "bytes": 981
+    },
+    {
+      "path": "data/manifests/mobility-v3.json",
+      "sha256": "1b2d671423826f12cb439a47ccde7417e2c741792e1f0dae6c5113269ff59d65",
+      "bytes": 1702
+    },
+    {
+      "path": "data/manifests/air-seasons-v3.json",
+      "sha256": "08684aacebf32a1a5653365d79e3d01a85e2849b8493f8f914e251c6a5983333",
+      "bytes": 5600
+    },
+    {
+      "path": "data/manifests/territory-v3.json",
+      "sha256": "ded9d5a12fc413fba691221a800c952224432d14fd63b38168c7ceb4f42f8f31",
+      "bytes": 2992
+    }
+  ],
+  "code": [
+    {
+      "path": "apps/web/e2e/layout.accessibility.spec.ts",
+      "sha256": "cb7537810eea4945a1feba1b5e20c55f3b4cf9068d462ae91dc2bf68a29cb85a",
+      "bytes": 43015
+    },
+    {
+      "path": "apps/web/src/AirDetails.tsx",
+      "sha256": "52cf1a86d692d939b778ba262080f7ddc1677f484785ddeb1ff25579e088c6be",
+      "bytes": 3315
+    },
+    {
+      "path": "apps/web/src/BuildingDetails.tsx",
+      "sha256": "bee1e1807f5ae63e9c978f214a560e8b5d884405e5cc7335df343f9c6f949bd5",
+      "bytes": 1949
+    },
+    {
+      "path": "apps/web/src/DistrictDetails.tsx",
+      "sha256": "cff10e6fff3a2b3ef181e3509a56ea076b4f113b7ac19ba2ab08f55b83aeb2f8",
+      "bytes": 2518
+    },
+    {
+      "path": "apps/web/src/domain/services.ts",
+      "sha256": "2e7419df7e2c2eef25326f006a76a326b3dcfa6f7e1f2b2243b4210d0674d57d",
+      "bytes": 5925
+    },
+    {
+      "path": "apps/web/src/domain/statistics.test.ts",
+      "sha256": "9dfe29a542ea4f291196697c112202bb6f208695feaf8640eb4f24258c735a5b",
+      "bytes": 421
+    },
+    {
+      "path": "apps/web/src/domain/statistics.ts",
+      "sha256": "43607aea9972bb28b39594112d601b063eb88ca9bc3d529bfbfb7454be2d77e0",
+      "bytes": 2224
+    },
+    {
+      "path": "apps/web/src/domain/themes.ts",
+      "sha256": "cba9364f0cc71f650b643c41d13035532bf5fd1d00fb14733db8c12dcfa44a13",
+      "bytes": 3145
+    },
+    {
+      "path": "apps/web/src/MapWorkspace.tsx",
+      "sha256": "4ad7daddffb43c4bc5b34e22f9a1a6167af6ab16c3467f5ba79e379c8aca1f02",
+      "bytes": 35494
+    },
+    {
+      "path": "apps/web/src/ReadableMap.tsx",
+      "sha256": "6a9ff983d4bbf75fb1232e884e2d339c62e106cb190a58f72e3b22322e729f07",
+      "bytes": 31599
+    },
+    {
+      "path": "apps/web/src/ServiceDetails.tsx",
+      "sha256": "9c2bd6043f4bc013b1a84e50e0c565397a61cfb7bf21631b726a5af7f34474e4",
+      "bytes": 3377
+    },
+    {
+      "path": "apps/web/src/StatisticalDetails.css",
+      "sha256": "1d76d59debc1356d1169d93db9a6e2fa01abb7523999f58844f2485f29562b79",
+      "bytes": 588
+    },
+    {
+      "path": "apps/web/src/useServiceLegend.ts",
+      "sha256": "3c5e4ca445acc31273ac0caafe2193af0a4eb916ed713ff3fbb6a385e82aa9db",
+      "bytes": 1101
+    },
+    {
+      "path": "apps/web/src/useStatisticalTheme.ts",
+      "sha256": "9ed74b4f2e6a7dbce1604636534b8d170e5dd1114938d8947fd730f5f7cbca0f",
+      "bytes": 2925
+    },
+    {
+      "path": "apps/web/src/useStatistics.ts",
+      "sha256": "ff5a26b0e1ca9670e8a5fb6dcf1b5da035654cb4fd4b94123bf373b0505bad23",
+      "bytes": 1276
+    },
+    {
+      "path": "apps/web/src/useThemeLayers.ts",
+      "sha256": "b2baf8c92530762c25c7a9e6619c993e1587730eee52c660e7976b3ea62f908e",
+      "bytes": 8290
+    },
+    {
+      "path": "apps/web/src/Workspace.css",
+      "sha256": "40449538c499c6585b0f0ccdcf220a8de10ce9979717fe16d86fa0ee0954fa53",
+      "bytes": 33243
+    },
+    {
+      "path": "services/api/air.py",
+      "sha256": "d47f0f916ab8629f6fbb862355de545df809d6860b0d6d7ab5477308292fcf39",
+      "bytes": 5259
+    },
+    {
+      "path": "services/api/app.py",
+      "sha256": "06782e20ac0fce961cb9c5752e5395d91c89a1500b01f68f1456783cb3e496da",
+      "bytes": 2229
+    },
+    {
+      "path": "services/api/buildings.py",
+      "sha256": "09eb35cd4a5e5273551f88f7fcc8aefc3010de29134de883e0c436cd9d212f5b",
+      "bytes": 2369
+    },
+    {
+      "path": "services/api/locations.py",
+      "sha256": "e77f1aa707c7f21c2fb3042e5bd4b6d122aa449c87c6c458c3f2d32562473cc7",
+      "bytes": 12083
+    },
+    {
+      "path": "services/api/map_context.py",
+      "sha256": "a0be17fab2554900911d64edec959b7c8aebf8348e46d7b7de274b830ed2fe5a",
+      "bytes": 4481
+    },
+    {
+      "path": "services/api/territory.py",
+      "sha256": "4b26ba28a3391e5cddf37780e7a8c94ed05ab1982dc91ac85760f9057b52b351",
+      "bytes": 554
+    },
+    {
+      "path": "tools/data/air_seasons.py",
+      "sha256": "02ba490688f04ea1f0673ee06f3c52d5b1f40bd073af4b76b65d27b29314f6e8",
+      "bytes": 5480
+    },
+    {
+      "path": "tools/data/family.py",
+      "sha256": "2fec2bded49bafa543b89db37e702b9932cf3aee14a16d3f6fe87fde002f32f9",
+      "bytes": 4333
+    },
+    {
+      "path": "tools/data/mobility.py",
+      "sha256": "82493e6fe736a69afb4a06ceaa8d694adbdd3e621b63936db584c226095113ff",
+      "bytes": 9116
+    },
+    {
+      "path": "tools/data/municipal_v03.py",
+      "sha256": "d8f3c7b3681aab774bf7f67363fad9deef167f22292df4d5f0774b79270becc8",
+      "bytes": 3456
+    },
+    {
+      "path": "tools/data/services.py",
+      "sha256": "d570d9b0caa642615bd63d6fcf027f5bc1789b120ed333b6bd4fc82c13da7429",
+      "bytes": 9171
+    },
+    {
+      "path": "tools/data/territory_v03.py",
+      "sha256": "6ec12dcae712e173563a18148606039e52b534abad05f36a1723db35179345ab",
+      "bytes": 7053
+    },
+    {
+      "path": "tools/data/test_family_fixture.py",
+      "sha256": "6797193e5c7f519c1a2c5664913b24d1a747b77dce621db0ba33ecb73f72d36b",
+      "bytes": 1029
+    },
+    {
+      "path": "tools/data/test_fixture.py",
+      "sha256": "d4a75380cb9c3003e1036a86de81af3efff8220b0cc1b578e13e6169f7781e6b",
+      "bytes": 11485
+    },
+    {
+      "path": "tools/data/test_mobility_fixture.py",
+      "sha256": "788c108ba8c58ddb3e01c60dfb10cf392840dd5941d0eb486126033d1dc64413",
+      "bytes": 1074
+    },
+    {
+      "path": "tools/data/test_territory_fixture.py",
+      "sha256": "1e1ddbede4d2c265188ec13542dc5ad935579da80cf0a29c58ef77b03e049e94",
+      "bytes": 636
+    },
+    {
+      "path": "tools/data/validate_family.py",
+      "sha256": "cd079a49a5d0379069293559830b9863b618a7cec8101a52ea8eced44b379f45",
+      "bytes": 1661
+    },
+    {
+      "path": "tools/data/validate_mobility.py",
+      "sha256": "6ba4986bb9de084c6d3932e14c4ab17b86fda2b397d57c3f7075a36a04a502ed",
+      "bytes": 2053
+    }
+  ],
+  "build": [
+    {
+      "path": "apps/web/dist/assets/Commute-IVVIXLPL.js",
+      "sha256": "16908a4a69caa2b0db6e71976e66691644d600e8ab54d49c74e70c0f1cc0960c",
+      "bytes": 7882
+    },
+    {
+      "path": "apps/web/dist/assets/coverage-CUXRVEtz.js",
+      "sha256": "0594fc555d454e85cddb3639cc70377d42a9004271f44ea038df1f2d51718b73",
+      "bytes": 2433
+    },
+    {
+      "path": "apps/web/dist/assets/CoverageExplorer-CZ2L3oHk.js",
+      "sha256": "b50e8ccbe8849b65ea8fe79f9b709b0db721069d9ec7fc515ceaeeada9753515",
+      "bytes": 10368
+    },
+    {
+      "path": "apps/web/dist/assets/index-BJEhs8by.js",
+      "sha256": "cc5bec5ebf0d0af01e505251d48cc96daa100fd19f4af5ea54e4ea62907969b6",
+      "bytes": 258841
+    },
+    {
+      "path": "apps/web/dist/assets/index-ppdfjTjF.css",
+      "sha256": "b14cd6d6248c3175dcbd69fc4c254f4341af94349393b31e545aa6bada8a5b78",
+      "bytes": 32921
+    },
+    {
+      "path": "apps/web/dist/assets/maplibre-gl-worker-DxGNRm0a.mjs",
+      "sha256": "5f1e2f0e1624082b7e88a06e4c86085992b0f8c02929801e552f3f7a119856a9",
+      "bytes": 508314
+    },
+    {
+      "path": "apps/web/dist/assets/network-Do5g4Fzq.js",
+      "sha256": "c3bdf80470b81d93fd5c648c0eb372fec5a8e726e06725f8aa1b6ac5fb93605c",
+      "bytes": 318
+    },
+    {
+      "path": "apps/web/dist/assets/networkSchema-CxsqCXp_.js",
+      "sha256": "ec158555c059bd6f43632be0fb58346707d7333c52325e6a409ad1fa9a82d2f7",
+      "bytes": 3429
+    },
+    {
+      "path": "apps/web/dist/assets/parks-CvOWf9eV.js",
+      "sha256": "45118372c38da2899a7733ef22726809352211b7153914110fcc26bff32e4b06",
+      "bytes": 1646
+    },
+    {
+      "path": "apps/web/dist/assets/ReadableMap-DBE96hFo.css",
+      "sha256": "7d70296c647f8ae4b9b9cc0ed943d5bf81cedef828a348f81c5e89d3ed128856",
+      "bytes": 82935
+    },
+    {
+      "path": "apps/web/dist/assets/ReadableMap-kpB8Wrtt.js",
+      "sha256": "0acb3cc945b5f82408faaf4f2bd5a02d96859a069b150c0fd4513c029e993cce",
+      "bytes": 1104737
+    },
+    {
+      "path": "apps/web/dist/assets/routing-BnRYqi3n.js",
+      "sha256": "e96c5d43be0bf6923b0671c3ceb24b8620f502a1ace1cab3983882328c9fd63c",
+      "bytes": 1120
+    },
+    {
+      "path": "apps/web/dist/assets/schemas-BXFzUrFc.js",
+      "sha256": "8e5997ffdaa40fcb4258b03f0f87f7d3b83318b01793a00193b3939049622c14",
+      "bytes": 33766
+    },
+    {
+      "path": "apps/web/dist/assets/Sources-DKtrrFDN.js",
+      "sha256": "55b7deda609d5e027c9e3614c463a63665d967d6979a2237f23958f3b1961352",
+      "bytes": 5287
+    },
+    {
+      "path": "apps/web/dist/assets/TransitExplorer-CC3CEcyP.js",
+      "sha256": "5d1392cea3dcfeb5e7e53d264e2481480b2e1994bea367faa0421bfd0d6e55f7",
+      "bytes": 9533
+    }
+  ],
+  "brief": {
+    "path": "docs/submission/v03-brief.pdf",
+    "sha256": "f379ab6fdaf8711bb94a99ffc9cb09d0d529f10a5d1c9f14e4e098a2ba534a70",
+    "bytes": 67301
+  },
+  "artifacts": [
+    {
+      "path": ".cache/qa/v03-brief/page-1.png",
+      "sha256": "710ac6bf2d746cf315b564185c69e45c8c0079905f574b857b75cbd13af3d2c0",
+      "bytes": 86024
+    },
+    {
+      "path": ".cache/qa/v03-brief/page-2.png",
+      "sha256": "23439ecac8a3600d6874dcf0d2b43b8f275f7e8bd262d4fea5ead659142f5a43",
+      "bytes": 95768
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-desktop/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop/attachments/scale-proof-840a7cb1c9014c447f2f34a67c5864ce31128714.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-desktop/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop/bicycle-options.png",
+      "sha256": "68237974af06d172f9dbcdf0f93e4c7815070ffaec8355301ed66a23f9cf7f7c",
+      "bytes": 126772
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-desktop/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop/mobility-card.png",
+      "sha256": "fbed832aa34b4c79af21a986c89af5be69efb4abe0118ebc5349521d6aa1b875",
+      "bytes": 1034799
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-desktop/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-desktop/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop/attachments/scale-proof-6725f93506c27919d3665069390e0d787bd009e5.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-desktop/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop/family-card.png",
+      "sha256": "a7e2082ecc79561fee6292e66e518fb090f918767d1952047be7fd92d32dd6c5",
+      "bytes": 608095
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-desktop/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop/family-options.png",
+      "sha256": "7c83b2b66d800c1a9dc6492b35841b85ee391f522013c0329f687e1ba307df66",
+      "bytes": 606997
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-desktop/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-enlarged/layout.accessibility-distr-b8494-retry-recovers-map-and-card-desktop-zoom200/attachments/scale-proof-c674313079a386618ba64188aa4e2ed80b3800ec.json",
+      "sha256": "2115a732c273168fa99e01e75f07646ce0588eed2611d33f3c97aedb0e216993",
+      "bytes": 413
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-enlarged/layout.accessibility-distr-b8494-retry-recovers-map-and-card-desktop-zoom200/scale-proof.json",
+      "sha256": "2115a732c273168fa99e01e75f07646ce0588eed2611d33f3c97aedb0e216993",
+      "bytes": 413
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-enlarged/layout.accessibility-distr-b8494-retry-recovers-map-and-card-mobile-text/attachments/scale-proof-5163ab3936dc78a6d073b646f613c6a7fbaddcbf.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui-recheck-enlarged/layout.accessibility-distr-b8494-retry-recovers-map-and-card-mobile-text/scale-proof.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop-zoom200/air-station.png",
+      "sha256": "b3236b38f6f2bba9d428552b1edbe0a3caaedb532bbdaeef749e86c18654c424",
+      "bytes": 281422
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop-zoom200/attachments/scale-proof-b6c9ecacd713418ceb16c44e04fbb6f21d6ae251.json",
+      "sha256": "df69186517428573c782b6b835c82a74586b3d207416c8a9646d82f0dcc80c9a",
+      "bytes": 413
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop-zoom200/scale-proof.json",
+      "sha256": "df69186517428573c782b6b835c82a74586b3d207416c8a9646d82f0dcc80c9a",
+      "bytes": 413
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop/air-station.png",
+      "sha256": "698316fb51f934b56d9ddd646c74f78a3917141c11d15f15fd61392922b733b8",
+      "bytes": 459418
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop/attachments/scale-proof-28a8b46af2631d10f0792ab117bc791f33302f1c.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile-text/air-station.png",
+      "sha256": "8199b2630e8a8fe6b4432e1921af3713dc5656e9d86caac9c054a1579fb2a5b1",
+      "bytes": 114542
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile-text/attachments/scale-proof-9dd11665bdf6c8d576529162ae35252269e73bfd.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile-text/scale-proof.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile/air-station.png",
+      "sha256": "888b2d7e931d1fba49bf7b8caafc7bd7cab835f623a7758793d567dd39d41e0f",
+      "bytes": 123124
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile/attachments/scale-proof-665c7bd8d8350fa0e470ec39668e7cbfd08946ed.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-tiny/air-station.png",
+      "sha256": "08e83994c6819d71636fab0d53c580d1969563588fc0bd58e23439c85269edeb",
+      "bytes": 96642
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-tiny/attachments/scale-proof-38d0d667d2735028f3062a108e4e212aa6d99b57.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-tiny/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop-zoom200/attachments/scale-proof-e56a1d5bafa9ee640344784be63d6a569e4c0fa4.json",
+      "sha256": "be2715efa967999a5442389609a18ae985bab1afe01d58e93d058e40327fe0bf",
+      "bytes": 414
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop-zoom200/bicycle-options.png",
+      "sha256": "76aed26e329728fcc25999d7e140ed036dde94f16f0993fe5afd7a108cee1531",
+      "bytes": 317077
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop-zoom200/mobility-card.png",
+      "sha256": "15fb534ca183a79c7b601a61548d72bffa72a0fa2d70a47ad3a82ce1b1e302a3",
+      "bytes": 483013
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop-zoom200/scale-proof.json",
+      "sha256": "be2715efa967999a5442389609a18ae985bab1afe01d58e93d058e40327fe0bf",
+      "bytes": 414
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-desktop/attachments/scale-proof-db5cf11c7c2916e325c46f68883d7ae3a34d0c3c.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-mobile-text/attachments/scale-proof-5f1db580920423e6e33cddce0b548209da522493.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-mobile-text/bicycle-options.png",
+      "sha256": "8557cf9058c9879be1b770878a7dce99230516b42bac12d998e3b9be70389e20",
+      "bytes": 111337
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-mobile-text/mobility-card.png",
+      "sha256": "7ff0c211136d05762db5984dfbfc8668c8e2460bf19a80d24e6f93025e8d13d9",
+      "bytes": 194890
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-mobile-text/scale-proof.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-mobile/attachments/scale-proof-3518e8b94a7ea26fa79ce2935904e7c277529da9.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-mobile/bicycle-options.png",
+      "sha256": "d87afb27ee18d27b8541019c6e0ff14f4a6ab250db13f441b2fd44f221dec070",
+      "bytes": 95087
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-mobile/mobility-card.png",
+      "sha256": "74f69d5e20b34929e5041e40659f82268305f9b721f5474775936d206a201865",
+      "bytes": 199920
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-mobile/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-tiny/attachments/scale-proof-69a0fce769d1a669e8116a71df75102beaf6ce62.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-tiny/bicycle-options.png",
+      "sha256": "280e2dfcae8392d19fe08d6e472808486200c8d127cf47eb52d902b886f91ceb",
+      "bytes": 72934
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-tiny/mobility-card.png",
+      "sha256": "fbd3c158cdca475a98609836d466a6689eaa48611507b68bdabde47c5eeee5f3",
+      "bytes": 149673
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-bicyc-4b874-ut-live-availability-claims-tiny/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-b8494-retry-recovers-map-and-card-desktop-zoom200/attachments/scale-proof-b50c9ac3cca38cdd78e805c94478ffc59657f2bb.json",
+      "sha256": "06cf1173f575e211eb0bdbb5f60d3e7cb3544660e579b2e33112958743309229",
+      "bytes": 414
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-b8494-retry-recovers-map-and-card-desktop/attachments/scale-proof-5c3dacffda50afc486fe73fa3f5bc76e838abc9d.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-b8494-retry-recovers-map-and-card-desktop/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-b8494-retry-recovers-map-and-card-mobile-text/attachments/scale-proof-d699b71ee606028e7147f0896e20c9d2531228de.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-b8494-retry-recovers-map-and-card-mobile/attachments/scale-proof-88e0464ec2692dedff20d2155b53c30dbb0452ad.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-b8494-retry-recovers-map-and-card-mobile/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-b8494-retry-recovers-map-and-card-tiny/attachments/scale-proof-cd9f66b305836df5aa75807ff7d2c5e9823cc5ec.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-b8494-retry-recovers-map-and-card-tiny/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop-zoom200/attachments/scale-proof-b8de3ae1c5733e70f7acf921bd5f64a81c167ba2.json",
+      "sha256": "be91c45e01c2b95974e1c29e567f6de227c85d8f4eacaa996bca7208601899ce",
+      "bytes": 413
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop-zoom200/building-types.png",
+      "sha256": "2238e46e5401a8f5a74f54c51272451d942be55e4ec8ff3377f8c563c7bf7d27",
+      "bytes": 313045
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop-zoom200/district-citizenship.png",
+      "sha256": "3fb3b4f987a126c54a490e51277e42c99650ac2ee22a00f1d5af371ef7fbc49f",
+      "bytes": 349556
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop-zoom200/district-sales.png",
+      "sha256": "7f55feba4abcae6f393c6300c3c3cf937612cb58285d486f60eb3f5dfa157b33",
+      "bytes": 337802
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop-zoom200/scale-proof.json",
+      "sha256": "be91c45e01c2b95974e1c29e567f6de227c85d8f4eacaa996bca7208601899ce",
+      "bytes": 413
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/attachments/scale-proof-bdb7b72f56e0b6cf925ecd846e7138248b998a97.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/building-types.png",
+      "sha256": "f5ee589e5b6bba47ca8af7974d7a33609cc5ad8b672d59e60a50545476d7f13a",
+      "bytes": 901833
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/district-citizenship.png",
+      "sha256": "505e910a6d2bb50b719f864a62775e9119fefa0af20cafeb828d863f9c95f204",
+      "bytes": 110294
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/district-sales.png",
+      "sha256": "58ed5bb0e742ab64d675ab095aacae7153a5cd756d3fc9ad40a425a8cbd0792c",
+      "bytes": 847562
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile-text/attachments/scale-proof-8d1ed465e5d745db7108a65a19fe9678c257586a.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile-text/building-types.png",
+      "sha256": "1c48a946bb36f5b50f66172130fe09e767c8e0bb66e13f8930b7f3ed5b9cb322",
+      "bytes": 150596
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile-text/district-citizenship.png",
+      "sha256": "c4354cfcee5ebe54b7a2c23297e5c77dc4121a36b72c3844d01299289fe1d1c2",
+      "bytes": 152045
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile-text/district-sales.png",
+      "sha256": "4c7b244ee0726ff0bcde974573d427b8b4eaaa2056923bdd119717877e2b6ff2",
+      "bytes": 152452
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile-text/scale-proof.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/attachments/scale-proof-b59e724e2cb0c4111b33ad006f786a2a0e0c8139.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/building-types.png",
+      "sha256": "114888866e0496e99cae19cf0672588bf37bc004cdd861d0263e987cdd149c9a",
+      "bytes": 155390
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/district-citizenship.png",
+      "sha256": "df0848a21e8e4e27345707a23eb98d75cf83336cb204102e248cd76a6962fdd9",
+      "bytes": 162895
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/district-sales.png",
+      "sha256": "d8dc4c1b6ec21af2c068fea2e5acc75daa4c3cba8ac9ba5a4ca26c898eceb77e",
+      "bytes": 164656
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-tiny/attachments/scale-proof-af30b889fdb9bfccbf43a4be04f4f004c86d633a.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-tiny/building-types.png",
+      "sha256": "22b0a49d090d18fb1cc0e43e8727f0101ba7feb1936fa87caef9fac11dc54dfa",
+      "bytes": 117831
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-tiny/district-citizenship.png",
+      "sha256": "12807ad931e669772e21cdf1f788b7c89d228ce67da5e0908c6a76a3e0aa1f36",
+      "bytes": 122383
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-tiny/district-sales.png",
+      "sha256": "99dd10277dff75c5bbad2ee0440c12c540b35bca1aa4b3cae2dc39b0e840736b",
+      "bytes": 128946
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-tiny/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop-zoom200/attachments/scale-proof-95c8e5432d94c14ce8f7354661ed2295dddc2d3e.json",
+      "sha256": "1cc0d30cb08593c99b6958d328882e94eef74f038e6815b690d077e22a00c703",
+      "bytes": 414
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop-zoom200/family-card.png",
+      "sha256": "d667fd8084c7c6194720d7e27c071d7e766c70a10884445b2f88902175599fac",
+      "bytes": 361459
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop-zoom200/family-options.png",
+      "sha256": "9a81b5b512d5708348e633d9f820315283ccf77a82fea44503972d3d9713c3bf",
+      "bytes": 418348
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop-zoom200/scale-proof.json",
+      "sha256": "1cc0d30cb08593c99b6958d328882e94eef74f038e6815b690d077e22a00c703",
+      "bytes": 414
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-desktop/attachments/scale-proof-e86a7c1656ff1d25f69d2e6d7ee9015cde6c18db.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-mobile-text/attachments/scale-proof-c18fe9b3ac7eb70b18e68e66e3c6e925ceac748c.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-mobile-text/family-card.png",
+      "sha256": "4803a079a46443d75cfdef511d1e5e486ef029f1b7ccba1a0691a861d40afe4f",
+      "bytes": 150252
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-mobile-text/family-options.png",
+      "sha256": "af49b4dca891bcd7c00ca6232aaf957015fdd2c2dd8edb08062bddab98b3b3be",
+      "bytes": 149173
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-mobile-text/scale-proof.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-mobile/attachments/scale-proof-dd8102c31aaa5217adc5aedbb6879f8b645cb9ff.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-mobile/family-card.png",
+      "sha256": "7bfd5e48be9231d95698d040565f3cc0415c2d2bb1e1de02217635c96bfb8b12",
+      "bytes": 153854
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-mobile/family-options.png",
+      "sha256": "e5c7780fffc542217af99d314f9ac28d4ee817152325e7edbea789dd8b02fb1c",
+      "bytes": 136941
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-mobile/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-tiny/attachments/scale-proof-c95731756d37ce0ed2e82d63bbbc0a3492c09e74.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-tiny/family-card.png",
+      "sha256": "fac111cb340c12630ac1e5fd6f5200dcef76cf28d349fb136fd16b4630f6e3f0",
+      "bytes": 119096
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-tiny/family-options.png",
+      "sha256": "588f22a83e0ca96b472b42182f2051430e955346c7f6219b8c6455091a0e2b7e",
+      "bytes": 100593
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-famil-54970-able-with-keyboard-and-zoom-tiny/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop-zoom200/attachments/scale-proof-460ca409b41543096d099decd9d87af0d68e93c7.json",
+      "sha256": "779d13c33ce426e468ed60385326217a818d4b6b050dc9e43d87c10f34fb2abc",
+      "bytes": 413
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop-zoom200/compact-services.png",
+      "sha256": "036bdfe85337e738c0ebd22da9ccf5055581b2d09e1569791a38ee9313fa629c",
+      "bytes": 308727
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop-zoom200/legend-words.png",
+      "sha256": "26a5d77de336bbbac922d8980053cd8412d4426e554e0a80c4c0293a5f221e74",
+      "bytes": 335971
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop-zoom200/noise-words.png",
+      "sha256": "240b81586327f05bdf4165a3e0ee68379f5c216c2cce1d85618633fd37614d05",
+      "bytes": 345178
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop-zoom200/scale-proof.json",
+      "sha256": "779d13c33ce426e468ed60385326217a818d4b6b050dc9e43d87c10f34fb2abc",
+      "bytes": 413
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop/attachments/scale-proof-97a35ebde1fc028d62da55a49c6e9ccdd367a560.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop/compact-services.png",
+      "sha256": "ffdaa6f339c2195ed880c49a1adbbb74ca798ac85d204ff23faadf5a9dbdd652",
+      "bytes": 882911
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop/legend-words.png",
+      "sha256": "6808b6687af93208662d34bc611cbb09145ddf352300daf329bc815cc95eaebd",
+      "bytes": 917521
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop/noise-words.png",
+      "sha256": "daf1acb73650e17704a4d10269d553ecf902fe708b76d0eca47c452ef342fd7d",
+      "bytes": 935880
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-desktop/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile-text/attachments/scale-proof-9db1c83d46676caece6c0a635bc2664a087eb7bb.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile-text/compact-services.png",
+      "sha256": "0276bcc99ab60be85b7f24038d5b653e5ba8531a34613aa24df64ca406c8650a",
+      "bytes": 138933
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile-text/legend-words.png",
+      "sha256": "5eafe18ec4f08a60d12babbc02c66936e51df7d1dbcdfc4fcb81b18ca29e4802",
+      "bytes": 156878
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile-text/noise-words.png",
+      "sha256": "5b9cfb71986cb050795537e8fa6511182f613828c7baf3480a01a7ad42f851fc",
+      "bytes": 163299
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile-text/scale-proof.json",
+      "sha256": "ef8b7ab1d4ec562df4af4f1e49c515a6876d4c5576c9ad551253d4e4c202e686",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile/attachments/scale-proof-a8ebdd1e3534c2f8f1af144583df53c3cc1101c9.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile/compact-services.png",
+      "sha256": "238651a28bea34f0766fd8c425c14b641a5eca815e717c65e297f53426d049e5",
+      "bytes": 100330
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile/legend-words.png",
+      "sha256": "b46bbb73169c01b125c368570fe3f74fa26f37543bb82840e34e0455886344e6",
+      "bytes": 140078
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile/noise-words.png",
+      "sha256": "310b7143d84f7d7b0d2e43543fad29351c030c715b738edd86388d7060cac14e",
+      "bytes": 171388
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-mobile/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-tiny/attachments/scale-proof-01b484315cecfd8d916fdd370a258736e4b63795.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-tiny/compact-services.png",
+      "sha256": "e3901fe66dc24f20b36c804808e759372e407b9bdd104adfb96bd515154e3538",
+      "bytes": 78423
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-tiny/legend-words.png",
+      "sha256": "52b5b67f50c153a22aebd6b5d5f218dd12b450e7c52a26cadd6a066af3c87ca7",
+      "bytes": 100832
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-tiny/noise-words.png",
+      "sha256": "7e4b998dcb39720dbc262a80de3a7940e6449216cc672cbc7f4d3cad7c117063",
+      "bytes": 133665
+    },
+    {
+      "path": ".cache/qa/v03-final-ui/layout.accessibility-noise-3a59a--map-with-keyboard-and-zoom-tiny/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-a-real-famil-1953e-isting-native-walking-route-desktop/family-native-route.png",
+      "sha256": "e10b098032fafbe9188252453c7c54bf2478814d54819c7b9785e3420c61aa9d",
+      "bytes": 134560
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-a-real-famil-1953e-isting-native-walking-route-desktop/native-family-route.json",
+      "sha256": "80c122428340a60fe9a82ef295a0f99252408d209ea7e13f59ea1e3a219956dd",
+      "bytes": 2123
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-a-real-famil-1953e-isting-native-walking-route-mobile/family-native-route.png",
+      "sha256": "72a5f9b1ecbd608933d24eeac1d085714d804758058ffe960f7ceec5c6d84bc6",
+      "bytes": 268123
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-a-real-famil-1953e-isting-native-walking-route-mobile/native-family-route.json",
+      "sha256": "17d0c622f61e8ecbe77ec88e86adaf302162499945fe8a3831e8b07568aba69a",
+      "bytes": 1858
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-desktop/native-service-route.json",
+      "sha256": "3f86354c4fa3867b19d8eda55ec1c51886da1626f663d169aa83ed996161a28a",
+      "bytes": 1725
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-desktop/service-route-dialog.png",
+      "sha256": "83d5edb50af16478b8d77807e8537bae6af685c164f716d4f1f059ed48930e5b",
+      "bytes": 683786
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-desktop/service-route-map.png",
+      "sha256": "2a26b3a8126d2392a11f8fc1dc210840291add98464c5b48e0eb62db883acec5",
+      "bytes": 991898
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-desktop/services-enabled.png",
+      "sha256": "4c2094f1d9508c5bd15323aa61d4cab98009332944d3c93739dcb80161f48dcd",
+      "bytes": 612652
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-desktop/services-noise-green.png",
+      "sha256": "5789c6c57bd45f161baad0ad543f83317dc4d3a0c0f53fc06f65841f8a77e3bf",
+      "bytes": 1325671
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-mobile/native-service-route.json",
+      "sha256": "05f83d948145284e29f8fb659aca529e8d21d19e6375ac853ebf4d5c0c742c39",
+      "bytes": 1782
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-mobile/service-route-dialog.png",
+      "sha256": "072830043f8a0b7e9bba310e7f0f509a3c557b149e83406605d3c39d75cfaed2",
+      "bytes": 91308
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-mobile/service-route-map.png",
+      "sha256": "0fd0d53a3522f9936ba378a3312f41e81a6d5a3868f523cb5097faf5c2f0acb0",
+      "bytes": 171662
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-mobile/services-enabled.png",
+      "sha256": "678f43733f35e197356e5b2eacc3535263de62d6beb8eca54a88644ecae01709",
+      "bytes": 149656
+    },
+    {
+      "path": ".cache/qa/v03-native-final/services.live-six-service--7f4a8-longside-greenery-and-noise-mobile/services-noise-green.png",
+      "sha256": "6e483ce33a407d27e52f4afd74e407ae33213b1e644d89143388e3fcfe6cf85e",
+      "bytes": 195729
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop/air-station.png",
+      "sha256": "698316fb51f934b56d9ddd646c74f78a3917141c11d15f15fd61392922b733b8",
+      "bytes": 459418
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop/attachments/scale-proof-9afe1f08eb86933a478d2fcf7776ff8234e9f29e.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-desktop/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile/air-station.png",
+      "sha256": "888b2d7e931d1fba49bf7b8caafc7bd7cab835f623a7758793d567dd39d41e0f",
+      "bytes": 123124
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile/attachments/scale-proof-fc4ce2caa4db2755bf32ca1eaf47dd05b9496639.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-air-s-27887-stinct-and-retry-on-failure-mobile/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/attachments/scale-proof-677f802c4ba46fb2ee4b4269d8744efb76cbbe4d.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/building-types.png",
+      "sha256": "763fa01637f40dfb22b6b0183b9a7500f38bcb9f22c6c854bb016817a955937e",
+      "bytes": 901715
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/district-citizenship.png",
+      "sha256": "c78cca8058104f118a9e55ca03261d1a993a88244c65bbeb58d7db81a8896453",
+      "bytes": 69865
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/district-sales.png",
+      "sha256": "87a2b7c55082a739db479b15fcbb647463ddb6547c70793eb8a0ec2d864fba12",
+      "bytes": 78364
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-desktop/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/attachments/scale-proof-9e7e8bbcd1dfaf2d4d79e5644c1a50cdcdfd2d1a.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/building-types.png",
+      "sha256": "114888866e0496e99cae19cf0672588bf37bc004cdd861d0263e987cdd149c9a",
+      "bytes": 155390
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/district-citizenship.png",
+      "sha256": "2ade56218d8661e0531a6a6cfa66de05f15600cc9007292301f0c26118b35812",
+      "bytes": 53526
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/district-sales.png",
+      "sha256": "d8dc4c1b6ec21af2c068fea2e5acc75daa4c3cba8ac9ba5a4ca26c898eceb77e",
+      "bytes": 164656
+    },
+    {
+      "path": ".cache/qa/v03-normal-preview/layout.accessibility-distr-f5c56-ne-map-and-accessible-cards-mobile/scale-proof.json",
+      "sha256": "b3b6d4e9334edeb1d56ce0e51ba2e5398547d4d3bfd6a5f153eba192daa969d1",
+      "bytes": 41
+    }
+  ],
+  "preview": {
+    "url": "http://127.0.0.1:5173",
+    "api": 8000,
+    "otp": 8800,
+    "r5": 8810,
+    "bind": "127.0.0.1",
+    "mode": "foreground processes; existing owned stop record",
+    "r5_method": "r5-7.5.1-minute-grid150-v3",
+    "r5_graph": "b0314bc250796dcf0b167de4726c46914ef697f69239f7467f136114dbfada50",
+    "r5_load_seconds_reported": 65.898
+  },
+  "open": [
+    "V3-03/04 acceptance",
+    "transport latency",
+    "multi-day R5",
+    "memory/WebGL",
+    "JS budget",
+    "source redistribution rights",
+    "release/submission gates"
+  ]
+}

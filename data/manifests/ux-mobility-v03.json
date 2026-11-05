@@ -1,0 +1,77 @@
+{
+  "title": "Rower i auto",
+  "period": "2026-10-11",
+  "source": "OpenStreetMap contributors",
+  "source_url": "https://www.openstreetmap.org/copyright",
+  "unit": "obiekty",
+  "coverage_complete": false,
+  "source_sha256": "a24ba323f733e37bb44db76ae79958c27a0e416a6efc875b6d6a7cfc7bbe709c",
+  "audit": {
+    "fuel_stations": 115,
+    "fuel_fields": {
+      "fuel:GTL_diesel": {
+        "unknown": 105,
+        "no": 2,
+        "yes": 8
+      },
+      "fuel:HGV_diesel": {
+        "unknown": 94,
+        "yes": 16,
+        "no": 5
+      },
+      "fuel:adblue": {
+        "unknown": 114,
+        "yes": 1
+      },
+      "fuel:biodiesel": {
+        "unknown": 114,
+        "no": 1
+      },
+      "fuel:cng": {
+        "unknown": 114,
+        "yes": 1
+      },
+      "fuel:diesel": {
+        "yes": 63,
+        "unknown": 52
+      },
+      "fuel:diesel_B": {
+        "unknown": 114,
+        "yes": 1
+      },
+      "fuel:lpg": {
+        "yes": 50,
+        "unknown": 59,
+        "no": 6
+      },
+      "fuel:octane_100": {
+        "unknown": 114,
+        "yes": 1
+      },
+      "fuel:octane_91": {
+        "unknown": 114,
+        "no": 1
+      },
+      "fuel:octane_92": {
+        "unknown": 114,
+        "no": 1
+      },
+      "fuel:octane_95": {
+        "yes": 60,
+        "unknown": 55
+      },
+      "fuel:octane_98": {
+        "yes": 53,
+        "unknown": 61,
+        "no": 1
+      }
+    },
+    "parking_polygons": 12479,
+    "duplicates_removed": 0
+  },
+  "excluded_categories": [
+    "parking_zone"
+  ],
+  "features": 24537,
+  "output_sha256": "0993572782f6cd67648b9168bfce08a31a732f119893343582b283fbd34de94d"
+}
